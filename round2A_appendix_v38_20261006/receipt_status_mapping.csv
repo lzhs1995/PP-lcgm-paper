@@ -1,0 +1,5 @@
+model,attempt,receipt_status,final_index_status,raw_evidence,entered_estimation,original_receipt_preserved,output_url
+D1981_P1_linear_residual,attempt01,ESTIMATION_FAILED,INPUT_REJECTED,*** ERROR in DATA command,False,True,https://github.com/lzhs1995/PP-lcgm-paper/blob/0133b9e2670d2f6d1155d6b7f2949e37e8a61f8a/round2_20261006/models/D1981_P1_linear_residual/attempt01/model.out.txt
+D1981_P1_linear_boundary,attempt01,ESTIMATION_FAILED,INPUT_REJECTED,*** ERROR in DATA command,False,True,https://github.com/lzhs1995/PP-lcgm-paper/blob/0133b9e2670d2f6d1155d6b7f2949e37e8a61f8a/round2_20261006/models/D1981_P1_linear_boundary/attempt01/model.out.txt
+D1981_P1_linear,attempt02,ESTIMATION_FAILED,INPUT_REJECTED,*** ERROR in DATA command,False,True,https://github.com/lzhs1995/PP-lcgm-paper/blob/0133b9e2670d2f6d1155d6b7f2949e37e8a61f8a/round2_20261006/models/D1981_P1_linear/attempt02/model.out.txt
+D1981_P1_free,attempt02,ESTIMATION_FAILED,INPUT_REJECTED,*** ERROR in DATA command,False,True,https://github.com/lzhs1995/PP-lcgm-paper/blob/0133b9e2670d2f6d1155d6b7f2949e37e8a61f8a/round2_20261006/models/D1981_P1_free/attempt02/model.out.txt

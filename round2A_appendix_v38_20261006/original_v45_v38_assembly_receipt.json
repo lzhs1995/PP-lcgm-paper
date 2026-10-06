@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "document": "main",
+      "source": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v44_NOT_RELEASED.docx",
+      "source_sha256": "b017892a96e56519d3b11f9fbe2fa8967558190712c4b369d015d688c37f2f01",
+      "output": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v45_NOT_RELEASED.docx",
+      "output_sha256": "ae7544dee893ab4b93d3abc94dc2758fff6954430912ebd32edcbf8f1e9048fd",
+      "paragraph_indices": [
+        1013,
+        1088,
+        1181
+      ],
+      "table_count": 15,
+      "text_only_edits": true,
+      "all_other_content_preserved": true,
+      "fields_media_preserved": true,
+      "other_zip_parts_byte_identical": true
+    },
+    {
+      "document": "appendix",
+      "source": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_appendix_review_v37_NOT_RELEASED.docx",
+      "source_sha256": "f5db15dae23d949f54a03782ea40f7087637888958e8d95310c91c452d53773d",
+      "output": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_appendix_review_v38_NOT_RELEASED.docx",
+      "output_sha256": "8af7e5b68e37a5cd95cd5b377ebcaa9089b5073374718bace510325b5d48ea9c",
+      "paragraph_indices": [
+        1041,
+        1681,
+        2242,
+        2786,
+        3326,
+        341,
+        3868,
+        414,
+        4409,
+        457,
+        544
+      ],
+      "table_count": 103,
+      "text_only_edits": true,
+      "all_other_content_preserved": true,
+      "fields_media_preserved": true,
+      "other_zip_parts_byte_identical": true
+    }
+  ],
+  "changed_text_nodes": 21,
+  "scientific_release": false
+}

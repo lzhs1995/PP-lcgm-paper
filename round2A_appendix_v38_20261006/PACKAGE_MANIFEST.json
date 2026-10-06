@@ -1,0 +1,10 @@
+{
+  "file": "03_appendix_v38.zip",
+  "bytes": 3613703,
+  "sha256": "8726332758bda9fbf500a51d6f9fd8aefbc08ac1da70516d44847e25e38e4f5e",
+  "files": 118,
+  "max_bytes": 25000000,
+  "independently_extractable": true,
+  "file_manifest_rows": 117,
+  "note": "FILE_MANIFEST.csv在包内且不自列；本包SHA清单在包外，避免自引用。"
+}

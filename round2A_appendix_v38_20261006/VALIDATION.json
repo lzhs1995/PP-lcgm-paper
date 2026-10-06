@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "pdf_pages": 106,
+  "pages_text_extracted_and_rendered": 106,
+  "docx_crc_ok": true,
+  "docx_xml_parts_parsed": 23,
+  "docx_table_count": 103,
+  "same_as_original_local_and_two_git_versions": true,
+  "existing_zip_bytes_unchanged": true,
+  "new_models_run": 0,
+  "microdata_included": false,
+  "scientific_release": false,
+  "reviewer_report_sha256": "2cfda256b51e38e21d7159d0cac42e0a89b74312939279f43a992903565d2b8d",
+  "limits": "验证文件来源与可读性；未重新完成全部科学内容或逐页版式审阅。"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "file": "PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+      "bytes": 3684127,
+      "sha256": "a380633d7101c604877025a0e5c8e2024863c7901b51ab8aef7d3a2afa188607",
+      "original_commit": "90fe928451209cc7a544e7bde467081ce4a73f4a",
+      "original_repo_path": "01_current_review/current_manuscript/PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+      "matches_local_original": true,
+      "matches_original_git_blob": true,
+      "matches_round2A_git_blob": true,
+      "document_revised": false
+    },
+    {
+      "file": "PP_LGCM_appendix_review_v38_NOT_RELEASED.docx",
+      "bytes": 873002,
+      "sha256": "8af7e5b68e37a5cd95cd5b377ebcaa9089b5073374718bace510325b5d48ea9c",
+      "original_commit": "90fe928451209cc7a544e7bde467081ce4a73f4a",
+      "original_repo_path": "01_current_review/current_manuscript/PP_LGCM_appendix_review_v38_NOT_RELEASED.docx",
+      "matches_local_original": true,
+      "matches_original_git_blob": true,
+      "matches_round2A_git_blob": true,
+      "document_revised": false
+    }
+  ],
+  "same_v38_no_reexport": true
+}
