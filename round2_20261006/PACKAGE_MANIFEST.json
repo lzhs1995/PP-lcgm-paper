@@ -1,0 +1,17 @@
+{
+  "max_bytes": 25000000,
+  "packages": [
+    {
+      "path": "packages/01_report_manuscript_01.zip",
+      "bytes": 2994176,
+      "sha256": "046aab5c84f1e6d9fb9fdeaf83ef18a216a88a4b219d4d10849aa99ba540b74a",
+      "files": 78
+    },
+    {
+      "path": "packages/02_models_code_01.zip",
+      "bytes": 4548321,
+      "sha256": "7893098d4d3ed8949ef328c326ca78316087d7bf43e8a270c453da7036bb2adf",
+      "files": 220
+    }
+  ]
+}

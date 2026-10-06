@@ -1,0 +1,5 @@
+"indicator","factor","N","N_SE","score_SD","SE_median","SE_min","SE_max","cutpoint","equal_cut","low","high","source_normal","source_negative_variance","saved_decimals","source_identity"
+"Oldest","I4",3266,3266,0.354784253858484,0.419,0.415,0.521,0.028,436,1694,1572,TRUE,FALSE,3,"pp_lgca_type14_r_step1.out"
+"Oldest","S4",3266,3266,0.0341892254527542,0.076,0.067,0.081,-0.003,457,1934,1332,TRUE,FALSE,3,"pp_lgca_type14_r_step1.out"
+"FirstSon","I4",2995,2995,0.310234059171345,0.373,0.362,0.453,0.034,384,1583,1412,TRUE,FALSE,3,"pp_lgca_type14_4_r_step1.out"
+"FirstSon","S4",2995,2995,0.0210036952394256,0.057,0.052,0.06,-0.01,416,1810,1185,TRUE,FALSE,3,"pp_lgca_type14_4_r_step1.out"

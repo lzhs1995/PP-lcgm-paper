@@ -1,0 +1,16 @@
+{
+  "id": "D1981_P1_linear_boundary",
+  "attempt_id": "attempt01",
+  "N": 1981,
+  "normal": false,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters_SE": false,
+  "status": "ESTIMATION_FAILED",
+  "seconds": 1.40358805656433,
+  "input_sha256": "7cc09ce1731e181a30bf0267387ee5804bd690e65a8265ee6201a30b94682199",
+  "data_sha256": "0e2f1530e5631f6d3332247a802049818589258fb1a1c44cc8f97928326b14d2",
+  "output_sha256": "63cb1be85b67a9b85a18aa4cd298f1e2c3061c3f9c055f21a996197b0aa24db9",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:27 AM"],
+  "diagnostics": "*** ERROR in DATA command"
+}

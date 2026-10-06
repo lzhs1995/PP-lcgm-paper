@@ -1,0 +1,11 @@
+"imputation","hash_ok","observed_cells_changed","personal_income_negative","household_income_negative","income_binary_mismatch","observed_household_income_conflict_groups","affected_multi_person_families","affected_family_income_conflict_groups"
+1,TRUE,0,0,0,0,0,19,19
+2,TRUE,0,0,0,0,0,19,19
+3,TRUE,0,0,0,0,0,19,19
+4,TRUE,0,0,0,0,0,19,19
+5,TRUE,0,0,0,0,0,19,19
+6,TRUE,0,0,0,0,0,19,19
+7,TRUE,0,0,0,0,0,19,19
+8,TRUE,0,0,0,0,0,19,19
+9,TRUE,0,0,0,0,0,19,19
+10,TRUE,0,0,0,0,0,19,19

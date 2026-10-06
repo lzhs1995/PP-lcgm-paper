@@ -1,0 +1,46 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "7d876a20-c74c-4617-831b-cd5cec4eb6b8",
+  "parent_evidence_ids": [
+    "120a5e5d-65f7-437f-b068-066b766e2190",
+    "5bbde316-a769-462a-b76d-e92af598421a",
+    "c1e83d56-3a3f-4c5f-aeda-a6d2868299b8"
+  ],
+  "task_key": "cfps_round2_20261006",
+  "harness_name": "completion_check",
+  "timestamp_utc": "2026-10-06T08:50:31.748656Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": null,
+  "pid": null,
+  "job_id": null,
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "completion contract passed"
+  ],
+  "artifact_paths": [
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2_20261006\\audit\\independent_validation.csv"
+  ],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "artifact_checks": [
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2_20261006\\audit\\independent_validation.csv",
+        "artifact_type": "validation",
+        "options": {
+          "min_rows": 19,
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "csv has 19 data rows"
+      }
+    ],
+    "mode": "formal",
+    "policy": "strict",
+    "contract": ""
+  }
+}

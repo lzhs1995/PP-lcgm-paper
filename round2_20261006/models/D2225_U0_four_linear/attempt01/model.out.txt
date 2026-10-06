@@ -1,0 +1,644 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+10/06/2026   1:25 AM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  Round2 D2225_U0_four_linear
+  DATA:
+  FILE = "data.dat";
+  VARIABLE:
+  NAMES = fid y1 y2 y3 y4;
+   MISSING=.;
+   CLUSTER=fid; USEVARIABLES=y1-y4;
+  ANALYSIS:
+  TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005; ITERATIONS=1000;
+  MODEL:
+  iy sy | y1@0 y2@2 y3@4 y4@6 ;
+  OUTPUT:
+  TECH1 TECH3 TECH4 SAMPSTAT RESIDUAL CINTERVAL;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+Round2 D2225_U0_four_linear
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                        2225
+
+Number of dependent variables                                    4
+Number of independent variables                                  0
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   Y1          Y2          Y3          Y4
+
+Continuous latent variables
+   IY          SY
+
+Variables with special functions
+
+  Cluster variable      FID
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  data.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns            11
+     Number of clusters                       1684
+
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.005
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.964
+ Y2             0.914         0.948
+ Y3             0.482         0.472         0.511
+ Y4             0.363         0.356         0.283         0.386
+
+
+SAMPLE STATISTICS
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+               13.259        13.660        13.502        14.009
+
+
+           Covariances
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1            19.201
+ Y2            10.372        20.521
+ Y3             7.928         8.967        19.426
+ Y4             9.505         9.930         9.933        21.728
+
+
+           Correlations
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             1.000
+ Y2             0.523         1.000
+ Y3             0.410         0.449         1.000
+ Y4             0.465         0.470         0.483         1.000
+
+
+     MAXIMUM LOG-LIKELIHOOD VALUE FOR THE UNRESTRICTED (H1) MODEL IS -17589.752
+
+
+UNIVARIATE SAMPLE STATISTICS
+
+
+     UNIVARIATE HIGHER-ORDER MOMENT DESCRIPTIVE STATISTICS
+
+         Variable/         Mean/     Skewness/   Minimum/ % with                Percentiles
+        Sample Size      Variance    Kurtosis    Maximum  Min/Max      20%/60%    40%/80%    Median
+
+     Y1                   13.246       1.004       8.000   11.51%       9.000     11.000     12.000
+            2146.000      19.160       0.740      30.000    0.09%      14.000     17.000
+     Y2                   13.645       0.983       8.000   10.00%      10.000     12.000     13.000
+            2110.000      20.535       0.683      32.000    0.19%      14.000     17.000
+     Y3                   13.336       0.930       8.000   12.48%       9.000     11.000     13.000
+            1138.000      19.395       0.609      31.000    0.09%      14.000     17.000
+     Y4                   13.728       0.921       8.000   11.54%      10.000     12.000     13.000
+             858.000      21.422       0.486      31.000    0.12%      14.000     17.000
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                        9
+
+Loglikelihood
+
+          H0 Value                      -17600.343
+          H0 Scaling Correction Factor      1.4291
+            for MLR
+          H1 Value                      -17589.752
+          H1 Scaling Correction Factor      1.3590
+            for MLR
+
+Information Criteria
+
+          Akaike (AIC)                   35218.687
+          Bayesian (BIC)                 35270.054
+          Sample-Size Adjusted BIC       35241.460
+            (n* = (n + 2) / 24)
+
+Chi-Square Test of Model Fit
+
+          Value                             17.181*
+          Degrees of Freedom                     5
+          P-Value                           0.0042
+          Scaling Correction Factor         1.2329
+            for MLR
+
+*   The chi-square value for MLM, MLMV, MLR, ULSMV, WLSM and WLSMV cannot be used
+    for chi-square difference testing in the regular way.  MLM, MLR and WLSM
+    chi-square difference testing is described on the Mplus website.  MLMV, WLSMV,
+    and ULSMV difference testing is done using the DIFFTEST option.
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.033
+          90 Percent C.I.                    0.017  0.051
+          Probability RMSEA <= .05           0.941
+
+CFI/TLI
+
+          CFI                                0.986
+          TLI                                0.983
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                            857.067
+          Degrees of Freedom                     6
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.034
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ IY       |
+    Y1                 1.000      0.000    999.000    999.000
+    Y2                 1.000      0.000    999.000    999.000
+    Y3                 1.000      0.000    999.000    999.000
+    Y4                 1.000      0.000    999.000    999.000
+
+ SY       |
+    Y1                 0.000      0.000    999.000    999.000
+    Y2                 2.000      0.000    999.000    999.000
+    Y3                 4.000      0.000    999.000    999.000
+    Y4                 6.000      0.000    999.000    999.000
+
+ SY       WITH
+    IY                -0.356      0.176     -2.023      0.043
+
+ Means
+    IY                13.307      0.096    138.237      0.000
+    SY                 0.108      0.024      4.416      0.000
+
+ Intercepts
+    Y1                 0.000      0.000    999.000    999.000
+    Y2                 0.000      0.000    999.000    999.000
+    Y3                 0.000      0.000    999.000    999.000
+    Y4                 0.000      0.000    999.000    999.000
+
+ Variances
+    IY                10.790      0.756     14.282      0.000
+    SY                 0.117      0.055      2.118      0.034
+
+ Residual Variances
+    Y1                 8.406      0.694     12.121      0.000
+    Y2                10.422      0.561     18.586      0.000
+    Y3                10.981      0.769     14.273      0.000
+    Y4                10.222      1.165      8.777      0.000
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Condition Number for the Information Matrix              0.240E-02
+       (ratio of smallest to largest eigenvalue)
+
+
+CONFIDENCE INTERVALS OF MODEL RESULTS
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ IY       |
+    Y1               1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    Y2               1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    Y3               1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    Y4               1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ SY       |
+    Y1               0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    Y2               2.000       2.000       2.000       2.000       2.000       2.000       2.000
+    Y3               4.000       4.000       4.000       4.000       4.000       4.000       4.000
+    Y4               6.000       6.000       6.000       6.000       6.000       6.000       6.000
+
+ SY       WITH
+    IY              -0.810      -0.701      -0.646      -0.356      -0.066      -0.011       0.097
+
+ Means
+    IY              13.059      13.119      13.149      13.307      13.466      13.496      13.555
+    SY               0.045       0.060       0.068       0.108       0.148       0.155       0.170
+
+ Intercepts
+    Y1               0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    Y2               0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    Y3               0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    Y4               0.000       0.000       0.000       0.000       0.000       0.000       0.000
+
+ Variances
+    IY               8.844       9.309       9.547      10.790      12.033      12.271      12.736
+    SY              -0.025       0.009       0.026       0.117       0.208       0.226       0.260
+
+ Residual Variances
+    Y1               6.620       7.047       7.266       8.406       9.547       9.766      10.193
+    Y2               8.978       9.323       9.500      10.422      11.345      11.522      11.867
+    Y3               8.999       9.473       9.715      10.981      12.246      12.489      12.962
+    Y4               7.222       7.939       8.306      10.222      12.137      12.504      13.221
+
+
+RESIDUAL OUTPUT
+
+
+     ESTIMATED MODEL AND RESIDUALS (OBSERVED - ESTIMATED)
+
+
+           Model Estimated Means
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+               13.307        13.522        13.738        13.953
+
+
+           Residuals for Means
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+               -0.048         0.138        -0.236         0.057
+
+
+           Standardized Residuals (z-scores) for Means
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+               -1.706         2.210        -2.552         0.701
+
+
+           Normalized Residuals for Means
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+               -0.481         1.324        -1.762         0.373
+
+
+           Model Estimated Covariances
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1            19.197
+ Y2            10.078        20.258
+ Y3             9.366         9.593        20.800
+ Y4             8.654         9.350        10.046        20.964
+
+
+           Model Estimated Correlations
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             1.000
+ Y2             0.511         1.000
+ Y3             0.469         0.467         1.000
+ Y4             0.431         0.454         0.481         1.000
+
+
+           Model Estimated Partial Correlations
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             1.000
+ Y2             0.321         1.000
+ Y3             0.235         0.218         1.000
+ Y4             0.175         0.219         0.285         1.000
+
+
+           Residuals for Covariances
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.004
+ Y2             0.294         0.263
+ Y3            -1.438        -0.625        -1.374
+ Y4             0.852         0.580        -0.113         0.765
+
+
+           Residuals for Correlations
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.000
+ Y2             0.011         0.000
+ Y3            -0.058        -0.018         0.000
+ Y4             0.034         0.017         0.002         0.000
+
+
+           Residuals for Partial Correlations
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.000
+ Y2             0.023         0.000
+ Y3            -0.091        -0.001         0.000
+ Y4             0.057        -0.004         0.013         0.000
+
+
+           Standardized Residuals (z-scores) for Covariances
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.030
+ Y2             2.139         1.064
+ Y3            -3.249        -1.277        -5.472
+ Y4             2.253         0.991        -0.368         1.571
+
+
+           Normalized Residuals for Covariances
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.006
+ Y2             0.528         0.352
+ Y3            -2.127        -0.900        -1.441
+ Y4             1.081         0.693        -0.135         0.651
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+                  0             0             0             0
+
+
+           LAMBDA
+              IY            SY
+              ________      ________
+ Y1                 0             0
+ Y2                 0             0
+ Y3                 0             0
+ Y4                 0             0
+
+
+           THETA
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1                 1
+ Y2                 0             2
+ Y3                 0             0             3
+ Y4                 0             0             0             4
+
+
+           ALPHA
+              IY            SY
+              ________      ________
+                  5             6
+
+
+           BETA
+              IY            SY
+              ________      ________
+ IY                 0             0
+ SY                 0             0
+
+
+           PSI
+              IY            SY
+              ________      ________
+ IY                 7
+ SY                 8             9
+
+
+     STARTING VALUES
+
+
+           NU
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+                0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              IY            SY
+              ________      ________
+ Y1             1.000         0.000
+ Y2             1.000         2.000
+ Y3             1.000         4.000
+ Y4             1.000         6.000
+
+
+           THETA
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             9.580
+ Y2             0.000        10.268
+ Y3             0.000         0.000         9.698
+ Y4             0.000         0.000         0.000        10.711
+
+
+           ALPHA
+              IY            SY
+              ________      ________
+               13.425         0.268
+
+
+           BETA
+              IY            SY
+              ________      ________
+ IY             0.000         0.000
+ SY             0.000         0.000
+
+
+           PSI
+              IY            SY
+              ________      ________
+ IY            19.687
+ SY             0.000         4.402
+
+
+TECHNICAL 3 OUTPUT
+
+
+           ESTIMATED COVARIANCE MATRIX FOR PARAMETER ESTIMATES
+                  1             2             3             4             5
+              ________      ________      ________      ________      ________
+      1     0.480982D+00
+      2    -0.454647D-01  0.314466D+00
+      3    -0.405207D-01  0.101183D-01  0.591886D+00
+      4     0.173638D+00  0.133521D-01  0.164473D+00  0.135622D+01
+      5     0.153870D-01  0.106962D-01  0.515638D-02  0.487680D-02  0.926681D-02
+      6    -0.269333D-02  0.748452D-05  0.433932D-02  0.304854D-02 -0.117494D-02
+      7    -0.294717D+00  0.224914D-01  0.500788D-01 -0.945633D-01  0.231903D-01
+      8     0.851986D-01 -0.139628D-01 -0.108894D-01  0.455944D-01 -0.119953D-02
+      9    -0.228768D-01  0.329807D-02 -0.953110D-03 -0.326303D-01 -0.277648D-03
+
+
+           ESTIMATED COVARIANCE MATRIX FOR PARAMETER ESTIMATES
+                  6             7             8             9
+              ________      ________      ________      ________
+      6     0.593632D-03
+      7    -0.257704D-02  0.570817D+00
+      8     0.373116D-03 -0.100717D+00  0.309964D-01
+      9     0.171666D-03  0.205985D-01 -0.792547D-02  0.306901D-02
+
+
+           ESTIMATED CORRELATION MATRIX FOR PARAMETER ESTIMATES
+                  1             2             3             4             5
+              ________      ________      ________      ________      ________
+      1         1.000
+      2        -0.117         1.000
+      3        -0.076         0.023         1.000
+      4         0.215         0.020         0.184         1.000
+      5         0.230         0.198         0.070         0.044         1.000
+      6        -0.159         0.001         0.231         0.107        -0.501
+      7        -0.562         0.053         0.086        -0.107         0.319
+      8         0.698        -0.141        -0.080         0.222        -0.071
+      9        -0.595         0.106        -0.022        -0.506        -0.052
+
+
+           ESTIMATED CORRELATION MATRIX FOR PARAMETER ESTIMATES
+                  6             7             8             9
+              ________      ________      ________      ________
+      6         1.000
+      7        -0.140         1.000
+      8         0.087        -0.757         1.000
+      9         0.127         0.492        -0.813         1.000
+
+
+TECHNICAL 4 OUTPUT
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           ESTIMATED MEANS FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+               13.307         0.108
+
+
+           S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+                0.096         0.024
+
+
+           EST./S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+              138.237         4.416
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+                0.000         0.000
+
+
+           ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY            10.790
+ SY            -0.356         0.117
+
+
+           S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY             0.756
+ SY             0.176         0.055
+
+
+           EST./S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY            14.282
+ SY            -2.023         2.118
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY             0.000
+ SY             0.043         0.034
+
+
+           ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY             1.000
+ SY            -0.316         1.000
+
+
+           S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY             0.000
+ SY             0.097         0.000
+
+
+           EST./S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY           999.000
+ SY            -3.268       999.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY             0.000
+ SY             0.001         0.000
+
+
+           ESTIMATED PARTIAL CORRELATION MATRIX FOR THE LATENT VARIABLES
+              IY            SY
+              ________      ________
+ IY             1.000
+ SY            -0.316         1.000
+
+
+     Beginning Time:  01:25:18
+        Ending Time:  01:25:19
+       Elapsed Time:  00:00:01
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

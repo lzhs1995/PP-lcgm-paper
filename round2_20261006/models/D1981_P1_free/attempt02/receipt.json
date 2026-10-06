@@ -1,0 +1,16 @@
+{
+  "id": "D1981_P1_free",
+  "attempt_id": "attempt02",
+  "N": 1981,
+  "normal": false,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters_SE": false,
+  "status": "ESTIMATION_FAILED",
+  "seconds": 1.18043112754822,
+  "input_sha256": "6ae41f3713a4ec4600c6a02e3778d97c3f83e25d9b7730e109e85925d16d5e22",
+  "data_sha256": "0e2f1530e5631f6d3332247a802049818589258fb1a1c44cc8f97928326b14d2",
+  "output_sha256": "90ab1053c2b42e19e8bb712ed13993c950ffdea3ef1e553f2d03d2d62a9c28a8",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:27 AM"],
+  "diagnostics": "*** ERROR in DATA command"
+}

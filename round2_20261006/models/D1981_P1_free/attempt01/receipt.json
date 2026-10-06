@@ -1,0 +1,16 @@
+{
+  "id": "D1981_P1_free",
+  "attempt_id": "attempt01",
+  "N": 1981,
+  "normal": true,
+  "negative_variance": true,
+  "matrix_warning": true,
+  "finite_parameters_SE": true,
+  "status": "INADMISSIBLE",
+  "seconds": 20.5724380016327,
+  "input_sha256": "91143c4c0b808c0409293ea2033f7ec94d81a0e14f3bb72dfc0f4111b87654ec",
+  "data_sha256": "0e2f1530e5631f6d3332247a802049818589258fb1a1c44cc8f97928326b14d2",
+  "output_sha256": "f41e312c64b4cc5e43623c4a71adc4a60536ad267cae34e22604640fa0d2efa5",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:24 AM"],
+  "diagnostics": ["     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."]
+}

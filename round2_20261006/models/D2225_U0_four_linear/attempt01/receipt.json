@@ -1,0 +1,16 @@
+{
+  "id": "D2225_U0_four_linear",
+  "attempt_id": "attempt01",
+  "N": 2225,
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters_SE": true,
+  "status": "REVIEWABLE",
+  "seconds": 1.21970081329346,
+  "input_sha256": "58227b09f9cb2f74ede464a30bf764ba80f359d8dcd1d59bc2ae5c9a9bd01c00",
+  "data_sha256": "f88f198172cf33608e1fa87a0e6c71d8bbc144a65ba6a22f800d4e95002c3a74",
+  "output_sha256": "20b040e1651ba71749ba6ba22e21e78f6507dadcb031da7bd84d80429e0f85f2",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:25 AM"],
+  "diagnostics": []
+}

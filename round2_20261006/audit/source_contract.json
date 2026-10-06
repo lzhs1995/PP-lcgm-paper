@@ -1,0 +1,17 @@
+{
+  "data_file": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/cesd_marriage_repair_v3_candidate/corrected_data_NOT_RELEASED.rds",
+  "data_sha256": "b74f5cb311f874803fd91d82caa5517ee9769a3899a77c1adf601b46fb0e1cb7",
+  "measurement_file": "C:/Users/LZHS/pp_lgcm_review/20261005/analysis/local_measurement_values.rds",
+  "measurement_sha256": "b497296d5447cc4598292edc36db367ae094d999b0a80a8f2bb3dba2ab27ab73",
+  "N": 3274,
+  "common_N": 2225,
+  "diagnostic_N": 1981,
+  "baseline_mean": 13.5754428833232,
+  "baseline_sd": 4.25923864592045,
+  "PID_hash": "7ec425fab4733327b4121fe003fb2ed80e6382faa1b56c27cbee5e1c8d5ab435",
+  "FID_hash": "866564a6ec86b99f1fbac43cb6d3c7a0f57648208d917c122e451d1104f92d29",
+  "MplusAutomation": "1.3",
+  "R": "R version 4.5.2 (2025-10-31 ucrt)",
+  "mplus": "C:\\Users\\LZHS\\DOWNLO~1\\Mplus\\mplus9\\ducument\\Mplus.exe",
+  "script_sha256": "7ebd7efc12abe7313719a4db885175d6c1a30258e3eadba5288317644bd637d8"
+}

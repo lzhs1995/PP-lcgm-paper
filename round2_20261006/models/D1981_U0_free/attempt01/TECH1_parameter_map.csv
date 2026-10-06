@@ -1,0 +1,14 @@
+"matrix","row","column","parameter_number"
+"lambda","Y2","SY",1
+"lambda","Y3","SY",2
+"lambda","Y4","SY",3
+"theta","Y1","Y1",4
+"theta","Y2","Y2",5
+"theta","Y3","Y3",6
+"theta","Y4","Y4",7
+"theta","Y5","Y5",8
+"alpha","1","IY",9
+"alpha","1","SY",10
+"psi","IY","IY",11
+"psi","SY","IY",12
+"psi","SY","SY",13

@@ -1,0 +1,59 @@
+{
+  "status": "NOT_ACCEPTED_FOR_DOWNSTREAM",
+  "unix_time": 1790924229.8614013,
+  "output_sha256": "178b55b9b19f981b6cb262569b85b814f788cb8d5ad4785b373da312e4952aca",
+  "validation_sha256": "026409fd2cf6e518043526ae803d6e6002164806104d58564488e49e1cf25563",
+  "data_acceptance": true,
+  "scientific_acceptance": false,
+  "personal_income_counts": {
+    "observed_income:CONSISTENT": 32700,
+    "imputed_income:CONSISTENT": 39,
+    "imputed_income:DEFINITELY_NEGATIVE": 14,
+    "imputed_income:DISCORDANT": 1
+  },
+  "household_income_counts": {
+    "OBSERVED": 31840,
+    "IMPUTED": 900,
+    "DEFINITELY_NEGATIVE": 184
+  },
+  "income_derivation_review": {
+    "status": "REVIEWED_HOLD",
+    "audit_sha256": "d10a086958656fbe0c1499eba1fa46755f0181569920455a9cfda07eb00522b6",
+    "rationale": "新MI中14/40个人收入插补记录和184/900家庭收入插补记录为负；1/40个人收入与固定基期阈值二分类不一致。当前观测非负收入及确定性派生定义不能支持直接接受；先核对源定义与插补模型支持范围，禁止截零、取绝对值或无依据重编码。"
+  },
+  "convergence_review": {
+    "status": "ADDITIONAL_EVIDENCE_REQUIRED",
+    "reported_psr": [
+      {
+        "iteration": 100,
+        "PSR": 3.0
+      },
+      {
+        "iteration": 200,
+        "PSR": 2.662
+      },
+      {
+        "iteration": 300,
+        "PSR": 2.171
+      },
+      {
+        "iteration": 400,
+        "PSR": 1.31
+      },
+      {
+        "iteration": 500,
+        "PSR": 1.206
+      },
+      {
+        "iteration": 600,
+        "PSR": 1.111
+      }
+    ],
+    "rationale": "请求与完成10份一致且无已扫描严重诊断；最后公开TECH8行600/1.111不是充分的链混合证据，须核查最终停止规则及更充分的链诊断。"
+  },
+  "next_actions": [
+    "完成8个不依赖MI的修正CESD模型",
+    "核对收入定义、缺失/零点及确定性派生来源",
+    "隔离设计方法修订和收敛诊断，不改写本次结果"
+  ]
+}

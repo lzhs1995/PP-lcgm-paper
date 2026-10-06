@@ -1,0 +1,63 @@
+{
+  "status": "ISOLATED_MEASUREMENT_REPAIR_CANDIDATE_NOT_MODEL_ACCEPTANCE",
+  "source": "C:/Users/LZHS/Desktop/开题报告/0_data_clo/cesd2_closeness_2012_22_unbal_combine.dta",
+  "source_md5": "e0b57a518a002c1498cd1b6e07e726f6",
+  "candidate": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/cesd2012_corrected_only_candidate_NOT_RELEASED.dta",
+  "candidate_md5": "f74a1659b64b699ede5d049963692e8b",
+  "N": 3274,
+  "changed_baseline": 2593,
+  "baseline": {
+    "original_mean": 16.2321319486866,
+    "original_sd": 2.60868720263137,
+    "candidate_mean": 13.5754428833232,
+    "candidate_sd": 4.25923864592045
+  },
+  "waves": {
+    "12": {
+      "N": 3274,
+      "original_raw_mean": 16.2321319486866,
+      "candidate_raw_mean": 13.5754428833232,
+      "original_standardized_mean": 7.44830491425961e-09,
+      "candidate_standardized_mean": -2.48556845869256e-17,
+      "max_standardized_difference": 2.80968730233523
+    },
+    "16": {
+      "N": 3005,
+      "original_raw_mean": 13.6532445923461,
+      "candidate_raw_mean": 13.6532445923461,
+      "original_standardized_mean": -0.988576681738388,
+      "candidate_standardized_mean": 0.018266576609286,
+      "max_standardized_difference": 1.84663750769139
+    },
+    "18": {
+      "N": 2377,
+      "original_raw_mean": 13.7745056794279,
+      "candidate_raw_mean": 13.7745056794279,
+      "original_standardized_mean": -0.942093110505803,
+      "candidate_standardized_mean": 0.0467367087531859,
+      "max_standardized_difference": 1.84663750769139
+    },
+    "20": {
+      "N": 1194,
+      "original_raw_mean": 13.3324958123953,
+      "candidate_raw_mean": 13.3324958123953,
+      "original_standardized_mean": -1.11153078144744,
+      "candidate_standardized_mean": -0.0570400231413518,
+      "max_standardized_difference": 1.84663750769139
+    },
+    "22": {
+      "N": 889,
+      "original_raw_mean": 13.7682789651294,
+      "candidate_raw_mean": 13.7682789651294,
+      "original_standardized_mean": -0.944480030002288,
+      "candidate_standardized_mean": 0.0452747774513427,
+      "max_standardized_difference": 1.84663750769139
+    }
+  },
+  "unchanged_other_columns": 381,
+  "modified_columns": ["ces812", "ces8sd12", "ces8sc12", "ces8sd16", "ces8sc16", "ces8sd18", "ces8sc18", "ces8sd20", "ces8sc20", "ces8sd22", "ces8sc22"],
+  "standardized_0_24_equivalent": true,
+  "original_preserved": true,
+  "models_reestimated": 0,
+  "limitations": ["Only 2012 item reversal repaired; later-wave item coding not independently reconstructed here", "Rank measurement/data version issues remain", "Every downstream model using ces8sd needs impact review; old estimates are not validated by this candidate"]
+}

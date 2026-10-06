@@ -1,0 +1,9 @@
+{
+  "samples": 60,
+  "model_samples": 11,
+  "mplus_RSS_peak_MiB": 34.875,
+  "mplus_private_peak_MiB": 247.61328125,
+  "scope": "First diagnostic batch only; sampling can miss very short jobs, not a speed benchmark",
+  "priority_changed": false,
+  "forced_process_termination": false
+}

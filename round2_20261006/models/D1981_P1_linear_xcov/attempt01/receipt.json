@@ -1,0 +1,16 @@
+{
+  "id": "D1981_P1_linear_xcov",
+  "attempt_id": "attempt01",
+  "N": 1981,
+  "normal": true,
+  "negative_variance": true,
+  "matrix_warning": true,
+  "finite_parameters_SE": true,
+  "status": "INADMISSIBLE",
+  "seconds": 108.569050073624,
+  "input_sha256": "f134c22f4799f78b897b8a222000534d7af8909ddc910d28b97f48f82cfec93a",
+  "data_sha256": "0e2f1530e5631f6d3332247a802049818589258fb1a1c44cc8f97928326b14d2",
+  "output_sha256": "c3c3508be7236cb1a00e038f9c83777dcdf526b9e4703d26841594db2ee257b9",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:29 AM"],
+  "diagnostics": ["     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "D3274_U0_linear",
+  "attempt_id": "attempt01",
+  "N": 3274,
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters_SE": true,
+  "status": "REVIEWABLE",
+  "seconds": 1.83019995689392,
+  "input_sha256": "9b7820d089b057cc2514a1a96e2ce55ecbbb20a173e61216e85338f5acade70d",
+  "data_sha256": "d2cad4c8ed6fe2a95957006105d7973999ca2fa3e7179410a71a23a7c8bd2c38",
+  "output_sha256": "45e65601930ce85b4c23b566003d3a94c7436ecee0833aa200a28bc2a89147ca",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:24 AM"],
+  "diagnostics": []
+}

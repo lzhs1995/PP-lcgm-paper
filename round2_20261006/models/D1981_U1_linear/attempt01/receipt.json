@@ -1,0 +1,16 @@
+{
+  "id": "D1981_U1_linear",
+  "attempt_id": "attempt01",
+  "N": 1981,
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters_SE": true,
+  "status": "REVIEWABLE",
+  "seconds": 6.61658906936646,
+  "input_sha256": "0c0c8fdd55dd31e27c3cf7c310f8451ed77bf86ffb5aa50b28ab0571e3ba3820",
+  "data_sha256": "7f1e7df0ef3b6bd4b59483e69c1dc7a505cf0ba632118bf594b4d0abede0dfa7",
+  "output_sha256": "5435d5059e71faa5143de35d09dfe89de35bf60af0d534db6f91e0d21a9691a3",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:22 AM"],
+  "diagnostics": []
+}

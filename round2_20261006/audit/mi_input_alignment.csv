@@ -1,0 +1,16 @@
+"variable","role","missing_mismatch","max_abs_difference"
+"ces812","imputation_predictor",0,0
+"ces816","saved_auxiliary",0,0
+"ces818","saved_auxiliary",0,0
+"ces820","saved_auxiliary",0,0
+"ces822","saved_auxiliary",0,0
+"ces8sd12","saved_auxiliary",0,4.88498130835069e-15
+"ces8sd16","saved_auxiliary",0,4.88498130835069e-15
+"ces8sd18","saved_auxiliary",0,4.88498130835069e-15
+"ces8sd20","saved_auxiliary",0,4.88498130835069e-15
+"ces8sd22","saved_auxiliary",0,4.88498130835069e-15
+"wfd_m12","imputation_predictor",0,4.44089209850063e-15
+"wfd_s12","imputation_predictor",0,4.88498130835069e-15
+"wfd_d12","imputation_predictor",0,3.5527136788005e-15
+"wfd_d112","imputation_predictor",0,4.21884749357559e-15
+"marr12","imputation_predictor",0,0

@@ -1,0 +1,23 @@
+TITLE: Round2 D1981_P1_linear_residual attempt01; 
+VARIABLE:
+NAMES = fid y1 y2 y3 y4 y5 x1 x2 x3 x4 x5 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13
+     c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24 c25 c26; 
+ MISSING=.;
+ CLUSTER=fid; USEVARIABLES=y1-y5 x1-x5 c1-c26;
+ANALYSIS:
+TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005; ITERATIONS=1000;
+MODEL:
+ix sx | x1@0 x2*4 x3*6 x4*8 x5@10 ;
+iy sy | y1@0 y2@4 y3@6 y4@8 y5@10 ;
+iy ON ix (bii);
+sy ON ix (bis);
+sy ON sx (bss);
+sy ON iy;
+iy sy ON c1-c26;
+y1 WITH x1;
+y2 WITH x2;
+y3 WITH x3;
+y4 WITH x4;
+y5 WITH x5;
+OUTPUT:
+TECH1 TECH3 TECH4 SAMPSTAT RESIDUAL CINTERVAL;

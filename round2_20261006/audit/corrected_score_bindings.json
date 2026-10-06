@@ -1,0 +1,42 @@
+[
+  {
+    "indicator": "Oldest",
+    "output": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_score_producers\\pp_lgca_type14_r_step1\\pp_lgca_type14_r_step1.out",
+    "output_sha256": "4f3c0581df3d28c17bb61a734f8b160a7e0dc682bcd3d50f02aea7ef743d52e5",
+    "candidate_csv_sha256": "05004d9b1f2796c06d4f72898be748588b9f453e64204897f8f6e2753a482457",
+    "score_match": true,
+    "read_method": "MplusAutomation readModels savedata",
+    "export_omission": "Historical candidate CSV omitted I4_SE and S4_SE; restored from exact producer savedata, no reestimation",
+    "model_warnings": [
+      [
+        "Data set contains cases with missing on all variables.",
+        "These cases were not included in the analysis.",
+        "Number of cases with missing on all variables:  8",
+        "1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS"
+      ]
+    ],
+    "savedata_sha256": "acf629ed17c9ff90b1eedc93a32bdacd764568bdd8e7cde69b564a44feabf38a",
+    "savedata_file": "pp_lgca_type14_r_step1.txt",
+    "savedata_bytes": 1835492
+  },
+  {
+    "indicator": "FirstSon",
+    "output": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_score_producers\\pp_lgca_type14_4_r_step1\\pp_lgca_type14_4_r_step1.out",
+    "output_sha256": "fc4a75f763130b29ab65ce9c1778635ffdcf2ef645ec3c7f4e274ea988fb612e",
+    "candidate_csv_sha256": "65c6a20170e25d8abce98b51778ce202eeec29b8f9161c14085296c8fdd851b1",
+    "score_match": true,
+    "read_method": "MplusAutomation readModels savedata",
+    "export_omission": "Historical candidate CSV omitted I4_SE and S4_SE; restored from exact producer savedata, no reestimation",
+    "model_warnings": [
+      [
+        "Data set contains cases with missing on all variables.",
+        "These cases were not included in the analysis.",
+        "Number of cases with missing on all variables:  279",
+        "1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS"
+      ]
+    ],
+    "savedata_sha256": "9fbe8138803594a138851000f992295cb4458024ab92f03c387453f65c4eeafd",
+    "savedata_file": "pp_lgca_type14_4_r_step1.txt",
+    "savedata_bytes": 1713140
+  }
+]

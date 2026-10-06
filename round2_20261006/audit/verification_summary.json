@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "attempts": 19,
+  "estimated_attempts": 15,
+  "input_rejections": 4,
+  "parameter_rows_compared": 1443,
+  "source_hashes_unchanged": true,
+  "no_microdata_export": true,
+  "scientific_release": false
+}

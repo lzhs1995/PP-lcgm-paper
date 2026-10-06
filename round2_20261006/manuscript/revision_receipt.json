@@ -1,0 +1,24 @@
+{
+  "source": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\work\\cfps_review_20261005\\github_publish\\01_current_review\\current_manuscript\\PP_LGCM_review_v45_NOT_RELEASED.docx",
+  "source_sha256": "ae7544dee893ab4b93d3abc94dc2758fff6954430912ebd32edcbf8f1e9048fd",
+  "output": "PP_LGCM_review_v46_round2A_NOT_RELEASED.docx",
+  "output_sha256": "dbe29c47f57fd88de69eb440c532d5f93b2a98b1aef7c956569a6cb7ade16f09",
+  "changes": [
+    {
+      "before": "Table 4.2.2: U-LGCM of effects closeness traj on depressive traj（未基期标准化）",
+      "addition": "【混合版本：CESD8为上一轮修正计分估计，其余行为历史估计；本轮统一家庭聚类的诊断结果见第二轮核验报告。】",
+      "layout": "page break before caption to prevent orphaned header"
+    },
+    {
+      "before": "Table 4.3.1: PP-LGCM Direct effects of closeness traj on depressive traj",
+      "addition": "【历史结果：修正数据正式重估前，仅作审计对照，不用于当前假设判定。】"
+    },
+    {
+      "before": "以下启示均以观测性关联为依据，不等同于已经识别的干预效果。",
+      "after": "以下内容为研究视角与待检验线索，不作为修正数据后的已验收实证结论，也不等同于已经识别的干预效果。"
+    }
+  ],
+  "other_zip_members_byte_identical": true,
+  "reverse_patch_exact": true,
+  "final_manuscript_release": false
+}

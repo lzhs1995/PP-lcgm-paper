@@ -1,0 +1,16 @@
+{
+  "id": "D1981_P0_free",
+  "attempt_id": "attempt01",
+  "N": 1981,
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters_SE": true,
+  "status": "REVIEWABLE",
+  "seconds": 1.66010618209839,
+  "input_sha256": "d6c4da6ae73c69192badba9be9e02a1e861e249b09ccec70670a682b259d09b6",
+  "data_sha256": "21a087d48d0971f5074d86d5dda9a07e97cc6e7602aba5b4b057840271753298",
+  "output_sha256": "42b2644bbdc1e3e823ee16fd58ed3ad013906132bf7b0c67de28581a979d57ec",
+  "version_header": ["Mplus VERSION 9", "MUTHEN & MUTHEN", "10/06/2026   1:23 AM"],
+  "diagnostics": []
+}

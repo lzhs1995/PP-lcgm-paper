@@ -1,0 +1,99 @@
+{
+  "status": "V3_SUPPORT_AND_OUTCOME_PRESERVATION_VERIFIED_METHOD_OPEN",
+  "non_target_fields_exact_v2": true,
+  "all_ten_donor_support_pass": true,
+  "final_chain_diagnostics": [
+    {
+      ".it": 30,
+      "vrb": "cdar12",
+      "ac": -0.000136800137761292,
+      "psrf": 1.00264495264004
+    },
+    {
+      ".it": 30,
+      "vrb": "pinc12",
+      "ac": -0.00520918067897698,
+      "psrf": 1.00321726562708
+    },
+    {
+      ".it": 30,
+      "vrb": "pinc212",
+      "ac": 0.0398266793429038,
+      "psrf": 1.00298642613337
+    },
+    {
+      ".it": 30,
+      "vrb": "sat12",
+      "ac": 0.00406728479730003,
+      "psrf": 1.00164753968772
+    },
+    {
+      ".it": 30,
+      "vrb": "adl12",
+      "ac": 0.0264324255190867,
+      "psrf": 1.0051966407499
+    },
+    {
+      ".it": 30,
+      "vrb": "finc12",
+      "ac": 0.0627765906317455,
+      "psrf": 1.010201741714
+    }
+  ],
+  "logged_events": {},
+  "bindings": [
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_1.rds",
+      "v3_sha256": "67a5425a7548d9378846022632a784a8d2ba04b9c2fde58589c4392150988ee0",
+      "v2_sha256": "ed4f44ba155a7c0f675fa9976540df19725539df3d23337c585bb1dec3e641fc"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_2.rds",
+      "v3_sha256": "b65e55096670c64bf7946721d121672e2a20cd8cfa449061cf4acfad0afc9154",
+      "v2_sha256": "ec81536f02912255a44148eb2fe16094de845fb8020817924948d6f89b1774d0"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_3.rds",
+      "v3_sha256": "b81b8fd9cb89fc5e69637610d650aa31edfd57e546adf79a4e9267864d49745a",
+      "v2_sha256": "e2355379cf3232919ba107e4462a423e1cb916cf1deb4be9d6e2b7225013c7eb"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_4.rds",
+      "v3_sha256": "dcb45929f34acf0575c1472bee70a1ae1f57d5fde53fd88a7bc34458f9ff99f5",
+      "v2_sha256": "c61f53b1f580686cce750d92e14bf861c38bb634fbe6faaf2b16ff46832db179"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_5.rds",
+      "v3_sha256": "301fd72cbcad1f9771e8a169cb2c65726bced265fc47b8760756c3cbc6b032d4",
+      "v2_sha256": "1bb4b6b569258b8f9f5533362a593ebe7e86607dbd44c47bbecb06da9bea6772"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_6.rds",
+      "v3_sha256": "5b931c87d047afcb2033c76ef911ca887610406515a85006d24b359e95466159",
+      "v2_sha256": "723279454dd21e8f4d641a5ced44101dd980ca774da6dc252f3e3ad4cdca5a11"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_7.rds",
+      "v3_sha256": "921ba9f684cab678d7afb7c6b4003f32a33fa3b377f26cc7e1e30c2568f5731c",
+      "v2_sha256": "3c21181135fe608df350e6df9ecffaae8cdf79d1a2f3c2a22e8a878a0772b306"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_8.rds",
+      "v3_sha256": "466e47d6e8defe677a3c76d1258d9293fcff5e92aedb9f21b0806c17562a043a",
+      "v2_sha256": "4dcf0d8396aafd76443c0b730a41c38576ef14edd053ead439a674f4e931509e"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_9.rds",
+      "v3_sha256": "4d0b57b2c4eb2b1148a87146c96e16f9f9902cc0b13cc8e1a32d6db11dc70fdb",
+      "v2_sha256": "bbd101cb7ed5507b839962b1576e0a9be0d5720650589864441138d5d4c24e41"
+    },
+    {
+      "v3_path": "C:/Users/LZHS/pp_lgcm_runs/20260908_parallel/recovery/20261001_pp_lgcm_reconciliation/10_resume_verified_20261001/scientific_followup/measurement_audit/pmm_observed_future_v3_NOT_RELEASED/candidate_10.rds",
+      "v3_sha256": "c0a8221afe8b978c1281183f2a8188392d3cfdeff047b69404a31d6149360872",
+      "v2_sha256": "5d927da8bfa22c5977212328dc5c79e5efd5a8ef08ed707896ccbbd2ece0f901"
+    }
+  ],
+  "limits": ["同seed不同预测矩阵仍会改变随机路径；单个供体更换不能全归因于新增变量。", "辅助0编码不代表填补未来结局；原未来数据与v2逐字段完全一致。", "满秩、供体合法和链诊断不证明全部潜交互相容或MAR。"],
+  "scientific_acceptance": false,
+  "production_pointer_changed": false
+}

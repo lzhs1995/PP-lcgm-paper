@@ -1,0 +1,25 @@
+{
+  "pages": 38,
+  "checks": [
+    {
+      "needle": "历史结果：修正数据正式",
+      "pages": [
+        19
+      ]
+    },
+    {
+      "needle": "混合版本：CESD8",
+      "pages": [
+        18
+      ]
+    },
+    {
+      "needle": "以下内容为研究视角",
+      "pages": [
+        36
+      ]
+    }
+  ],
+  "all_found": true,
+  "pdf_sha256": "add7deb92f82d1b4e42836df91ff98a1c312a76e7eb344ed9d706b509de58926"
+}

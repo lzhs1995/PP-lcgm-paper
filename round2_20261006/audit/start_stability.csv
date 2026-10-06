@@ -1,0 +1,3 @@
+id,same_data,LL_difference,max_printed_est_difference,max_printed_SE_difference,both_inadmissible
+D1981_P1_linear,True,0.0,0.0,0.0,True
+D1981_P1_free,True,0.0,0.0,0.0009999999999998899,True
