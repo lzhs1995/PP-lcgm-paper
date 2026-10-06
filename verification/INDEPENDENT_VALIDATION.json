@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-06T01:10:44.754911+00:00",
+  "checks": {
+    "01_当前稿与七项答复.zip": "所有条目、大小、CRC、哈希与清单一致",
+    "02_完整输出与代码.zip": "所有条目、大小、CRC、哈希与清单一致",
+    "complete_pairs": "245份唯一输出均有对应输入；6份追加来源齐全",
+    "sensitivity": "八规格终态3/2/3及2225/1981样本正确",
+    "locations": {
+      "issues": 19,
+      "pdf_page_matched": 19,
+      "all_docx_paragraphs_nonempty": true
+    },
+    "manuscripts": "4份最新稿件与最终交付哈希一致",
+    "history": "旧审计包每个条目保持原字节"
+  },
+  "packages": [
+    {
+      "file": "01_当前稿与七项答复.zip",
+      "bytes": 8532994,
+      "sha256": "ca25cf9ccfcc92ae81f5463f46c65c261de5c2767cf06cddefbccf164858e638",
+      "files": 47,
+      "crc_and_entry_sha256": "PASS",
+      "limit_bytes": 25000000
+    },
+    {
+      "file": "02_完整输出与代码.zip",
+      "bytes": 12732700,
+      "sha256": "53927cd4a573d7686d7cfa7e551d3f101c27404d3b02f8c2ccd2309ddee2890e",
+      "files": 1176,
+      "crc_and_entry_sha256": "PASS",
+      "limit_bytes": 25000000
+    }
+  ]
+}

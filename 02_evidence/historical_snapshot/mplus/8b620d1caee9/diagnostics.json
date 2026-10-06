@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "line": 86,
+      "text": "*** WARNING   Data set contains cases with missing on all variables.   These cases were not included in the analysis.   Number of cases with missing on all variables:  279"
+    }
+  ],
+  "normal_marker": true,
+  "scope": "raw diagnostic inventory, not scientific acceptance"
+}

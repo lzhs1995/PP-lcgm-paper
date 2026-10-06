@@ -1,0 +1,11 @@
+# 完整证据与代码：第二包
+
+当前稿件为正文v45/附录v38。historical_snapshot来自原7,108,834字节审计ZIP，内部README/意见状态/脚本保持打包时原样（v43/v37语境），不得覆盖后声称一直是最新版。post_snapshot_updates存放后续当前脚本、最终回执，以及本次补齐的6份得分来源完整输出/语法。
+
+按论文表查historical_snapshot/model_index.csv（747条来源记录，不是747个独立模型）；按完整文件查ALL_OUTPUTS.csv；按汇总源查summary_output_crosswalk.csv。旧model_details.csv是较早自动解析表，其normal_marker/input_error等字段可能误读MI汇总或警告内容，不是最终诊断结论；结合convergence_inventory_final.csv、完整输出与最新敏感性终态判断。没有把所有旧模型重新诊断或升级为正式采用。
+
+web_txt提供每份.inp/.out/.R的逐字节TXT镜像，TXT_MIRRORS.csv给出配对及哈希。源文件同名时必须保留目录或使用哈希定位。最新脚本快照不等于曾以该版本执行的证明；script_versions.csv保留相对旧快照的变化，执行证据另见回执。
+
+prior_reviews_read_after_independent_review只作独立判断后的参考，不预设审阅者同意NLM。未包括登录、网络认证原始回执。
+
+本包为代码/输出/汇总审计材料，不包含实际.dat、逐人得分、插补RDS或ID映射。语法保留本机路径及数据变量名，DATA/SAVEDATA引用不是附带数据，不能称为云端一键可重跑工程。环境信息是历史执行时记录，非本次重新连接RStudio取得；本次没有运行Mplus、升级软件或上传文件。

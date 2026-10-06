@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "created_at_utc": "2026-10-06T01:08:20.149252+00:00",
+  "current_main": "v45",
+  "current_appendix": "v38",
+  "packages": [
+    {
+      "file": "01_当前稿与七项答复.zip",
+      "bytes": 8532994,
+      "sha256": "ca25cf9ccfcc92ae81f5463f46c65c261de5c2767cf06cddefbccf164858e638",
+      "files": 47,
+      "crc_and_entry_sha256": "PASS",
+      "limit_bytes": 25000000
+    },
+    {
+      "file": "02_完整输出与代码.zip",
+      "bytes": 12732700,
+      "sha256": "53927cd4a573d7686d7cfa7e551d3f101c27404d3b02f8c2ccd2309ddee2890e",
+      "files": 1176,
+      "crc_and_entry_sha256": "PASS",
+      "limit_bytes": 25000000
+    }
+  ],
+  "issues": 19,
+  "original_outputs": 239,
+  "additional_score_outputs": 6,
+  "unique_outputs": 245,
+  "summary_reference_count": 262,
+  "txt_mirrors": 512,
+  "checks": [
+    "旧ZIP所有条目CRC和内部清单SHA256通过，历史快照原样保留",
+    "全部19项证据路径及汇总输出引用存在",
+    "245份唯一完整输出已建索引；6份追加来源均有对应输入",
+    "TXT镜像逐字节等同原文件",
+    "原稿/脚本等12个基线文件哈希未变",
+    "白名单、敏感扩展、CSV个人标识列和凭据赋值检查通过"
+  ],
+  "individual_data_included": false,
+  "manuscript_modified": false,
+  "new_mplus_runs": 0,
+  "uploaded": false,
+  "scientific_release": false,
+  "cfps_historical_reproduction": "COMPLETE",
+  "charls": "PAUSED_BY_USER"
+}

@@ -1,0 +1,322 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+10/05/2026  10:34 AM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  CFPS review sensitivity univariate_CESD20_four
+  DATA:
+  FILE = "data.dat";
+  VARIABLE:
+  NAMES = fid y1 y2 y3 y4;
+   MISSING=.;
+   CLUSTER=fid; USEVARIABLES= y1 y2 y3 y4 ;
+  ANALYSIS:
+  TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005;
+  MODEL:
+  iy sy | y1@0 y2*2 y3*4 y4@6 ;
+  OUTPUT:
+  TECH1 TECH4 SAMPSTAT RESIDUAL;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+CFPS review sensitivity univariate_CESD20_four
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                        2225
+
+Number of dependent variables                                    4
+Number of independent variables                                  0
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   Y1          Y2          Y3          Y4
+
+Continuous latent variables
+   IY          SY
+
+Variables with special functions
+
+  Cluster variable      FID
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  data.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns            11
+     Number of clusters                       1684
+
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.005
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             0.965
+ Y2             0.919         0.952
+ Y3             0.483         0.475         0.511
+ Y4             0.364         0.359         0.283         0.386
+
+
+SAMPLE STATISTICS
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+               12.697        13.410        13.093        14.125
+
+
+           Covariances
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1            76.165
+ Y2            40.959        81.108
+ Y3            31.712        35.001        76.493
+ Y4            36.739        39.352        39.084        85.924
+
+
+           Correlations
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1             1.000
+ Y2             0.521         1.000
+ Y3             0.415         0.444         1.000
+ Y4             0.454         0.471         0.482         1.000
+
+
+     MAXIMUM LOG-LIKELIHOOD VALUE FOR THE UNRESTRICTED (H1) MODEL IS -21930.856
+
+
+UNIVARIATE SAMPLE STATISTICS
+
+
+     UNIVARIATE HIGHER-ORDER MOMENT DESCRIPTIVE STATISTICS
+
+         Variable/         Mean/     Skewness/   Minimum/ % with                Percentiles
+        Sample Size      Variance    Kurtosis    Maximum  Min/Max      20%/60%    40%/80%    Median
+
+     Y1                   12.677       1.034       0.000    0.28%       5.000      8.000     10.000
+            2148.000      76.019       0.877      48.000    0.09%      13.000     20.000
+     Y2                   13.389       1.027       2.000   10.00%       6.000     10.000     12.000
+            2119.000      81.138       0.867      52.000    0.19%      14.000     20.000
+     Y3                   12.771       0.974       2.000   12.48%       5.000      8.000     12.000
+            1138.000      76.395       0.787      50.000    0.09%      14.000     20.000
+     Y4                   13.549       0.970       2.000   11.54%       6.000     10.000     12.000
+             858.000      84.807       0.671      50.000    0.12%      14.000     20.000
+
+
+     NO CONVERGENCE.  NUMBER OF ITERATIONS EXCEEDED.
+
+
+
+MODEL RESULTS
+
+                    Estimate
+
+ IY       |
+    Y1                 1.000
+    Y2                 1.000
+    Y3                 1.000
+    Y4                 1.000
+
+ SY       |
+    Y1                 0.000
+    Y2                 5.993
+    Y3                 6.004
+    Y4                 6.000
+
+ SY       WITH
+    IY              -783.307
+
+ Means
+    IY                12.690
+    SY                 0.126
+
+ Intercepts
+    Y1                 0.000
+    Y2                 0.000
+    Y3                 0.000
+    Y4                 0.000
+
+ Variances
+    IY              4735.304
+    SY               130.587
+
+ Residual Variances
+    Y1             -4659.122
+    Y2                44.646
+    Y3                40.822
+    Y4                46.638
+
+
+MODEL COMMAND WITH FINAL ESTIMATES USED AS STARTING VALUES
+
+     iy sy | y1@0 y2*2 y3*4 y4@6;
+
+     sy BY y2*5.99281;
+     sy BY y3*6.00399;
+
+     sy WITH iy*-783.30707;
+
+     [ y1@0 ];
+     [ y2@0 ];
+     [ y3@0 ];
+     [ y4@0 ];
+     [ iy*12.69023 ];
+     [ sy*0.12606 ];
+
+     y1*-4659.12207;
+     y2*44.64646;
+     y3*40.82179;
+     y4*46.63786;
+     iy*4735.30371;
+     sy*130.58730;
+
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+                  0             0             0             0
+
+
+           LAMBDA
+              IY            SY
+              ________      ________
+ Y1                 0             0
+ Y2                 0             1
+ Y3                 0             2
+ Y4                 0             0
+
+
+           THETA
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1                 3
+ Y2                 0             4
+ Y3                 0             0             5
+ Y4                 0             0             0             6
+
+
+           ALPHA
+              IY            SY
+              ________      ________
+                  7             8
+
+
+           BETA
+              IY            SY
+              ________      ________
+ IY                 0             0
+ SY                 0             0
+
+
+           PSI
+              IY            SY
+              ________      ________
+ IY                 9
+ SY                10            11
+
+
+     STARTING VALUES
+
+
+           NU
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+                0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              IY            SY
+              ________      ________
+ Y1             1.000         0.000
+ Y2             1.000         2.000
+ Y3             1.000         4.000
+ Y4             1.000         6.000
+
+
+           THETA
+              Y1            Y2            Y3            Y4
+              ________      ________      ________      ________
+ Y1            38.009
+ Y2             0.000        40.569
+ Y3             0.000         0.000        38.197
+ Y4             0.000         0.000         0.000        42.404
+
+
+           ALPHA
+              IY            SY
+              ________      ________
+               13.025         0.500
+
+
+           BETA
+              IY            SY
+              ________      ________
+ IY             0.000         0.000
+ SY             0.000         0.000
+
+
+           PSI
+              IY            SY
+              ________      ________
+ IY            77.079
+ SY             0.000        17.153
+
+
+     Beginning Time:  10:34:57
+        Ending Time:  10:34:57
+       Elapsed Time:  00:00:00
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

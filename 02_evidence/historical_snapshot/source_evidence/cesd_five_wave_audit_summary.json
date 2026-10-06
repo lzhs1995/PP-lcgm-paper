@@ -1,0 +1,38 @@
+{
+  "status": "CESD_FIVE_WAVE_ITEM_RECONSTRUCTION_VERIFIED_CORRECTED_CANDIDATE_ONLY",
+  "years": [
+    2012,
+    2016,
+    2018,
+    2020,
+    2022
+  ],
+  "alpha": [
+    0.762008240109522,
+    0.791552713036902,
+    0.784442076205602,
+    0.771949517797218,
+    0.770548952026893
+  ],
+  "N": [
+    3274,
+    3005,
+    2377,
+    1194,
+    889
+  ],
+  "followup_original_scores_and_missingness_verified": true,
+  "baseline_error_confirmed": true,
+  "corrected_candidate_numeric_readback": true,
+  "MI_must_be_regenerated": true,
+  "models_reestimated": 0,
+  "scientific_release": false,
+  "proposed_methods_paragraph": "本研究使用CESD的8个条目衡量抑郁症状，各题按1—4计分，将“感到愉快”和“生活快乐”两道积极题反向编码后，仅对8题均完整的记录求和，得到8—32分的总分；减去8可等价转换为0—24分。分析使用同一2012年基期均值和标准差对各波得分进行标准化，统一平移8分不改变这一标准化结果。按最终分析样本各波完整条目计算，2012、2016、2018、2020、2022年的Cronbach alpha分别为0.762、0.792、0.784、0.772、0.771，相应有效人数分别为3274、3005、2377、1194、889。",
+  "paragraph_status": "PREPARED_NOT_INSERTED_WAIT_CORRECTED_RESULTS",
+  "remaining": [
+    "Rank measurement and legacy/current dataset versions",
+    "Resource-admitted corrected MI execution and diagnostics",
+    "Affected model estimation and result/figure rebuild",
+    "New PDF/NLM release acceptance"
+  ]
+}

@@ -1,0 +1,40 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+10/05/2026  10:35 AM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  CFPS review sensitivity direct_CESD8_four
+  DATA:
+  FILE = "data.dat";
+  VARIABLE:
+  NAMES = fid y1 y2 y3 y4 x1 x2 x3 x4 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14
+       c15 c16 c17 c18 c19 c20 c21 c22 c23 c24 c25 c26;
+   MISSING=.;
+   CLUSTER=fid; USEVARIABLES= y1 y2 y3 y4 x1 x2 x3 x4 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12
+  ANALYSIS:
+  TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005;
+  MODEL:
+  ix sx | x1@0 x2*2 x3*4 x4@6 ;
+  iy sy | y1@0 y2*2 y3*4 y4@6 ;
+  iy ON ix (bii); sy ON ix (bis) sx (bss) iy; iy sy ON c1-c26;
+  OUTPUT:
+  TECH1 TECH4 SAMPSTAT RESIDUAL;
+
+*** ERROR in MODEL command
+  There should be no extra characters after the right parenthesis of an equality or parameter label.
+  Problem with the following statement:
+  IX (BIS) SX (BSS) IY
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

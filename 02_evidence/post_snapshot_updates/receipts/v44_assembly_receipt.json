@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v43_NOT_RELEASED.docx",
+  "source_sha256": "8b48dca8a0f8de04c776580c375f1ddac95350a6a00866498a23738b42302218",
+  "output": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v44_NOT_RELEASED.docx",
+  "output_sha256": "b017892a96e56519d3b11f9fbe2fa8967558190712c4b369d015d688c37f2f01",
+  "paragraph_index": 2746,
+  "changed_text_nodes": 34,
+  "text": "2.家内差异各维度的可用样本与统计效力需要分别评估。性别差单变量模型中，全部USEVARIABLES缺失929人，模型有效样本量为2345人；排行差（老大）单变量模型中，全部USEVARIABLES缺失8人，模型有效样本量为3266人；排行差（长子）单变量模型中，全部USEVARIABLES缺失279人，模型有效样本量为2995人，均与3274人原队列对应。这与表4.1.1逐变量缺失数935、115、380及图3.1分支排除数属于不同口径，不能作为所有直接或调节模型的统一最终样本量。平行过程LGCM以及潜变量调节对样本信息量要求较高（Cheong, 2011; Cheung et al., 2021; Maslowsky et al., 2015），但统计效力还取决于效应大小、测量精度、缺失模式和模型可识别性，不能仅凭上述人数解释模型结果不显著的原因。对此，未来可以尝试加速纵向设计/队列序贯数据与潜增长模型相结合的方法来检验时间轨迹，例如队列序贯-潜增长模型（Cohort-Sequential LGCM）可以在更短的追踪周期下估计更长时间范围的单变量轨迹（Adkins et al., 2009; Duncan et al., 2005, 2007, 2011; Fischer et al., 2019; Orth et al., 2010）、队列序贯-平行过程潜增长模型（Parallel Cohort-Sequential LGCM）可以验证多变量轨迹之间的相关关系（Haan et al., 2012; Prinzie et al., 2006; Schrager et al., 2022; Zhang, 2013），甚至交互效应（Zhang, 2013）。需要注意的是，当年龄效应被解释为时间效应时，需要队列间年龄效应无差异的强假设，传统加速纵向设计的缺陷也将在此过程中被放大（如，截距、斜率的解释无法对应具体时间点等）。此外，发展心理学理论明确指出，年龄比波次更能有效地反映个体抑郁轨迹的时间特征，加速纵向设计有助于从年龄趋势的角度理解代际关系家内差异与父母抑郁症状之间的变化趋势（Adkins et al., 2009; Hankin et al., 1998; Ge et al., 1994）。",
+  "tables_fields_media_preserved": true,
+  "other_zip_parts_byte_identical": true,
+  "scientific_release": false
+}

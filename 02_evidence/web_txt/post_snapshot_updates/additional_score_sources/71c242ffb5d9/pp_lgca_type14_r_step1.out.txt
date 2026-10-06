@@ -1,0 +1,788 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+01/30/2026   5:19 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  Class-1_pp_LGCA
+  DATA:
+  FILE = "pp_lgca_type14_r_step1.dat";
+
+  VARIABLE:
+  NAMES = pid fid wfd_m10 wfd_s10 wfd_c10 wfd_d10 wfd_d110 wfd_d210 wfd_d310 wfd_d410
+       wfd_d510 wfd_d610 wfd_d710 wfd_d810 wfd_d910 wfd_m12 wfd_s12 wfd_c12 wfd_d12
+       wfd_d112 wfd_d212 wfd_d312 wfd_d412 wfd_d512 wfd_d612 wfd_d712 wfd_d812
+       wfd_d912 wfd_m16 wfd_s16 wfd_c16 wfd_d16 wfd_d116 wfd_d216 wfd_d316 wfd_d416
+       wfd_d516 wfd_d616 wfd_d716 wfd_d816 wfd_d916 wfd_m18 wfd_s18 wfd_c18 wfd_d18
+       wfd_d118 wfd_d218 wfd_d318 wfd_d418 wfd_d518 wfd_d618 wfd_d718 wfd_d818
+       wfd_d918 wfd_m20 wfd_s20 wfd_c20 wfd_d20 wfd_d120 wfd_d220 wfd_d320 wfd_d420
+       wfd_d520 wfd_d620 wfd_d720 wfd_d820 wfd_d920 wfd_m22 wfd_s22 wfd_c22 wfd_d22
+       wfd_d122 wfd_d222 wfd_d322 wfd_d422 wfd_d522 wfd_d622 wfd_d722 wfd_d822
+       wfd_d922 sat10 sat12 sat14 sat16 sat18 sat20 sat22 ces812 ces816 ces818 ces820
+       ces822 ces8sc12 ces8sc16 ces8sc18 ces8sc20 ces8sc22 wfdms10 wfdms12 wfdms16
+       wfdms18 wfdms20 wfdms22 wfdss10 wfdss12 wfdss16 wfdss18 wfdss20 wfdss22 wfdcs10
+       wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22 wfdds10 wfdds12 wfdds16 wfdds18 wfdds20
+       wfdds22 wfdds110 wfdds112 wfdds116 wfdds118 wfdds120 wfdds122 wfdds210 wfdds212
+       wfdds216 wfdds218 wfdds220 wfdds222 wfdds310 wfdds312 wfdds316 wfdds318
+       wfdds320 wfdds322 wfdds410 wfdds412 wfdds416 wfdds418 wfdds420 wfdds422
+       wfdds510 wfdds512 wfdds516 wfdds518 wfdds520 wfdds522 wfdds610 wfdds612
+       wfdds616 wfdds618 wfdds620 wfdds622 wfdds710 wfdds712 wfdds716 wfdds718
+       wfdds720 wfdds722 wfdds810 wfdds812 wfdds816 wfdds818 wfdds820 wfdds822
+       wfdds910 wfdds912 wfdds916 wfdds918 wfdds920 wfdds922 ces8sd12 ces8sd16
+       ces8sd18 ces8sd20 ces8sd22 cohort wave sex12 edu12 urban12 prov12 prov122
+       prov123 cdn12 cdar12 cdsc12 cdsc121 cdsc122 minor12 party12 age10 ageg10 pinc10
+       pincm110 pincm210 cores10 heal10 heal101 heal103 marr10 eco10 eco102 eco103
+       hwc10 hwc102 hwc103 hukou10 pinc210 finc10 age12 ageg12 pinc12 pincm112
+       pincm212 cores12 heal12 heal121 heal123 marr12 eco12 eco122 eco123 hwc12 hwc122
+       hwc123 hukou12 pinc212 pinc312 pinc412 finc12 age14 ageg14 pinc14 pincm114
+       pincm214 cores14 heal14 heal141 heal143 marr14 hukou14 pinc214 finc14 age16
+       ageg16 pinc16 pincm116 pincm216 cores16 heal16 heal161 heal163 marr16 eco16
+       eco162 eco163 hwc16 hwc162 hwc163 hukou16 pinc216 finc16 age18 ageg18 pinc18
+       pincm118 pincm218 cores18 heal18 heal181 heal183 marr18 eco18 eco182 eco183
+       hwc18 hwc182 hwc183 hukou18 pinc218 finc18 age20 ageg20 pinc20 pincm120
+       pincm220 cores20 heal20 heal201 heal203 marr20 eco20 eco202 eco203 hwc20 hwc202
+       hwc203 hukou20 pinc220 finc20 age22 ageg22 pinc22 pincm122 pincm222 cores22
+       heal22 heal221 heal223 marr22 eco22 eco222 eco223 hwc22 hwc222 hwc223 hukou22
+       pinc222 finc22 consu110 fpinc10 employ10 heala110 heala210 heala310 heala410
+       adl10 cog10 consu112 consu212 fpinc12 employ12 heala112 heala212 heala312
+       heala412 adl12 consu114 consu214 fpinc14 employ14 heala114 heala214 heala314
+       heala414 adl14 cog14 consu116 consu216 fpinc16 employ16 heala116 heala216
+       heala316 heala416 adl16 consu118 consu218 fpinc18 employ18 heala118 heala218
+       heala318 heala418 adl18 cog18 consu120 consu220 fpinc20 employ20 heala120
+       heala220 heala320 heala420 adl20 consu122 consu222 fpinc22 employ22 heala122
+       heala222 heala322 heala422 adl22 cog22 wfd_x12 wfd_i12;
+   MISSING=.;
+   usevar =
+  !wfdms12 wfdms16 wfdms18 wfdms20 wfdms22
+  !wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22
+  !wfdds712 wfdds716 wfdds718 wfdds720 wfdds722
+  wfdds812 wfdds816 wfdds818 wfdds820 wfdds822
+  !ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+  ;
+
+  idvariable=pid;
+
+  auxiliary =
+  fid
+  wfdms12 wfdms16 wfdms18 wfdms20 wfdms22
+  wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22
+  wfdds712 wfdds716 wfdds718 wfdds720 wfdds722
+  !wfdds812 wfdds816 wfdds818 wfdds820 wfdds822
+  ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+
+  !!! time-invar
+  sex12 edu12 urban12
+  prov122 prov123
+  cdn12 cdar12
+  cdsc121 cdsc122
+  minor12 party12 hukou12 wave
+
+  !!! time-var
+  ageg12 pincm112 pincm212 cores12 heal121 heal123
+  marr12 eco122 eco123 hwc122 hwc123 sat12
+  !ageg14 pinc14 cores14 heal141 heal143
+  !marr14 										
+  !ageg16 pinc16 cores16 heal161 heal163
+  !marr16 eco162 eco163 hwc162 hwc163
+  !ageg18 pinc18 cores18 heal181 heal183
+  !marr18 eco182 eco183 hwc182 hwc183
+  !ageg20 pinc20 cores20 heal201 heal203
+  !marr20 eco202 eco203 hwc202 hwc203
+  !ageg22 pinc22 cores22 heal221 heal223
+  !marr22 eco222 eco223 hwc222 hwc223
+  ;
+  ANALYSIS:
+  estimator = mlr;
+  !TYPE=COMPLEX;
+  !type = mixture;
+  !ALGORITHM=INTEGRATION;
+  !starts = 600 200;
+  !starts = 20;
+  !LRTBOOTSTRAP = 200;
+  processors = 10;
+  coverage = 0.005;
+  MODEL:
+
+  !i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;
+  !i2 s2 | wfdcs12@0 wfdcs16*4 wfdcs18*6 wfdcs20*8 wfdcs22@10;
+  !i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;
+  i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;
+  !i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;
+
+  OUTPUT:
+  tech1 tech4 sampstat patterns stdyx;
+  SAVEDATA:
+  FILE = pp_lgca_type14_r_step1.txt;
+  !SAVE = CPROB;
+  PLOT:
+  type = plot3;
+      series = wfdds812-wfdds822(*);
+
+
+
+*** WARNING
+  Data set contains cases with missing on all variables.
+  These cases were not included in the analysis.
+  Number of cases with missing on all variables:  8
+   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS
+
+
+
+
+Class-1_pp_LGCA
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                        3266
+
+Number of dependent variables                                    5
+Number of independent variables                                  0
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   WFDDS812    WFDDS816    WFDDS818    WFDDS820    WFDDS822
+
+Observed auxiliary variables
+   FID         WFDMS12     WFDMS16     WFDMS18     WFDMS20     WFDMS22
+   WFDCS12     WFDCS16     WFDCS18     WFDCS20     WFDCS22     WFDDS712
+   WFDDS716    WFDDS718    WFDDS720    WFDDS722    CES8SD12    CES8SD16
+   CES8SD18    CES8SD20    CES8SD22    SEX12       EDU12       URBAN12
+   PROV122     PROV123     CDN12       CDAR12      CDSC121     CDSC122
+   MINOR12     PARTY12     HUKOU12     WAVE        AGEG12      PINCM112
+   PINCM212    CORES12     HEAL121     HEAL123     MARR12      ECO122
+   ECO123      HWC122      HWC123      SAT12
+
+Continuous latent variables
+   I4          S4
+
+Variables with special functions
+
+  ID variable           PID
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  pp_lgca_type14_r_step1.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns            25
+
+
+SUMMARY OF MISSING DATA PATTERNS
+
+
+     MISSING DATA PATTERNS (x = not missing)
+
+           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ WFDDS812  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDDS816  x  x  x  x  x  x  x  x                          x  x  x  x
+ WFDDS818  x  x  x  x              x  x  x  x              x  x  x  x
+ WFDDS820  x  x        x  x        x  x        x  x        x  x
+ WFDDS822  x     x     x     x     x     x     x     x     x     x
+
+          21 22 23 24 25
+ WFDDS812
+ WFDDS816  x  x  x
+ WFDDS818           x  x
+ WFDDS820  x
+ WFDDS822     x     x
+
+
+     MISSING DATA PATTERN FREQUENCIES
+
+    Pattern   Frequency     Pattern   Frequency     Pattern   Frequency
+          1         473          10          26          19           7
+          2         365          11          20          20          24
+          3         206          12         138          21           1
+          4         813          13           6          22           2
+          5          44          14          19          23          55
+          6          65          15          14          24           1
+          7          40          16         159          25           5
+          8         744          17           5
+          9          27          18           7
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.005
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+ WFDDS812       0.967
+ WFDDS816       0.842         0.873
+ WFDDS818       0.633         0.582         0.648
+ WFDDS820       0.314         0.294         0.276         0.318
+ WFDDS822       0.254         0.238         0.226         0.170         0.259
+
+
+SAMPLE STATISTICS
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+                0.001        -0.017         0.000         0.028        -0.110
+
+
+           Covariances
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+ WFDDS812       1.001
+ WFDDS816       0.251         1.198
+ WFDDS818       0.248         0.299         1.427
+ WFDDS820       0.165         0.341         0.495         1.760
+ WFDDS822       0.226         0.422         0.385         0.698         2.268
+
+
+           Correlations
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+ WFDDS812       1.000
+ WFDDS816       0.229         1.000
+ WFDDS818       0.207         0.229         1.000
+ WFDDS820       0.124         0.235         0.312         1.000
+ WFDDS822       0.150         0.256         0.214         0.349         1.000
+
+
+     MAXIMUM LOG-LIKELIHOOD VALUE FOR THE UNRESTRICTED (H1) MODEL IS -15196.038
+
+
+UNIVARIATE SAMPLE STATISTICS
+
+
+     UNIVARIATE HIGHER-ORDER MOMENT DESCRIPTIVE STATISTICS
+
+         Variable/         Mean/     Skewness/   Minimum/ % with                Percentiles
+        Sample Size      Variance    Kurtosis    Maximum  Min/Max      20%/60%    40%/80%    Median
+
+     WFDDS812              0.000      -0.441      -9.098    0.03%       0.058      0.058      0.058
+            3159.000       1.000      17.909       9.213    0.03%       0.058      0.058
+     WFDDS816             -0.014      -1.276      -9.098    0.11%       0.058      0.058      0.058
+            2851.000       1.196      21.574      10.357    0.04%       0.058      0.058
+     WFDDS818              0.007      -0.413      -9.098    0.05%       0.058      0.058      0.058
+            2117.000       1.419      11.936       8.298    0.09%       0.058      0.058
+     WFDDS820              0.047       0.248      -9.098    0.10%       0.058      0.058      0.058
+            1038.000       1.720      14.356       9.213    0.29%       0.058      0.058
+     WFDDS822             -0.108      -1.007     -10.242    0.12%      -0.647      0.058      0.058
+             845.000       2.239      15.568      11.829    0.12%       0.058      0.058
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       10
+
+Loglikelihood
+
+          H0 Value                      -15205.823
+          H0 Scaling Correction Factor      5.6038
+            for MLR
+          H1 Value                      -15196.038
+          H1 Scaling Correction Factor      3.8545
+            for MLR
+
+Information Criteria
+
+          Akaike (AIC)                   30431.645
+          Bayesian (BIC)                 30492.558
+          Sample-Size Adjusted BIC       30460.784
+            (n* = (n + 2) / 24)
+
+Chi-Square Test of Model Fit
+
+          Value                              9.296*
+          Degrees of Freedom                    10
+          P-Value                           0.5043
+          Scaling Correction Factor         2.1052
+            for MLR
+
+*   The chi-square value for MLM, MLMV, MLR, ULSMV, WLSM and WLSMV cannot be used
+    for chi-square difference testing in the regular way.  MLM, MLR and WLSM
+    chi-square difference testing is described on the Mplus website.  MLMV, WLSMV,
+    and ULSMV difference testing is done using the DIFFTEST option.
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.000
+          90 Percent C.I.                    0.000  0.018
+          Probability RMSEA <= .05           1.000
+
+CFI/TLI
+
+          CFI                                1.000
+          TLI                                1.000
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                            192.220
+          Degrees of Freedom                    10
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.028
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I4       |
+    WFDDS812           1.000      0.000    999.000    999.000
+    WFDDS816           1.000      0.000    999.000    999.000
+    WFDDS818           1.000      0.000    999.000    999.000
+    WFDDS820           1.000      0.000    999.000    999.000
+    WFDDS822           1.000      0.000    999.000    999.000
+
+ S4       |
+    WFDDS812           0.000      0.000    999.000    999.000
+    WFDDS816           4.000      0.000    999.000    999.000
+    WFDDS818           6.000      0.000    999.000    999.000
+    WFDDS820           8.000      0.000    999.000    999.000
+    WFDDS822          10.000      0.000    999.000    999.000
+
+ S4       WITH
+    I4                -0.012      0.011     -1.145      0.252
+
+ Means
+    I4                 0.003      0.017      0.176      0.860
+    S4                -0.003      0.004     -0.894      0.371
+
+ Intercepts
+    WFDDS812           0.000      0.000    999.000    999.000
+    WFDDS816           0.000      0.000    999.000    999.000
+    WFDDS818           0.000      0.000    999.000    999.000
+    WFDDS820           0.000      0.000    999.000    999.000
+    WFDDS822           0.000      0.000    999.000    999.000
+
+ Variances
+    I4                 0.302      0.072      4.183      0.000
+    S4                 0.006      0.002      2.689      0.007
+
+ Residual Variances
+    WFDDS812           0.696      0.083      8.368      0.000
+    WFDDS816           0.901      0.084     10.733      0.000
+    WFDDS818           1.052      0.098     10.728      0.000
+    WFDDS820           1.216      0.176      6.926      0.000
+    WFDDS822           1.573      0.265      5.937      0.000
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Condition Number for the Information Matrix              0.295E-04
+       (ratio of smallest to largest eigenvalue)
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I4       |
+    WFDDS812           0.550      0.061      9.085      0.000
+    WFDDS816           0.501      0.055      9.091      0.000
+    WFDDS818           0.459      0.055      8.292      0.000
+    WFDDS820           0.418      0.054      7.803      0.000
+    WFDDS822           0.365      0.049      7.386      0.000
+
+ S4       |
+    WFDDS812           0.000      0.000    999.000    999.000
+    WFDDS816           0.291      0.052      5.621      0.000
+    WFDDS818           0.400      0.073      5.479      0.000
+    WFDDS820           0.486      0.087      5.588      0.000
+    WFDDS822           0.531      0.098      5.438      0.000
+
+ S4       WITH
+    I4                -0.282      0.185     -1.524      0.128
+
+ Means
+    I4                 0.005      0.031      0.175      0.861
+    S4                -0.039      0.044     -0.887      0.375
+
+ Intercepts
+    WFDDS812           0.000      0.000    999.000    999.000
+    WFDDS816           0.000      0.000    999.000    999.000
+    WFDDS818           0.000      0.000    999.000    999.000
+    WFDDS820           0.000      0.000    999.000    999.000
+    WFDDS822           0.000      0.000    999.000    999.000
+
+ Variances
+    I4                 1.000      0.000    999.000    999.000
+    S4                 1.000      0.000    999.000    999.000
+
+ Residual Variances
+    WFDDS812           0.697      0.067     10.454      0.000
+    WFDDS816           0.747      0.032     23.386      0.000
+    WFDDS818           0.733      0.043     17.168      0.000
+    WFDDS820           0.704      0.056     12.612      0.000
+    WFDDS822           0.694      0.066     10.580      0.000
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed
+    Variable        Estimate       S.E.  Est./S.E.    P-Value
+
+    WFDDS812           0.303      0.067      4.542      0.000
+    WFDDS816           0.253      0.032      7.922      0.000
+    WFDDS818           0.267      0.043      6.254      0.000
+    WFDDS820           0.296      0.056      5.315      0.000
+    WFDDS822           0.306      0.066      4.658      0.000
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           LAMBDA
+              I4            S4
+              ________      ________
+ WFDDS812           0             0
+ WFDDS816           0             0
+ WFDDS818           0             0
+ WFDDS820           0             0
+ WFDDS822           0             0
+
+
+           THETA
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+ WFDDS812           1
+ WFDDS816           0             2
+ WFDDS818           0             0             3
+ WFDDS820           0             0             0             4
+ WFDDS822           0             0             0             0             5
+
+
+           ALPHA
+              I4            S4
+              ________      ________
+                  6             7
+
+
+           BETA
+              I4            S4
+              ________      ________
+ I4                 0             0
+ S4                 0             0
+
+
+           PSI
+              I4            S4
+              ________      ________
+ I4                 8
+ S4                 9            10
+
+
+     STARTING VALUES
+
+
+           NU
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              I4            S4
+              ________      ________
+ WFDDS812       1.000         0.000
+ WFDDS816       1.000         4.000
+ WFDDS818       1.000         6.000
+ WFDDS820       1.000         8.000
+ WFDDS822       1.000        10.000
+
+
+           THETA
+              WFDDS812      WFDDS816      WFDDS818      WFDDS820      WFDDS822
+              ________      ________      ________      ________      ________
+ WFDDS812       0.500
+ WFDDS816       0.000         0.598
+ WFDDS818       0.000         0.000         0.709
+ WFDDS820       0.000         0.000         0.000         0.860
+ WFDDS822       0.000         0.000         0.000         0.000         1.119
+
+
+           ALPHA
+              I4            S4
+              ________      ________
+               -0.015        -0.003
+
+
+           BETA
+              I4            S4
+              ________      ________
+ I4             0.000         0.000
+ S4             0.000         0.000
+
+
+           PSI
+              I4            S4
+              ________      ________
+ I4             1.035
+ S4             0.000         0.078
+
+
+TECHNICAL 4 OUTPUT
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+                0.003        -0.003
+
+
+           S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+                0.017         0.004
+
+
+           EST./S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+                0.176        -0.894
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+                0.860         0.371
+
+
+           ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             0.302
+ S4            -0.012         0.006
+
+
+           S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             0.072
+ S4             0.011         0.002
+
+
+           EST./S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             4.183
+ S4            -1.145         2.689
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             0.000
+ S4             0.252         0.007
+
+
+           ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             1.000
+ S4            -0.282         1.000
+
+
+           S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             0.000
+ S4             0.185         0.000
+
+
+           EST./S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4           999.000
+ S4            -1.524       999.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             0.000
+ S4             0.128         0.000
+
+
+           ESTIMATED PARTIAL CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I4            S4
+              ________      ________
+ I4             1.000
+ S4            -0.282         1.000
+
+
+SAMPLE STATISTICS FOR ESTIMATED FACTOR SCORES
+
+
+     SAMPLE STATISTICS
+
+
+           Means
+              I4            I4_SE         S4            S4_SE
+              ________      ________      ________      ________
+                0.003         0.425        -0.003         0.073
+
+
+           Covariances
+              I4            I4_SE         S4            S4_SE
+              ________      ________      ________      ________
+ I4             0.122
+ I4_SE          0.000         0.000
+ S4             0.001         0.000         0.001
+ S4_SE          0.000         0.000         0.000         0.000
+
+
+           Correlations
+              I4            I4_SE         S4            S4_SE
+              ________      ________      ________      ________
+ I4             1.000
+ I4_SE         -0.004         1.000
+ S4             0.065         0.004         1.000
+ S4_SE         -0.026         0.532         0.001         1.000
+
+
+PLOT INFORMATION
+
+The following plots are available:
+
+  Histograms (sample values, estimated factor scores, estimated values, residuals)
+  Scatterplots (sample values, estimated factor scores, estimated values, residuals)
+  Sample means
+  Estimated means
+  Sample and estimated means
+  Latent variable distribution plots
+  Observed individual values
+  Estimated individual values
+
+SAVEDATA INFORMATION
+
+
+  Save file
+    pp_lgca_type14_r_step1.txt
+
+  Order and format of variables
+
+    WFDDS812       F10.3
+    WFDDS816       F10.3
+    WFDDS818       F10.3
+    WFDDS820       F10.3
+    WFDDS822       F10.3
+    FID            F10.3
+    WFDMS12        F10.3
+    WFDMS16        F10.3
+    WFDMS18        F10.3
+    WFDMS20        F10.3
+    WFDMS22        F10.3
+    WFDCS12        F10.3
+    WFDCS16        F10.3
+    WFDCS18        F10.3
+    WFDCS20        F10.3
+    WFDCS22        F10.3
+    WFDDS712       F10.3
+    WFDDS716       F10.3
+    WFDDS718       F10.3
+    WFDDS720       F10.3
+    WFDDS722       F10.3
+    CES8SD12       F10.3
+    CES8SD16       F10.3
+    CES8SD18       F10.3
+    CES8SD20       F10.3
+    CES8SD22       F10.3
+    SEX12          F10.3
+    EDU12          F10.3
+    URBAN12        F10.3
+    PROV122        F10.3
+    PROV123        F10.3
+    CDN12          F10.3
+    CDAR12         F10.3
+    CDSC121        F10.3
+    CDSC122        F10.3
+    MINOR12        F10.3
+    PARTY12        F10.3
+    HUKOU12        F10.3
+    WAVE           F10.3
+    AGEG12         F10.3
+    PINCM112       F10.3
+    PINCM212       F10.3
+    CORES12        F10.3
+    HEAL121        F10.3
+    HEAL123        F10.3
+    MARR12         F10.3
+    ECO122         F10.3
+    ECO123         F10.3
+    HWC122         F10.3
+    HWC123         F10.3
+    SAT12          F10.3
+    I4             F10.3
+    I4_SE          F10.3
+    S4             F10.3
+    S4_SE          F10.3
+    PID            I10
+
+  Save file format
+    55F10.3 I10
+
+  Save file record length    10000
+
+  Save missing symbol        *
+
+
+     Beginning Time:  17:19:58
+        Ending Time:  17:19:59
+       Elapsed Time:  00:00:01
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

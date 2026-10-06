@@ -1,0 +1,12 @@
+# T6_score_cutpoints.csv
+
+[原CSV](../../01_current_review/summaries/T6_score_cutpoints.csv)
+
+| indicator | model | version | factor | n | median | equal_cut | low | high | source | source_sha256 | rule |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SD | pp_lgca_type12_r_step1.out | historical_v42_source | I2 | 3274 | -0.111 | 5 | 1641 | 1633 | C:\Users\LZHS\Desktop\interge_rela\result_pp_lgca_continu.panel_best_clo_ces8sd_covar_time12_22\pp_lgca_type12_r_step1.out | 92666d1a9c317c012b7400d4a39d0038419da178af80534c90fef681e12d96c7 | <= median is low; > median is high |
+| Gender | pp_lgca_type13_r_step1.out | historical_v42_source | I3 | 2345 | 0.034 | 335 | 1194 | 1151 | C:\Users\LZHS\Desktop\interge_rela\result_pp_lgca_continu.panel_best_clo_ces8sd_covar_time12_22\pp_lgca_type13_r_step1.out | 974ae9f28c06da304982481f071d6f17ad23f5f2f6b45c05287076049c1aa9c1 | <= median is low; > median is high |
+| Oldest | pp_lgca_type14_r_step1.out | historical_v42_source | I4 | 3266 | 0.028 | 436 | 1694 | 1572 | C:\Users\LZHS\Desktop\interge_rela\result_pp_lgca_continu.panel_best_clo_ces8sd_covar_time12_22\pp_lgca_type14_r_step1.out | 71c242ffb5d9a51f7b1be52396ef136b5c8d700373029ffd925df838a8f02d1c | <= median is low; > median is high |
+| FirstSon | pp_lgca_type14_4_r_step1.out | historical_v42_source | I4 | 2995 | 0.033 | 385 | 1582 | 1413 | C:\Users\LZHS\Desktop\interge_rela\result_pp_lgca_continu.panel_best_clo_ces8sd_covar_time12_22\pp_lgca_type14_4_r_step1.out | f1b4c243cb2c6be7ecf8d32b250375ff4e1d01a752c57f9a01ae2af65b5ee337 | <= median is low; > median is high |
+| Oldest | pp_lgca_type14_r_step1.out | corrected_score_candidate_only | I4 | 3266 | 0.028 | 436 | 1694 | 1572 | C:\Users\LZHS\pp_lgcm_runs\20260908_parallel\recovery\20261001_pp_lgcm_reconciliation\10_resume_verified_20261001\scientific_followup\measurement_audit\corrected_score_producers\pp_lgca_type14_r_step1\pp_lgca_type14_r_step1.out | 4f3c0581df3d28c17bb61a734f8b160a7e0dc682bcd3d50f02aea7ef743d52e5 | <= median is low; > median is high |
+| FirstSon | pp_lgca_type14_4_r_step1.out | corrected_score_candidate_only | I4 | 2995 | 0.034 | 384 | 1583 | 1412 | C:\Users\LZHS\pp_lgcm_runs\20260908_parallel\recovery\20261001_pp_lgcm_reconciliation\10_resume_verified_20261001\scientific_followup\measurement_audit\corrected_score_producers\pp_lgca_type14_4_r_step1\pp_lgca_type14_4_r_step1.out | fc4a75f763130b29ab65ce9c1778635ffdcf2ef645ec3c7f4e274ea988fb612e | <= median is low; > median is high |

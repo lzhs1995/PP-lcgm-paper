@@ -1,0 +1,23 @@
+[
+  {
+    "name": "cfps2012_cesd",
+    "url": "https://www.isss.pku.edu.cn/cfps/docs/20201028165326806875.pdf",
+    "status": "DOWNLOADED",
+    "sha256": "f7a63eec365e04dd72e21857977e994d5cca0ddadfe8fe604848a9f74dc33a55",
+    "pdf": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\source_evidence\\cfps2012_cesd.pdf"
+  },
+  {
+    "name": "cfps2016_cesd",
+    "url": "https://www.isss.pku.edu.cn/cfps/docs/20201201085335172101.pdf",
+    "status": "DOWNLOADED",
+    "sha256": "369131fc549eb5acef8092d0c64ab36584b43d6847cbee0a802e15fe6a6f62e8",
+    "pdf": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\source_evidence\\cfps2016_cesd.pdf"
+  },
+  {
+    "name": "cfps2018_cesd",
+    "url": "https://www.isss.pku.edu.cn/cfps/docs/2026-01/647fe42a94784c5cb5746b6dfb64042d.pdf",
+    "status": "DOWNLOADED",
+    "sha256": "baefcfa2e4ae942a98f717f95e2935d3b98466afff787e45d9f57f41a93b7fb2",
+    "pdf": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\source_evidence\\cfps2018_cesd.pdf"
+  }
+]

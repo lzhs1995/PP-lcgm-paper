@@ -1,0 +1,22 @@
+{
+  "notebook_id": "78f171e0-bc6f-4fed-9509-69e683c2218d",
+  "documents": ["PP_LGCM_review_v45_NOT_RELEASED.pdf", "PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf"],
+  "items": [],
+  "decision": "THREE_PASSES_RETURNED_ZERO_NEW_ISSUES_WITH_BOTH_SOURCES",
+  "accepted_scope": "最终冻结PDF对的全文结构数值、方法解释、格式一致性三项检索式审阅，配合本地XML和PDF核查。",
+  "qualifications": [
+    "三个请求均exit=0，两份来源均出现在sources_used和citations中；各轮NEW_ISSUES_COUNT=0、A5_NO_NEW_ISSUES=YES。",
+    "不将NLM关于所有科学问题均已解决或全文绝无错误的概括升级为研究结论。",
+    "第三审有关抽取伪影的说法只在已由本地XML和渲染核实的上标、表注及尺度说明范围内采纳；不据此保证所有跨页排版均完美。",
+    "不执行第三审回答末尾主动建议的全量Excel重整；不扩大已授权的当前任务。",
+    "科学放行仍关闭；CESD8五期直接基准、MI配对和合并推断、协方差证据继续按执行报告处理。"
+  ],
+  "previous_findings": [
+    {"id": "LOCAL-1", "status": "FIXED_IN_V44_RETAINED_IN_V45", "evidence": "manuscript/v44_assembly_receipt.json"},
+    {"id": "R44-1", "status": "CLARIFIED_IN_V45_V38_REVIEWED_IN_FINAL_PASS3", "evidence": "manuscript/v45_v38_assembly_receipt.json"},
+    {"id": "R44-2", "status": "FIXED_IN_V38_REVIEWED_IN_FINAL_PASS3", "evidence": "manuscript/v45_v38_change_log.csv"},
+    {"id": "LOCAL-2", "status": "FIXED_IN_V45_V38_REVIEWED_IN_FINAL_PASS3", "evidence": "reviews/v44_disposition.md"},
+    {"id": "R43-1_to_R43-3", "status": "REJECTED_WITH_LOCAL_EVIDENCE", "evidence": "reviews/v43_disposition.md"}
+  ],
+  "scientific_release": false
+}

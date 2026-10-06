@@ -1,0 +1,125 @@
+
+
+  TITLE:
+  Class-1_pp_LGCA
+  DATA:
+  FILE = "corrected_imputations.list";
+  TYPE = IMPUTATION;
+
+  VARIABLE:
+  NAMES = SEX12 EDU12 URBAN12 PROV12 CDN12 CDAR12 CDSC12 MINOR12 HUKOU12 PINC12
+       PINC212 CORES12 HEAL12 MARR12 ECO12 HWC12 SAT12 ADL12 FINC12 FID WAVE
+WFDMS12
+       WFDMS16 WFDMS18 WFDMS20 WFDMS22 WFDCS12 WFDCS16 WFDCS18 WFDCS20 WFDCS22
+       WFDDS712 WFDDS716 WFDDS718 WFDDS720 WFDDS722 WFDDS812 WFDDS816 WFDDS818
+       WFDDS820 WFDDS822 CES8SD12 CES8SD16 CES8SD18 CES8SD20 CES8SD22 AGEG12
+AGEG16
+       AGEG18 AGEG20 AGEG22 PROV122 PROV123 CDSC121 CDSC122 PINCM112 PINCM212
+HEAL121
+       HEAL123 ECO122 ECO123 HWC122 HWC123 PID;
+   MISSING=.;
+   usevar =
+  
+  wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22
+  
+  
+  ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+
+  
+  sex12 edu12 urban12
+  prov122 prov123
+  cdn12 cdar12
+  cdsc121 cdsc122
+  minor12 wave
+
+  
+  ageg12 pinc12 pinc212 cores12 heal121 heal123
+  marr12 eco122 eco123 hwc122 hwc123 hukou12 sat12 adl12 finc12
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ;
+  idvariable=pid;
+  cluster=fid;
+  ANALYSIS:
+  estimator = mlr;
+  TYPE=COMPLEX;
+  
+  
+  
+  
+  
+  PROCESSORS = 1;
+  coverage = 0.005;
+  MODEL:
+
+  
+  i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;
+  
+  
+  i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  i5 on i2 ;
+
+  
+  s5 on i2 s2 i5 ;
+
+  
+  
+  i5 s5 on sex12 edu12 urban12 prov122 prov123;
+  i5 s5 on cdn12 cdar12 cdsc121 cdsc122 minor12 wave ;
+
+  
+  i5 s5 on ageg12 pinc12 pinc212 cores12 heal121 heal123;
+  i5 s5 on marr12 hukou12 eco122 eco123 hwc122 hwc123 sat12 adl12 finc12;
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  OUTPUT:
+  tech1 tech8 tech10 tech11 tech14 sampstat patterns stdyx;
+  SAVEDATA:
+  FILE = corrected_savedata.txt;
+  SAVE = CPROB;
+  PLOT:
+  type = plot3;
+  series = wfdcs12-wfdcs22(s2)|ces8sd12-ces8sd22(s5);
+
+
+

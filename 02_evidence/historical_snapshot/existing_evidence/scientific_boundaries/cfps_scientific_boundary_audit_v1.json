@@ -1,0 +1,207 @@
+{
+  "schema_version": "cfps-scientific-boundary-audit-v1",
+  "generated_utc": "2026-10-04T15:50:45.494079+00:00",
+  "scientific_release": false,
+  "new_mplus_submissions": 0,
+  "source_mutations": 0,
+  "version_156": {
+    "rows": 156,
+    "contract_rows": 156,
+    "matched_historical_display": 156,
+    "runtime_hash_agrees": 156,
+    "bucket_counts": {
+      "DIFFERENCE_WITH_INPUT_AUDIT_DOCUMENTED": 43,
+      "DIFFERENCE_WITH_INPUT_AUDIT_DERIVED_FROM_RECEIPT": 113
+    },
+    "technical_decision": "historical_display_confirmed",
+    "scientific_decision": "version_choice_open",
+    "historical_reproduction_release": true,
+    "historical_version_status": "HISTORICAL_DRAFT_VERSION_FROZEN_SENSITIVITY_RETAINED",
+    "status": "HISTORICAL_DISPLAY_TECHNICALLY_CLOSED_VERSION_CHOICE_OPEN"
+  },
+  "lrt_25": {
+    "rows": 25,
+    "contract_rows": 25,
+    "exact_pair_counts_from_contract_csv": {
+      "both_exact_pair_exists": 13,
+      "exact_pair_missing_or_partial": 12
+    },
+    "technical_decision_counts": {
+      "sensitivity_only": 6,
+      "defer_source_followup": 12,
+      "defer_nested_pooling_audit": 7
+    },
+    "source_diagnosis_counts": {
+      "OBSERVED_COVARIATE_DISTRIBUTION_CHANGED": 6,
+      "EXACT_PAIR_ABSENT_REQUIRES_NUMBERED_OUTPUT_AND_SOURCE_FOLLOWUP": 12,
+      "REQUIRES_FULL_NESTING_AND_POOLING_AUDIT": 7
+    },
+    "source_accepted_count": 0,
+    "candidate_D2_rows": 7,
+    "candidate_D2_release": false,
+    "historical_disposition_status": "LRT_HISTORICAL_DISPOSITION_ARCHIVED_NO_FORMAL_P_VALUE_RELEASE",
+    "formal_p_value_release_count": 0,
+    "status": "LRT_TECHNICAL_BOUNDARIES_INVENTORIED_NO_P_VALUE_RELEASE"
+  },
+  "mi_v3": {
+    "status": "NOT_ACCEPTED_FOR_DOWNSTREAM",
+    "data_acceptance": true,
+    "scientific_acceptance": false,
+    "income_derivation_review": {
+      "status": "REVIEWED_HOLD",
+      "audit_sha256": "d10a086958656fbe0c1499eba1fa46755f0181569920455a9cfda07eb00522b6",
+      "rationale": "新MI中14/40个人收入插补记录和184/900家庭收入插补记录为负；1/40个人收入与固定基期阈值二分类不一致。当前观测非负收入及确定性派生定义不能支持直接接受；先核对源定义与插补模型支持范围，禁止截零、取绝对值或无依据重编码。"
+    },
+    "convergence_review": {
+      "status": "ADDITIONAL_EVIDENCE_REQUIRED",
+      "reported_psr": [
+        {
+          "iteration": 100,
+          "PSR": 3.0
+        },
+        {
+          "iteration": 200,
+          "PSR": 2.662
+        },
+        {
+          "iteration": 300,
+          "PSR": 2.171
+        },
+        {
+          "iteration": 400,
+          "PSR": 1.31
+        },
+        {
+          "iteration": 500,
+          "PSR": 1.206
+        },
+        {
+          "iteration": 600,
+          "PSR": 1.111
+        }
+      ],
+      "rationale": "请求与完成10份一致且无已扫描严重诊断；最后公开TECH8行600/1.111不是充分的链混合证据，须核查最终停止规则及更充分的链诊断。"
+    },
+    "hold_contract_status": "MI_V3_DATA_READBACK_PASS_SCIENTIFIC_HOLD_NO_CONSUMERS_SUBMITTED",
+    "downstream_submission_allowed": false,
+    "status_boundary": "DATA_READBACK_PASS_SCIENTIFIC_HOLD"
+  },
+  "rank_sources": {
+    "source_count": 16,
+    "consumer_count": 384,
+    "same_pid_set_count": 16,
+    "diagnostic_count": 0,
+    "source_status_counts": {
+      "CURRENT_INPUT_COMPATIBLE_REQUIRES_SCORE_READBACK": 12,
+      "REBUILD_REQUIRED": 4
+    },
+    "status_boundary": "SCORE_SOURCES_READBACK_BOUND_RANK_RULE_AND_ADOPTION_OPEN",
+    "disposition_status": "RANK_SOURCES_READBACK_BOUND_REBUILD_4_DEFERRED",
+    "rebuild_required_source_count": 4
+  },
+  "rounding_16": {
+    "rows": 16,
+    "all_rounding_matches": true,
+    "status": "ROUNDING_CONTRACT_RESOLVED_NO_NEW_MPLUS",
+    "new_mplus_submissions": 0
+  },
+  "historical_review_331": {
+    "rows": 331,
+    "fit_cells": 264,
+    "derived_cells": 67,
+    "status": "HISTORICAL_REVIEW_CELLS_FROZEN_TECHNICAL_PRODUCERS_RETAINED",
+    "historical_reproduction_release": true,
+    "new_mplus_submissions": 0
+  },
+  "historical_release_ledger": {
+    "total_cells": 10936,
+    "frozen_cells": 10267,
+    "deferred_cells": 669,
+    "status": "HISTORICAL_DRAFT_REPRODUCTION_RELEASE_LEDGER_COMPLETE_DEFERRED_669",
+    "scientific_release": false
+  },
+  "evidence": [
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\session_audit_20261003\\cfps_156_version_contract_v1.json",
+      "exists": true,
+      "sha256": "9bc6b87003940ea5c6286ff6e99403dfa953e597c848423d456e36e48f4eb277"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\session_audit_20261003\\cfps_156_version_contract_v1.csv",
+      "exists": true,
+      "sha256": "fcc3a8c588ab62d4bfefae63a7b122bd47b150bf951ed8fc4d773b7d1100e7e4"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\session_audit_20261003\\cfps_lrt_contract_v1.json",
+      "exists": true,
+      "sha256": "ad960f11d5080d9189585a6e92db59212db756698dc18d975b7f4999bc35460e"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\session_audit_20261003\\cfps_lrt_contract_v1.csv",
+      "exists": true,
+      "sha256": "1a9c3639558b9f15b6e1efd8bb7cc85f9e06b4e0aa8655e164902e685dbd03ba"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\lrt_source_contract_audit.json",
+      "exists": true,
+      "sha256": "5368551becba54e5b16801faa1d8e8718d2ed920a3ce929374047be782098e89"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_lrt_historical_disposition_20261004\\cfps_lrt_historical_disposition_v1.json",
+      "exists": true,
+      "sha256": "8338a0d7d09c1a8e2d1f0370d6aa3957331f8b0a20bff11b37d27bddab6bf40d"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\mi_measurement_repair_v3_marriage_aligned\\mi_diagnostic_decision.json",
+      "exists": true,
+      "sha256": "167f802b3aa439ca4d985c88a75b947364947a09726c62554fa8e4d791fb4c26"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_mi_v3_hold_20261004\\cfps_mi_v3_hold_contract_v1.json",
+      "exists": true,
+      "sha256": "0346ec99bab3b2157994235115e3dab4ff871541de35e782025eef0f5c2ae0a5"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\exact_score_source_audit.json",
+      "exists": true,
+      "sha256": "f2cbdfa03b9c3e6bd7d69f98c02cf9183bc70d69f056b628394f0ab9c84cf9e0"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_rank_source_disposition_20261004\\cfps_rank_source_disposition_v1.json",
+      "exists": true,
+      "sha256": "ebc2dc98b6b411172c2d22a29a2409eba39c6f747f341c0024637dcc5cf2e207"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\session_audit_20261003\\cfps_residual_register_v1.json",
+      "exists": true,
+      "sha256": "84172668da30e1fd97a553284659ecd1fc19275478cc57d91f3f46dcd940dff0"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_rounding_contract_20261004\\cfps_rounding_contract_v1.json",
+      "exists": true,
+      "sha256": "e8385b596e16784ede302ad79805d53a0823585db5739d179844a22698d46d13"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_historical_version_adoption_20261004\\cfps_historical_version_adoption_v1.json",
+      "exists": true,
+      "sha256": "1ca7d6c0a057ef3f240c4418578f74cdd3a7f176415add8cccec5bb2a92071c7"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_historical_review_adoption_20261004\\cfps_historical_review_adoption_v1.json",
+      "exists": true,
+      "sha256": "2f45863005458f35b531029cff568349e52c776e8652b80c3d0797dc99cb7334"
+    },
+    {
+      "path": "C:\\Users\\LZHS\\Desktop\\cnm\\tasks\\01_R_analysis\\reports\\cfps_historical_reproduction_release_20261004\\cfps_historical_reproduction_release_v1.json",
+      "exists": true,
+      "sha256": "9922e2ab3dcb3deabc5290dea3c3a002d29abc9e0da8c8002c8445d82669f05c"
+    }
+  ],
+  "next_gates": [
+    "author chooses historical/current version for 156 cells",
+    "complete 331 scientific review cells",
+    "resolve MI income definition and final convergence evidence",
+    "close rank tie/availability rules before score consumers",
+    "do not release LRT p-values without exact pair, nesting and pooling contracts"
+  ]
+}

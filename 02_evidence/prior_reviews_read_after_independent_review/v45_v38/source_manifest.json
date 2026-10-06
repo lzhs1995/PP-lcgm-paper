@@ -1,0 +1,18 @@
+{
+  "notebook_id": "78f171e0-bc6f-4fed-9509-69e683c2218d",
+  "pdf_only": true,
+  "sources": [
+    {
+      "id": "5b4dced0-d657-4f0f-8e25-a65754ccd03e",
+      "filename": "PP_LGCM_review_v45_NOT_RELEASED.pdf",
+      "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v45_NOT_RELEASED.pdf",
+      "sha256": "3e263024a78917de67438a0e08278ab38b5477578bc47162ee3ed8b74ce4c77c"
+    },
+    {
+      "id": "79944e02-1f15-4d39-be7e-daaa69d15507",
+      "filename": "PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+      "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+      "sha256": "a380633d7101c604877025a0e5c8e2024863c7901b51ab8aef7d3a2afa188607"
+    }
+  ]
+}

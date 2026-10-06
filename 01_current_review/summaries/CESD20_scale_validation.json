@@ -1,0 +1,7 @@
+{
+  "complete_long_n": 5304,
+  "exact_match_n": 5304,
+  "published_range": [20, 72],
+  "transformation": "published CESD20sc minus 20; actual 2012 total uses item scores minus 1",
+  "passed": true
+}

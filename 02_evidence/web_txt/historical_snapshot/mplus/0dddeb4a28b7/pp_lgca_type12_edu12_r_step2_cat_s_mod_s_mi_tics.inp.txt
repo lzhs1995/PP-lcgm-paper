@@ -1,0 +1,404 @@
+TITLE:
+Class-1_pp_LGCA
+DATA:
+FILE = "pp_lgca_type12_edu12_r_step2_cat_s_mod_s_MI_TICs.dat";
+TYPE = IMPUTATION;
+ 
+VARIABLE:
+NAMES = SEX12 EDU12 URBAN12 PROV12 CDN12 CDAR12 CDSC12 MINOR12 HUKOU12 PINC12
+     PINC212 CORES12 HEAL12 MARR12 ECO12 HWC12 SAT12 ADL12 FINC12 FID WAVE WFDMS12
+     WFDMS16 WFDMS18 WFDMS20 WFDMS22 WFDCS12 WFDCS16 WFDCS18 WFDCS20 WFDCS22
+     WFDDS712 WFDDS716 WFDDS718 WFDDS720 WFDDS722 WFDDS812 WFDDS816 WFDDS818
+     WFDDS820 WFDDS822 CES8SD12 CES8SD16 CES8SD18 CES8SD20 CES8SD22 AGEG12 AGEG16
+     AGEG18 AGEG20 AGEG22 PROV122 PROV123 CDSC121 CDSC122 PINCM112 PINCM212 HEAL121
+     HEAL123 ECO122 ECO123 HWC122 HWC123 PID I2 S2; 
+ MISSING=.;
+ usevar = 
+  wfdms12 wfdms16 wfdms18 wfdms20 wfdms22 
+!wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22
+!wfdds712 wfdds716 wfdds718 wfdds720 wfdds722
+!wfdds812 wfdds816 wfdds818 wfdds820 wfdds822
+ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+
+!!! time-invar
+sex12 edu12 urban12 
+prov122 prov123 
+cdn12 cdar12 
+cdsc121 cdsc122 
+minor12 wave  
+
+!!! time-var
+ageg12 pinc12 pinc212 cores12 heal121 heal123 
+marr12 eco122 eco123 hwc122 hwc123 hukou12 sat12 adl12 finc12 
+!ageg14 pinc14 cores14 heal141 heal143 
+!marr14 										    
+!ageg16 pinc16 cores16 heal161 heal163 
+!marr16 eco162 eco163 hwc162 hwc163 
+!ageg18 pinc18 cores18 heal181 heal183 
+!marr18 eco182 eco183 hwc182 hwc183 
+!ageg20 pinc20 cores20 heal201 heal203 
+!marr20 eco202 eco203 hwc202 hwc203 
+!ageg22 pinc22 cores22 heal221 heal223 
+!marr22 eco222 eco223 hwc222 hwc223
+
+I2 S2
+
+wz_int ! WZ
+
+;
+idvariable=pid;
+cluster=fid;
+DEFINE:
+
+! CENTER I2 S2 (GRANDMEAN);
+wz_int = S2 * edu12; ! WZ
+      
+ANALYSIS:
+estimator = mlr;
+TYPE=COMPLEX;
+TYPE = RANDOM;
+!type = mixture;
+ALGORITHM=INTEGRATION;
+!INTEGRATION = MONTECARLO;
+!starts = 600 200;
+!starts = 20;
+!LRTBOOTSTRAP = 200;
+!processors = 10;
+coverage = 0.005;
+MODEL:
+
+i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;
+!i2 s2 | wfdcs12@0 wfdcs16*4 wfdcs18*6 wfdcs20*8 wfdcs22@10;  
+!i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;  
+!i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;
+i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;  
+
+!s5@0;
+!![i1](x_mean);
+!i1(x_var);
+
+!![s1](x_mean);
+!s1(x_var);
+
+!![i2](w_mean);
+!!i2(w_var);
+
+![s2](w_mean);
+!s2(w_var);
+
+!!! correlation among residual error terms of three indicators at each time point
+!wfdms12 wfdcs12 wfdds712 wfdds812 WITH wfdms12 wfdcs12 wfdds712 wfdds812;
+!wfdms16 wfdcs16 wfdds716 wfdds816 WITH wfdms16 wfdcs16 wfdds716 wfdds816;
+!wfdms18 wfdcs18 wfdds718 wfdds818 WITH wfdms18 wfdcs18 wfdds718 wfdds818;
+!wfdms20 wfdcs20 wfdds720 wfdds820 WITH wfdms20 wfdcs20 wfdds720 wfdds820;
+!wfdms22 wfdcs22 wfdds722 wfdds822 WITH wfdms22 wfdcs22 wfdds722 wfdds822;
+
+xw_int | s1 XWITH s2; ! XW
+xz_int | s1 XWITH edu12; ! XZ
+!wz_int | s2 XWITH edu12; ! WZ
+xwz_int | xw_int XWITH edu12; ! XWZ
+
+!!! Focus: intercept of ces8sd regressed on intercept of wfd
+!i5 on i1 i2;
+i5 on i1(b1i);
+i5 on i2(b2i);
+
+!!! Focus: slope of ces8sd regressed on intercept of wfd
+!s5 on i1 i2 i5 s1 s2 s1s2_int;
+s5 on i5 i1 i2; !!! s2 was removed due to non-convergence
+s5 on s1 (b1s);
+s5 on s2 (b2s);
+s5 on edu12 (b3s);
+s5 on xw_int (b4s); ! XW
+s5 on xz_int (b5s); ! XZ
+s5 on wz_int (b6s); ! WZ
+s5 on xwz_int (b7s); ! XWZ
+
+!!! control: for long trend
+! time-invar
+i5 s5 on sex12 urban12 prov122 prov123;
+i5 s5 on cdn12 cdar12 cdsc121 cdsc122 minor12 wave ;
+
+! time-var
+i5 s5 on ageg12 pinc12 pinc212 cores12 heal121 heal123;
+i5 s5 on marr12 hukou12 eco122 eco123 hwc122 hwc123 sat12 adl12 finc12;
+
+!!! control: for short trend
+! coefficients were constrained to be equal over all waves
+!ces8sd12 on ageg12 pincm112 pincm212 cores12 heal121 heal123 (p1-p5); 
+!ces8sd12 on marr12 hukou12 eco122 eco123 hwc122 hwc123 (p7-p12); 
+
+!ces8sd14 on ageg14 pinc14 cores14 heal141 heal143 (p1-p5); 
+!ces8sd14 on marr14 hukou14 (p7-p8);	
+
+!ces8sd16 on ageg16 pinc16 cores16 heal161 heal163 (p1-p5); 
+!ces8sd16 on marr16 hukou16 eco162 eco163 hwc162 hwc163 (p7-p12); 
+
+!ces8sd18 on ageg18 pinc18 cores18 heal181 heal183 (p1-p5); 
+!ces8sd18 on marr18 hukou18 eco182 eco183 hwc182 hwc183 (p7-p12); 
+
+!ces8sd20 on ageg20 pinc20 cores20 heal201 heal203 (p1-p5); 
+!ces8sd20 on marr20 hukou20 eco202 eco203 hwc202 hwc203 (p7-p12);  
+
+!ces8sd22 on ageg22 pinc22 cores22 heal221 heal223 (p1-p5); 
+!ces8sd22 on marr22 hukou22 eco222 eco223 hwc222 hwc223 (p7-p12);
+
+!!! FIML for missing data
+!pincm112 pincm212 cdar12;
+    
+MODEL CONSTRAINT:
+!!! Model Equation of three-way moderation
+! 
+!Y = iY + b1X + b2W + b3Z + b4XW + b5XZ + b6WZ + b7XWZ + eY
+!  = iY + (b1 + b4W + b5Z + b7WZ)*X + b2W + b3Z + b6WZ + eY
+!  = iY + (b1 + b5Z) * X + (b4 + b7Z) W * X + b2W + b3Z + b6WZ + eY
+
+! Range of W value
+!
+! min_wi = (0)   max_wi = (1)
+! min_ws = (0)   max_ws = (1)
+
+NEW( min_w max_w lo_z hi_z );
+
+min_w = (0);
+!lo_w = w_mean - sqrt(w_var);   ! -1 SD below mean of W
+!med_w = w_mean;   ! mean of W
+!hi_w = w_mean + sqrt(w_var);   ! +1 SD below mean of W
+max_w = (1);
+
+lo_z = 0;   ! low of Z
+hi_z = 1;   ! high of Z
+
+       
+
+!!!!! XW_int→Y = (b4 + b7Z) W * X
+!*
+!!! i on i * i
+NEW (wiii0 wiii1);
+wiii0 = b4i + b7i*lo_z;
+wiii1 = b4i + b7i*hi_z;
+
+!!! s on i * i
+NEW (wiis0 wiis1);
+wiis0 = b4s + b7s*lo_z;
+wiis1 = b4s + b7s*hi_z;
+
+!!! s on i * s
+NEW (wiss0 wiss1);
+wiss0 = b4s + b7s*lo_z;
+wiss1 = b4s + b7s*hi_z;
+
+!!! s on s * i
+NEW (wsis0 wsis1);
+wsis0 = b4s + b7s*lo_z;
+wsis1 = b4s + b7s*hi_z;
+*!
+!!! s on s * s
+NEW (wsss0 wsss1);
+wsss0 = b4s + b7s*lo_z;
+wsss1 = b4s + b7s*hi_z;
+
+
+!!!!! X→Y = (b1 + b4W + b5Z + b7WZ)*X
+!*
+!!! i on i * i
+NEW (
+wiii0min wiii0max
+wiii1min wiii1max
+);
+
+wiii0min = b1i + b4i*min_w + b5i*lo_z + b7i*min_w*lo_z;
+!wiii0lo = b1i + b4i*lo_w + b5i*lo_z + b7i*lo_w*lo_z;
+!wiii0mod = b1i + b4i*med_w + b5i*lo_z + b7i*med_w*lo_z;
+!wiii0hi = b1i + b4i*hi_w + b5i*lo_z + b7i*hi_w*lo_z; 
+wiii0max = b1i + b4i*max_w + b5i*lo_z + b7i*max_w*lo_z;
+
+wiii1min = b1i + b4i*min_w + b5i*hi_z + b7i*min_w*hi_z;
+!wiii1lo = b1i + b4i*lo_w + b5i*hi_z + b7i*lo_w*hi_z;
+!wiii1mod = b1i + b4i*med_w + b5i*hi_z + b7i*med_w*hi_z;
+!wiii1hi = b1i + b4i*hi_w + b5i*hi_z + b7i*hi_w*hi_z; 
+wiii1max = b1i + b4i*max_w + b5i*hi_z + b7i*max_w*hi_z;
+
+!!! s on i * i
+NEW (
+wiis0min wiis0max
+wiis1min wiis1max
+);
+
+wiis0min = b1s + b4s*min_w + b5s*lo_z + b7s*min_w*lo_z;
+!wiis0lo = b1s + b4s*lo_w + b5s*lo_z + b7s*lo_w*lo_z;
+!wiis0mod = b1s + b4s*med_w + b5s*lo_z + b7s*med_w*lo_z;
+!wiis0hi = b1s + b4s*hi_w + b5s*lo_z + b7s*hi_w*lo_z; 
+wiis0max = b1s + b4s*max_w + b5s*lo_z + b7s*max_w*lo_z;
+
+wiis1min = b1s + b4s*min_w + b5s*hi_z + b7s*min_w*hi_z;
+!wiis1lo = b1s + b4s*lo_w + b5s*hi_z + b7s*lo_w*hi_z;
+!wiis1mod = b1s + b4s*med_w + b5s*hi_z + b7s*med_w*hi_z;
+!wiis1hi = b1s + b4s*hi_w + b5s*hi_z + b7s*hi_w*hi_z; 
+wiis1max = b1s + b4s*max_w + b5s*hi_z + b7s*max_w*hi_z;
+
+!!! s on i * s
+NEW (
+wiss0min wiss0max
+wiss1min wiss1max
+);
+
+wiss0min = b1s + b4s*min_w + b5s*lo_z + b7s*min_w*lo_z;
+!wiss0lo = b1s + b4s*lo_w + b5s*lo_z + b7s*lo_w*lo_z;
+!wiss0mod = b1s + b4s*med_w + b5s*lo_z + b7s*med_w*lo_z;
+!wiss0hi = b1s + b4s*hi_w + b5s*lo_z + b7s*hi_w*lo_z; 
+wiss0max = b1s + b4s*max_w + b5s*lo_z + b7s*max_w*lo_z;
+
+wiss1min = b1s + b4s*min_w + b5s*hi_z + b7s*min_w*hi_z;
+!wiss1lo = b1s + b4s*lo_w + b5s*hi_z + b7s*lo_w*hi_z;
+!wiss1mod = b1s + b4s*med_w + b5s*hi_z + b7s*med_w*hi_z;
+!wiss1hi = b1s + b4s*hi_w + b5s*hi_z + b7s*hi_w*hi_z; 
+wiss1max = b1s + b4s*max_w + b5s*hi_z + b7s*max_w*hi_z;
+
+!!! s on s * i
+NEW (
+wsis0min wsis0max
+wsis1min wsis1max
+);
+
+wsis0min = b1s + b4s*min_w + b5s*lo_z + b7s*min_w*lo_z;
+!wsis0lo = b1s + b4s*lo_w + b5s*lo_z + b7s*lo_w*lo_z;
+!wsis0mod = b1s + b4s*med_w + b5s*lo_z + b7s*med_w*lo_z;
+!wsis0hi = b1s + b4s*hi_w + b5s*lo_z + b7s*hi_w*lo_z; 
+wsis0max = b1s + b4s*max_w + b5s*lo_z + b7s*max_w*lo_z;
+
+wsis1min = b1s + b4s*min_w + b5s*hi_z + b7s*min_w*hi_z;
+!wsis1lo = b1s + b4s*lo_w + b5s*hi_z + b7s*lo_w*hi_z;
+!wsis1mod = b1s + b4s*med_w + b5s*hi_z + b7s*med_w*hi_z;
+!wsis1hi = b1s + b4s*hi_w + b5s*hi_z + b7s*hi_w*hi_z; 
+wsis1max = b1s + b4s*max_w + b5s*hi_z + b7s*max_w*hi_z;
+*!
+
+!!! s on s * s
+NEW (
+wsss0min wsss0max
+wsss1min wsss1max
+);
+
+wsss0min = b1s + b4s*min_w + b5s*lo_z + b7s*min_w*lo_z;
+!wsss0lo = b1s + b4s*lo_w + b5s*lo_z + b7s*lo_w*lo_z;
+!wsss0mod = b1s + b4s*med_w + b5s*lo_z + b7s*med_w*lo_z;
+!wsss0hi = b1s + b4s*hi_w + b5s*lo_z + b7s*hi_w*lo_z; 
+wsss0max = b1s + b4s*max_w + b5s*lo_z + b7s*max_w*lo_z;
+
+wsss1min = b1s + b4s*min_w + b5s*hi_z + b7s*min_w*hi_z;
+!wsss1lo = b1s + b4s*lo_w + b5s*hi_z + b7s*lo_w*hi_z;
+!wsss1mod = b1s + b4s*med_w + b5s*hi_z + b7s*med_w*hi_z;
+!wsss1hi = b1s + b4s*hi_w + b5s*hi_z + b7s*hi_w*hi_z; 
+wsss1max = b1s + b4s*max_w + b5s*hi_z + b7s*max_w*hi_z;
+
+!*
+!!! range for x
+NEW (x_low x_high);
+x_low = x_mean - sqrt(x_var);
+x_high = x_mean + sqrt(x_var);
+
+!!! range for w
+NEW (w_low w_high);
+w_low = w_mean - sqrt(w_var);
+w_high = w_mean + sqrt(w_var);
+*!
+  
+!*
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!! Simple-slope Plot 2 !!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  
+!!! X as focal antecedent variable
+!!! (x-axis = xvalue, y = yvalue, legend = different level of moderator)
+!!! merit: the trend of y / different pattern of slope.
+!
+!    X_LOW    3.701      0.023    163.034      0.000
+!    X_HIGH   4.464      0.020    219.375      0.000
+!    W_LOW   -0.012      0.012     -1.004      0.315
+!    W_HIGH   0.372      0.018     20.350      0.000
+
+
+Loop(xvalue, 3.701, 4.464, 0.1);
+
+Plot(
+  
+  Pwiii_lo Pwiiimod Pwiii_hi 
+  Pwiis_lo Pwiismod Pwiis_hi 
+  Pwiss_lo Pwissmod Pwiss_hi 
+  Pwsis_lo Pwsismod Pwsis_hi 
+  Pwsss_lo Pwsssmod Pwsss_hi 
+  
+);
+
+!!! Direct effect(s) of Xm on Ym, conditional on Wm: (b1 + b3*W)X !!!
+! b1 + b3*W
+
+Pwiii_lo = wiii_lo * xvalue;
+Pwiiimod = wiii_mod * xvalue;
+Pwiii_hi = wiii_hi * xvalue;
+
+Pwiis_lo = wiis_lo * xvalue;
+Pwiismod = wiis_mod * xvalue;
+Pwiis_hi = wiis_hi * xvalue;
+
+Pwiss_lo = wiss_lo * xvalue;
+Pwissmod = wiss_mod * xvalue;
+Pwiss_hi = wiss_hi * xvalue;
+
+Pwsis_lo = wsis_lo * xvalue;
+Pwsismod = wsis_mod * xvalue;
+Pwsis_hi = wsis_hi * xvalue;
+
+Pwsss_lo = wsss_lo * xvalue;
+Pwsssmod = wsss_mod * xvalue;
+Pwsss_hi = wsss_hi * xvalue;
+
+*!
+  
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!! Johnson-Neyman Plot !!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  
+!!! (x-axis = moderator, y-axis = slope of predictor)
+!!! merit: Johnson-neyman interval
+!!! note: Johnson-Neyman Plot is only applicable with Dummy coding, not Effect coding
+!
+!     min                max 
+! I2  0    1 
+! S2  0    1
+!
+
+!!! wvalue is range of I2
+!Loop (wvalue, 0, 1, 0.05);
+!!! wvalue is range of S2
+Loop (wvalue, 0, 1, 0.05);
+
+Plot (
+  
+  !JN_wiii
+  !JN_wiis
+  !JN_wiss
+  !JN_wsis
+  JN_wsss
+  
+);
+
+!!! X as focal antecedent variable
+!!! Direct effect(s) of X on Y, conditional on W: (b1 + b3*W)X !!!
+
+!JN_wiii = b1i + b3i*wvalue; ! wvalue is range of I2
+!JN_wiis = b1s + b3s*wvalue; ! wvalue is range of I2
+!JN_wiss = b1s + b3s*wvalue; ! wvalue is range of S2
+!JN_wsis = b1s + b3s*wvalue; ! wvalue is range of I2
+JN_wsss = b1s + b3s*wvalue; ! wvalue is range of S2
+
+
+OUTPUT:
+tech1 tech4 tech10 tech11 tech14 sampstat patterns stdyx;
+SAVEDATA:
+FILE = pp_lgca_type12_edu12_r_step2_cat_s_mod_s_MI_TICs_result.txt;
+!SAVE = CPROB;
+PLOT:
+type = plot3;

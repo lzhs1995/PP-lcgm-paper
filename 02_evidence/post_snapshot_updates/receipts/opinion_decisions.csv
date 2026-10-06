@@ -1,0 +1,20 @@
+﻿issue_id,topic,review_claim,local_evidence,disposition,evidence_files,action,execution_status,implemented_or_remaining
+1a,趋势与时间单位,初稿变化均值-0.218及端点0/1,"已由v35-v42修正；本次原生回读0.037(SE .035,p=.284)，端点0/10，载荷0/6.590/11.594/3.266/10",REUSE_VERIFIED,growth_parameter_audit.csv;growth_predicted_means.csv,补报阶段预测均值；不重估已有五期全样本模型,IMPLEMENTED_CANDIDATE,正文1016：加入实际载荷和预测均值，保留形状选择分歧
+1b,窗口敏感性,四期平均趋势不能替代核心关联检验,预登记共同样本2225、完整协变量子样本1981的8项对照,TARGETED_SENSITIVITY,analysis/sensitivity/manifest.json,核验实际终态与区间，说明四期起点改变及完整协变量子样本限制,EXECUTED_WITH_SCIENTIFIC_LIMITS,八规格终态：3 reviewable、3 inadmissible、2 nonconverged；正文与附录补表R2/R3已纳入，未宣称稳健
+1c,样本构成,特定追访群体不等同普遍年龄效应,2/3/4/5波分别928/1070/707/569人；死亡链接报告328人,ACCEPT_WITH_LIMITS,T7_observed_waves.csv;T7_mortality_counts.csv,正文报告观察波数与死亡定义；不把未入组或所有缺失统称失访，不补死亡后结局,IMPLEMENTED_CANDIDATE,附录报告有效波数及死亡/未知边界
+1d,2016长短版,1/5长版、4/5短版随机设计,官方说明确认；本地未找到官方分配标记，用额外12题推断，面访>=60长1515/短6090,ACCEPT_QUALIFIED,T2_2016_form_comparison.csv;T2_classification.json,仅作描述比较，不把推断分组称为已经验证的随机分配,IMPLEMENTED_CANDIDATE,正文65纠正2016长短版；附录明确非官方推断
+2a,CESD8计分,8–32是否错误、与0–24关系,五期逐记录重建和缺失匹配均通过；完整8题两种计分差恒为8,REUSE_AND_NEW_VERIFIED,T3_item_means.csv;T4_scale_identity.csv,保留8–32；删除0–32及量尺中点等于临床中度的叙述,VERIFIED_RETAINED,逐记录恒差8，保留8—32主分析
+2b,CESD20等化,区分实际20题与官方等化,2012实际20题0–60；2016以后官方20–80须减20后比较；2016完整长卷5304/5304恒等验证,NEW_VERIFIED,CESD20_scale_validation.json;T1_wave_scale_sample.csv,CESD8主分析，CESD20sc敏感性；说明等化分非独立的20题测量,VERIFIED_IMPLEMENTED,官方20—80减20，5304完整长卷恒等验证；附录补表R1
+3a,方差不显著,无条件斜率方差是否必须显著,该门槛不成立；v42已改写。当前CESD8方差I=7.523、S=.013(p=.180),ACCEPT_ALREADY_REVISED,growth_parameter_audit.csv,报告估计和精度，区分原尺度/标准化及总方差/条件残差方差,VERIFIED_RETAINED,保留v42已修正的方差解释，不用显著性作为选择门槛
+3b,负方差和边界,正估计不显著与不可接受解不同,原11直接规格10/10均已估计；8个S5负方差及相应固定零对照已完成,REUSE_DIAGNOSTICS,CURRENT_DIRECT11_DIAGNOSTICS.json,复用既有边界证据；新的对照独立核验，不按旧0.000判断符号,EXECUTED_WITH_SCIENTIFIC_LIMITS,新增CESD8五期直接模型SY残差负方差；保留旧11规格诊断，不做自动交互
+4a,模型拟合,不能仅降低CFI/TLI门槛,保留拟合指标分歧、残差和矩阵诊断；既有CESD二次/分段PSI警告,ACCEPT,growth_fit_audit.csv;audit_stage1/convergence_inventory.csv,先诊断后解释；不按修正指数自动加路径，不按显著性选择增长形状,IMPLEMENTED_CANDIDATE,报告CFI/TLI与RMSEA/SRMR分歧及不可接受解
+4b,修正指数,插补分析不提供某些诊断,缺项按模型和输出功能登记；不把未提供写成已检查通过,ACCEPT_QUALIFIED,audit_stage1/convergence_inventory.csv,新单数据敏感性保留残差；不用跨插补平均修正指数,DIAGNOSTIC_LIMIT_RECORDED,新模型保留RESIDUAL，未生成修正指数或按MI平均
+5a,结论与路径,整条假设、三类效应被过度概括,v42已大幅收缩；仍需清理天花板必然使结果保守等残留,EDITORIAL_REMAINDER,main_v42_paragraphs.csv,逐路径报告效应、95%区间及探索性p<.10；不倒置原假设,IMPLEMENTED_CANDIDATE,正文2745撤回天花板必然保守及未经测量的文化归因
+5b,性别差解释,差值上升不能等同儿子效应更强,当前稿已有角色修订；表4.5.5/4.5.6的25行107格标签核验已通过,REUSE_VERIFIED,cfps_table455_456_acceptance_20261005/REPORT.md,保留当前标签；解释相对亲近位置，不重新提交模型解决旧标签,VERIFIED_RETAINED,既有25行107格标签保留，未重改
+6a,参照文献方法,乘积指标是否证明同一LMS实现,两套意见有分歧；无实际语法不能确认同一估计器、积分、约束,REJECT_OVERINFERENCE,原会话两套意见与第一批清单,仅写文献明确报告的方法；不由别人的显著性和本稿失败推断造假,EVIDENCE_LIMIT_RECORDED,未确认参考作者原语法，未作同算法或造假推断
+6b,因子得分不确定性,两阶段是否等于完整潜交互,不等价。四个历史来源和两个修正排行来源已实际读回；截距SE汇总可用,ACCEPT_NEW_EVIDENCE,T6_score_precision.csv;T6_score_cutpoints.csv,保留连续与二分差别；不声称得分误差必然衰减，bootstrap也非偏误自动修正,IMPLEMENTED_CANDIDATE,正文1186和附录报告得分SE及方法不等价
+6c,二分规则,中位数阈值是否有理论质变含义,历史I3/I4/I4_4等于切点人数335/436/385；两组并非等大,NEW_VERIFIED,T6_score_cutpoints.csv;T6_observed_score_crosstabs.csv,明确<=为低组、>为高组；作为探索性切点比较，不包装为真实阈值,VERIFIED_IMPLEMENTED,逐切点等值人数、高低组人数已写入，历史/修正得分分开
+6d,收敛定位,三轨迹ML/Bayes全部失败的笼统判断,当前稿已撤回。单个历史失败需有精确输入/输出，不凭回忆补造,EVIDENCE_LIMIT,audit_stage1/convergence_inventory.csv,分别登记语法、SAVEDATA辅助错误、非正常终态、不可接受解和不显著,EVIDENCE_LIMIT_RECORDED,未知三过程失败历史不补造；本轮输入拒绝和估计不收敛分别登记
+6e,MI合并与LRT,十份P值平均作为合并检验,不接受。25项模型比较仍需精确配对/嵌套/协方差与MI证据；已有D2仅候选,ACCEPT_INFERENCE_OPEN,existing_LRT_D2_candidates.csv,优先合并系数/协方差的Wald检验；原样保留历史值，不据候选D2宣布正式显著,SCIENTIFIC_INFERENCE_OPEN,保留25模型比较和MI/协方差边界；未发布正式D2/Wald
+7a,H4.2b,一组显著另一组不显著能否证明差异,不能；需要三阶项或直接对比。原假设保留，当前证据不能判一致支持,ACCEPT,main_v42_paragraphs.csv,明确未获一致支持；组间检验和探索性发现分开,IMPLEMENTED_CANDIDATE,正文2734明确H4.2b未获一致支持，需直接差异检验
+7b,机制解释,生活理性/情感转向是否被验证,未直接测量；v42已有机制边界,ACCEPT_ALREADY_REVISED,main_v42_paragraphs.csv,保留理论讨论，删除已证明机制的表述,VERIFIED_RETAINED,保留未测量机制的理论解释边界

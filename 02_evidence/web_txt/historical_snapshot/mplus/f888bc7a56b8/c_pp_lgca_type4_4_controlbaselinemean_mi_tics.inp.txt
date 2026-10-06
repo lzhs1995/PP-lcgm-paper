@@ -1,0 +1,117 @@
+TITLE:
+Class-1_pp_LGCA
+DATA:
+FILE = "c_pp_lgca_type4_4_controlbaselinemean_MI_tics.dat";
+TYPE = IMPUTATION;
+ 
+VARIABLE:
+NAMES = SEX12 EDU12 URBAN12 PROV12 CDN12 CDAR12 CDSC12 MINOR12 HUKOU12 PINC12
+     PINC212 CORES12 HEAL12 MARR12 ECO12 HWC12 SAT12 ADL12 FINC12 FID WAVE WFDMS12
+     WFDMS16 WFDMS18 WFDMS20 WFDMS22 WFDSS12 WFDSS16 WFDSS18 WFDSS20 WFDSS22 WFDDS12
+     WFDDS16 WFDDS18 WFDDS20 WFDDS22 WFDDS412 WFDDS416 WFDDS418 WFDDS420 WFDDS422
+     CES8SD12 CES8SD16 CES8SD18 CES8SD20 CES8SD22 AGEG12 AGEG16 AGEG18 AGEG20 AGEG22
+     PROV122 PROV123 CDSC121 CDSC122 PINCM112 PINCM212 HEAL121 HEAL123 ECO122 ECO123
+     HWC122 HWC123 PID; 
+ MISSING=.;
+ usevar = 
+wfdms12 !wfdms16 wfdms18 wfdms20 wfdms22 
+!wfdss12 wfdss16 wfdss18 wfdss20 wfdss22
+!wfdds12 wfdds16 wfdds18 wfdds20 wfdds22
+wfdds412 wfdds416 wfdds418 wfdds420 wfdds422
+ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+
+!!! time-invar
+sex12 edu12 urban12 
+prov122 prov123 
+cdn12 cdar12 
+cdsc121 cdsc122 
+minor12 wave  
+
+!!! time-var
+ageg12 pinc12 pinc212 cores12 heal121 heal123 
+marr12 eco122 eco123 hwc122 hwc123 hukou12 sat12 adl12 finc12 
+!ageg14 pinc14 cores14 heal141 heal143 
+!marr14 										         hukou14
+!ageg16 pinc16 cores16 heal161 heal163 
+!marr16 eco162 eco163 hwc162 hwc163 hukou16 
+!ageg18 pinc18 cores18 heal181 heal183 
+!marr18 eco182 eco183 hwc182 hwc183 hukou18
+!ageg20 pinc20 cores20 heal201 heal203 
+!marr20 eco202 eco203 hwc202 hwc203 hukou20 
+!ageg22 pinc22 cores22 heal221 heal223 
+!marr22 eco222 eco223 hwc222 hwc223 hukou22
+;
+idvariable=pid;
+cluster=fid;
+ANALYSIS:
+estimator = mlr;
+TYPE=COMPLEX;
+!type = mixture;
+!ALGORITHM=INTEGRATION;
+!starts = 600 200;
+!starts = 20;
+!LRTBOOTSTRAP = 200;
+processors = 10;
+coverage = 0.005;
+MODEL:
+
+!i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;
+!i2 s2 | wfdss12@0 wfdss16* wfdss18* wfdss20* wfdss22@1; 
+!i3 s3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;  
+i4 s4 | wfdds412@0 wfdds416@4 wfdds418@6 wfdds420@8 wfdds422@10;
+i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;  
+!s5@0;
+
+!!! correlation among residual error terms of three indicators at each time point
+!wfdms12 wfdss12 wfdds12 wfdds412 WITH wfdms12 wfdss12 wfdds12 wfdds412;
+!wfdms16 wfdss16 wfdds16 wfdds416 WITH wfdms16 wfdss16 wfdds16 wfdds416;
+!wfdms18 wfdss18 wfdds18 wfdds418 WITH wfdms18 wfdss18 wfdds18 wfdds418;
+!wfdms20 wfdss20 wfdds20 wfdds420 WITH wfdms20 wfdss20 wfdds20 wfdds420;
+!wfdms22 wfdss22 wfdds22 wfdds422 WITH wfdms22 wfdss22 wfdds22 wfdds422;
+
+!!! Focus: intercept of ces8sd regressed on intercept of wfd
+i5 on i4 wfdms12;
+
+!!! Focus: slope of ces8sd regressed on intercept of wfd
+s5 on i4 s4 i5 wfdms12;
+
+!!! control: for long trend
+! time-invar
+i5 s5 on sex12 edu12 urban12 prov122 prov123;
+i5 s5 on cdn12 cdar12 cdsc121 cdsc122 minor12 wave ;
+
+! time-var
+i5 s5 on ageg12 pinc12 pinc212 cores12 heal121 heal123;
+i5 s5 on marr12 hukou12 eco122 eco123 hwc122 hwc123 sat12 adl12 finc12;
+
+!!! control: for short trend
+! coefficients were constrained to be equal over all waves
+!ces8sd12 on ageg12 pincm112 pincm212 cores12 heal121 heal123 (p1-p5); 
+!ces8sd12 on marr12 hukou12 eco122 eco123 hwc122 hwc123 (p7-p12); 
+
+!ces8sd14 on ageg14 pinc14 cores14 heal141 heal143 (p1-p5); 
+!ces8sd14 on marr14 hukou14 (p7-p8);	
+
+!ces8sd16 on ageg16 pinc16 cores16 heal161 heal163 (p1-p5); 
+!ces8sd16 on marr16 hukou16 eco162 eco163 hwc162 hwc163 (p7-p12); 
+
+!ces8sd18 on ageg18 pinc18 cores18 heal181 heal183 (p1-p5); 
+!ces8sd18 on marr18 hukou18 eco182 eco183 hwc182 hwc183 (p7-p12); 
+
+!ces8sd20 on ageg20 pinc20 cores20 heal201 heal203 (p1-p5); 
+!ces8sd20 on marr20 hukou20 eco202 eco203 hwc202 hwc203 (p7-p12);  
+
+!ces8sd22 on ageg22 pinc22 cores22 heal221 heal223 (p1-p5); 
+!ces8sd22 on marr22 hukou22 eco222 eco223 hwc222 hwc223 (p7-p12);
+
+!!! FIML for missing data
+!pincm112 pincm212 cdar12;
+
+OUTPUT:
+tech1 tech8 tech10 tech11 tech14 sampstat patterns stdyx;
+SAVEDATA:
+FILE = c_pp_lgca_type4_4_controlbaselinemean_MI_tics_result.txt;
+SAVE = CPROB;
+PLOT:
+type = plot3;
+series = wfdds412-wfdds422(s4)|ces8sd12-ces8sd22(s5);

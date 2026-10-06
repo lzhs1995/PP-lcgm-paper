@@ -1,0 +1,11 @@
+{
+  "executed_attempts": 12,
+  "current_specifications": 8,
+  "status": {
+    "INADMISSIBLE": 3,
+    "NONCONVERGED": 2,
+    "REVIEWABLE": 3
+  },
+  "new_interactions": 0,
+  "ci_note": "Diagnostic normal-approximation intervals use printed estimates/SE; no inference from nonconverged or inadmissible models."
+}

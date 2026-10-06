@@ -1,0 +1,11 @@
+# T7_mortality_counts.csv
+
+[原CSV](../../01_current_review/summaries/T7_mortality_counts.csv)
+
+| measure | n | status |
+| --- | --- | --- |
+| cohort | 3274 | REUSED_HASH_BOUND_MORTALITY_LINKAGE_NOT_RANDOM_ATTRITION |
+| reported_dead_any | 328 | REUSED_HASH_BOUND_MORTALITY_LINKAGE_NOT_RANDOM_ATTRITION |
+| unique_known_death_year | 326 | REUSED_HASH_BOUND_MORTALITY_LINKAGE_NOT_RANDOM_ATTRITION |
+| death_year_conflicts | 0 | REUSED_HASH_BOUND_MORTALITY_LINKAGE_NOT_RANDOM_ATTRITION |
+| alive_after_dead | 0 | REUSED_HASH_BOUND_MORTALITY_LINKAGE_NOT_RANDOM_ATTRITION |

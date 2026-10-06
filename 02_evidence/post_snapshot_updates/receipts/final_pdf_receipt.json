@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "docx": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v45_NOT_RELEASED.docx",
+      "docx_sha256": "ae7544dee893ab4b93d3abc94dc2758fff6954430912ebd32edcbf8f1e9048fd",
+      "pdf": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v45_NOT_RELEASED.pdf",
+      "pdf_sha256": "3e263024a78917de67438a0e08278ab38b5477578bc47162ee3ed8b74ce4c77c",
+      "pages": 38
+    },
+    {
+      "docx": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_appendix_review_v38_NOT_RELEASED.docx",
+      "docx_sha256": "8af7e5b68e37a5cd95cd5b377ebcaa9089b5073374718bace510325b5d48ea9c",
+      "pdf": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+      "pdf_sha256": "a380633d7101c604877025a0e5c8e2024863c7901b51ab8aef7d3a2afa188607",
+      "pages": 106
+    }
+  ],
+  "checks": [
+    {
+      "document": 0,
+      "text": "Process-4为排行差过程族的历史编号",
+      "pass": true
+    },
+    {
+      "document": 0,
+      "text": "Siblingdiff4表示排行差（长子）",
+      "pass": true
+    },
+    {
+      "document": 0,
+      "text": "全部USEVARIABLES缺失929人",
+      "pass": true
+    },
+    {
+      "document": 0,
+      "text": "不能仅凭上述人数解释",
+      "pass": true
+    },
+    {
+      "document": 1,
+      "text": "Process-4为排行差过程族的历史编号",
+      "pass": true
+    },
+    {
+      "document": 1,
+      "text": "Siblingdiff4表示排行差（长子）",
+      "pass": true
+    },
+    {
+      "document": 1,
+      "text": "Sibling_diff2表示排行差（老小），Sibling_diff3表示排行差（幼子）",
+      "pass": true
+    },
+    {
+      "document": 1,
+      "text": "补表R1",
+      "pass": true
+    },
+    {
+      "document": 1,
+      "text": "补表R2",
+      "pass": true
+    },
+    {
+      "document": 1,
+      "text": "补表R3",
+      "pass": true
+    }
+  ],
+  "images": [
+    {
+      "document": 0,
+      "page": 17,
+      "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\final_labels_0_page_17.png"
+    },
+    {
+      "document": 1,
+      "page": 2,
+      "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\final_labels_1_page_2.png"
+    },
+    {
+      "document": 1,
+      "page": 3,
+      "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\final_labels_1_page_3.png"
+    }
+  ],
+  "scientific_release": false
+}

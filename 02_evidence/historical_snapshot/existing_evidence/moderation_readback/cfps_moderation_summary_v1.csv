@@ -1,0 +1,17 @@
+type,moderator,models,interaction_rows,p05,p10,median_abs_est,median_se
+type1,edu,3,9,3,5,0.22,0.093
+type1,income,3,9,3,5,0.224,0.094
+type1,sex,3,9,1,2,0.163,0.099
+type1,urban,3,9,0,0,0.124,0.1
+type2,edu,3,9,3,3,0.226,0.128
+type2,income,3,9,0,1,0.1,0.136
+type2,sex,3,9,0,0,0.053,0.054
+type2,urban,3,9,0,0,0.023,0.113
+type3,edu,3,9,0,0,0.28,0.207
+type3,income,3,9,0,0,0.223,0.257
+type3,sex,3,9,0,0,0.075,0.223
+type3,urban,3,9,1,3,0.244,0.204
+type4,edu,5,15,0,0,0.075,0.1
+type4,income,5,15,0,1,0.07,0.125
+type4,sex,5,15,0,0,0.023,0.12
+type4,urban,5,15,1,1,0.03,0.121

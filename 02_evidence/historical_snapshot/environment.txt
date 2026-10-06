@@ -1,0 +1,52 @@
+R version 4.5.2 (2025-10-31 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26100)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_United States.utf8  LC_CTYPE=English_United States.utf8    LC_MONETARY=English_United States.utf8 LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: America/Los_Angeles
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] nloptr_2.2.1         mice_3.19.0          xml2_1.5.2           readr_2.2.0          compareGroups_4.10.1 chromote_0.4.0       ps_1.9.1             lobstr_1.1.2        
+ [9] glue_1.8.0           haven_2.5.5          mitml_0.4-5          ggplot2_4.0.2        digest_0.6.39        MplusAutomation_1.3  later_1.4.8          jsonlite_2.0.0      
+[17] shiny_1.13.0         ClaudeR_0.2.0       
+
+loaded via a namespace (and not attached):
+  [1] splines_4.5.2           tibble_3.3.1            HardyWeinberg_1.7.8     rpart_4.1.24            fastDummies_1.7.5       lifecycle_1.0.5         Rdpack_2.6.6           
+  [8] rstatix_0.7.3           StanHeaders_2.32.6      processx_3.8.6          Rsolnp_1.16             lattice_0.22-7          vroom_1.7.0             MASS_7.3-65            
+ [15] backports_1.5.0         magrittr_2.0.4          sass_0.4.10             rmarkdown_2.31          jquerylib_0.1.4         httpuv_1.6.17           otel_0.2.0             
+ [22] zip_2.3.3               askpass_1.2.1           pkgbuild_1.4.4          minqa_1.2.8             RColorBrewer_1.1-3      abind_1.4-8             quadprog_1.5-8         
+ [29] purrr_1.2.1             nnet_7.3-20             webshot2_0.1.1          gdtools_0.5.0           inline_0.3.19           proto_1.0.0             texreg_1.39.5          
+ [36] svglite_2.2.2           commonmark_2.0.0        codetools_0.2-20        tidyselect_1.2.1        SuppDists_1.1-9.9       shape_1.4.6.1           farver_2.1.2           
+ [43] lme4_2.0-1              gmp_0.7-5               matrixStats_1.3.0       stats4_4.5.2            rmdformats_1.0.4        base64enc_0.1-6         Formula_1.2-5          
+ [50] survival_3.8-3          iterators_1.0.14        systemfonts_1.3.2       foreach_1.5.2           BWStest_0.2.3           tools_4.5.2             chron_2.3-61           
+ [57] ragg_1.5.2              PMCMRplus_1.9.12        Rcpp_1.1.1              gridExtra_2.3           mnormt_2.1.1            pan_1.9                 xfun_0.57              
+ [64] kSamples_1.2-10         websocket_1.4.1         dplyr_1.2.0             numDeriv_2016.8-1.1     loo_2.8.0               withr_3.0.2             fastmap_1.2.0          
+ [71] boot_1.3-32             rhdf5filters_1.10.1     openssl_2.3.5           litedown_0.9            callr_3.7.6             truncnorm_1.0-9         R6_2.6.1               
+ [78] mime_0.13               colorspace_2.1-2        textshaping_1.0.5       rsvg_2.6.1              dichromat_2.0-0.1       markdown_2.0            utf8_1.2.6             
+ [85] tidyr_1.3.2             generics_0.1.4          fontLiberation_0.1.0    data.table_1.18.2.1     httr_1.4.8              pkgconfig_2.0.3         gtable_0.3.6           
+ [92] rsconnect_1.3.1         Rmpfr_1.0-0             S7_0.2.1                htmltools_0.5.9         lavaan_0.6-17           fontBitstreamVera_0.1.1 carData_3.0-6          
+ [99] bookdown_0.39           multcompView_0.1-10     scales_1.4.0            kableExtra_1.4.0        reformulas_0.4.4        knitr_1.51              rstudioapi_0.18.0      
+[106] tzdb_0.5.0              uuid_1.2-2              curl_7.0.0              coda_0.19-4.1           checkmate_2.3.4         nlme_3.1-168            cachem_1.1.0           
+[113] rhdf5_2.42.1            flextable_0.9.11        stringr_1.6.0           parallel_4.5.2          miniUI_0.1.2            pillar_1.11.1           grid_4.5.2             
+[120] vctrs_0.7.2             promises_1.5.0          car_3.1-5               jomo_2.7-6              xtable_1.8-8            evaluate_1.0.5          pbivnorm_0.6.0         
+[127] gsubfn_0.7              mvtnorm_1.3-7           cli_3.6.5               compiler_4.5.2          crayon_1.5.3            rlang_1.1.7             labeling_0.4.3         
+[134] plyr_1.8.9              forcats_1.0.1           fs_2.0.1                rstan_2.32.6            writexl_1.5.0           stringi_1.8.7           pander_0.6.6           
+[141] QuickJSR_1.1.3          viridisLite_0.4.3       V8_8.0.1                glmnet_5.0              fontquiver_0.2.1        Matrix_1.7-4            hms_1.1.4              
+[148] patchwork_1.3.2         bit64_4.6.0-1           Rhdf5lib_1.20.0         rbibutils_2.4.1         gt_1.3.0                broom_1.0.12            memoise_2.0.1          
+[155] RcppParallel_5.1.7      bslib_0.10.0            bit_4.6.0               officer_0.7.3          
+
+MplusAutomation: 1.3 
+ClaudeR: 0.2.0 
+Resolved Mplus: C:\Users\LZHS\DOWNLO~1\Mplus\mplus9\ducument\Mplus.exe 
+Engine output: Mplus VERSION 9; patch not exposed in output; licensed modules not enumerated
+Stata version: not queried in this task

@@ -1,0 +1,4799 @@
+{
+  "status": "STATIC_INPUT_SPECIFICATIONS_VERIFIED_NOT_ESTIMATED",
+  "manifest": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\preparation_manifest.json",
+  "manifest_sha256": "57f58408a5e06caf3178a27ed444e26bf3437137931c9259e28288604c3277ea",
+  "model_count": 59,
+  "growth_statement_count": 112,
+  "free_shape_endpoint_counts": {
+    "10.0": 62,
+    "1.0": 10
+  },
+  "piecewise_depression_knot_year": 2018,
+  "interpretation": "星号后的4/6/8为自由载荷的起始值，不是固定年度载荷。末期@10的自由形状斜率不能不加限定地称每年线性变化。",
+  "scientific_release": false,
+  "models": [
+    {
+      "model": "c_pp_lgca_type1_edu_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_5a91cc824e41\\model.inp",
+      "input_sha256": "a195a59dbf5c8dd78e0fb376cb95bc7acf3627be808f9cc89892845e0b628161",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_edu_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_356ebdb2ef53\\model.inp",
+      "input_sha256": "e02819db6c764a1c31a1abd935aede816e479b156880d405689e2cc560b1c8f6",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_865f0120a87d\\model.inp",
+      "input_sha256": "cb28e4c86e21cd6248645deec4e20c5532588996451505a9533af79f60500dfa",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_pinc412_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_5ee1c59c1119\\model.inp",
+      "input_sha256": "c2da0775de44436a5a4da005f427a7fc138a152c314283e098c97205d87bd778",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_pinc412_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_447f37ec1496\\model.inp",
+      "input_sha256": "c1e9d3a294053f20a88ef075fa54ae34ac0157745f67c70223361029ab2894d1",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_sex_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_fa4874eb8ac1\\model.inp",
+      "input_sha256": "b7154695ce5a4259c4a4220c02f9acb8be3ed889eabf62b04ddc54176fd9f180",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_sex_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_c54eadc197a5\\model.inp",
+      "input_sha256": "b3293014ef115d55c36cb87e9aaf7f72eb1ede3383a943126084027f692c1c56",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_urban_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_37a6a7b82f8f\\model.inp",
+      "input_sha256": "c103943b975dd6116ac1bf4ae18e0b62a241bada6983af2e64979e6c55fc3f68",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type1_urban_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_54b248ffaa4e\\model.inp",
+      "input_sha256": "c696a63fd8ef91e0f4a83cd16a4e7aaabe55e8ea3765ae3feeea2103632433bf",
+      "growth": [
+        {
+          "factors": [
+            "i1",
+            "s1"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdms12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdms16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdms18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdms20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdms22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i1 s1 | wfdms12@0 wfdms16*4 wfdms18*6 wfdms20*8 wfdms22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_controlbaselinemean_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_0687d2e49659\\model.inp",
+      "input_sha256": "283da2fc26c1644330c7ed8273e9187f5d5d713e6b32008f9d94183ff110044f",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdss12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdss16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdss12@0 wfdss16* wfdss18* wfdss20* wfdss22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_edu_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_4c1de2e1621c\\model.inp",
+      "input_sha256": "23f02ee92f5e3f66fa989d0f575f0f5f350c1e3296a6bb38ea65dbfd070f7d4b",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdss12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdss16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdss12@0 wfdss16* wfdss18* wfdss20* wfdss22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_edu_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_e3b1ac267f12\\model.inp",
+      "input_sha256": "d3da2b15973f4b47fdee1096fca067b269e0820c23a4acf0ce829d4a35c52458",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdcs12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdcs16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_nocontrolmean_r_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_806facccf6e9\\model.inp",
+      "input_sha256": "673b004a598a9785aa2be244d3911f17c383a3bb59cefe56591016b8b49ef294",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdcs12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdcs16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_pinc412_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_2558695c95cc\\model.inp",
+      "input_sha256": "fbd943935f52fbe5a6ec08353cfb61e03538439c1f2d51f87e7f0e8d66540a68",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdss12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdss16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdss12@0 wfdss16* wfdss18* wfdss20* wfdss22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_pinc412_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_d146203b208d\\model.inp",
+      "input_sha256": "eca582602d18dcf634f7c676eed81d878d0f67bedb68bd30a018141253c77ae6",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdcs12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdcs16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_sex_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_9e7fb475c778\\model.inp",
+      "input_sha256": "506ad66657878eb6ab873843d2acfc5509e8dabee6291cc186e6a5ada4c2da17",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdss12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdss16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdss12@0 wfdss16* wfdss18* wfdss20* wfdss22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_sex_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_eb8d44c23d88\\model.inp",
+      "input_sha256": "cbc8988189fe2976f1b2261b0f0a19442f89f11fb983611c5dc49606422113d0",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdcs12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdcs16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_urban_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_90ca6d7c8076\\model.inp",
+      "input_sha256": "0d93ff4579f19cb15a8f47892e8f3b4bcbc01e45d9b704fa75e46e81b0dc7289",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdss12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdss16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdss22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdss12@0 wfdss16* wfdss18* wfdss20* wfdss22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type2_urban_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_346a01b72c34\\model.inp",
+      "input_sha256": "0d47b995c925175bad81a99ae9c14b61c95ef37dec37888a528ab42223efd529",
+      "growth": [
+        {
+          "factors": [
+            "i2",
+            "s2"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdcs12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdcs16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": null
+            },
+            {
+              "variable": "wfdcs22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 1.0
+            }
+          ],
+          "syntax": "i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_controlbaselinemean_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_01173e8ff6ac\\model.inp",
+      "input_sha256": "72dc04a0e0114a357723aa33e8df341ef9fd20ea0680566d6745d6afcdcc5157",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_edu_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_720ccb32dac0\\model.inp",
+      "input_sha256": "ef79c30cb55ef08316bd33ce784e167a8d3ef79c1ec93a1b1d711302111ccea5",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_edu_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_a95b87a80ed3\\model.inp",
+      "input_sha256": "569e1f583087bf8c7b9463276059ab3b7dbd24ef98638d18c77e3158fee3bd0f",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds712",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds716",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds718",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds720",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds722",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_nocontrolmean_r_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_d6cf9e6f20a3\\model.inp",
+      "input_sha256": "073844317c5547b64950b479a8cf492d2b987b0f58d2206e4b31bf36b2b8f4f8",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds712",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds716",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds718",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds720",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds722",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_pinc412_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_151bb71ef235\\model.inp",
+      "input_sha256": "18e042deb349a6f6d5d872d6a1e301ae4ffcacd5f35ff4002418829df537d03e",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_pinc412_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_e72ce8fd5876\\model.inp",
+      "input_sha256": "a1a5a8836b80dc10029d247058f497fe5d6c0dde25dc16709ef1dd7a1bf81bc1",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds712",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds716",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds718",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds720",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds722",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_sex_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_1a2472d8da95\\model.inp",
+      "input_sha256": "f12bf84707b34a1501400a57269e2e509b55392ce6ec092f7951e5cd60228a97",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_sex_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_961224150a93\\model.inp",
+      "input_sha256": "382c7962f5a670eee0336110539304dcbfe899997d12f3a939bf9c83d4ec99d7",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds712",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds716",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds718",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds720",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds722",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_urban_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_7a225cb2f029\\model.inp",
+      "input_sha256": "04d5fe12c8563d1b7755c48f196d47576891f12e605df4b2cc75217a18b583bf",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type3_urban_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_610eff90f08f\\model.inp",
+      "input_sha256": "53d88d3834c101d89118c7ba19d40fd1fd9ed74cb98ab988a74a5df016dcddd7",
+      "growth": [
+        {
+          "factors": [
+            "i3",
+            "s3"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds712",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds716",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds718",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds720",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds722",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i3 s3 | wfdds712@0 wfdds716@4 wfdds718@6 wfdds720@8 wfdds722@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_2_controlbaselinemean_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_3d38a82a11f5\\model.inp",
+      "input_sha256": "8e90cb4968704db72ed1aac09a5504618b566a1995db18d8f1b22fde1c62c815",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds212",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds216",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds218",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds220",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds222",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds212@0 wfdds216@4 wfdds218@6 wfdds220@8 wfdds222@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_3_controlbaselinemean_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_1b47951d4d06\\model.inp",
+      "input_sha256": "bebc506e8c2ce7228463eeea6f38890a3989294380993ba4accc1093356f60b6",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds312",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds316",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds318",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds320",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds322",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds312@0 wfdds316@4 wfdds318@6 wfdds320@8 wfdds322@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_controlbaselinemean_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_a6de7ae01925\\model.inp",
+      "input_sha256": "c49aa3823da457c022e7a8cdc308e3b02f348e8a2d336a58c507c4035cbc0fbf",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds412",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds416",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds418",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds420",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds422",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds412@0 wfdds416@4 wfdds418@6 wfdds420@8 wfdds422@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_edu_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_37b2f0f8dc1f\\model.inp",
+      "input_sha256": "86d7886a35a31e9d93243ebb10741834f83091fc8725dc72f05d345407b8c8cb",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds412",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds416",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds418",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds420",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds422",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds412@0 wfdds416@4 wfdds418@6 wfdds420@8 wfdds422@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_edu_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_b27db174ad4f\\model.inp",
+      "input_sha256": "07038c63a9432fe8d573697abc90c15af8ee6ea08dd3309f8da47d2e228071aa",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds912",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds916",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds918",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds920",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds922",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds912@0 wfdds916@4 wfdds918@6 wfdds920@8 wfdds922@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_nocontrolmean_r_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_e16d633413ff\\model.inp",
+      "input_sha256": "57a1ad5bc8ef1d87a46bcb95704b27eb27ccd58d656233d8c31da334055e171c",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds912",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds916",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds918",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds920",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds922",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds912@0 wfdds916@4 wfdds918@6 wfdds920@8 wfdds922@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_pinc412_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_5fe94f2ea9f8\\model.inp",
+      "input_sha256": "8c11f60687c01919bf1599338122c87ed90244faa8792f3a6f7133143ac93ff6",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds412",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds416",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds418",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds420",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds422",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds412@0 wfdds416@4 wfdds418@6 wfdds420@8 wfdds422@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_pinc412_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_beca6486c22c\\model.inp",
+      "input_sha256": "e5da3c3b7a5201428a9a845ee405585f81c145d79e729b788439cfd919cdd45e",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds912",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds916",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds918",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds920",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds922",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds912@0 wfdds916@4 wfdds918@6 wfdds920@8 wfdds922@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_sex_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_580a6ffce132\\model.inp",
+      "input_sha256": "15206510fb97a12a23357d5911be6f6d8495db44afd6c9ec1bd8b26fd3abc74e",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds412",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds416",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds418",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds420",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds422",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds412@0 wfdds416@4 wfdds418@6 wfdds420@8 wfdds422@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_sex_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_1f4a7c2e1502\\model.inp",
+      "input_sha256": "a6e845dbfaf3dd213c60a8632a74803cb0dab916366b549b866b15ae1991cc9e",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds912",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds916",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds918",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds920",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds922",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds912@0 wfdds916@4 wfdds918@6 wfdds920@8 wfdds922@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_urban_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_28e25b3d7746\\model.inp",
+      "input_sha256": "e095d846efb4d409cd7da15320ee385ce09a913187255b5b71ded38a03edb49c",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds412",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds416",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds418",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds420",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds422",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds412@0 wfdds416@4 wfdds418@6 wfdds420@8 wfdds422@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_4_urban_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_275b053388c1\\model.inp",
+      "input_sha256": "75c156ee3a4cff30bb817ff64207917048498e94d7336a4e47ef30eeee3f389f",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds912",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds916",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds918",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds920",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds922",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds912@0 wfdds916@4 wfdds918@6 wfdds920@8 wfdds922@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_controlbaselinemean_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_7a0aaa3eef98\\model.inp",
+      "input_sha256": "4079eba7ee9941b436cb6c07b2fa2eeb0ac4c4030f1ecb15eaa4aa1dfd3aaa31",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds112",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds116",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds118",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds120",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds122",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds112@0 wfdds116@4 wfdds118@6 wfdds120@8 wfdds122@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_edu_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_ff054beae4f1\\model.inp",
+      "input_sha256": "8b1b1f83b7e28290e20ec6351b10ddc179317d6a67c7656e9cce5ac397191227",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds112",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds116",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds118",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds120",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds122",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds112@0 wfdds116@4 wfdds118@6 wfdds120@8 wfdds122@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_edu_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_1d9ef827551e\\model.inp",
+      "input_sha256": "6d880d54cf63554a18a5eb34f4372247419bf92af3a0e1a893e2fb1280caa754",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_nocontrolmean_r_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_66096cd5ee65\\model.inp",
+      "input_sha256": "ab02f896f0a904f037c408c92f855a9117e5e8164253615d42bff1a88c50c557",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_pinc412_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_8c67a3c309e5\\model.inp",
+      "input_sha256": "687d7eab11d981605caa90e56e1776811d340d831d6039d9a4cd57423d47b59e",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds112",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds116",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds118",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds120",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds122",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds112@0 wfdds116@4 wfdds118@6 wfdds120@8 wfdds122@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_pinc412_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_b28ccbd89b88\\model.inp",
+      "input_sha256": "49b4f10c6c6756240a0a8efd9de172694d8cec36138868b6da649528b5536380",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_sex_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_341503db51d4\\model.inp",
+      "input_sha256": "1e029370f3786e1d797060cf1b1813b73bf6c3ea0446d34ededb9a88e9ec76f5",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds112",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds116",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds118",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds120",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds122",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds112@0 wfdds116@4 wfdds118@6 wfdds120@8 wfdds122@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_sex_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_1146060a73dd\\model.inp",
+      "input_sha256": "8947f2237a240e632d77b92a40b78f648f0a40212d5a26b329e16b2e7a5076ab",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_urban_mod_is_mi_tics.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_b061fb6d4a96\\model.inp",
+      "input_sha256": "6d0adef411fd81399a4e0530e18f5c8e115daf11fdcec192ab5a7fd8607d6c96",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds112",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds116",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds118",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds120",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds122",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds112@0 wfdds116@4 wfdds118@6 wfdds120@8 wfdds122@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "c_pp_lgca_type4_urban_mod_is_mi_tics_nocontrolmean_r.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_8f81662d7c71\\model.inp",
+      "input_sha256": "b4be62f596c52abc36d87d6f2c699075dbeecab67be6eadceb2fb54b0a401c4f",
+      "growth": [
+        {
+          "factors": [
+            "i4",
+            "s4"
+          ],
+          "loadings": [
+            {
+              "variable": "wfdds812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "wfdds816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "wfdds818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "wfdds820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "wfdds822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i4 s4 | wfdds812@0 wfdds816@4 wfdds818@6 wfdds820@8 wfdds822@10;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_linear.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_04e919e86993\\model.inp",
+      "input_sha256": "bd93dda8edbef4d98f1f0ed5874ac097182edf52b654eaba15b37d21c78df0f3",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces812@0 ces816@4 ces818@6 ces820@8 ces822@10;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_linear_baseline_std.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_63ad1caea0d1\\model.inp",
+      "input_sha256": "b54cb2f8c216299d2e7a75492d52dcd808ca9b8e3f6b129799569ba093c97a9e",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16@4 ces8sd18@6 ces8sd20@8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_piecewise.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_00f7735d7b68\\model.inp",
+      "input_sha256": "cb6e07529f5489ca647d55e37610b867a7114e59cd57f2c02910d55307c17808",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 6.0
+            }
+          ],
+          "syntax": "i5 s5 | ces812@0 ces816@4 ces818@6 ces820@6 ces822@6;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s51"
+          ],
+          "loadings": [
+            {
+              "variable": "ces812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 2.0
+            },
+            {
+              "variable": "ces822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 4.0
+            }
+          ],
+          "syntax": "i5 s51 | ces812@0 ces816@0 ces818@0 ces820@2 ces822@4;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_piecewise_baseline_std.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_1b02aedabb10\\model.inp",
+      "input_sha256": "095c42c77826c412185e99bac1d3dec5392048557f3ef13b005b981a08ad8d5a",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 6.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16@4 ces8sd18@6 ces8sd20@6 ces8sd22@6;"
+        },
+        {
+          "factors": [
+            "i5",
+            "s51"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 2.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 4.0
+            }
+          ],
+          "syntax": "i5 s51 | ces8sd12@0 ces8sd16@0 ces8sd18@0 ces8sd20@2 ces8sd22@4;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_quadratic.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_ede1aa8ed242\\model.inp",
+      "input_sha256": "a7721cc29394fafe616a4df337752c6521fd405eff7f7d2b40c9df2ede46e823",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5",
+            "q5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces816",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces818",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces820",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 q5 | ces812@0 ces816@4 ces818@6 ces820@8 ces822@10;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_quadratic_baseline_std.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_6c531df712f0\\model.inp",
+      "input_sha256": "9b9fdb99b3b81d2ea7bfa6c85b51279674879cc2307bf7b2bcddff14a0ff37a7",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5",
+            "q5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": true,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": true,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": true,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 q5 | ces8sd12@0 ces8sd16@4 ces8sd18@6 ces8sd20@8 ces8sd22@10;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_shape_factor.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_b26267c4e020\\model.inp",
+      "input_sha256": "352261ca21bcd3c643a9ca7266e1c17caf8762792881de33cc34e457325ad186",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces812",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces816",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces818",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces820",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces822",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces812@0 ces816*4 ces818*6 ces820*8 ces822@10;"
+        }
+      ]
+    },
+    {
+      "model": "lgca_process5_shape_factor_baseline_std.out",
+      "input": "C:\\Users\\LZHS\\pp_lgcm_runs\\20260908_parallel\\recovery\\20261001_pp_lgcm_reconciliation\\10_resume_verified_20261001\\scientific_followup\\measurement_audit\\corrected_first_stage_v2\\m_a63bf70f7fca\\model.inp",
+      "input_sha256": "ddfdfabecf006fc0f8e6ecc9613ccd0730d8ae36d1a4b3e179737cf1225ebb78",
+      "growth": [
+        {
+          "factors": [
+            "i5",
+            "s5"
+          ],
+          "loadings": [
+            {
+              "variable": "ces8sd12",
+              "year": 2012,
+              "fixed": true,
+              "value_or_start": 0.0
+            },
+            {
+              "variable": "ces8sd16",
+              "year": 2016,
+              "fixed": false,
+              "value_or_start": 4.0
+            },
+            {
+              "variable": "ces8sd18",
+              "year": 2018,
+              "fixed": false,
+              "value_or_start": 6.0
+            },
+            {
+              "variable": "ces8sd20",
+              "year": 2020,
+              "fixed": false,
+              "value_or_start": 8.0
+            },
+            {
+              "variable": "ces8sd22",
+              "year": 2022,
+              "fixed": true,
+              "value_or_start": 10.0
+            }
+          ],
+          "syntax": "i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;"
+        }
+      ]
+    }
+  ]
+}

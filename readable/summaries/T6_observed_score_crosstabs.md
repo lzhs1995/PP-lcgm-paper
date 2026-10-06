@@ -1,0 +1,50 @@
+# T6_observed_score_crosstabs.csv
+
+[原CSV](../../01_current_review/summaries/T6_observed_score_crosstabs.csv)
+
+| observed_category | score_group | Freq | indicator | version |
+| --- | --- | --- | --- | --- |
+| positive | high | 787 | SD | historical_v42_source |
+| zero | high | 846 | SD | historical_v42_source |
+| positive | low | 11 | SD | historical_v42_source |
+| zero | low | 1630 | SD | historical_v42_source |
+| missing | high | 0 | Gender | historical_v42_source |
+| negative | high | 1 | Gender | historical_v42_source |
+| positive | high | 255 | Gender | historical_v42_source |
+| zero | high | 895 | Gender | historical_v42_source |
+| missing | low | 6 | Gender | historical_v42_source |
+| negative | low | 328 | Gender | historical_v42_source |
+| positive | low | 14 | Gender | historical_v42_source |
+| zero | low | 846 | Gender | historical_v42_source |
+| missing | high | 24 | Oldest | historical_v42_source |
+| negative | high | 16 | Oldest | historical_v42_source |
+| positive | high | 305 | Oldest | historical_v42_source |
+| zero | high | 1227 | Oldest | historical_v42_source |
+| missing | low | 83 | Oldest | historical_v42_source |
+| negative | low | 414 | Oldest | historical_v42_source |
+| positive | low | 10 | Oldest | historical_v42_source |
+| zero | low | 1187 | Oldest | historical_v42_source |
+| missing | high | 36 | FirstSon | historical_v42_source |
+| negative | high | 13 | FirstSon | historical_v42_source |
+| positive | high | 280 | FirstSon | historical_v42_source |
+| zero | high | 1084 | FirstSon | historical_v42_source |
+| missing | low | 65 | FirstSon | historical_v42_source |
+| negative | low | 382 | FirstSon | historical_v42_source |
+| positive | low | 20 | FirstSon | historical_v42_source |
+| zero | low | 1115 | FirstSon | historical_v42_source |
+| missing | high | 21 | Oldest | corrected_score_candidate_only |
+| negative | high | 14 | Oldest | corrected_score_candidate_only |
+| positive | high | 306 | Oldest | corrected_score_candidate_only |
+| zero | high | 1231 | Oldest | corrected_score_candidate_only |
+| missing | low | 86 | Oldest | corrected_score_candidate_only |
+| negative | low | 416 | Oldest | corrected_score_candidate_only |
+| positive | low | 9 | Oldest | corrected_score_candidate_only |
+| zero | low | 1183 | Oldest | corrected_score_candidate_only |
+| missing | high | 35 | FirstSon | corrected_score_candidate_only |
+| negative | high | 13 | FirstSon | corrected_score_candidate_only |
+| positive | high | 280 | FirstSon | corrected_score_candidate_only |
+| zero | high | 1084 | FirstSon | corrected_score_candidate_only |
+| missing | low | 66 | FirstSon | corrected_score_candidate_only |
+| negative | low | 382 | FirstSon | corrected_score_candidate_only |
+| positive | low | 20 | FirstSon | corrected_score_candidate_only |
+| zero | low | 1115 | FirstSon | corrected_score_candidate_only |

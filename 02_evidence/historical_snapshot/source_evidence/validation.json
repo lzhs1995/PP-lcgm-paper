@@ -1,0 +1,14 @@
+{
+  "schema_version": "cfps-full-docx-provenance-validation-v1",
+  "manifest": "/mnt/c/Users/LZHS/Desktop/cnm/tasks/01_R_analysis/reports/cfps_full_docx_provenance_20261005/manifest.json",
+  "all_checks_pass": true,
+  "failures": [],
+  "counts": {
+    "tables": 115,
+    "figure_media": 48,
+    "table_contract_records": 9712,
+    "historical_pair_agrees": 9712
+  },
+  "source_files_unchanged": true,
+  "new_mplus_submissions": 0
+}

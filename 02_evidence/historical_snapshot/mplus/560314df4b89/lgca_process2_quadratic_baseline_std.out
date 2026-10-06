@@ -1,0 +1,645 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+12/26/2025  10:28 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  Class-1_pp_LGCA
+  DATA:
+  FILE = "lgca_process2_quadratic.dat";
+
+  VARIABLE:
+  NAMES = pid fid wfd_m10 wfd_s10 wfd_c10 wfd_d10 wfd_d110 wfd_d210 wfd_d310 wfd_d410
+       wfd_d510 wfd_d610 wfd_d710 wfd_d810 wfd_d910 wfd_m12 wfd_s12 wfd_c12 wfd_d12
+       wfd_d112 wfd_d212 wfd_d312 wfd_d412 wfd_d512 wfd_d612 wfd_d712 wfd_d812
+       wfd_d912 wfd_m16 wfd_s16 wfd_c16 wfd_d16 wfd_d116 wfd_d216 wfd_d316 wfd_d416
+       wfd_d516 wfd_d616 wfd_d716 wfd_d816 wfd_d916 wfd_m18 wfd_s18 wfd_c18 wfd_d18
+       wfd_d118 wfd_d218 wfd_d318 wfd_d418 wfd_d518 wfd_d618 wfd_d718 wfd_d818
+       wfd_d918 wfd_m20 wfd_s20 wfd_c20 wfd_d20 wfd_d120 wfd_d220 wfd_d320 wfd_d420
+       wfd_d520 wfd_d620 wfd_d720 wfd_d820 wfd_d920 wfd_m22 wfd_s22 wfd_c22 wfd_d22
+       wfd_d122 wfd_d222 wfd_d322 wfd_d422 wfd_d522 wfd_d622 wfd_d722 wfd_d822
+       wfd_d922 sat10 sat12 sat14 sat16 sat18 sat20 sat22 ces812 ces816 ces818 ces820
+       ces822 ces8sc12 ces8sc16 ces8sc18 ces8sc20 ces8sc22 wfdms10 wfdms12 wfdms16
+       wfdms18 wfdms20 wfdms22 wfdss10 wfdss12 wfdss16 wfdss18 wfdss20 wfdss22 wfdcs10
+       wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22 wfdds10 wfdds12 wfdds16 wfdds18 wfdds20
+       wfdds22 wfdds110 wfdds112 wfdds116 wfdds118 wfdds120 wfdds122 wfdds210 wfdds212
+       wfdds216 wfdds218 wfdds220 wfdds222 wfdds310 wfdds312 wfdds316 wfdds318
+       wfdds320 wfdds322 wfdds410 wfdds412 wfdds416 wfdds418 wfdds420 wfdds422
+       wfdds510 wfdds512 wfdds516 wfdds518 wfdds520 wfdds522 wfdds610 wfdds612
+       wfdds616 wfdds618 wfdds620 wfdds622 wfdds710 wfdds712 wfdds716 wfdds718
+       wfdds720 wfdds722 wfdds810 wfdds812 wfdds816 wfdds818 wfdds820 wfdds822
+       wfdds910 wfdds912 wfdds916 wfdds918 wfdds920 wfdds922 ces8sd12 ces8sd16
+       ces8sd18 ces8sd20 ces8sd22 cohort wave sex12 edu12 urban12 prov12 prov122
+       prov123 cdn12 cdar12 cdsc12 cdsc121 cdsc122 minor12 party12 age10 ageg10 pinc10
+       pincm110 pincm210 cores10 heal10 heal101 heal103 marr10 eco10 eco102 eco103
+       hwc10 hwc102 hwc103 hukou10 pinc210 finc10 age12 ageg12 pinc12 pincm112
+       pincm212 cores12 heal12 heal121 heal123 marr12 eco12 eco122 eco123 hwc12 hwc122
+       hwc123 hukou12 pinc212 pinc312 pinc412 finc12 age14 ageg14 pinc14 pincm114
+       pincm214 cores14 heal14 heal141 heal143 marr14 hukou14 pinc214 finc14 age16
+       ageg16 pinc16 pincm116 pincm216 cores16 heal16 heal161 heal163 marr16 eco16
+       eco162 eco163 hwc16 hwc162 hwc163 hukou16 pinc216 finc16 age18 ageg18 pinc18
+       pincm118 pincm218 cores18 heal18 heal181 heal183 marr18 eco18 eco182 eco183
+       hwc18 hwc182 hwc183 hukou18 pinc218 finc18 age20 ageg20 pinc20 pincm120
+       pincm220 cores20 heal20 heal201 heal203 marr20 eco20 eco202 eco203 hwc20 hwc202
+       hwc203 hukou20 pinc220 finc20 age22 ageg22 pinc22 pincm122 pincm222 cores22
+       heal22 heal221 heal223 marr22 eco22 eco222 eco223 hwc22 hwc222 hwc223 hukou22
+       pinc222 finc22 consu110 fpinc10 employ10 heala110 heala210 heala310 heala410
+       adl10 cog10 consu112 consu212 fpinc12 employ12 heala112 heala212 heala312
+       heala412 adl12 consu114 consu214 fpinc14 employ14 heala114 heala214 heala314
+       heala414 adl14 cog14 consu116 consu216 fpinc16 employ16 heala116 heala216
+       heala316 heala416 adl16 consu118 consu218 fpinc18 employ18 heala118 heala218
+       heala318 heala418 adl18 cog18 consu120 consu220 fpinc20 employ20 heala120
+       heala220 heala320 heala420 adl20 consu122 consu222 fpinc22 employ22 heala122
+       heala222 heala322 heala422 adl22 cog22;
+   MISSING=.;
+   usevar =
+  !wfdms12 wfdms16 wfdms18 wfdms20 wfdms22
+  wfdss12 wfdss16 wfdss18 wfdss20 wfdss22
+  !wfdds12 wfdds16 wfdds18 wfdds20 wfdds22
+  !wfdds112 wfdds116 wfdds118 wfdds120 wfdds122
+  !ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+  ;
+  ANALYSIS:
+  estimator = mlr;
+  !TYPE=COMPLEX;
+  !type = mixture;
+  !ALGORITHM=INTEGRATION;
+  !starts = 600 200;
+  !starts = 20;
+  !LRTBOOTSTRAP = 200;
+  processors = 10;
+  coverage = 0.005;
+  MODEL:
+
+  !i1 s1 q1 | wfdms12@0 wfdms16@4 wfdms18@6 wfdms20@8 wfdms22@10;
+  i2 s2 q2 | wfdss12@0 wfdss16@4 wfdss18@6 wfdss20@8 wfdss22@10;
+  !i3 s3 q3 | wfdds12@0 wfdds16@4 wfdds18@6 wfdds20@8 wfdds22@10;
+  !i4 s4 q4 | wfdds112@0 wfdds116@4 wfdds118@6 wfdds120@8 wfdds122@10;
+  !i5 s5 q5 | ces8sd12@0 ces8sd16@4 ces8sd18@6 ces8sd20@8 ces8sd22@10;
+
+  OUTPUT:
+  tech1 tech4 sampstat patterns stdyx;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+Class-1_pp_LGCA
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                        3274
+
+Number of dependent variables                                    5
+Number of independent variables                                  0
+Number of continuous latent variables                            3
+
+Observed dependent variables
+
+  Continuous
+   WFDSS12     WFDSS16     WFDSS18     WFDSS20     WFDSS22
+
+Continuous latent variables
+   I2          S2          Q2
+
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  lgca_process2_quadratic.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns            15
+
+
+SUMMARY OF MISSING DATA PATTERNS
+
+
+     MISSING DATA PATTERNS (x = not missing)
+
+           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+ WFDSS12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDSS16   x  x  x  x  x  x  x  x
+ WFDSS18   x  x  x  x              x  x  x  x
+ WFDSS20   x  x        x  x        x  x        x  x
+ WFDSS22   x     x     x     x     x     x     x     x
+
+
+     MISSING DATA PATTERN FREQUENCIES
+
+    Pattern   Frequency     Pattern   Frequency     Pattern   Frequency
+          1         504           6          69          11          24
+          2         394           7          44          12         150
+          3         229           8         827          13           6
+          4         889           9          27          14          19
+          5          47          10          31          15          14
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.005
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+ WFDSS12        1.000
+ WFDSS16        0.917         0.917
+ WFDSS18        0.687         0.616         0.687
+ WFDSS20        0.335         0.310         0.292         0.335
+ WFDSS22        0.273         0.252         0.239         0.178         0.273
+
+
+SAMPLE STATISTICS
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+                0.000        -0.008         0.243         0.260         0.417
+
+
+           Covariances
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+ WFDSS12        1.000
+ WFDSS16        0.208         1.072
+ WFDSS18        0.200         0.232         1.284
+ WFDSS20        0.168         0.173         0.348         1.459
+ WFDSS22        0.185         0.249         0.253         0.464         1.707
+
+
+           Correlations
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+ WFDSS12        1.000
+ WFDSS16        0.201         1.000
+ WFDSS18        0.177         0.198         1.000
+ WFDSS20        0.139         0.138         0.254         1.000
+ WFDSS22        0.142         0.184         0.171         0.294         1.000
+
+
+     MAXIMUM LOG-LIKELIHOOD VALUE FOR THE UNRESTRICTED (H1) MODEL IS -15540.387
+
+
+UNIVARIATE SAMPLE STATISTICS
+
+
+     UNIVARIATE HIGHER-ORDER MOMENT DESCRIPTIVE STATISTICS
+
+         Variable/         Mean/     Skewness/   Minimum/ % with                Percentiles
+        Sample Size      Variance    Kurtosis    Maximum  Min/Max      20%/60%    40%/80%    Median
+
+     WFDSS12               0.000       2.255      -0.504   75.63%      -0.504     -0.504     -0.504
+            3274.000       1.000       5.950       7.388    0.06%      -0.504      0.891
+     WFDSS16              -0.009       2.551      -0.504   76.96%      -0.504     -0.504     -0.504
+            3003.000       1.071       8.148       7.388    0.13%      -0.504      0.891
+     WFDSS18               0.235       1.575      -0.504   64.55%      -0.504     -0.504     -0.504
+            2248.000       1.282       2.587       7.388    0.04%      -0.504      1.107
+     WFDSS20               0.233       1.977      -0.504   66.27%      -0.504     -0.504     -0.504
+            1097.000       1.454       5.266       7.388    0.36%      -0.504      1.107
+     WFDSS22               0.371       1.787      -0.504   60.89%      -0.504     -0.504     -0.504
+             895.000       1.689       4.117       7.388    0.34%      -0.504      1.469
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       14
+
+Loglikelihood
+
+          H0 Value                      -15561.579
+          H0 Scaling Correction Factor      2.2251
+            for MLR
+          H1 Value                      -15540.387
+          H1 Scaling Correction Factor      1.9340
+            for MLR
+
+Information Criteria
+
+          Akaike (AIC)                   31151.159
+          Bayesian (BIC)                 31236.471
+          Sample-Size Adjusted BIC       31191.987
+            (n* = (n + 2) / 24)
+
+Chi-Square Test of Model Fit
+
+          Value                             33.785*
+          Degrees of Freedom                     6
+          P-Value                           0.0000
+          Scaling Correction Factor         1.2546
+            for MLR
+
+*   The chi-square value for MLM, MLMV, MLR, ULSMV, WLSM and WLSMV cannot be used
+    for chi-square difference testing in the regular way.  MLM, MLR and WLSM
+    chi-square difference testing is described on the Mplus website.  MLMV, WLSMV,
+    and ULSMV difference testing is done using the DIFFTEST option.
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.038
+          90 Percent C.I.                    0.026  0.050
+          Probability RMSEA <= .05           0.944
+
+CFI/TLI
+
+          CFI                                0.890
+          TLI                                0.816
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                            262.346
+          Degrees of Freedom                    10
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.031
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I2       |
+    WFDSS12            1.000      0.000    999.000    999.000
+    WFDSS16            1.000      0.000    999.000    999.000
+    WFDSS18            1.000      0.000    999.000    999.000
+    WFDSS20            1.000      0.000    999.000    999.000
+    WFDSS22            1.000      0.000    999.000    999.000
+
+ S2       |
+    WFDSS12            0.000      0.000    999.000    999.000
+    WFDSS16            4.000      0.000    999.000    999.000
+    WFDSS18            6.000      0.000    999.000    999.000
+    WFDSS20            8.000      0.000    999.000    999.000
+    WFDSS22           10.000      0.000    999.000    999.000
+
+ Q2       |
+    WFDSS12            0.000      0.000    999.000    999.000
+    WFDSS16           16.000      0.000    999.000    999.000
+    WFDSS18           36.000      0.000    999.000    999.000
+    WFDSS20           64.000      0.000    999.000    999.000
+    WFDSS22          100.000      0.000    999.000    999.000
+
+ S2       WITH
+    I2                -0.032      0.051     -0.616      0.538
+
+ Q2       WITH
+    I2                 0.002      0.004      0.503      0.615
+    S2                -0.001      0.001     -0.816      0.415
+
+ Means
+    I2                -0.008      0.017     -0.449      0.653
+    S2                -0.009      0.009     -0.965      0.335
+    Q2                 0.006      0.001      5.113      0.000
+
+ Intercepts
+    WFDSS12            0.000      0.000    999.000    999.000
+    WFDSS16            0.000      0.000    999.000    999.000
+    WFDSS18            0.000      0.000    999.000    999.000
+    WFDSS20            0.000      0.000    999.000    999.000
+    WFDSS22            0.000      0.000    999.000    999.000
+
+ Variances
+    I2                 0.307      0.160      1.915      0.056
+    S2                 0.013      0.018      0.757      0.449
+    Q2                 0.000      0.000      1.180      0.238
+
+ Residual Variances
+    WFDSS12            0.693      0.161      4.290      0.000
+    WFDSS16            0.858      0.056     15.401      0.000
+    WFDSS18            1.035      0.056     18.537      0.000
+    WFDSS20            1.088      0.099     10.980      0.000
+    WFDSS22            1.052      0.204      5.151      0.000
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Condition Number for the Information Matrix              0.120E-08
+       (ratio of smallest to largest eigenvalue)
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I2       |
+    WFDSS12            0.554      0.144      3.860      0.000
+    WFDSS16            0.533      0.136      3.909      0.000
+    WFDSS18            0.488      0.129      3.799      0.000
+    WFDSS20            0.459      0.120      3.823      0.000
+    WFDSS22            0.421      0.111      3.794      0.000
+
+ S2       |
+    WFDSS12            0.000      0.000    999.000    999.000
+    WFDSS16            0.444      0.291      1.527      0.127
+    WFDSS18            0.610      0.404      1.511      0.131
+    WFDSS20            0.765      0.503      1.520      0.129
+    WFDSS22            0.878      0.580      1.513      0.130
+
+ Q2       |
+    WFDSS12            0.000      0.000    999.000    999.000
+    WFDSS16            0.196      0.083      2.375      0.018
+    WFDSS18            0.404      0.172      2.354      0.019
+    WFDSS20            0.675      0.284      2.379      0.017
+    WFDSS22            0.968      0.412      2.349      0.019
+
+ S2       WITH
+    I2                -0.495      0.392     -1.263      0.207
+
+ Q2       WITH
+    I2                 0.273      0.411      0.665      0.506
+    S2                -0.795      0.157     -5.068      0.000
+
+ Means
+    I2                -0.014      0.032     -0.436      0.663
+    S2                -0.074      0.092     -0.811      0.418
+    Q2                 0.442      0.206      2.149      0.032
+
+ Intercepts
+    WFDSS12            0.000      0.000    999.000    999.000
+    WFDSS16            0.000      0.000    999.000    999.000
+    WFDSS18            0.000      0.000    999.000    999.000
+    WFDSS20            0.000      0.000    999.000    999.000
+    WFDSS22            0.000      0.000    999.000    999.000
+
+ Variances
+    I2                 1.000      0.000    999.000    999.000
+    S2                 1.000      0.000    999.000    999.000
+    Q2                 1.000      0.000    999.000    999.000
+
+ Residual Variances
+    WFDSS12            0.693      0.159      4.357      0.000
+    WFDSS16            0.796      0.031     25.474      0.000
+    WFDSS18            0.805      0.028     28.353      0.000
+    WFDSS20            0.748      0.033     22.456      0.000
+    WFDSS22            0.609      0.095      6.410      0.000
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed
+    Variable        Estimate       S.E.  Est./S.E.    P-Value
+
+    WFDSS12            0.307      0.159      1.930      0.054
+    WFDSS16            0.204      0.031      6.543      0.000
+    WFDSS18            0.195      0.028      6.867      0.000
+    WFDSS20            0.252      0.033      7.576      0.000
+    WFDSS22            0.391      0.095      4.112      0.000
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           LAMBDA
+              I2            S2            Q2
+              ________      ________      ________
+ WFDSS12            0             0             0
+ WFDSS16            0             0             0
+ WFDSS18            0             0             0
+ WFDSS20            0             0             0
+ WFDSS22            0             0             0
+
+
+           THETA
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+ WFDSS12            1
+ WFDSS16            0             2
+ WFDSS18            0             0             3
+ WFDSS20            0             0             0             4
+ WFDSS22            0             0             0             0             5
+
+
+           ALPHA
+              I2            S2            Q2
+              ________      ________      ________
+                  6             7             8
+
+
+           BETA
+              I2            S2            Q2
+              ________      ________      ________
+ I2                 0             0             0
+ S2                 0             0             0
+ Q2                 0             0             0
+
+
+           PSI
+              I2            S2            Q2
+              ________      ________      ________
+ I2                 9
+ S2                10            11
+ Q2                12            13            14
+
+
+     STARTING VALUES
+
+
+           NU
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              I2            S2            Q2
+              ________      ________      ________
+ WFDSS12        1.000         0.000         0.000
+ WFDSS16        1.000         4.000        16.000
+ WFDSS18        1.000         6.000        36.000
+ WFDSS20        1.000         8.000        64.000
+ WFDSS22        1.000        10.000       100.000
+
+
+           THETA
+              WFDSS12       WFDSS16       WFDSS18       WFDSS20       WFDSS22
+              ________      ________      ________      ________      ________
+ WFDSS12        0.500
+ WFDSS16        0.000         0.536
+ WFDSS18        0.000         0.000         0.641
+ WFDSS20        0.000         0.000         0.000         0.727
+ WFDSS22        0.000         0.000         0.000         0.000         0.845
+
+
+           ALPHA
+              I2            S2            Q2
+              ________      ________      ________
+               -0.042        -0.070         0.020
+
+
+           BETA
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.000         0.000         0.000
+ S2             0.000         0.000         0.000
+ Q2             0.000         0.000         0.000
+
+
+           PSI
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.885
+ S2             0.000         0.636
+ Q2             0.000         0.000         0.018
+
+
+TECHNICAL 4 OUTPUT
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+               -0.008        -0.009         0.006
+
+
+           S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+                0.017         0.009         0.001
+
+
+           EST./S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+               -0.449        -0.965         5.113
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+                0.653         0.335         0.000
+
+
+           ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.307
+ S2            -0.032         0.013
+ Q2             0.002        -0.001         0.000
+
+
+           S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.160
+ S2             0.051         0.018
+ Q2             0.004         0.001         0.000
+
+
+           EST./S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             1.915
+ S2            -0.616         0.757
+ Q2             0.503        -0.816         1.180
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.056
+ S2             0.538         0.449
+ Q2             0.615         0.415         0.238
+
+
+           ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             1.000
+ S2            -0.495         1.000
+ Q2             0.273        -0.795         1.000
+
+
+           S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.000
+ S2             0.392         0.000
+ Q2             0.411         0.157         0.000
+
+
+           EST./S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2           999.000
+ S2            -1.263       999.000
+ Q2             0.665        -5.068       999.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             0.000
+ S2             0.207         0.000
+ Q2             0.506         0.000         0.000
+
+
+           ESTIMATED PARTIAL CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I2            S2            Q2
+              ________      ________      ________
+ I2             1.000
+ S2            -0.476         1.000
+ Q2            -0.228        -0.789         1.000
+
+
+     Beginning Time:  22:28:48
+        Ending Time:  22:28:48
+       Elapsed Time:  00:00:00
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

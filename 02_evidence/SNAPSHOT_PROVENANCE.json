@@ -1,0 +1,11 @@
+{
+  "original_zip": "LGCM_audit_stage1_20261005.zip",
+  "sha256": "6f855e2db2bbe4189907385636717a8624e859193a188371896f4cd82f9fa8ea",
+  "bytes": 7108834,
+  "original_outputs": 239,
+  "additional_outputs": 6,
+  "total_unique_outputs": 245,
+  "timestamp_utc": "2026-10-06T01:08:20.149252+00:00",
+  "original_snapshot_unmodified": true,
+  "new_model_runs": 0
+}

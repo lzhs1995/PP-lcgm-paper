@@ -1,0 +1,107 @@
+{
+  "status": "PERSON_MORTALITY_LINKED_DIAGNOSTICS_PENDING",
+  "analysis_N": 3274,
+  "reported_dead_any": 328,
+  "unique_known_death_year": 326,
+  "conflicting_death_years": 0,
+  "death_before_baseline": 0,
+  "alive_after_dead_report": 0,
+  "sources": {
+    "2016": {
+      "path": "C:/Users/LZHS/Desktop/20230505 毕业论文/开题报告/开题报告/CFPS/20230808 CFPS官网/[CFPS Public Data] CFPS2016/Data/cfps2016famconf_201804.dta",
+      "sha256": "4842c7152794c566ce0110b3bc88541f20192d0256b9033c045d7a548f2d3d45",
+      "rows": 58179,
+      "variables": ["pid", "alive_a16_p", "ta4y_a16_p", "ta4m_a16_p"],
+      "alive_value_labels": {
+        "无法判断": -10,
+        "缺失": -9,
+        "不适用": -8,
+        "拒绝回答": -2,
+        "不知道": -1,
+        "去世": 0,
+        "健在": 1,
+        "去世.1": 5
+      },
+      "dead_codes": [
+        0,
+        5
+      ],
+      "alive_codes": [
+        1
+      ]
+    },
+    "2018": {
+      "path": "C:/Users/LZHS/Desktop/20230505 毕业论文/开题报告/开题报告/CFPS/20230808 CFPS官网/[CFPS Public Data] CFPS2018/Data/cfps2018famconf_202008.dta",
+      "sha256": "137aea42c6322a23e4a8915e314c25920adc93105eb001bcf753adbda128d2bb",
+      "rows": 58504,
+      "variables": ["pid", "alive_a18_p", "ta4y_a18_p", "ta4m_a18_p"],
+      "alive_value_labels": {
+        "无法判断": -10,
+        "缺失": -9,
+        "不适用": -8,
+        "拒绝回答": -2,
+        "不知道": -1,
+        "去世": 0,
+        "健在": 1,
+        "去世.1": 5
+      },
+      "dead_codes": [
+        0,
+        5
+      ],
+      "alive_codes": [
+        1
+      ]
+    },
+    "2020": {
+      "path": "C:/Users/LZHS/Desktop/20230505 毕业论文/开题报告/开题报告/CFPS/20230808 CFPS官网/[CFPS Public Data] CFPS2020/Data/cfps2020famconf_202306.dta",
+      "sha256": "023a4434609b6095ddeedf59bca1319f200f5978f5a642412d7062137670da7b",
+      "rows": 51291,
+      "variables": ["pid", "alive_a20_p", "ta4y_a20_p", "ta4m_a20_p"],
+      "alive_value_labels": {
+        "无法判断": -10,
+        "缺失": -9,
+        "不适用": -8,
+        "拒绝回答": -2,
+        "不知道": -1,
+        "去世": 0,
+        "健在": 1,
+        "去世.1": 5
+      },
+      "dead_codes": [
+        0,
+        5
+      ],
+      "alive_codes": [
+        1
+      ]
+    },
+    "2022": {
+      "path": "C:/Users/LZHS/Desktop/20230505 毕业论文/开题报告/开题报告/CFPS/20230808 CFPS官网/[CFPS Public Data] CFPS2022/Data/cfps2022famconf_202410.dta",
+      "sha256": "470d754a8e4481b352e139aa486f0d1de9cd541c3c601f63033e1be99cb74829",
+      "rows": 47328,
+      "variables": ["pid", "alive_a22_p", "ta4y_a22_p", "ta4m_a22_p"],
+      "alive_value_labels": {
+        "无法判断": -10,
+        "缺失": -9,
+        "不适用": -8,
+        "拒绝回答": -2,
+        "不知道": -1,
+        "去世": 0,
+        "健在": 1,
+        "去世.1": 5
+      },
+      "dead_codes": [
+        0,
+        5
+      ],
+      "alive_codes": [
+        1
+      ]
+    }
+  },
+  "analysis_sha256": "b74f5cb311f874803fd91d82caa5517ee9769a3899a77c1adf601b46fb0e1cb7",
+  "source_do_sha256": "06737efb8a441c14a0adb5c08e161359cb5de5e144dfbd6f80793f3ed32ca921",
+  "scientific_acceptance": false,
+  "limitations": ["同年死亡/访问先后未知。", "未匹配/未知状态不等于健在。", "确认死亡后的结局不可作为普通MAR缺失自动补全。", "死亡链接不能证明其余缺失是随机失访。"]
+}

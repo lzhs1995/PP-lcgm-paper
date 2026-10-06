@@ -1,0 +1,125 @@
+{
+  "updated_at_utc": "2026-10-05T18:40:09.473820+00:00",
+  "final_source_manifest": {
+    "notebook_id": "78f171e0-bc6f-4fed-9509-69e683c2218d",
+    "pdf_only": true,
+    "sources": [
+      {
+        "id": "5b4dced0-d657-4f0f-8e25-a65754ccd03e",
+        "filename": "PP_LGCM_review_v45_NOT_RELEASED.pdf",
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_review_v45_NOT_RELEASED.pdf",
+        "sha256": "3e263024a78917de67438a0e08278ab38b5477578bc47162ee3ed8b74ce4c77c"
+      },
+      {
+        "id": "79944e02-1f15-4d39-be7e-daaa69d15507",
+        "filename": "PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\manuscript\\PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf",
+        "sha256": "a380633d7101c604877025a0e5c8e2024863c7901b51ab8aef7d3a2afa188607"
+      }
+    ]
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "scope": "全文结构与数值",
+      "transport_status": "PASS",
+      "exit_code": 0,
+      "both_sources_verified": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "all_findings_disposed": true,
+      "review_complete": true,
+      "result": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v45_v38\\pass1_full_concise\\result.json",
+      "raw_path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v45_v38\\pass1_full_concise\\attempt-01.raw.txt",
+      "raw_sha256": "c63bec7a0bdedfd7cf5cfe44437f0eda71dde403f62521b652ea61dda30373e7",
+      "request_fingerprint": "65f110f055dcd75f3f53f6c1b0320c54d0914a92cf5f28aec53cbf833eb19b9e"
+    },
+    {
+      "pass": 2,
+      "scope": "全文方法与解释",
+      "transport_status": "PASS",
+      "exit_code": 0,
+      "both_sources_verified": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "all_findings_disposed": true,
+      "review_complete": true,
+      "result": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v45_v38\\pass2_full_concise\\result.json",
+      "raw_path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v45_v38\\pass2_full_concise\\attempt-01.raw.txt",
+      "raw_sha256": "46e3a71b1b062c948438a83b4fcbd5b912a81bb175db99949275d7e0f7dded23",
+      "request_fingerprint": "bf12f6faa9681f5ab05144cca45c924ff2b6f659dfd4ef987d88a7b462242fe9"
+    },
+    {
+      "pass": 3,
+      "scope": "全文格式与一致性",
+      "transport_status": "PASS",
+      "exit_code": 0,
+      "both_sources_verified": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "all_findings_disposed": true,
+      "review_complete": true,
+      "result": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v45_v38\\pass3_full_concise\\result.json",
+      "raw_path": "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v45_v38\\pass3_full_concise\\attempt-01.raw.txt",
+      "raw_sha256": "908a1393a069bb657885bfaa7b4c0da9e44d894cfd202aa80fc28d24632bd043",
+      "request_fingerprint": "f25a3cad451d338089d21349e7bc861b0c750a520f6a46368c5af34166832976"
+    }
+  ],
+  "adjudication": {
+    "notebook_id": "78f171e0-bc6f-4fed-9509-69e683c2218d",
+    "documents": [
+      "PP_LGCM_review_v45_NOT_RELEASED.pdf",
+      "PP_LGCM_appendix_review_v38_NOT_RELEASED.pdf"
+    ],
+    "items": [],
+    "decision": "THREE_PASSES_RETURNED_ZERO_NEW_ISSUES_WITH_BOTH_SOURCES",
+    "accepted_scope": "最终冻结PDF对的全文结构数值、方法解释、格式一致性三项检索式审阅，配合本地XML和PDF核查。",
+    "qualifications": [
+      "三个请求均exit=0，两份来源均出现在sources_used和citations中；各轮NEW_ISSUES_COUNT=0、A5_NO_NEW_ISSUES=YES。",
+      "不将NLM关于所有科学问题均已解决或全文绝无错误的概括升级为研究结论。",
+      "第三审有关抽取伪影的说法只在已由本地XML和渲染核实的上标、表注及尺度说明范围内采纳；不据此保证所有跨页排版均完美。",
+      "不执行第三审回答末尾主动建议的全量Excel重整；不扩大已授权的当前任务。",
+      "科学放行仍关闭；CESD8五期直接基准、MI配对和合并推断、协方差证据继续按执行报告处理。"
+    ],
+    "previous_findings": [
+      {
+        "id": "LOCAL-1",
+        "status": "FIXED_IN_V44_RETAINED_IN_V45",
+        "evidence": "manuscript/v44_assembly_receipt.json"
+      },
+      {
+        "id": "R44-1",
+        "status": "CLARIFIED_IN_V45_V38_REVIEWED_IN_FINAL_PASS3",
+        "evidence": "manuscript/v45_v38_assembly_receipt.json"
+      },
+      {
+        "id": "R44-2",
+        "status": "FIXED_IN_V38_REVIEWED_IN_FINAL_PASS3",
+        "evidence": "manuscript/v45_v38_change_log.csv"
+      },
+      {
+        "id": "LOCAL-2",
+        "status": "FIXED_IN_V45_V38_REVIEWED_IN_FINAL_PASS3",
+        "evidence": "reviews/v44_disposition.md"
+      },
+      {
+        "id": "R43-1_to_R43-3",
+        "status": "REJECTED_WITH_LOCAL_EVIDENCE",
+        "evidence": "reviews/v43_disposition.md"
+      }
+    ],
+    "scientific_release": false
+  },
+  "historical_dispositions": [
+    "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v43_disposition.md",
+    "C:\\Users\\LZHS\\pp_lgcm_review\\20261005\\reviews\\v44_disposition.md"
+  ],
+  "three_pass_review_completed": true,
+  "exhaustive_page_by_page_accuracy_claimed": false,
+  "scientific_release": false,
+  "limitations": [
+    "NLM检索式审阅及本地验证不等于保证全文不存在错误。",
+    "CESD8五期直接基准不可接受；MI精确配对、合并推断及协方差问题仍开放。",
+    "审阅通过不改变历史复现已完成、CHARLS暂停及禁止据显著性改规格的边界。"
+  ]
+}

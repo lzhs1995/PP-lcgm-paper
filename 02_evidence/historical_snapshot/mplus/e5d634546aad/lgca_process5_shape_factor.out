@@ -1,0 +1,606 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+11/15/2025   3:36 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  Class-1_pp_LGCA
+  DATA:
+  FILE = "lgca_process5_shape_factor.dat";
+
+  VARIABLE:
+  NAMES = pid fid wfd_m10 wfd_s10 wfd_c10 wfd_d10 wfd_d110 wfd_d210 wfd_d310 wfd_d410
+       wfd_d510 wfd_d610 wfd_d710 wfd_d810 wfd_d910 wfd_m12 wfd_s12 wfd_c12 wfd_d12
+       wfd_d112 wfd_d212 wfd_d312 wfd_d412 wfd_d512 wfd_d612 wfd_d712 wfd_d812
+       wfd_d912 wfd_m16 wfd_s16 wfd_c16 wfd_d16 wfd_d116 wfd_d216 wfd_d316 wfd_d416
+       wfd_d516 wfd_d616 wfd_d716 wfd_d816 wfd_d916 wfd_m18 wfd_s18 wfd_c18 wfd_d18
+       wfd_d118 wfd_d218 wfd_d318 wfd_d418 wfd_d518 wfd_d618 wfd_d718 wfd_d818
+       wfd_d918 wfd_m20 wfd_s20 wfd_c20 wfd_d20 wfd_d120 wfd_d220 wfd_d320 wfd_d420
+       wfd_d520 wfd_d620 wfd_d720 wfd_d820 wfd_d920 wfd_m22 wfd_s22 wfd_c22 wfd_d22
+       wfd_d122 wfd_d222 wfd_d322 wfd_d422 wfd_d522 wfd_d622 wfd_d722 wfd_d822
+       wfd_d922 sat10 sat12 sat14 sat16 sat18 sat20 sat22 ces812 ces816 ces818 ces820
+       ces822 ces8sc12 ces8sc16 ces8sc18 ces8sc20 ces8sc22 wfdms10 wfdms12 wfdms16
+       wfdms18 wfdms20 wfdms22 wfdss10 wfdss12 wfdss16 wfdss18 wfdss20 wfdss22 wfdcs10
+       wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22 wfdds10 wfdds12 wfdds16 wfdds18 wfdds20
+       wfdds22 wfdds110 wfdds112 wfdds116 wfdds118 wfdds120 wfdds122 wfdds210 wfdds212
+       wfdds216 wfdds218 wfdds220 wfdds222 wfdds310 wfdds312 wfdds316 wfdds318
+       wfdds320 wfdds322 wfdds410 wfdds412 wfdds416 wfdds418 wfdds420 wfdds422
+       wfdds510 wfdds512 wfdds516 wfdds518 wfdds520 wfdds522 wfdds610 wfdds612
+       wfdds616 wfdds618 wfdds620 wfdds622 wfdds710 wfdds712 wfdds716 wfdds718
+       wfdds720 wfdds722 wfdds810 wfdds812 wfdds816 wfdds818 wfdds820 wfdds822
+       wfdds910 wfdds912 wfdds916 wfdds918 wfdds920 wfdds922 ces8sd12 ces8sd16
+       ces8sd18 ces8sd20 ces8sd22 cohort wave sex12 edu12 urban12 prov12 prov122
+       prov123 cdn12 cdar12 cdsc12 cdsc121 cdsc122 minor12 party12 age10 ageg10 pinc10
+       pincm110 pincm210 cores10 heal10 heal101 heal103 marr10 eco10 eco102 eco103
+       hwc10 hwc102 hwc103 hukou10 pinc210 finc10 age12 ageg12 pinc12 pincm112
+       pincm212 cores12 heal12 heal121 heal123 marr12 eco12 eco122 eco123 hwc12 hwc122
+       hwc123 hukou12 pinc212 pinc312 pinc412 finc12 age14 ageg14 pinc14 pincm114
+       pincm214 cores14 heal14 heal141 heal143 marr14 hukou14 pinc214 finc14 age16
+       ageg16 pinc16 pincm116 pincm216 cores16 heal16 heal161 heal163 marr16 eco16
+       eco162 eco163 hwc16 hwc162 hwc163 hukou16 pinc216 finc16 age18 ageg18 pinc18
+       pincm118 pincm218 cores18 heal18 heal181 heal183 marr18 eco18 eco182 eco183
+       hwc18 hwc182 hwc183 hukou18 pinc218 finc18 age20 ageg20 pinc20 pincm120
+       pincm220 cores20 heal20 heal201 heal203 marr20 eco20 eco202 eco203 hwc20 hwc202
+       hwc203 hukou20 pinc220 finc20 age22 ageg22 pinc22 pincm122 pincm222 cores22
+       heal22 heal221 heal223 marr22 eco22 eco222 eco223 hwc22 hwc222 hwc223 hukou22
+       pinc222 finc22 consu110 fpinc10 employ10 heala110 heala210 heala310 heala410
+       adl10 cog10 consu112 consu212 fpinc12 employ12 heala112 heala212 heala312
+       heala412 adl12 consu114 consu214 fpinc14 employ14 heala114 heala214 heala314
+       heala414 adl14 cog14 consu116 consu216 fpinc16 employ16 heala116 heala216
+       heala316 heala416 adl16 consu118 consu218 fpinc18 employ18 heala118 heala218
+       heala318 heala418 adl18 cog18 consu120 consu220 fpinc20 employ20 heala120
+       heala220 heala320 heala420 adl20 consu122 consu222 fpinc22 employ22 heala122
+       heala222 heala322 heala422 adl22 cog22;
+   MISSING=.;
+   usevar =
+  !wfd_m12 wfd_m16 wfd_m18 wfd_m20 wfd_m22
+  !wfd_s12 wfd_s16 wfd_s18 wfd_s20 wfd_s22
+  !wfd_d12 wfd_d16 wfd_d18 wfd_d20 wfd_d22
+  !wfd_d112 wfd_d116 wfd_d118 wfd_d120 wfd_d122
+  ces812 ces816 ces818 ces820 ces822
+  ;
+  ANALYSIS:
+  estimator = mlr;
+  !TYPE=COMPLEX;
+  !type = mixture;
+  !ALGORITHM=INTEGRATION;
+  !starts = 600 200;
+  !starts = 20;
+  !LRTBOOTSTRAP = 200;
+  processors = 10;
+  coverage = 0.005;
+  MODEL:
+
+  !i1 s1 | wfd_m12@0 wfd_m16*4 wfd_m18*6 wfd_m20*8 wfd_m22@10;
+  !i2 s2 | wfd_s12@0 wfd_s16*4 wfd_s18*6 wfd_s20*8 wfd_s22@10;
+  !i3 s3 | wfd_d12@0 wfd_d16*4 wfd_d18*6 wfd_d20*8 wfd_d22@10;
+  !i4 s4 | wfd_d112@0 wfd_d116*4 wfd_d118*6 wfd_d120*8 wfd_d122@10;
+  i5 s5 | ces812@0 ces816*4 ces818*6 ces820*8 ces822@10;
+
+  OUTPUT:
+  tech1 tech4 sampstat patterns stdyx;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+Class-1_pp_LGCA
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                        3274
+
+Number of dependent variables                                    5
+Number of independent variables                                  0
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   CES812      CES816      CES818      CES820      CES822
+
+Continuous latent variables
+   I5          S5
+
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  lgca_process5_shape_factor.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns            15
+
+
+SUMMARY OF MISSING DATA PATTERNS
+
+
+     MISSING DATA PATTERNS (x = not missing)
+
+           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+ CES812    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CES816    x  x  x  x  x  x  x  x
+ CES818    x  x  x  x              x  x  x  x
+ CES820    x  x        x  x        x  x        x  x
+ CES822    x     x     x     x     x     x     x     x
+
+
+     MISSING DATA PATTERN FREQUENCIES
+
+    Pattern   Frequency     Pattern   Frequency     Pattern   Frequency
+          1         569           6          57          11          16
+          2         445           7          29          12         157
+          3         192           8         745          13           4
+          4         932           9          34          14          17
+          5          36          10          32          15           9
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.005
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+ CES812         1.000
+ CES816         0.918         0.918
+ CES818         0.726         0.653         0.726
+ CES820         0.365         0.338         0.330         0.365
+ CES822         0.272         0.252         0.248         0.196         0.272
+
+
+SAMPLE STATISTICS
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+               16.232        13.683        13.988        13.715        14.248
+
+
+           Covariances
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+ CES812         6.803
+ CES816         4.026        20.913
+ CES818         4.484        11.206        21.167
+ CES820         4.348         8.698         9.374        19.808
+ CES822         3.714        10.147        10.394        10.229        21.786
+
+
+           Correlations
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+ CES812         1.000
+ CES816         0.338         1.000
+ CES818         0.374         0.533         1.000
+ CES820         0.375         0.427         0.458         1.000
+ CES822         0.305         0.475         0.484         0.492         1.000
+
+
+     MAXIMUM LOG-LIKELIHOOD VALUE FOR THE UNRESTRICTED (H1) MODEL IS -28719.112
+
+
+UNIVARIATE SAMPLE STATISTICS
+
+
+     UNIVARIATE HIGHER-ORDER MOMENT DESCRIPTIVE STATISTICS
+
+         Variable/         Mean/     Skewness/   Minimum/ % with                Percentiles
+        Sample Size      Variance    Kurtosis    Maximum  Min/Max      20%/60%    40%/80%    Median
+
+     CES812               16.232       1.118      10.000    0.06%      14.000     15.000     16.000
+            3274.000       6.803       1.599      29.000    0.03%      16.000     18.000
+     CES816               13.653       0.922       8.000   10.75%      10.000     12.000     13.000
+            3005.000      20.951       0.477      30.000    0.13%      14.000     17.000
+     CES818               13.775       0.953       8.000    9.30%      10.000     12.000     13.000
+            2377.000      20.761       0.604      32.000    0.17%      14.000     17.000
+     CES820               13.332       0.924       8.000   12.31%       9.000     11.000     13.000
+            1194.000      19.376       0.559      31.000    0.08%      14.000     17.000
+     CES822               13.768       0.892       8.000   11.25%      10.000     12.000     13.000
+             889.000      21.235       0.435      31.000    0.11%      14.000     17.000
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       13
+
+Loglikelihood
+
+          H0 Value                      -28736.315
+          H0 Scaling Correction Factor      1.3822
+            for MLR
+          H1 Value                      -28719.112
+          H1 Scaling Correction Factor      1.3099
+            for MLR
+
+Information Criteria
+
+          Akaike (AIC)                   57498.631
+          Bayesian (BIC)                 57577.850
+          Sample-Size Adjusted BIC       57536.543
+            (n* = (n + 2) / 24)
+
+Chi-Square Test of Model Fit
+
+          Value                             29.266*
+          Degrees of Freedom                     7
+          P-Value                           0.0001
+          Scaling Correction Factor         1.1756
+            for MLR
+
+*   The chi-square value for MLM, MLMV, MLR, ULSMV, WLSM and WLSMV cannot be used
+    for chi-square difference testing in the regular way.  MLM, MLR and WLSM
+    chi-square difference testing is described on the Mplus website.  MLMV, WLSMV,
+    and ULSMV difference testing is done using the DIFFTEST option.
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.031
+          90 Percent C.I.                    0.020  0.043
+          Probability RMSEA <= .05           0.996
+
+CFI/TLI
+
+          CFI                                0.983
+          TLI                                0.976
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                           1338.393
+          Degrees of Freedom                    10
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.031
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I5       |
+    CES812             1.000      0.000    999.000    999.000
+    CES816             1.000      0.000    999.000    999.000
+    CES818             1.000      0.000    999.000    999.000
+    CES820             1.000      0.000    999.000    999.000
+    CES822             1.000      0.000    999.000    999.000
+
+ S5       |
+    CES812             0.000      0.000    999.000    999.000
+    CES816            11.632      0.917     12.680      0.000
+    CES818            10.577      0.900     11.753      0.000
+    CES820            10.352      1.063      9.735      0.000
+    CES822            10.000      0.000    999.000    999.000
+
+ S5       WITH
+    I5                -0.120      0.355     -0.339      0.735
+
+ Means
+    I5                16.232      0.046    356.203      0.000
+    S5                -0.218      0.017    -12.666      0.000
+
+ Intercepts
+    CES812             0.000      0.000    999.000    999.000
+    CES816             0.000      0.000    999.000    999.000
+    CES818             0.000      0.000    999.000    999.000
+    CES820             0.000      0.000    999.000    999.000
+    CES822             0.000      0.000    999.000    999.000
+
+ Variances
+    I5                 5.519      3.826      1.443      0.149
+    S5                 0.063      0.041      1.544      0.123
+
+ Residual Variances
+    CES812             1.285      3.820      0.336      0.737
+    CES816             9.848      0.632     15.591      0.000
+    CES818            10.438      0.595     17.540      0.000
+    CES820            11.196      0.847     13.221      0.000
+    CES822            12.239      1.026     11.926      0.000
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Condition Number for the Information Matrix              0.108E-05
+       (ratio of smallest to largest eigenvalue)
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I5       |
+    CES812             0.901      0.312      2.890      0.004
+    CES816             0.511      0.179      2.857      0.004
+    CES818             0.519      0.178      2.913      0.004
+    CES820             0.513      0.176      2.906      0.004
+    CES822             0.505      0.169      2.985      0.003
+
+ S5       |
+    CES812             0.000      0.000    999.000    999.000
+    CES816             0.636      0.166      3.822      0.000
+    CES818             0.587      0.145      4.044      0.000
+    CES820             0.568      0.130      4.357      0.000
+    CES822             0.540      0.169      3.197      0.001
+
+ S5       WITH
+    I5                -0.204      0.466     -0.438      0.661
+
+ Means
+    I5                 6.909      2.394      2.886      0.004
+    S5                -0.869      0.227     -3.824      0.000
+
+ Intercepts
+    CES812             0.000      0.000    999.000    999.000
+    CES816             0.000      0.000    999.000    999.000
+    CES818             0.000      0.000    999.000    999.000
+    CES820             0.000      0.000    999.000    999.000
+    CES822             0.000      0.000    999.000    999.000
+
+ Variances
+    I5                 1.000      0.000    999.000    999.000
+    S5                 1.000      0.000    999.000    999.000
+
+ Residual Variances
+    CES812             0.189      0.561      0.336      0.737
+    CES816             0.466      0.025     18.633      0.000
+    CES818             0.510      0.022     23.213      0.000
+    CES820             0.533      0.028     19.150      0.000
+    CES822             0.565      0.038     14.720      0.000
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed
+    Variable        Estimate       S.E.  Est./S.E.    P-Value
+
+    CES812             0.811      0.561      1.445      0.149
+    CES816             0.534      0.025     21.312      0.000
+    CES818             0.490      0.022     22.323      0.000
+    CES820             0.467      0.028     16.753      0.000
+    CES822             0.435      0.038     11.338      0.000
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           LAMBDA
+              I5            S5
+              ________      ________
+ CES812             0             0
+ CES816             0             1
+ CES818             0             2
+ CES820             0             3
+ CES822             0             0
+
+
+           THETA
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+ CES812             4
+ CES816             0             5
+ CES818             0             0             6
+ CES820             0             0             0             7
+ CES822             0             0             0             0             8
+
+
+           ALPHA
+              I5            S5
+              ________      ________
+                  9            10
+
+
+           BETA
+              I5            S5
+              ________      ________
+ I5                 0             0
+ S5                 0             0
+
+
+           PSI
+              I5            S5
+              ________      ________
+ I5                11
+ S5                12            13
+
+
+     STARTING VALUES
+
+
+           NU
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              I5            S5
+              ________      ________
+ CES812         1.000         0.000
+ CES816         1.000         4.000
+ CES818         1.000         6.000
+ CES820         1.000         8.000
+ CES822         1.000        10.000
+
+
+           THETA
+              CES812        CES816        CES818        CES820        CES822
+              ________      ________      ________      ________      ________
+ CES812         3.402
+ CES816         0.000        10.475
+ CES818         0.000         0.000        10.381
+ CES820         0.000         0.000         0.000         9.688
+ CES822         0.000         0.000         0.000         0.000        10.618
+
+
+           ALPHA
+              I5            S5
+              ________      ________
+               16.201        -0.377
+
+
+           BETA
+              I5            S5
+              ________      ________
+ I5             0.000         0.000
+ S5             0.000         0.000
+
+
+           PSI
+              I5            S5
+              ________      ________
+ I5             7.497
+ S5             0.000         0.994
+
+
+TECHNICAL 4 OUTPUT
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+               16.232        -0.218
+
+
+           S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+                0.046         0.017
+
+
+           EST./S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+              356.203       -12.666
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+                0.000         0.000
+
+
+           ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             5.519
+ S5            -0.120         0.063
+
+
+           S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             3.826
+ S5             0.355         0.041
+
+
+           EST./S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             1.443
+ S5            -0.339         1.544
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             0.149
+ S5             0.735         0.123
+
+
+           ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             1.000
+ S5            -0.204         1.000
+
+
+           S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             0.000
+ S5             0.466         0.000
+
+
+           EST./S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5           999.000
+ S5            -0.438       999.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             0.000
+ S5             0.661         0.000
+
+
+           ESTIMATED PARTIAL CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I5            S5
+              ________      ________
+ I5             1.000
+ S5            -0.204         1.000
+
+
+     Beginning Time:  15:36:19
+        Ending Time:  15:36:20
+       Elapsed Time:  00:00:01
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

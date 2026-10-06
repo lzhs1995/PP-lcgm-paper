@@ -1,0 +1,14 @@
+TITLE:
+CFPS review sensitivity univariate_CESD8_four
+DATA:
+FILE = "data.dat"; 
+VARIABLE:
+NAMES = fid y1 y2 y3 y4; 
+ MISSING=.;
+ CLUSTER=fid; USEVARIABLES= y1 y2 y3 y4 ;
+ANALYSIS:
+TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005;
+MODEL:
+iy sy | y1@0 y2*2 y3*4 y4@6 ;
+OUTPUT:
+TECH1 TECH4 SAMPSTAT RESIDUAL;

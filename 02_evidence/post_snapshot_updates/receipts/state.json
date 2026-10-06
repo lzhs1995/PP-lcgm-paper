@@ -1,0 +1,25 @@
+{
+  "stage": "REVIEW_DELIVERY_COMPLETE_SCIENTIFIC_INFERENCE_OPEN",
+  "updated_at": "2026-10-05T18:40:09.473820+00:00",
+  "cfps_historical_reproduction": "COMPLETE",
+  "charls": "PAUSED_BY_USER",
+  "primary_scale": "CESD8",
+  "sensitivity_scale": "CESD20sc",
+  "new_mplus": 12,
+  "manuscript_release": false,
+  "distinct_new_specifications": 8,
+  "failed_input_attempts": 4,
+  "current_sensitivity": {
+    "reviewable": 3,
+    "inadmissible": 3,
+    "nonconverged": 2
+  },
+  "new_interactions": 0,
+  "reason": "CESD8 five-wave baseline inadmissible; MI/VCOV scientific boundaries remain.",
+  "main_version": "v45",
+  "appendix_version": "v38",
+  "nlm_three_pass_completed": true,
+  "nlm_notebook_id": "78f171e0-bc6f-4fed-9509-69e683c2218d",
+  "source_files_unchanged": true,
+  "continuation_new_mplus": 0
+}

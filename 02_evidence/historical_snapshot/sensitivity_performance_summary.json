@@ -1,0 +1,27 @@
+{
+  "monitor_samples": 81,
+  "owned_model_samples": 4,
+  "rss_peak_mib": 34.07421875,
+  "private_peak_mib": 304.68359375,
+  "observed_cpu_core_percent": [],
+  "free_physical_min_gib": 0.7616844177246094,
+  "direct_fit_seconds": [
+    {
+      "model": "direct_CESD8_five",
+      "seconds": 16.5139529705048
+    },
+    {
+      "model": "direct_CESD8_four",
+      "seconds": 13.5210399627686
+    },
+    {
+      "model": "direct_CESD20_five",
+      "seconds": 15.1843659877777
+    },
+    {
+      "model": "direct_CESD20_four",
+      "seconds": 13.5138688087463
+    }
+  ],
+  "limitation": "Sampled peaks only. Short univariate models were not necessarily sampled. Not a matched upgrade benchmark; no claim that raising priority caused faster estimates."
+}

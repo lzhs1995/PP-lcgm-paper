@@ -1,0 +1,38 @@
+{
+  "status": "PAIRED_MLR_COMPARISON_COMPLETE_NOT_AUTOMATIC_MODEL_SELECTION",
+  "comparisons": {
+    "raw": {
+      "scale": "raw",
+      "N": 3274,
+      "restricted": "linear",
+      "unrestricted": "free_shape",
+      "df": 3,
+      "ll_linear": -30180.677,
+      "ll_shape": -30169.805,
+      "scaling_difference": 2.49923333333333,
+      "scaled_LR": 8.70026808221139,
+      "p_value": 0.0335531974259079,
+      "AIC_shape_minus_linear": -15.7430000000022,
+      "BIC_shape_minus_linear": 2.53800000000047,
+      "output_sha256": ["d3026bbec929b422042ca8fc183d2eac76eb03eb3768d0784b3d96d4a07cbc51", "b70bf297b48e190c5b30175d9b12855fe718cca6c9d01aef555009192354822e"],
+      "limitations": "使用原生输出打印精度；MLR校正不能直接相减两个缩放卡方。两模型同尺度同数据；不将不同尺度AIC/BIC直接比较。"
+    },
+    "baseline_standardized": {
+      "scale": "baseline_standardized",
+      "N": 3274,
+      "restricted": "linear",
+      "unrestricted": "free_shape",
+      "df": 3,
+      "ll_linear": -14618.895,
+      "ll_shape": -14608.023,
+      "scaling_difference": 2.49923333333333,
+      "scaled_LR": 8.70026808221284,
+      "p_value": 0.0335531974258858,
+      "AIC_shape_minus_linear": -15.7440000000024,
+      "BIC_shape_minus_linear": 2.53700000000026,
+      "output_sha256": ["6b335efb3c12d65c7b20ebb70c6a7726b9cb059cf35a2322c17edc5eff69daf0", "f0748ba363969ee6cc82fe0d8f89e6b070fee3d5f92d419e8b6ab1ed23efe38c"],
+      "limitations": "使用原生输出打印精度；MLR校正不能直接相减两个缩放卡方。两模型同尺度同数据；不将不同尺度AIC/BIC直接比较。"
+    }
+  },
+  "interpretation": "自由形状相对线性增加三个自由时间载荷；AIC与BIC可能支持不同模型。分段与二次模型已有PSI非正定，不能仅凭更小AIC纳入有效模型排名。"
+}

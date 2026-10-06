@@ -1,0 +1,3325 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+10/02/2026   8:43 AM
+
+INPUT INSTRUCTIONS
+
+
+
+    TITLE:
+    Class-1_pp_LGCA
+    DATA:
+    FILE = "corrected_imputations.list";
+    TYPE = IMPUTATION;
+
+    VARIABLE:
+    NAMES = SEX12 EDU12 URBAN12 PROV12 CDN12 CDAR12 CDSC12 MINOR12 HUKOU12 PINC12
+         PINC212 CORES12 HEAL12 MARR12 ECO12 HWC12 SAT12 ADL12 FINC12 FID WAVE
+  WFDMS12
+         WFDMS16 WFDMS18 WFDMS20 WFDMS22 WFDCS12 WFDCS16 WFDCS18 WFDCS20 WFDCS22
+         WFDDS712 WFDDS716 WFDDS718 WFDDS720 WFDDS722 WFDDS812 WFDDS816 WFDDS818
+         WFDDS820 WFDDS822 CES8SD12 CES8SD16 CES8SD18 CES8SD20 CES8SD22 AGEG12
+  AGEG16
+         AGEG18 AGEG20 AGEG22 PROV122 PROV123 CDSC121 CDSC122 PINCM112 PINCM212
+  HEAL121
+         HEAL123 ECO122 ECO123 HWC122 HWC123 PID;
+     MISSING=.;
+     usevar =
+
+    wfdcs12 wfdcs16 wfdcs18 wfdcs20 wfdcs22
+
+
+    ces8sd12 ces8sd16 ces8sd18 ces8sd20 ces8sd22
+
+
+    sex12 edu12 urban12
+    prov122 prov123
+    cdn12 cdar12
+    cdsc121 cdsc122
+    minor12 wave
+
+
+    ageg12 pinc12 pinc212 cores12 heal121 heal123
+    marr12 eco122 eco123 hwc122 hwc123 hukou12 sat12 adl12 finc12
+
+
+
+
+
+
+
+
+
+
+    ;
+    idvariable=pid;
+    cluster=fid;
+    ANALYSIS:
+    estimator = mlr;
+    TYPE=COMPLEX;
+
+
+
+
+
+    PROCESSORS = 1;
+    coverage = 0.005;
+    MODEL:
+
+
+    i2 s2 | wfdcs12@0 wfdcs16* wfdcs18* wfdcs20* wfdcs22@1;
+
+
+    i5 s5 | ces8sd12@0 ces8sd16*4 ces8sd18*6 ces8sd20*8 ces8sd22@10;
+
+
+
+
+
+
+
+
+
+
+    i5 on i2 ;
+
+
+    s5 on i2 s2 i5 ;
+
+
+
+    i5 s5 on sex12 edu12 urban12 prov122 prov123;
+    i5 s5 on cdn12 cdar12 cdsc121 cdsc122 minor12 wave ;
+
+
+    i5 s5 on ageg12 pinc12 pinc212 cores12 heal121 heal123;
+    i5 s5 on marr12 hukou12 eco122 eco123 hwc122 hwc123 sat12 adl12 finc12;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    OUTPUT:
+    tech1 tech8 tech10 tech11 tech14 sampstat patterns stdyx;
+    SAVEDATA:
+    FILE = corrected_savedata.txt;
+    SAVE = CPROB;
+    PLOT:
+    type = plot3;
+    series = wfdcs12-wfdcs22(s2)|ces8sd12-ces8sd22(s5);
+
+
+
+
+
+
+*** WARNING in SAVEDATA command
+  The FILE option is not available for TYPE=MONTECARLO or TYPE=IMPUTATION
+  unless the filename has *.  The FILE option will be ignored.
+*** WARNING in SAVEDATA command
+  Class probabilities can only be saved for TYPE=MIXTURE.
+*** ERROR in SAVEDATA command
+  No filename given for saving raw data.  SAVE options ignored.
+*** WARNING in PLOT command
+  PLOT1 and PLOT3 options are not available with TYPE=IMPUTATION in the DATA command.
+  Request for PLOT1 and/or PLOT3 will be ignored.
+*** WARNING in OUTPUT command
+  TECH10 option is not available with multiple imputation.
+  Request for TECH10 is ignored.
+*** WARNING in OUTPUT command
+  TECH8 option is available only with analysis types MIXTURE, RANDOM, or
+  TWOLEVEL with estimators ML, MLF, or MLR or ALGORITHM=INTEGRATION.
+  Request for TECH8 is ignored.
+*** WARNING in OUTPUT command
+  TECH11 option is available only with TYPE=MIXTURE.
+  Request for TECH11 is ignored.
+*** WARNING in OUTPUT command
+  TECH14 option is available only with TYPE=MIXTURE.
+  Request for TECH14 is ignored.
+   1 ERROR(S) FOUND IN THE INPUT INSTRUCTIONS
+   7 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS
+
+
+
+
+Class-1_pp_LGCA
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Average number of observations                                3274
+
+Number of replications
+    Requested                                                   10
+    Completed                                                   10
+
+Number of dependent variables                                   10
+Number of independent variables                                 26
+Number of continuous latent variables                            4
+
+Observed dependent variables
+
+  Continuous
+   WFDCS12     WFDCS16     WFDCS18     WFDCS20     WFDCS22     CES8SD12
+   CES8SD16    CES8SD18    CES8SD20    CES8SD22
+
+Observed independent variables
+   SEX12       EDU12       URBAN12     PROV122     PROV123     CDN12
+   CDAR12      CDSC121     CDSC122     MINOR12     WAVE        AGEG12
+   PINC12      PINC212     CORES12     HEAL121     HEAL123     MARR12
+   ECO122      ECO123      HWC122      HWC123      HUKOU12     SAT12
+   ADL12       FINC12
+
+Continuous latent variables
+   I2          S2          I5          S5
+
+Variables with special functions
+
+  Cluster variable      FID
+  ID variable           PID
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  Multiple data files from
+    corrected_imputations.list
+
+Input data format  FREE
+
+
+SUMMARY OF DATA FOR THE FIRST DATA SET
+
+     Number of missing data patterns            68
+     Number of clusters                       2410
+
+
+
+SUMMARY OF MISSING DATA PATTERNS FOR THE FIRST DATA SET
+
+
+     MISSING DATA PATTERNS (x = not missing)
+
+           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ WFDCS12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS16   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS18   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS20   x  x  x  x  x  x  x  x  x
+ WFDCS22   x  x  x  x  x              x  x  x  x  x
+ CES8SD12  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CES8SD16  x  x  x  x  x  x  x  x  x  x  x  x  x     x  x  x  x  x
+ CES8SD18  x  x  x  x     x  x  x     x  x  x     x  x  x  x  x     x
+ CES8SD20  x  x        x  x  x     x  x           x  x  x
+ CES8SD22  x     x     x  x           x  x     x  x  x     x
+ SEX12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EDU12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ URBAN12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PROV122   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PROV123   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDN12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDAR12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDSC121   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDSC122   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MINOR12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WAVE      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ AGEG12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PINC12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PINC212   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CORES12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HEAL121   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HEAL123   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MARR12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ECO122    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ECO123    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HWC122    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HWC123    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HUKOU12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SAT12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ADL12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ FINC12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+
+          21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+ WFDCS12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS16   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS18
+ WFDCS20   x  x  x  x  x  x  x  x  x  x
+ WFDCS22   x  x  x  x  x                 x  x  x  x  x
+ CES8SD12  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CES8SD16  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CES8SD18  x  x           x  x           x  x           x  x  x  x
+ CES8SD20  x  x  x  x     x     x  x     x     x        x  x        x
+ CES8SD22  x     x     x        x        x  x  x  x     x     x     x
+ SEX12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EDU12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ URBAN12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PROV122   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PROV123   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDN12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDAR12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDSC121   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDSC122   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MINOR12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WAVE      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ AGEG12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PINC12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PINC212   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CORES12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HEAL121   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HEAL123   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MARR12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ECO122    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ECO123    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HWC122    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HWC123    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HUKOU12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SAT12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ADL12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ FINC12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+
+          41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60
+ WFDCS12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS16   x  x  x
+ WFDCS18            x  x  x  x  x  x  x  x  x  x  x  x  x
+ WFDCS20            x  x  x  x  x                          x  x  x  x
+ WFDCS22            x  x           x  x  x  x  x           x  x  x
+ CES8SD12  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CES8SD16  x  x  x                 x              x        x        x
+ CES8SD18           x  x  x  x  x  x  x  x  x     x  x  x           x
+ CES8SD20  x        x  x  x  x        x              x     x  x  x  x
+ CES8SD22     x     x     x        x  x  x     x           x  x
+ SEX12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EDU12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ URBAN12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PROV122   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PROV123   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDN12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDAR12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDSC121   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CDSC122   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MINOR12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ WAVE      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ AGEG12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PINC12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PINC212   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ CORES12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HEAL121   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HEAL123   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MARR12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ECO122    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ECO123    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HWC122    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HWC123    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ HUKOU12   x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SAT12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ADL12     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ FINC12    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+
+          61 62 63 64 65 66 67 68
+ WFDCS12   x  x  x  x  x  x  x  x
+ WFDCS16
+ WFDCS18
+ WFDCS20   x  x
+ WFDCS22         x  x  x  x  x  x
+ CES8SD12  x  x  x  x  x  x  x  x
+ CES8SD16        x
+ CES8SD18  x     x  x  x
+ CES8SD20  x  x  x        x  x
+ CES8SD22        x  x     x     x
+ SEX12     x  x  x  x  x  x  x  x
+ EDU12     x  x  x  x  x  x  x  x
+ URBAN12   x  x  x  x  x  x  x  x
+ PROV122   x  x  x  x  x  x  x  x
+ PROV123   x  x  x  x  x  x  x  x
+ CDN12     x  x  x  x  x  x  x  x
+ CDAR12    x  x  x  x  x  x  x  x
+ CDSC121   x  x  x  x  x  x  x  x
+ CDSC122   x  x  x  x  x  x  x  x
+ MINOR12   x  x  x  x  x  x  x  x
+ WAVE      x  x  x  x  x  x  x  x
+ AGEG12    x  x  x  x  x  x  x  x
+ PINC12    x  x  x  x  x  x  x  x
+ PINC212   x  x  x  x  x  x  x  x
+ CORES12   x  x  x  x  x  x  x  x
+ HEAL121   x  x  x  x  x  x  x  x
+ HEAL123   x  x  x  x  x  x  x  x
+ MARR12    x  x  x  x  x  x  x  x
+ ECO122    x  x  x  x  x  x  x  x
+ ECO123    x  x  x  x  x  x  x  x
+ HWC122    x  x  x  x  x  x  x  x
+ HWC123    x  x  x  x  x  x  x  x
+ HUKOU12   x  x  x  x  x  x  x  x
+ SAT12     x  x  x  x  x  x  x  x
+ ADL12     x  x  x  x  x  x  x  x
+ FINC12    x  x  x  x  x  x  x  x
+
+
+     MISSING DATA PATTERN FREQUENCIES
+
+    Pattern   Frequency     Pattern   Frequency     Pattern   Frequency
+          1         476          24           1          47          27
+          2          14          25           1          48           3
+          3          10          26          19          49           1
+          4           1          27           2          50           5
+          5           3          28           1          51          14
+          6           6          29          45          52           3
+          7         366          30           2          53           1
+          8          18          31           9          54           3
+          9           4          32           5          55           2
+         10          46          33           3          56         145
+         11         169          34          24          57           2
+         12          10          35           3          58           3
+         13           2          36          11          59           1
+         14           2          37          12          60           2
+         15           2          38           4          61           2
+         16          31          39          71          62          15
+         17           3          40           1          63           1
+         18         827          41           7          64           2
+         19          21          42           2          65           1
+         20           5          43         719          66           1
+         21          18          44          26          67           1
+         22           1          45           1          68           8
+         23          26          46           1
+
+
+COVARIANCE COVERAGE OF DATA FOR THE FIRST DATA SET
+
+Minimum covariance coverage value   0.005
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+ WFDCS12        1.000
+ WFDCS16        0.917         0.917
+ WFDCS18        0.687         0.616         0.687
+ WFDCS20        0.335         0.310         0.292         0.335
+ WFDCS22        0.273         0.252         0.239         0.178         0.273
+ CES8SD12       1.000         0.917         0.687         0.335         0.273
+ CES8SD16       0.918         0.915         0.615         0.311         0.252
+ CES8SD18       0.726         0.653         0.677         0.303         0.249
+ CES8SD20       0.365         0.337         0.309         0.324         0.195
+ CES8SD22       0.272         0.252         0.234         0.175         0.262
+ SEX12          1.000         0.917         0.687         0.335         0.273
+ EDU12          1.000         0.917         0.687         0.335         0.273
+ URBAN12        1.000         0.917         0.687         0.335         0.273
+ PROV122        1.000         0.917         0.687         0.335         0.273
+ PROV123        1.000         0.917         0.687         0.335         0.273
+ CDN12          1.000         0.917         0.687         0.335         0.273
+ CDAR12         1.000         0.917         0.687         0.335         0.273
+ CDSC121        1.000         0.917         0.687         0.335         0.273
+ CDSC122        1.000         0.917         0.687         0.335         0.273
+ MINOR12        1.000         0.917         0.687         0.335         0.273
+ WAVE           1.000         0.917         0.687         0.335         0.273
+ AGEG12         1.000         0.917         0.687         0.335         0.273
+ PINC12         1.000         0.917         0.687         0.335         0.273
+ PINC212        1.000         0.917         0.687         0.335         0.273
+ CORES12        1.000         0.917         0.687         0.335         0.273
+ HEAL121        1.000         0.917         0.687         0.335         0.273
+ HEAL123        1.000         0.917         0.687         0.335         0.273
+ MARR12         1.000         0.917         0.687         0.335         0.273
+ ECO122         1.000         0.917         0.687         0.335         0.273
+ ECO123         1.000         0.917         0.687         0.335         0.273
+ HWC122         1.000         0.917         0.687         0.335         0.273
+ HWC123         1.000         0.917         0.687         0.335         0.273
+ HUKOU12        1.000         0.917         0.687         0.335         0.273
+ SAT12          1.000         0.917         0.687         0.335         0.273
+ ADL12          1.000         0.917         0.687         0.335         0.273
+ FINC12         1.000         0.917         0.687         0.335         0.273
+
+
+           Covariance Coverage
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+ CES8SD12       1.000
+ CES8SD16       0.918         0.918
+ CES8SD18       0.726         0.653         0.726
+ CES8SD20       0.365         0.338         0.330         0.365
+ CES8SD22       0.272         0.252         0.248         0.196         0.272
+ SEX12          1.000         0.918         0.726         0.365         0.272
+ EDU12          1.000         0.918         0.726         0.365         0.272
+ URBAN12        1.000         0.918         0.726         0.365         0.272
+ PROV122        1.000         0.918         0.726         0.365         0.272
+ PROV123        1.000         0.918         0.726         0.365         0.272
+ CDN12          1.000         0.918         0.726         0.365         0.272
+ CDAR12         1.000         0.918         0.726         0.365         0.272
+ CDSC121        1.000         0.918         0.726         0.365         0.272
+ CDSC122        1.000         0.918         0.726         0.365         0.272
+ MINOR12        1.000         0.918         0.726         0.365         0.272
+ WAVE           1.000         0.918         0.726         0.365         0.272
+ AGEG12         1.000         0.918         0.726         0.365         0.272
+ PINC12         1.000         0.918         0.726         0.365         0.272
+ PINC212        1.000         0.918         0.726         0.365         0.272
+ CORES12        1.000         0.918         0.726         0.365         0.272
+ HEAL121        1.000         0.918         0.726         0.365         0.272
+ HEAL123        1.000         0.918         0.726         0.365         0.272
+ MARR12         1.000         0.918         0.726         0.365         0.272
+ ECO122         1.000         0.918         0.726         0.365         0.272
+ ECO123         1.000         0.918         0.726         0.365         0.272
+ HWC122         1.000         0.918         0.726         0.365         0.272
+ HWC123         1.000         0.918         0.726         0.365         0.272
+ HUKOU12        1.000         0.918         0.726         0.365         0.272
+ SAT12          1.000         0.918         0.726         0.365         0.272
+ ADL12          1.000         0.918         0.726         0.365         0.272
+ FINC12         1.000         0.918         0.726         0.365         0.272
+
+
+           Covariance Coverage
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+ SEX12          1.000
+ EDU12          1.000         1.000
+ URBAN12        1.000         1.000         1.000
+ PROV122        1.000         1.000         1.000         1.000
+ PROV123        1.000         1.000         1.000         1.000         1.000
+ CDN12          1.000         1.000         1.000         1.000         1.000
+ CDAR12         1.000         1.000         1.000         1.000         1.000
+ CDSC121        1.000         1.000         1.000         1.000         1.000
+ CDSC122        1.000         1.000         1.000         1.000         1.000
+ MINOR12        1.000         1.000         1.000         1.000         1.000
+ WAVE           1.000         1.000         1.000         1.000         1.000
+ AGEG12         1.000         1.000         1.000         1.000         1.000
+ PINC12         1.000         1.000         1.000         1.000         1.000
+ PINC212        1.000         1.000         1.000         1.000         1.000
+ CORES12        1.000         1.000         1.000         1.000         1.000
+ HEAL121        1.000         1.000         1.000         1.000         1.000
+ HEAL123        1.000         1.000         1.000         1.000         1.000
+ MARR12         1.000         1.000         1.000         1.000         1.000
+ ECO122         1.000         1.000         1.000         1.000         1.000
+ ECO123         1.000         1.000         1.000         1.000         1.000
+ HWC122         1.000         1.000         1.000         1.000         1.000
+ HWC123         1.000         1.000         1.000         1.000         1.000
+ HUKOU12        1.000         1.000         1.000         1.000         1.000
+ SAT12          1.000         1.000         1.000         1.000         1.000
+ ADL12          1.000         1.000         1.000         1.000         1.000
+ FINC12         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+ CDN12          1.000
+ CDAR12         1.000         1.000
+ CDSC121        1.000         1.000         1.000
+ CDSC122        1.000         1.000         1.000         1.000
+ MINOR12        1.000         1.000         1.000         1.000         1.000
+ WAVE           1.000         1.000         1.000         1.000         1.000
+ AGEG12         1.000         1.000         1.000         1.000         1.000
+ PINC12         1.000         1.000         1.000         1.000         1.000
+ PINC212        1.000         1.000         1.000         1.000         1.000
+ CORES12        1.000         1.000         1.000         1.000         1.000
+ HEAL121        1.000         1.000         1.000         1.000         1.000
+ HEAL123        1.000         1.000         1.000         1.000         1.000
+ MARR12         1.000         1.000         1.000         1.000         1.000
+ ECO122         1.000         1.000         1.000         1.000         1.000
+ ECO123         1.000         1.000         1.000         1.000         1.000
+ HWC122         1.000         1.000         1.000         1.000         1.000
+ HWC123         1.000         1.000         1.000         1.000         1.000
+ HUKOU12        1.000         1.000         1.000         1.000         1.000
+ SAT12          1.000         1.000         1.000         1.000         1.000
+ ADL12          1.000         1.000         1.000         1.000         1.000
+ FINC12         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+ WAVE           1.000
+ AGEG12         1.000         1.000
+ PINC12         1.000         1.000         1.000
+ PINC212        1.000         1.000         1.000         1.000
+ CORES12        1.000         1.000         1.000         1.000         1.000
+ HEAL121        1.000         1.000         1.000         1.000         1.000
+ HEAL123        1.000         1.000         1.000         1.000         1.000
+ MARR12         1.000         1.000         1.000         1.000         1.000
+ ECO122         1.000         1.000         1.000         1.000         1.000
+ ECO123         1.000         1.000         1.000         1.000         1.000
+ HWC122         1.000         1.000         1.000         1.000         1.000
+ HWC123         1.000         1.000         1.000         1.000         1.000
+ HUKOU12        1.000         1.000         1.000         1.000         1.000
+ SAT12          1.000         1.000         1.000         1.000         1.000
+ ADL12          1.000         1.000         1.000         1.000         1.000
+ FINC12         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+ HEAL121        1.000
+ HEAL123        1.000         1.000
+ MARR12         1.000         1.000         1.000
+ ECO122         1.000         1.000         1.000         1.000
+ ECO123         1.000         1.000         1.000         1.000         1.000
+ HWC122         1.000         1.000         1.000         1.000         1.000
+ HWC123         1.000         1.000         1.000         1.000         1.000
+ HUKOU12        1.000         1.000         1.000         1.000         1.000
+ SAT12          1.000         1.000         1.000         1.000         1.000
+ ADL12          1.000         1.000         1.000         1.000         1.000
+ FINC12         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+ HWC122         1.000
+ HWC123         1.000         1.000
+ HUKOU12        1.000         1.000         1.000
+ SAT12          1.000         1.000         1.000         1.000
+ ADL12          1.000         1.000         1.000         1.000         1.000
+ FINC12         1.000         1.000         1.000         1.000         1.000
+
+
+           Covariance Coverage
+              FINC12
+              ________
+ FINC12         1.000
+
+
+SAMPLE STATISTICS
+
+NOTE:  These are average results over 10 data sets.
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+                0.000        -0.009         0.246         0.349         0.430
+
+
+           Means
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+                0.000         0.028         0.131         0.072         0.187
+
+
+           Means
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+                0.496         0.195         0.435         0.308         0.242
+
+
+           Means
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+                3.159         7.155         0.202         0.079         0.004
+
+
+           Means
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+                3.280         0.108         2.189         0.688         0.539
+
+
+           Means
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+                0.318         0.434         0.828         0.233         0.186
+
+
+           Means
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+                0.109         0.212         0.684         3.529         0.292
+
+
+           Means
+              FINC12
+              ________
+                3.702
+
+
+           Covariances
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+ WFDCS12        1.000
+ WFDCS16        0.240         1.109
+ WFDCS18        0.223         0.270         1.273
+ WFDCS20        0.218         0.281         0.405         1.538
+ WFDCS22        0.248         0.355         0.311         0.609         1.854
+ CES8SD12       0.158         0.085         0.128         0.144         0.222
+ CES8SD16       0.106         0.147         0.112         0.221         0.163
+ CES8SD18       0.113         0.096         0.146         0.165         0.216
+ CES8SD20       0.106         0.118         0.097         0.223         0.225
+ CES8SD22       0.130         0.158         0.035         0.248         0.274
+ SEX12         -0.010        -0.003        -0.002         0.015        -0.017
+ EDU12         -0.019        -0.011        -0.006        -0.029        -0.030
+ URBAN12       -0.036        -0.026        -0.013         0.001        -0.032
+ PROV122       -0.002        -0.007        -0.015        -0.014         0.001
+ PROV123        0.027         0.031         0.023         0.008         0.027
+ CDN12          0.093         0.030         0.116         0.075         0.021
+ CDAR12         0.345         0.287         0.460         0.220         0.288
+ CDSC121       -0.011         0.000         0.008        -0.005        -0.002
+ CDSC122       -0.015        -0.011        -0.019        -0.004        -0.028
+ MINOR12        0.000         0.001         0.001         0.001        -0.004
+ WAVE          -0.041        -0.054        -0.124        -0.162        -0.085
+ AGEG12         0.013         0.015         0.025         0.065         0.021
+ PINC12        -0.062        -0.049        -0.052        -0.029        -0.073
+ PINC212       -0.077        -0.055        -0.048        -0.025        -0.041
+ CORES12        0.027         0.005         0.033         0.013         0.035
+ HEAL121        0.041         0.019         0.016         0.022         0.020
+ HEAL123       -0.019        -0.020        -0.007        -0.024        -0.007
+ MARR12        -0.031        -0.031        -0.022        -0.036        -0.012
+ ECO122        -0.042        -0.023        -0.008        -0.020        -0.040
+ ECO123         0.057         0.020         0.031         0.040         0.039
+ HWC122        -0.025        -0.017        -0.022        -0.017        -0.038
+ HWC123         0.021         0.009         0.010         0.005         0.032
+ HUKOU12        0.032         0.019         0.022         0.011         0.045
+ SAT12         -0.091        -0.078        -0.076        -0.096        -0.138
+ ADL12          0.030         0.041         0.002         0.164         0.048
+ FINC12        -0.121        -0.154        -0.180        -0.289        -0.092
+
+
+           Covariances
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+ CES8SD12       1.000
+ CES8SD16       0.453         1.153
+ CES8SD18       0.496         0.623         1.176
+ CES8SD20       0.453         0.477         0.524         1.101
+ CES8SD22       0.421         0.551         0.568         0.555         1.193
+ SEX12         -0.082        -0.087        -0.089        -0.074        -0.074
+ EDU12         -0.062        -0.064        -0.064        -0.058        -0.053
+ URBAN12       -0.077        -0.079        -0.084        -0.079        -0.057
+ PROV122       -0.030        -0.007        -0.016         0.016        -0.003
+ PROV123        0.075         0.064         0.062         0.034         0.039
+ CDN12          0.093         0.122         0.104         0.176         0.133
+ CDAR12         0.534         0.460         0.469         0.652         0.381
+ CDSC121        0.005         0.007         0.015        -0.006        -0.004
+ CDSC122       -0.007        -0.011        -0.015        -0.008        -0.017
+ MINOR12        0.002         0.002         0.000         0.005         0.002
+ WAVE          -0.101        -0.167        -0.194        -0.142        -0.135
+ AGEG12        -0.001         0.010         0.010         0.004         0.013
+ PINC12        -0.149        -0.120        -0.166        -0.091        -0.077
+ PINC212       -0.252        -0.228        -0.229        -0.224        -0.198
+ CORES12        0.050         0.016         0.027         0.004         0.033
+ HEAL121        0.164         0.140         0.140         0.106         0.108
+ HEAL123       -0.129        -0.121        -0.120        -0.079        -0.110
+ MARR12        -0.055        -0.049        -0.050        -0.032        -0.034
+ ECO122        -0.015         0.002        -0.007        -0.002        -0.005
+ ECO123         0.034         0.032         0.030         0.040         0.052
+ HWC122        -0.007        -0.010        -0.015        -0.006        -0.013
+ HWC123         0.022         0.022         0.016        -0.001         0.042
+ HUKOU12        0.071         0.076         0.077         0.074         0.059
+ SAT12         -0.323        -0.236        -0.236        -0.210        -0.229
+ ADL12          0.201         0.140         0.191         0.118         0.115
+ FINC12        -0.440        -0.525        -0.399        -0.578        -0.401
+
+
+           Covariances
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+ SEX12          0.250
+ EDU12          0.035         0.157
+ URBAN12       -0.009         0.042         0.246
+ PROV122        0.000         0.004        -0.015         0.213
+ PROV123        0.005        -0.018        -0.025        -0.075         0.184
+ CDN12         -0.038        -0.061        -0.108         0.073         0.031
+ CDAR12        -0.142        -0.209        -0.469         0.196         0.197
+ CDSC121       -0.002        -0.003        -0.002        -0.013         0.004
+ CDSC122        0.002         0.006         0.016        -0.008        -0.003
+ MINOR12       -0.001        -0.001        -0.001        -0.001         0.002
+ WAVE           0.027         0.051         0.009         0.010        -0.030
+ AGEG12         0.001        -0.002         0.012        -0.002        -0.008
+ PINC12         0.043         0.029         0.009        -0.004         0.004
+ PINC212        0.126         0.192         0.230        -0.026        -0.075
+ CORES12       -0.003        -0.010        -0.022         0.003         0.037
+ HEAL121       -0.030        -0.022        -0.022         0.000         0.012
+ HEAL123        0.030         0.018         0.004         0.002        -0.008
+ MARR12         0.035         0.011         0.000         0.000        -0.004
+ ECO122        -0.010        -0.007        -0.005         0.011        -0.012
+ ECO123         0.001        -0.004        -0.021         0.001         0.013
+ HWC122        -0.002        -0.001         0.016        -0.003        -0.001
+ HWC123        -0.014        -0.006        -0.004        -0.011         0.015
+ HUKOU12       -0.008        -0.063        -0.113         0.003         0.029
+ SAT12          0.004         0.024         0.043         0.035        -0.011
+ ADL12         -0.050        -0.021        -0.008        -0.016         0.019
+ FINC12         0.072         0.248         0.374        -0.051        -0.037
+
+
+           Covariances
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+ CDN12          1.375
+ CDAR12         3.691        22.441
+ CDSC121       -0.138        -0.329         0.161
+ CDSC122       -0.038        -0.124        -0.016         0.073
+ MINOR12        0.002         0.011        -0.001         0.000         0.004
+ WAVE          -0.238        -0.929         0.010         0.018        -0.003
+ AGEG12         0.083         0.346         0.000        -0.003         0.000
+ PINC12        -0.042        -0.113         0.012        -0.001        -0.001
+ PINC212       -0.279        -1.041         0.021         0.042         0.000
+ CORES12        0.012         0.177         0.008        -0.014         0.002
+ HEAL121        0.018         0.118         0.001        -0.004         0.000
+ HEAL123        0.000         0.001        -0.008         0.003         0.000
+ MARR12        -0.060        -0.182        -0.001         0.004         0.000
+ ECO122         0.016        -0.015         0.000        -0.001         0.000
+ ECO123         0.052         0.216        -0.006        -0.005         0.000
+ HWC122        -0.035        -0.123         0.004         0.004         0.000
+ HWC123         0.013         0.074        -0.004         0.000         0.001
+ HUKOU12        0.085         0.364        -0.005        -0.012         0.001
+ SAT12          0.014         0.001        -0.005         0.003         0.000
+ ADL12          0.083         0.483         0.003        -0.003         0.001
+ FINC12        -0.622        -2.048         0.053         0.044         0.004
+
+
+           Covariances
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+ WAVE           1.116
+ AGEG12        -0.079         0.096
+ PINC12         0.060         0.001         1.042
+ PINC212        0.100         0.039         0.252         1.541
+ CORES12       -0.047        -0.003         0.006        -0.083         0.248
+ HEAL121       -0.050         0.002        -0.053        -0.079         0.003
+ HEAL123        0.048        -0.001         0.056         0.044         0.002
+ MARR12         0.062        -0.024         0.016         0.030        -0.028
+ ECO122         0.008        -0.004        -0.006        -0.050        -0.006
+ ECO123        -0.005        -0.002        -0.015        -0.058         0.018
+ HWC122        -0.001        -0.001         0.012         0.014         0.001
+ HWC123        -0.027         0.008        -0.001        -0.016         0.039
+ HUKOU12       -0.009        -0.017        -0.053        -0.356         0.036
+ SAT12          0.049         0.012         0.239         0.146        -0.015
+ ADL12         -0.151         0.050        -0.042        -0.055         0.022
+ FINC12         0.221        -0.013         0.638         1.735         0.692
+
+
+           Covariances
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+ HEAL121        0.217
+ HEAL123       -0.138         0.246
+ MARR12        -0.008         0.008         0.142
+ ECO122        -0.002        -0.003        -0.001         0.179
+ ECO123         0.007        -0.006        -0.006        -0.043         0.151
+ HWC122        -0.002         0.003         0.003         0.027        -0.013
+ HWC123         0.004        -0.004        -0.020        -0.007         0.013
+ HUKOU12        0.023        -0.004        -0.002         0.018         0.022
+ SAT12         -0.083         0.076         0.004         0.011        -0.007
+ ADL12          0.089        -0.065        -0.032        -0.002         0.008
+ FINC12        -0.135         0.056         0.085         0.003        -0.026
+
+
+           Covariances
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+ HWC122         0.097
+ HWC123        -0.023         0.167
+ HUKOU12       -0.007         0.006         0.216
+ SAT12          0.015         0.003        -0.058         1.090
+ ADL12          0.016         0.034         0.004        -0.027         0.926
+ FINC12         0.066         0.049        -0.425         0.435        -0.117
+
+
+           Covariances
+              FINC12
+              ________
+ FINC12        17.944
+
+
+           Correlations
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+ WFDCS12        1.000
+ WFDCS16        0.228         1.000
+ WFDCS18        0.198         0.227         1.000
+ WFDCS20        0.176         0.215         0.289         1.000
+ WFDCS22        0.183         0.247         0.202         0.361         1.000
+ CES8SD12       0.158         0.081         0.114         0.116         0.163
+ CES8SD16       0.099         0.130         0.092         0.166         0.112
+ CES8SD18       0.104         0.084         0.119         0.123         0.146
+ CES8SD20       0.101         0.107         0.082         0.171         0.157
+ CES8SD22       0.119         0.137         0.029         0.183         0.184
+ SEX12         -0.019        -0.005        -0.003         0.024        -0.026
+ EDU12         -0.048        -0.026        -0.013        -0.059        -0.056
+ URBAN12       -0.072        -0.050        -0.023         0.002        -0.047
+ PROV122       -0.003        -0.014        -0.030        -0.025         0.002
+ PROV123        0.064         0.068         0.048         0.015         0.046
+ CDN12          0.079         0.024         0.088         0.052         0.013
+ CDAR12         0.073         0.058         0.086         0.038         0.045
+ CDSC121       -0.027        -0.001         0.018        -0.010        -0.004
+ CDSC122       -0.054        -0.039        -0.064        -0.011        -0.076
+ MINOR12        0.007         0.018         0.014         0.014        -0.046
+ WAVE          -0.039        -0.049        -0.104        -0.124        -0.059
+ AGEG12         0.042         0.047         0.073         0.170         0.050
+ PINC12        -0.061        -0.046        -0.045        -0.023        -0.052
+ PINC212       -0.062        -0.042        -0.034        -0.016        -0.024
+ CORES12        0.054         0.009         0.059         0.021         0.052
+ HEAL121        0.089         0.039         0.030         0.038         0.031
+ HEAL123       -0.039        -0.038        -0.012        -0.039        -0.010
+ MARR12        -0.083        -0.078        -0.052        -0.078        -0.023
+ ECO122        -0.099        -0.053        -0.017        -0.038        -0.070
+ ECO123         0.147         0.048         0.070         0.083         0.074
+ HWC122        -0.081        -0.053        -0.062        -0.045        -0.088
+ HWC123         0.050         0.021         0.021         0.009         0.057
+ HUKOU12        0.068         0.039         0.042         0.019         0.070
+ SAT12         -0.087        -0.071        -0.064        -0.074        -0.097
+ ADL12          0.032         0.041         0.002         0.137         0.037
+ FINC12        -0.028        -0.035        -0.038        -0.055        -0.016
+
+
+           Correlations
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+ CES8SD12       1.000
+ CES8SD16       0.422         1.000
+ CES8SD18       0.458         0.535         1.000
+ CES8SD20       0.432         0.424         0.461         1.000
+ CES8SD22       0.386         0.470         0.480         0.485         1.000
+ SEX12         -0.163        -0.162        -0.165        -0.142        -0.136
+ EDU12         -0.156        -0.151        -0.149        -0.140        -0.123
+ URBAN12       -0.156        -0.149        -0.157        -0.151        -0.105
+ PROV122       -0.064        -0.014        -0.031         0.034        -0.005
+ PROV123        0.175         0.139         0.133         0.075         0.084
+ CDN12          0.079         0.097         0.082         0.143         0.104
+ CDAR12         0.113         0.090         0.091         0.131         0.074
+ CDSC121        0.013         0.017         0.034        -0.014        -0.009
+ CDSC122       -0.026        -0.037        -0.051        -0.029        -0.057
+ MINOR12        0.025         0.024         0.006         0.077         0.025
+ WAVE          -0.095        -0.147        -0.169        -0.128        -0.117
+ AGEG12        -0.004         0.030         0.029         0.013         0.037
+ PINC12        -0.146        -0.109        -0.150        -0.085        -0.069
+ PINC212       -0.203        -0.171        -0.170        -0.172        -0.146
+ CORES12        0.100         0.030         0.051         0.007         0.061
+ HEAL121        0.352         0.280         0.277         0.217         0.212
+ HEAL123       -0.261        -0.227        -0.223        -0.151        -0.204
+ MARR12        -0.145        -0.121        -0.123        -0.080        -0.082
+ ECO122        -0.035         0.004        -0.016        -0.005        -0.011
+ ECO123         0.088         0.076         0.070         0.098         0.122
+ HWC122        -0.021        -0.030        -0.046        -0.017        -0.039
+ HWC123         0.054         0.050         0.035        -0.002         0.095
+ HUKOU12        0.152         0.151         0.153         0.151         0.116
+ SAT12         -0.310        -0.210        -0.208        -0.192        -0.201
+ ADL12          0.209         0.136         0.183         0.117         0.109
+ FINC12        -0.104        -0.115        -0.087        -0.130        -0.087
+
+
+           Correlations
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+ SEX12          1.000
+ EDU12          0.177         1.000
+ URBAN12       -0.036         0.213         1.000
+ PROV122        0.001         0.020        -0.063         1.000
+ PROV123        0.025        -0.106        -0.117        -0.378         1.000
+ CDN12         -0.064        -0.130        -0.186         0.135         0.061
+ CDAR12        -0.060        -0.111        -0.200         0.089         0.097
+ CDSC121       -0.010        -0.017        -0.012        -0.071         0.023
+ CDSC122        0.014         0.061         0.123        -0.067        -0.029
+ MINOR12       -0.018        -0.032        -0.020        -0.034         0.072
+ WAVE           0.050         0.123         0.018         0.019        -0.067
+ AGEG12         0.005        -0.017         0.075        -0.016        -0.063
+ PINC12         0.084         0.071         0.017        -0.008         0.010
+ PINC212        0.204         0.391         0.374        -0.045        -0.140
+ CORES12       -0.013        -0.053        -0.089         0.014         0.174
+ HEAL121       -0.130        -0.121        -0.097        -0.002         0.058
+ HEAL123        0.120         0.093         0.016         0.009        -0.036
+ MARR12         0.188         0.071         0.001         0.002        -0.022
+ ECO122        -0.045        -0.042        -0.025         0.056        -0.067
+ ECO123         0.005        -0.023        -0.109         0.005         0.080
+ HWC122        -0.014        -0.012         0.102        -0.024        -0.010
+ HWC123        -0.068        -0.040        -0.021        -0.056         0.088
+ HUKOU12       -0.032        -0.343        -0.490         0.016         0.147
+ SAT12          0.007         0.059         0.083         0.072        -0.025
+ ADL12         -0.104        -0.055        -0.018        -0.035         0.046
+ FINC12         0.034         0.148         0.178        -0.026        -0.021
+
+
+           Correlations
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+ CDN12          1.000
+ CDAR12         0.665         1.000
+ CDSC121       -0.293        -0.173         1.000
+ CDSC122       -0.120        -0.097        -0.148         1.000
+ MINOR12        0.027         0.035        -0.021        -0.019         1.000
+ WAVE          -0.192        -0.186         0.024         0.064        -0.040
+ AGEG12         0.228         0.236        -0.003        -0.036         0.007
+ PINC12        -0.035        -0.023         0.030        -0.004        -0.008
+ PINC212       -0.192        -0.177         0.042         0.124        -0.003
+ CORES12        0.020         0.075         0.038        -0.104         0.051
+ HEAL121        0.033         0.053         0.005        -0.031         0.006
+ HEAL123       -0.001         0.000        -0.043         0.026        -0.001
+ MARR12        -0.135        -0.102        -0.005         0.035         0.005
+ ECO122         0.032        -0.007         0.002        -0.012        -0.014
+ ECO123         0.113         0.117        -0.041        -0.050        -0.007
+ HWC122        -0.096        -0.083         0.034         0.046        -0.008
+ HWC123         0.026         0.038        -0.022        -0.003         0.046
+ HUKOU12        0.155         0.165        -0.025        -0.092         0.034
+ SAT12          0.012         0.000        -0.012         0.012        -0.006
+ ADL12          0.073         0.106         0.007        -0.010         0.019
+ FINC12        -0.125        -0.102         0.031         0.038         0.014
+
+
+           Correlations
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+ WAVE           1.000
+ AGEG12        -0.241         1.000
+ PINC12         0.056         0.003         1.000
+ PINC212        0.076         0.101         0.199         1.000
+ CORES12       -0.089        -0.019         0.012        -0.134         1.000
+ HEAL121       -0.102         0.017        -0.111        -0.137         0.015
+ HEAL123        0.092        -0.007         0.111         0.071         0.007
+ MARR12         0.154        -0.203         0.042         0.063        -0.150
+ ECO122         0.018        -0.028        -0.014        -0.095        -0.031
+ ECO123        -0.012        -0.016        -0.039        -0.120         0.094
+ HWC122        -0.002        -0.008         0.039         0.035         0.005
+ HWC123        -0.062         0.066        -0.003        -0.031         0.191
+ HUKOU12       -0.019        -0.116        -0.112        -0.616         0.155
+ SAT12          0.044         0.036         0.224         0.113        -0.028
+ ADL12         -0.149         0.168        -0.043        -0.046         0.045
+ FINC12         0.049        -0.010         0.148         0.330         0.328
+
+
+           Correlations
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+ HEAL121        1.000
+ HEAL123       -0.598         1.000
+ MARR12        -0.044         0.042         1.000
+ ECO122        -0.009        -0.016        -0.004         1.000
+ ECO123         0.036        -0.030        -0.041        -0.264         1.000
+ HWC122        -0.012         0.022         0.024         0.206        -0.109
+ HWC123         0.020        -0.022        -0.127        -0.040         0.085
+ HUKOU12        0.105        -0.019        -0.010         0.092         0.121
+ SAT12         -0.172         0.148         0.010         0.024        -0.017
+ ADL12          0.199        -0.137        -0.088        -0.006         0.021
+ FINC12        -0.068         0.027         0.053         0.002        -0.016
+
+
+           Correlations
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+ HWC122         1.000
+ HWC123        -0.181         1.000
+ HUKOU12       -0.051         0.032         1.000
+ SAT12          0.045         0.008        -0.119         1.000
+ ADL12          0.053         0.086         0.008        -0.027         1.000
+ FINC12         0.050         0.028        -0.216         0.098        -0.029
+
+
+           Correlations
+              FINC12
+              ________
+ FINC12         1.000
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       81
+
+Loglikelihood
+
+    H0 Value
+
+        Mean                            -29456.527
+        Std Dev                              1.378
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000       -29459.733     -29459.184
+           0.980       1.000       -29459.358     -29459.184
+           0.950       0.900       -29458.794     -29459.184
+           0.900       0.900       -29458.293     -29459.184
+           0.800       0.800       -29457.687     -29459.184
+           0.700       0.800       -29457.250     -29457.080
+           0.500       0.700       -29456.527     -29456.489
+           0.300       0.200       -29455.804     -29456.168
+           0.200       0.200       -29455.367     -29455.878
+           0.100       0.100       -29454.761     -29455.357
+           0.050       0.100       -29454.260     -29455.357
+           0.020       0.000       -29453.697     -29455.357
+           0.010       0.000       -29453.321     -29455.357
+
+    H1 Value
+
+        Mean                            -29169.838
+        Std Dev                              1.598
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000       -29173.555     -29172.788
+           0.980       1.000       -29173.120     -29172.788
+           0.950       0.900       -29172.467     -29172.788
+           0.900       0.900       -29171.886     -29172.788
+           0.800       0.800       -29171.183     -29172.788
+           0.700       0.700       -29170.676     -29171.126
+           0.500       0.500       -29169.838     -29170.242
+           0.300       0.500       -29169.000     -29168.983
+           0.200       0.200       -29168.493     -29168.983
+           0.100       0.200       -29167.790     -29167.724
+           0.050       0.000       -29167.210     -29167.724
+           0.020       0.000       -29166.556     -29167.724
+           0.010       0.000       -29166.121     -29167.724
+
+Information Criteria
+
+    Akaike (AIC)
+
+        Mean                             59075.054
+        Std Dev                              2.756
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000        59068.642      59069.821
+           0.980       1.000        59069.393      59069.821
+           0.950       0.900        59070.520      59069.821
+           0.900       0.900        59071.521      59069.821
+           0.800       0.800        59072.734      59069.821
+           0.700       0.800        59073.609      59073.756
+           0.500       0.300        59075.054      59074.939
+           0.300       0.200        59076.500      59075.034
+           0.200       0.200        59077.374      59076.160
+           0.100       0.100        59078.587      59078.436
+           0.050       0.100        59079.588      59078.436
+           0.020       0.000        59080.715      59078.436
+           0.010       0.000        59081.466      59078.436
+
+    Bayesian (BIC)
+
+        Mean                             59568.649
+        Std Dev                              2.756
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000        59562.237      59563.416
+           0.980       1.000        59562.988      59563.416
+           0.950       0.900        59564.115      59563.416
+           0.900       0.900        59565.117      59563.416
+           0.800       0.800        59566.329      59563.416
+           0.700       0.800        59567.204      59567.351
+           0.500       0.300        59568.649      59568.534
+           0.300       0.200        59570.095      59568.629
+           0.200       0.200        59570.969      59569.756
+           0.100       0.100        59572.182      59572.031
+           0.050       0.100        59573.183      59572.031
+           0.020       0.000        59574.310      59572.031
+           0.010       0.000        59575.062      59572.031
+
+    Sample-Size Adjusted BIC (n* = (n + 2) / 24)
+
+        Mean                             59311.276
+        Std Dev                              2.756
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000        59304.864      59306.043
+           0.980       1.000        59305.615      59306.043
+           0.950       0.900        59306.742      59306.043
+           0.900       0.900        59307.744      59306.043
+           0.800       0.800        59308.957      59306.043
+           0.700       0.800        59309.831      59309.978
+           0.500       0.300        59311.276      59311.161
+           0.300       0.200        59312.722      59311.256
+           0.200       0.200        59313.596      59312.383
+           0.100       0.100        59314.809      59314.658
+           0.050       0.100        59315.810      59314.658
+           0.020       0.000        59316.937      59314.658
+           0.010       0.000        59317.689      59314.658
+
+Chi-Square Test of Model Fit
+
+        Degrees of freedom                     244
+
+        Mean                               526.745
+        Std Dev                              2.209
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000          195.567        523.210
+           0.980       1.000          200.804        523.210
+           0.950       1.000          208.836        523.210
+           0.900       1.000          216.152        523.210
+           0.800       1.000          225.240        523.210
+           0.700       1.000          231.950        524.664
+           0.500       1.000          243.334        527.245
+           0.300       1.000          255.084        527.454
+           0.200       1.000          262.371        528.062
+           0.100       1.000          272.704        529.761
+           0.050       1.000          281.437        529.761
+           0.020       1.000          291.484        529.761
+           0.010       1.000          298.311        529.761
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+        Mean                                 0.019
+        Std Dev                              0.000
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       1.000
+           0.800       1.000
+           0.700       1.000
+           0.500       1.000
+           0.300       1.000
+           0.200       1.000
+           0.100       1.000
+           0.050       1.000
+           0.020       1.000
+           0.010       0.000
+
+CFI/TLI
+
+    CFI
+
+        Mean                                 0.926
+        Std Dev                              0.001
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       0.000
+           0.800       0.000
+           0.700       0.000
+           0.500       0.000
+           0.300       0.000
+           0.200       0.000
+           0.100       0.000
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+    TLI
+
+        Mean                                 0.908
+        Std Dev                              0.001
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       0.000
+           0.800       0.000
+           0.700       0.000
+           0.500       0.000
+           0.300       0.000
+           0.200       0.000
+           0.100       0.000
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+SRMR (Standardized Root Mean Square Residual)
+
+        Mean                                 0.043
+        Std Dev                              0.000
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       1.000
+           0.800       1.000
+           0.700       1.000
+           0.500       1.000
+           0.300       1.000
+           0.200       1.000
+           0.100       1.000
+           0.050       1.000
+           0.020       0.000
+           0.010       0.000
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed   Rate of
+                    Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+ I2       |
+    WFDCS12            1.000      0.000    999.000    999.000      0.000
+    WFDCS16            1.000      0.000    999.000    999.000      0.000
+    WFDCS18            1.000      0.000    999.000    999.000      0.000
+    WFDCS20            1.000      0.000    999.000    999.000      0.000
+    WFDCS22            1.000      0.000    999.000    999.000      0.000
+
+ S2       |
+    WFDCS12            0.000      0.000    999.000    999.000      0.000
+    WFDCS16            0.054      0.080      0.678      0.498      0.000
+    WFDCS18            0.496      0.107      4.651      0.000      0.000
+    WFDCS20            0.727      0.144      5.057      0.000      0.000
+    WFDCS22            1.000      0.000    999.000    999.000      0.000
+
+ I5       |
+    CES8SD12           1.000      0.000    999.000    999.000      0.000
+    CES8SD16           1.000      0.000    999.000    999.000      0.000
+    CES8SD18           1.000      0.000    999.000    999.000      0.000
+    CES8SD20           1.000      0.000    999.000    999.000      0.000
+    CES8SD22           1.000      0.000    999.000    999.000      0.000
+
+ S5       |
+    CES8SD12           0.000      0.000    999.000    999.000      0.000
+    CES8SD16           7.225      5.939      1.217      0.224      0.000
+    CES8SD18           9.018      6.235      1.447      0.148      0.001
+    CES8SD20           9.353      6.611      1.415      0.157      0.000
+    CES8SD22          10.000      0.000    999.000    999.000      0.000
+
+ I5       ON
+    I2                 0.285      0.083      3.438      0.001      0.000
+
+ S5       ON
+    I2                -0.064      0.372     -0.172      0.864      0.000
+    S2                 0.025      0.020      1.278      0.201      0.000
+    I5                 0.202      1.297      0.156      0.876      0.000
+
+ I5       ON
+    SEX12             -0.173      0.031     -5.668      0.000      0.001
+    EDU12             -0.087      0.038     -2.307      0.021      0.000
+    URBAN12           -0.137      0.042     -3.295      0.001      0.003
+    PROV122           -0.010      0.038     -0.249      0.804      0.000
+    PROV123            0.265      0.047      5.653      0.000      0.001
+    CDN12             -0.005      0.019     -0.248      0.804      0.002
+    CDAR12             0.009      0.005      1.896      0.058      0.002
+    CDSC121            0.034      0.044      0.766      0.444      0.001
+    CDSC122            0.086      0.062      1.391      0.164      0.000
+    MINOR12            0.081      0.189      0.428      0.669      0.000
+    WAVE              -0.006      0.029     -0.191      0.849      0.000
+    AGEG12            -0.113      0.055     -2.057      0.040      0.000
+    PINC12            -0.030      0.020     -1.524      0.127      0.066
+    PINC212           -0.030      0.016     -1.916      0.055      0.003
+    CORES12            0.079      0.041      1.914      0.056      0.002
+    HEAL121            0.445      0.044     10.053      0.000      0.001
+    HEAL123           -0.118      0.038     -3.083      0.002      0.001
+    MARR12            -0.225      0.046     -4.886      0.000      0.000
+    HUKOU12           -0.038      0.047     -0.817      0.414      0.001
+    ECO122            -0.035      0.039     -0.898      0.369      0.001
+    ECO123             0.063      0.046      1.364      0.173      0.001
+    HWC122             0.045      0.052      0.854      0.393      0.000
+    HWC123             0.000      0.049      0.006      0.995      0.000
+    SAT12             -0.214      0.019    -11.385      0.000      0.009
+    ADL12              0.122      0.023      5.355      0.000      0.003
+    FINC12            -0.008      0.004     -1.943      0.052      0.017
+
+ S5       ON
+    SEX12              0.029      0.225      0.131      0.896      0.000
+    EDU12              0.018      0.113      0.157      0.875      0.000
+    URBAN12            0.026      0.172      0.150      0.881      0.000
+    PROV122            0.012      0.015      0.788      0.431      0.000
+    PROV123           -0.058      0.335     -0.175      0.861      0.000
+    CDN12              0.004      0.007      0.610      0.542      0.000
+    CDAR12            -0.003      0.011     -0.277      0.782      0.000
+    CDSC121           -0.003      0.043     -0.079      0.937      0.000
+    CDSC122           -0.025      0.102     -0.247      0.805      0.000
+    MINOR12           -0.010      0.125     -0.081      0.935      0.000
+    WAVE              -0.006      0.006     -0.994      0.320      0.001
+    AGEG12             0.032      0.143      0.227      0.820      0.000
+    PINC12             0.006      0.035      0.173      0.863      0.001
+    PINC212            0.010      0.040      0.244      0.807      0.000
+    CORES12           -0.030      0.102     -0.291      0.771      0.000
+    HEAL121           -0.106      0.561     -0.190      0.850      0.000
+    HEAL123            0.021      0.160      0.130      0.896      0.000
+    MARR12             0.056      0.283      0.196      0.844      0.000
+    HUKOU12            0.021      0.049      0.426      0.670      0.000
+    ECO122             0.014      0.042      0.337      0.736      0.000
+    ECO123            -0.008      0.093     -0.083      0.934      0.000
+    HWC122            -0.017      0.057     -0.293      0.770      0.000
+    HWC123             0.001      0.017      0.056      0.955      0.000
+    SAT12              0.052      0.276      0.189      0.850      0.000
+    ADL12             -0.030      0.155     -0.194      0.846      0.000
+    FINC12             0.002      0.010      0.173      0.863      0.001
+
+ S2       WITH
+    I2                 0.026      0.055      0.479      0.632      0.000
+
+ Means
+    I2                -0.011      0.019     -0.590      0.555      0.000
+    S2                 0.393      0.054      7.329      0.000      0.000
+
+ Intercepts
+    WFDCS12            0.000      0.000    999.000    999.000      0.000
+    WFDCS16            0.000      0.000    999.000    999.000      0.000
+    WFDCS18            0.000      0.000    999.000    999.000      0.000
+    WFDCS20            0.000      0.000    999.000    999.000      0.000
+    WFDCS22            0.000      0.000    999.000    999.000      0.000
+    CES8SD12           0.000      0.000    999.000    999.000      0.000
+    CES8SD16           0.000      0.000    999.000    999.000      0.000
+    CES8SD18           0.000      0.000    999.000    999.000      0.000
+    CES8SD20           0.000      0.000    999.000    999.000      0.000
+    CES8SD22           0.000      0.000    999.000    999.000      0.000
+    I5                 0.967      0.138      6.999      0.000      0.003
+    S5                -0.210      1.227     -0.171      0.864      0.000
+
+ Variances
+    I2                 0.230      0.043      5.298      0.000      0.000
+    S2                 0.320      0.184      1.736      0.083      0.000
+
+ Residual Variances
+    WFDCS12            0.774      0.065     11.941      0.000      0.000
+    WFDCS16            0.866      0.074     11.707      0.000      0.000
+    WFDCS18            0.951      0.075     12.659      0.000      0.000
+    WFDCS20            1.036      0.121      8.559      0.000      0.000
+    WFDCS22            1.236      0.229      5.402      0.000      0.000
+    CES8SD12           0.623      0.368      1.690      0.091      0.000
+    CES8SD16           0.604      0.044     13.702      0.000      0.000
+    CES8SD18           0.554      0.030     18.610      0.000      0.001
+    CES8SD20           0.601      0.041     14.688      0.000      0.000
+    CES8SD22           0.663      0.104      6.389      0.000      0.000
+    I5                 0.086      0.370      0.232      0.817      0.000
+    S5                -0.004      0.034     -0.117      0.907      0.000
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Average Condition Number for the Information Matrix      0.209E-07
+       (ratio of smallest to largest eigenvalue)
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed   Rate of
+                    Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+ I2       |
+    WFDCS12            0.479      0.039     12.157      0.000      0.000
+    WFDCS16            0.457      0.037     12.233      0.000      0.000
+    WFDCS18            0.423      0.038     11.089      0.000      0.000
+    WFDCS20            0.395      0.039     10.167      0.000      0.000
+    WFDCS22            0.354      0.038      9.227      0.000      0.000
+
+ S2       |
+    WFDCS12            0.000      0.000      0.000      1.000      0.000
+    WFDCS16            0.029      0.047      0.622      0.534      0.000
+    WFDCS18            0.247      0.065      3.794      0.000      0.000
+    WFDCS20            0.339      0.123      2.753      0.006      0.000
+    WFDCS22            0.417      0.117      3.562      0.000      0.000
+
+ I5       |
+    CES8SD12           0.609      0.308      1.975      0.048      0.000
+    CES8SD16           0.571      0.289      1.976      0.048      0.000
+    CES8SD18           0.574      0.298      1.923      0.055      0.000
+    CES8SD20           0.560      0.294      1.908      0.056      0.000
+    CES8SD22           0.542      0.266      2.041      0.041      0.000
+
+ S5       |
+    CES8SD12           0.000      0.000      0.000      1.000      0.000
+    CES8SD16           0.070     10.681      0.007      0.995      0.000
+    CES8SD18           0.088     13.344      0.007      0.995      0.000
+    CES8SD20           0.089     13.504      0.007      0.995      0.000
+    CES8SD22           0.093     13.751      0.007      0.995      0.000
+
+ I5       ON
+    I2                 0.226      0.137      1.658      0.097      0.000
+
+ S5       ON
+    I2                -9.063  *********      0.000      1.000      0.000
+    S2                 3.739  57378.562      0.000      1.000      0.000
+    I5                36.275  *********      0.000      1.000      0.000
+
+ I5       ON
+    SEX12             -0.143      0.070     -2.042      0.041      0.000
+    EDU12             -0.057      0.038     -1.508      0.132      0.000
+    URBAN12           -0.113      0.052     -2.165      0.030      0.001
+    PROV122           -0.007      0.030     -0.240      0.810      0.000
+    PROV123            0.188      0.092      2.048      0.041      0.000
+    CDN12             -0.009      0.038     -0.245      0.806      0.001
+    CDAR12             0.070      0.051      1.355      0.175      0.001
+    CDSC121            0.022      0.029      0.780      0.436      0.001
+    CDSC122            0.038      0.030      1.287      0.198      0.001
+    MINOR12            0.009      0.021      0.416      0.677      0.000
+    WAVE              -0.010      0.047     -0.207      0.836      0.000
+    AGEG12            -0.058      0.042     -1.374      0.169      0.000
+    PINC12            -0.051      0.032     -1.582      0.114      0.066
+    PINC212           -0.062      0.053     -1.185      0.236      0.002
+    CORES12            0.065      0.057      1.132      0.257      0.001
+    HEAL121            0.342      0.168      2.031      0.042      0.000
+    HEAL123           -0.096      0.067     -1.447      0.148      0.001
+    MARR12            -0.140      0.074     -1.901      0.057      0.000
+    HUKOU12           -0.030      0.043     -0.685      0.494      0.001
+    ECO122            -0.024      0.029     -0.839      0.401      0.001
+    ECO123             0.041      0.042      0.975      0.329      0.001
+    HWC122             0.023      0.030      0.763      0.445      0.000
+    HWC123             0.000      0.033      0.006      0.995      0.000
+    SAT12             -0.370      0.204     -1.813      0.070      0.001
+    ADL12              0.194      0.105      1.847      0.065      0.000
+    FINC12            -0.054      0.043     -1.258      0.208      0.008
+
+ S5       ON
+    SEX12              4.523  74046.531      0.000      1.000      0.000
+    EDU12              2.107  34117.902      0.000      1.000      0.000
+    URBAN12            3.836  62470.828      0.000      1.000      0.000
+    PROV122            1.473  22800.227      0.000      1.000      0.000
+    PROV123           -7.388  *********      0.000      1.000      0.000
+    CDN12              1.333  20421.199      0.000      1.000      0.000
+    CDAR12            -4.080  64909.555      0.000      1.000      0.000
+    CDSC121           -0.406   6585.627      0.000      1.000      0.000
+    CDSC122           -1.966  31303.223      0.000      1.000      0.000
+    MINOR12           -0.217   3640.633      0.000      1.000      0.000
+    WAVE              -1.564  23970.295      0.000      1.000      0.000
+    AGEG12             2.912  46550.449      0.000      1.000      0.000
+    PINC12             1.570  23960.566      0.000      1.000      0.000
+    PINC212            3.512  56418.828      0.000      1.000      0.000
+    CORES12           -4.100  63689.707      0.000      1.000      0.000
+    HEAL121          -14.583  *********      0.000      1.000      0.000
+    HEAL123            3.177  52073.363      0.000      1.000      0.000
+    MARR12             6.145  98894.430      0.000      1.000      0.000
+    HUKOU12            2.661  41530.992      0.000      1.000      0.000
+    ECO122             1.684  27009.746      0.000      1.000      0.000
+    ECO123            -0.968  15910.280      0.000      1.000      0.000
+    HWC122            -1.459  23131.717      0.000      1.000      0.000
+    HWC123             0.071    878.080      0.000      1.000      0.000
+    SAT12             16.122  *********      0.000      1.000      0.000
+    ADL12             -8.423  *********      0.000      1.000      0.000
+    FINC12             2.060  31036.992      0.000      1.000      0.000
+
+ S2       WITH
+    I2                 0.097      0.221      0.441      0.659      0.000
+
+ Means
+    I2                -0.024      0.041     -0.576      0.565      0.000
+    S2                 0.694      0.197      3.532      0.000      0.000
+
+ Intercepts
+    WFDCS12            0.000      0.000      0.000      1.000      0.000
+    WFDCS16            0.000      0.000      0.000      1.000      0.000
+    WFDCS18            0.000      0.000      0.000      1.000      0.000
+    WFDCS20            0.000      0.000      0.000      1.000      0.000
+    WFDCS22            0.000      0.000      0.000      1.000      0.000
+    CES8SD12           0.000      0.000      0.000      1.000      0.000
+    CES8SD16           0.000      0.000      0.000      1.000      0.000
+    CES8SD18           0.000      0.000      0.000      1.000      0.000
+    CES8SD20           0.000      0.000      0.000      1.000      0.000
+    CES8SD22           0.000      0.000      0.000      1.000      0.000
+    I5                 1.598      0.754      2.121      0.034      0.000
+    S5               -62.247  *********      0.000      1.000      0.000
+
+ Variances
+    I2                 1.000      0.000  *********      0.000      0.000
+    S2                 1.000      0.000  *********      0.000      0.000
+
+ Residual Variances
+    WFDCS12            0.771      0.038     20.447      0.000      0.000
+    WFDCS16            0.787      0.031     25.225      0.000      0.000
+    WFDCS18            0.739      0.028     26.191      0.000      0.000
+    WFDCS20            0.703      0.065     10.765      0.000      0.000
+    WFDCS22            0.672      0.087      7.704      0.000      0.000
+    CES8SD12           0.630      0.375      1.680      0.093      0.000
+    CES8SD16           0.538      0.034     15.674      0.000      0.000
+    CES8SD18           0.497      0.026     19.080      0.000      0.001
+    CES8SD20           0.515      0.023     21.959      0.000      0.000
+    CES8SD22           0.533      0.096      5.552      0.000      0.000
+    I5                 0.234      0.776      0.301      0.763      0.000
+    S5             -1413.495    999.000    999.000    999.000      0.000
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed   Rate of
+    Variable        Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+    WFDCS12            0.229      0.038      6.078      0.000      0.000
+    WFDCS16            0.213      0.031      6.816      0.000      0.000
+    WFDCS18            0.261      0.028      9.233      0.000      0.000
+    WFDCS20            0.297      0.065      4.552      0.000      0.000
+    WFDCS22            0.328      0.087      3.761      0.000      0.000
+    CES8SD12           0.370      0.375      0.989      0.323      0.000
+    CES8SD16           0.462      0.034     13.465      0.000      0.000
+    CES8SD18           0.503      0.026     19.274      0.000      0.001
+    CES8SD20           0.485      0.023     20.712      0.000      0.000
+    CES8SD22           0.467      0.096      4.869      0.000      0.000
+
+     Latent                                         Two-Tailed   Rate of
+    Variable        Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+    I5                 0.766      0.776      0.987      0.323      0.000
+    S5                 0.000    999.000    999.000    999.000      0.000
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              FINC12
+              ________
+                  0
+
+
+           LAMBDA
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+ WFDCS12            0             0             0             0             0
+ WFDCS16            0             1             0             0             0
+ WFDCS18            0             2             0             0             0
+ WFDCS20            0             3             0             0             0
+ WFDCS22            0             0             0             0             0
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             4             0
+ CES8SD18           0             0             0             5             0
+ CES8SD20           0             0             0             6             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           LAMBDA
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+ WFDCS12            0             0             0             0             0
+ WFDCS16            0             0             0             0             0
+ WFDCS18            0             0             0             0             0
+ WFDCS20            0             0             0             0             0
+ WFDCS22            0             0             0             0             0
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             0             0
+ CES8SD18           0             0             0             0             0
+ CES8SD20           0             0             0             0             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           LAMBDA
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+ WFDCS12            0             0             0             0             0
+ WFDCS16            0             0             0             0             0
+ WFDCS18            0             0             0             0             0
+ WFDCS20            0             0             0             0             0
+ WFDCS22            0             0             0             0             0
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             0             0
+ CES8SD18           0             0             0             0             0
+ CES8SD20           0             0             0             0             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           LAMBDA
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+ WFDCS12            0             0             0             0             0
+ WFDCS16            0             0             0             0             0
+ WFDCS18            0             0             0             0             0
+ WFDCS20            0             0             0             0             0
+ WFDCS22            0             0             0             0             0
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             0             0
+ CES8SD18           0             0             0             0             0
+ CES8SD20           0             0             0             0             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           LAMBDA
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+ WFDCS12            0             0             0             0             0
+ WFDCS16            0             0             0             0             0
+ WFDCS18            0             0             0             0             0
+ WFDCS20            0             0             0             0             0
+ WFDCS22            0             0             0             0             0
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             0             0
+ CES8SD18           0             0             0             0             0
+ CES8SD20           0             0             0             0             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           LAMBDA
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+ WFDCS12            0             0             0             0             0
+ WFDCS16            0             0             0             0             0
+ WFDCS18            0             0             0             0             0
+ WFDCS20            0             0             0             0             0
+ WFDCS22            0             0             0             0             0
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             0             0
+ CES8SD18           0             0             0             0             0
+ CES8SD20           0             0             0             0             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+ WFDCS12            7
+ WFDCS16            0             8
+ WFDCS18            0             0             9
+ WFDCS20            0             0             0            10
+ WFDCS22            0             0             0             0            11
+ CES8SD12           0             0             0             0             0
+ CES8SD16           0             0             0             0             0
+ CES8SD18           0             0             0             0             0
+ CES8SD20           0             0             0             0             0
+ CES8SD22           0             0             0             0             0
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+ CES8SD12          12
+ CES8SD16           0            13
+ CES8SD18           0             0            14
+ CES8SD20           0             0             0            15
+ CES8SD22           0             0             0             0            16
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+ SEX12              0
+ EDU12              0             0
+ URBAN12            0             0             0
+ PROV122            0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+ CDN12              0
+ CDAR12             0             0
+ CDSC121            0             0             0
+ CDSC122            0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+ WAVE               0
+ AGEG12             0             0
+ PINC12             0             0             0
+ PINC212            0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+ HEAL121            0
+ HEAL123            0             0
+ MARR12             0             0             0
+ ECO122             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+ HWC122             0
+ HWC123             0             0
+ HUKOU12            0             0             0
+ SAT12              0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           THETA
+              FINC12
+              ________
+ FINC12             0
+
+
+           ALPHA
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+                 17            18            19            20             0
+
+
+           ALPHA
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           ALPHA
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           ALPHA
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           ALPHA
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           ALPHA
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           BETA
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+ I2                 0             0             0             0             0
+ S2                 0             0             0             0             0
+ I5                21             0             0             0            22
+ S5                48            49            50             0            51
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           BETA
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+ I2                 0             0             0             0             0
+ S2                 0             0             0             0             0
+ I5                23            24            25            26            27
+ S5                52            53            54            55            56
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           BETA
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+ I2                 0             0             0             0             0
+ S2                 0             0             0             0             0
+ I5                28            29            30            31            32
+ S5                57            58            59            60            61
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           BETA
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+ I2                 0             0             0             0             0
+ S2                 0             0             0             0             0
+ I5                33            34            35            36            37
+ S5                62            63            64            65            66
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           BETA
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+ I2                 0             0             0             0             0
+ S2                 0             0             0             0             0
+ I5                38            39            40            41            42
+ S5                67            68            69            70            71
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           BETA
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+ I2                 0             0             0             0             0
+ S2                 0             0             0             0             0
+ I5                43            44            45            46            47
+ S5                72            73            74            75            76
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           PSI
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+ I2                77
+ S2                78            79
+ I5                 0             0            80
+ S5                 0             0             0            81
+ SEX12              0             0             0             0             0
+ EDU12              0             0             0             0             0
+ URBAN12            0             0             0             0             0
+ PROV122            0             0             0             0             0
+ PROV123            0             0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           PSI
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+ EDU12              0
+ URBAN12            0             0
+ PROV122            0             0             0
+ PROV123            0             0             0             0
+ CDN12              0             0             0             0             0
+ CDAR12             0             0             0             0             0
+ CDSC121            0             0             0             0             0
+ CDSC122            0             0             0             0             0
+ MINOR12            0             0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           PSI
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+ CDAR12             0
+ CDSC121            0             0
+ CDSC122            0             0             0
+ MINOR12            0             0             0             0
+ WAVE               0             0             0             0             0
+ AGEG12             0             0             0             0             0
+ PINC12             0             0             0             0             0
+ PINC212            0             0             0             0             0
+ CORES12            0             0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           PSI
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+ AGEG12             0
+ PINC12             0             0
+ PINC212            0             0             0
+ CORES12            0             0             0             0
+ HEAL121            0             0             0             0             0
+ HEAL123            0             0             0             0             0
+ MARR12             0             0             0             0             0
+ ECO122             0             0             0             0             0
+ ECO123             0             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           PSI
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+ HEAL123            0
+ MARR12             0             0
+ ECO122             0             0             0
+ ECO123             0             0             0             0
+ HWC122             0             0             0             0             0
+ HWC123             0             0             0             0             0
+ HUKOU12            0             0             0             0             0
+ SAT12              0             0             0             0             0
+ ADL12              0             0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+           PSI
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+ HWC123             0
+ HUKOU12            0             0
+ SAT12              0             0             0
+ ADL12              0             0             0             0
+ FINC12             0             0             0             0             0
+
+
+     STARTING VALUES
+
+
+           NU
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              FINC12
+              ________
+                0.000
+
+
+           LAMBDA
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+ WFDCS12        1.000         0.000         0.000         0.000         0.000
+ WFDCS16        1.000         1.000         0.000         0.000         0.000
+ WFDCS18        1.000         1.000         0.000         0.000         0.000
+ WFDCS20        1.000         1.000         0.000         0.000         0.000
+ WFDCS22        1.000         1.000         0.000         0.000         0.000
+ CES8SD12       0.000         0.000         1.000         0.000         0.000
+ CES8SD16       0.000         0.000         1.000         4.000         0.000
+ CES8SD18       0.000         0.000         1.000         6.000         0.000
+ CES8SD20       0.000         0.000         1.000         8.000         0.000
+ CES8SD22       0.000         0.000         1.000        10.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         1.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+ WFDCS12        0.000         0.000         0.000         0.000         0.000
+ WFDCS16        0.000         0.000         0.000         0.000         0.000
+ WFDCS18        0.000         0.000         0.000         0.000         0.000
+ WFDCS20        0.000         0.000         0.000         0.000         0.000
+ WFDCS22        0.000         0.000         0.000         0.000         0.000
+ CES8SD12       0.000         0.000         0.000         0.000         0.000
+ CES8SD16       0.000         0.000         0.000         0.000         0.000
+ CES8SD18       0.000         0.000         0.000         0.000         0.000
+ CES8SD20       0.000         0.000         0.000         0.000         0.000
+ CES8SD22       0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          1.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         1.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         1.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         1.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         1.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+ WFDCS12        0.000         0.000         0.000         0.000         0.000
+ WFDCS16        0.000         0.000         0.000         0.000         0.000
+ WFDCS18        0.000         0.000         0.000         0.000         0.000
+ WFDCS20        0.000         0.000         0.000         0.000         0.000
+ WFDCS22        0.000         0.000         0.000         0.000         0.000
+ CES8SD12       0.000         0.000         0.000         0.000         0.000
+ CES8SD16       0.000         0.000         0.000         0.000         0.000
+ CES8SD18       0.000         0.000         0.000         0.000         0.000
+ CES8SD20       0.000         0.000         0.000         0.000         0.000
+ CES8SD22       0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         1.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         1.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         1.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         1.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         1.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+ WFDCS12        0.000         0.000         0.000         0.000         0.000
+ WFDCS16        0.000         0.000         0.000         0.000         0.000
+ WFDCS18        0.000         0.000         0.000         0.000         0.000
+ WFDCS20        0.000         0.000         0.000         0.000         0.000
+ WFDCS22        0.000         0.000         0.000         0.000         0.000
+ CES8SD12       0.000         0.000         0.000         0.000         0.000
+ CES8SD16       0.000         0.000         0.000         0.000         0.000
+ CES8SD18       0.000         0.000         0.000         0.000         0.000
+ CES8SD20       0.000         0.000         0.000         0.000         0.000
+ CES8SD22       0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         1.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         1.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         1.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         1.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         1.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+ WFDCS12        0.000         0.000         0.000         0.000         0.000
+ WFDCS16        0.000         0.000         0.000         0.000         0.000
+ WFDCS18        0.000         0.000         0.000         0.000         0.000
+ WFDCS20        0.000         0.000         0.000         0.000         0.000
+ WFDCS22        0.000         0.000         0.000         0.000         0.000
+ CES8SD12       0.000         0.000         0.000         0.000         0.000
+ CES8SD16       0.000         0.000         0.000         0.000         0.000
+ CES8SD18       0.000         0.000         0.000         0.000         0.000
+ CES8SD20       0.000         0.000         0.000         0.000         0.000
+ CES8SD22       0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        1.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         1.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         1.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         1.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         1.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+ WFDCS12        0.000         0.000         0.000         0.000         0.000
+ WFDCS16        0.000         0.000         0.000         0.000         0.000
+ WFDCS18        0.000         0.000         0.000         0.000         0.000
+ WFDCS20        0.000         0.000         0.000         0.000         0.000
+ WFDCS22        0.000         0.000         0.000         0.000         0.000
+ CES8SD12       0.000         0.000         0.000         0.000         0.000
+ CES8SD16       0.000         0.000         0.000         0.000         0.000
+ CES8SD18       0.000         0.000         0.000         0.000         0.000
+ CES8SD20       0.000         0.000         0.000         0.000         0.000
+ CES8SD22       0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         1.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         1.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         1.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         1.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         1.000
+
+
+           THETA
+              WFDCS12       WFDCS16       WFDCS18       WFDCS20       WFDCS22
+              ________      ________      ________      ________      ________
+ WFDCS12        0.500
+ WFDCS16        0.000         0.555
+ WFDCS18        0.000         0.000         0.633
+ WFDCS20        0.000         0.000         0.000         0.738
+ WFDCS22        0.000         0.000         0.000         0.000         0.911
+ CES8SD12       0.000         0.000         0.000         0.000         0.000
+ CES8SD16       0.000         0.000         0.000         0.000         0.000
+ CES8SD18       0.000         0.000         0.000         0.000         0.000
+ CES8SD20       0.000         0.000         0.000         0.000         0.000
+ CES8SD22       0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              CES8SD12      CES8SD16      CES8SD18      CES8SD20      CES8SD22
+              ________      ________      ________      ________      ________
+ CES8SD12       0.500
+ CES8SD16       0.000         0.577
+ CES8SD18       0.000         0.000         0.572
+ CES8SD20       0.000         0.000         0.000         0.534
+ CES8SD22       0.000         0.000         0.000         0.000         0.585
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              SEX12         EDU12         URBAN12       PROV122       PROV123
+              ________      ________      ________      ________      ________
+ SEX12          0.000
+ EDU12          0.000         0.000
+ URBAN12        0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              CDN12         CDAR12        CDSC121       CDSC122       MINOR12
+              ________      ________      ________      ________      ________
+ CDN12          0.000
+ CDAR12         0.000         0.000
+ CDSC121        0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              WAVE          AGEG12        PINC12        PINC212       CORES12
+              ________      ________      ________      ________      ________
+ WAVE           0.000
+ AGEG12         0.000         0.000
+ PINC12         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              HEAL121       HEAL123       MARR12        ECO122        ECO123
+              ________      ________      ________      ________      ________
+ HEAL121        0.000
+ HEAL123        0.000         0.000
+ MARR12         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              HWC122        HWC123        HUKOU12       SAT12         ADL12
+              ________      ________      ________      ________      ________
+ HWC122         0.000
+ HWC123         0.000         0.000
+ HUKOU12        0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              FINC12
+              ________
+ FINC12         0.000
+
+
+           ALPHA
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+               -0.126        -0.130         0.054         0.032         0.496
+
+
+           ALPHA
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+                0.195         0.435         0.308         0.242         3.159
+
+
+           ALPHA
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+                7.150         0.202         0.079         0.004         3.280
+
+
+           ALPHA
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+                0.108         2.190         0.688         0.539         0.318
+
+
+           ALPHA
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+                0.434         0.828         0.233         0.186         0.109
+
+
+           ALPHA
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+                0.212         0.684         3.532         0.291         3.699
+
+
+           BETA
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+ I2             0.000         0.000         0.000         0.000         0.000
+ S2             0.000         0.000         0.000         0.000         0.000
+ I5             0.000         0.000         0.000         0.000         0.000
+ S5             0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           BETA
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+ I2             0.000         0.000         0.000         0.000         0.000
+ S2             0.000         0.000         0.000         0.000         0.000
+ I5             0.000         0.000         0.000         0.000         0.000
+ S5             0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           BETA
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+ I2             0.000         0.000         0.000         0.000         0.000
+ S2             0.000         0.000         0.000         0.000         0.000
+ I5             0.000         0.000         0.000         0.000         0.000
+ S5             0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           BETA
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+ I2             0.000         0.000         0.000         0.000         0.000
+ S2             0.000         0.000         0.000         0.000         0.000
+ I5             0.000         0.000         0.000         0.000         0.000
+ S5             0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           BETA
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+ I2             0.000         0.000         0.000         0.000         0.000
+ S2             0.000         0.000         0.000         0.000         0.000
+ I5             0.000         0.000         0.000         0.000         0.000
+ S5             0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           BETA
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+ I2             0.000         0.000         0.000         0.000         0.000
+ S2             0.000         0.000         0.000         0.000         0.000
+ I5             0.000         0.000         0.000         0.000         0.000
+ S5             0.000         0.000         0.000         0.000         0.000
+ SEX12          0.000         0.000         0.000         0.000         0.000
+ EDU12          0.000         0.000         0.000         0.000         0.000
+ URBAN12        0.000         0.000         0.000         0.000         0.000
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.000
+ CDN12          0.000         0.000         0.000         0.000         0.000
+ CDAR12         0.000         0.000         0.000         0.000         0.000
+ CDSC121        0.000         0.000         0.000         0.000         0.000
+ CDSC122        0.000         0.000         0.000         0.000         0.000
+ MINOR12        0.000         0.000         0.000         0.000         0.000
+ WAVE           0.000         0.000         0.000         0.000         0.000
+ AGEG12         0.000         0.000         0.000         0.000         0.000
+ PINC12         0.000         0.000         0.000         0.000         0.000
+ PINC212        0.000         0.000         0.000         0.000         0.000
+ CORES12        0.000         0.000         0.000         0.000         0.000
+ HEAL121        0.000         0.000         0.000         0.000         0.000
+ HEAL123        0.000         0.000         0.000         0.000         0.000
+ MARR12         0.000         0.000         0.000         0.000         0.000
+ ECO122         0.000         0.000         0.000         0.000         0.000
+ ECO123         0.000         0.000         0.000         0.000         0.000
+ HWC122         0.000         0.000         0.000         0.000         0.000
+ HWC123         0.000         0.000         0.000         0.000         0.000
+ HUKOU12        0.000         0.000         0.000         0.000         0.000
+ SAT12          0.000         0.000         0.000         0.000         0.000
+ ADL12          0.000         0.000         0.000         0.000         0.000
+ FINC12         0.000         0.000         0.000         0.000         0.000
+
+
+           PSI
+              I2            S2            I5            S5            SEX12
+              ________      ________      ________      ________      ________
+ I2             0.454
+ S2             0.000         0.558
+ I5             0.000         0.000         1.009
+ S5             0.000         0.000         0.000         0.063
+ SEX12          0.000         0.000         0.000         0.000         0.250
+ EDU12          0.000         0.000         0.000         0.000         0.035
+ URBAN12        0.000         0.000         0.000         0.000        -0.009
+ PROV122        0.000         0.000         0.000         0.000         0.000
+ PROV123        0.000         0.000         0.000         0.000         0.005
+ CDN12          0.000         0.000         0.000         0.000        -0.038
+ CDAR12         0.000         0.000         0.000         0.000        -0.141
+ CDSC121        0.000         0.000         0.000         0.000        -0.002
+ CDSC122        0.000         0.000         0.000         0.000         0.002
+ MINOR12        0.000         0.000         0.000         0.000        -0.001
+ WAVE           0.000         0.000         0.000         0.000         0.027
+ AGEG12         0.000         0.000         0.000         0.000         0.001
+ PINC12         0.000         0.000         0.000         0.000         0.042
+ PINC212        0.000         0.000         0.000         0.000         0.126
+ CORES12        0.000         0.000         0.000         0.000        -0.003
+ HEAL121        0.000         0.000         0.000         0.000        -0.030
+ HEAL123        0.000         0.000         0.000         0.000         0.030
+ MARR12         0.000         0.000         0.000         0.000         0.035
+ ECO122         0.000         0.000         0.000         0.000        -0.010
+ ECO123         0.000         0.000         0.000         0.000         0.001
+ HWC122         0.000         0.000         0.000         0.000        -0.002
+ HWC123         0.000         0.000         0.000         0.000        -0.014
+ HUKOU12        0.000         0.000         0.000         0.000        -0.008
+ SAT12          0.000         0.000         0.000         0.000         0.003
+ ADL12          0.000         0.000         0.000         0.000        -0.050
+ FINC12         0.000         0.000         0.000         0.000         0.082
+
+
+           PSI
+              EDU12         URBAN12       PROV122       PROV123       CDN12
+              ________      ________      ________      ________      ________
+ EDU12          0.157
+ URBAN12        0.042         0.246
+ PROV122        0.004        -0.015         0.213
+ PROV123       -0.018        -0.025        -0.075         0.184
+ CDN12         -0.061        -0.108         0.073         0.031         1.375
+ CDAR12        -0.209        -0.470         0.198         0.197         3.691
+ CDSC121       -0.003        -0.002        -0.013         0.004        -0.138
+ CDSC122        0.006         0.016        -0.008        -0.003        -0.038
+ MINOR12       -0.001        -0.001        -0.001         0.002         0.002
+ WAVE           0.051         0.009         0.010        -0.030        -0.238
+ AGEG12        -0.002         0.012        -0.002        -0.008         0.083
+ PINC12         0.029         0.005        -0.005         0.003        -0.052
+ PINC212        0.192         0.230        -0.026        -0.074        -0.279
+ CORES12       -0.010        -0.022         0.003         0.037         0.012
+ HEAL121       -0.022        -0.022         0.000         0.012         0.018
+ HEAL123        0.018         0.004         0.002        -0.008         0.000
+ MARR12         0.011         0.000         0.000        -0.004        -0.060
+ ECO122        -0.007        -0.005         0.011        -0.012         0.016
+ ECO123        -0.004        -0.021         0.001         0.013         0.052
+ HWC122        -0.001         0.016        -0.003        -0.001        -0.035
+ HWC123        -0.006        -0.004        -0.011         0.015         0.013
+ HUKOU12       -0.063        -0.113         0.003         0.029         0.085
+ SAT12          0.024         0.043         0.034        -0.011         0.013
+ ADL12         -0.021        -0.008        -0.016         0.019         0.082
+ FINC12         0.247         0.379        -0.056        -0.038        -0.621
+
+
+           PSI
+              CDAR12        CDSC121       CDSC122       MINOR12       WAVE
+              ________      ________      ________      ________      ________
+ CDAR12        22.412
+ CDSC121       -0.328         0.161
+ CDSC122       -0.125        -0.016         0.073
+ MINOR12        0.011        -0.001         0.000         0.004
+ WAVE          -0.926         0.010         0.018        -0.003         1.116
+ AGEG12         0.343         0.000        -0.003         0.000        -0.079
+ PINC12        -0.140         0.014         0.000        -0.001         0.054
+ PINC212       -1.043         0.021         0.042         0.000         0.100
+ CORES12        0.179         0.008        -0.014         0.002        -0.047
+ HEAL121        0.119         0.001        -0.004         0.000        -0.050
+ HEAL123        0.001        -0.008         0.003         0.000         0.048
+ MARR12        -0.182        -0.001         0.004         0.000         0.062
+ ECO122        -0.015         0.000        -0.001         0.000         0.008
+ ECO123         0.217        -0.006        -0.005         0.000        -0.005
+ HWC122        -0.124         0.004         0.004         0.000        -0.001
+ HWC123         0.074        -0.004         0.000         0.001        -0.027
+ HUKOU12        0.364        -0.005        -0.012         0.001        -0.009
+ SAT12          0.002        -0.004         0.003         0.000         0.047
+ ADL12          0.481         0.003        -0.003         0.001        -0.151
+ FINC12        -2.074         0.057         0.048         0.003         0.216
+
+
+           PSI
+              AGEG12        PINC12        PINC212       CORES12       HEAL121
+              ________      ________      ________      ________      ________
+ AGEG12         0.096
+ PINC12         0.002         1.034
+ PINC212        0.039         0.250         1.541
+ CORES12       -0.003         0.001        -0.083         0.248
+ HEAL121        0.002        -0.048        -0.079         0.003         0.217
+ HEAL123       -0.001         0.054         0.044         0.002        -0.138
+ MARR12        -0.024         0.015         0.030        -0.028        -0.008
+ ECO122        -0.004        -0.006        -0.050        -0.006        -0.002
+ ECO123        -0.002        -0.016        -0.058         0.018         0.007
+ HWC122        -0.001         0.013         0.014         0.001        -0.002
+ HWC123         0.008        -0.003        -0.016         0.039         0.004
+ HUKOU12       -0.017        -0.051        -0.356         0.036         0.023
+ SAT12          0.011         0.224         0.145        -0.013        -0.081
+ ADL12          0.050        -0.025        -0.055         0.021         0.089
+ FINC12        -0.014         0.586         1.736         0.684        -0.132
+
+
+           PSI
+              HEAL123       MARR12        ECO122        ECO123        HWC122
+              ________      ________      ________      ________      ________
+ HEAL123        0.246
+ MARR12         0.008         0.142
+ ECO122        -0.003        -0.001         0.179
+ ECO123        -0.006        -0.006        -0.043         0.151
+ HWC122         0.003         0.003         0.027        -0.013         0.097
+ HWC123        -0.004        -0.020        -0.007         0.013        -0.023
+ HUKOU12       -0.004        -0.002         0.018         0.022        -0.007
+ SAT12          0.075         0.003         0.010        -0.007         0.014
+ ADL12         -0.065        -0.032        -0.003         0.008         0.016
+ FINC12         0.056         0.086        -0.002        -0.027         0.063
+
+
+           PSI
+              HWC123        HUKOU12       SAT12         ADL12         FINC12
+              ________      ________      ________      ________      ________
+ HWC123         0.167
+ HUKOU12        0.006         0.216
+ SAT12          0.004        -0.058         1.090
+ ADL12          0.034         0.004        -0.026         0.925
+ FINC12         0.046        -0.432         0.450        -0.113        17.954
+
+
+     Beginning Time:  08:43:43
+        Ending Time:  08:47:42
+       Elapsed Time:  00:03:59
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2025 Muthen & Muthen

@@ -1,0 +1,40 @@
+{
+  "errors": [
+    {
+      "line": 132,
+      "text": "*** ERROR in SAVEDATA command"
+    }
+  ],
+  "warnings": [
+    {
+      "line": 127,
+      "text": "*** WARNING in SAVEDATA command   The FILE option is not available for TYPE=MONTECARLO or TYPE=IMPUTATION   unless the filename has *.  The FILE option will be ignored. *** WARNING in SAVEDATA command"
+    },
+    {
+      "line": 130,
+      "text": "*** WARNING in SAVEDATA command   Class probabilities can only be saved for TYPE=MIXTURE. *** ERROR in SAVEDATA command   No filename given for saving raw data.  SAVE options ignored."
+    },
+    {
+      "line": 134,
+      "text": "*** WARNING in PLOT command   PLOT1 and PLOT3 options are not available with TYPE=IMPUTATION in the DATA command.   Request for PLOT1 and/or PLOT3 will be ignored. *** WARNING in OUTPUT command"
+    },
+    {
+      "line": 137,
+      "text": "*** WARNING in OUTPUT command   TECH10 option is not available with multiple imputation.   Request for TECH10 is ignored. *** WARNING in OUTPUT command"
+    },
+    {
+      "line": 140,
+      "text": "*** WARNING in OUTPUT command   TECH8 option is available only with analysis types MIXTURE, RANDOM, or   TWOLEVEL with estimators ML, MLF, or MLR or ALGORITHM=INTEGRATION.   Request for TECH8 is ignored."
+    },
+    {
+      "line": 144,
+      "text": "*** WARNING in OUTPUT command   TECH11 option is available only with TYPE=MIXTURE.   Request for TECH11 is ignored. *** WARNING in OUTPUT command"
+    },
+    {
+      "line": 147,
+      "text": "*** WARNING in OUTPUT command   TECH14 option is available only with TYPE=MIXTURE.   Request for TECH14 is ignored.    1 ERROR(S) FOUND IN THE INPUT INSTRUCTIONS"
+    }
+  ],
+  "normal_marker": false,
+  "scope": "raw diagnostic inventory, not scientific acceptance"
+}

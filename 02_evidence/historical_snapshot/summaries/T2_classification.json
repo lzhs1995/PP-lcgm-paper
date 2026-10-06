@@ -1,0 +1,7 @@
+{
+  "official_assignment_flag_found": false,
+  "comparison": "descriptive_association_not_randomized_assignment_test",
+  "rule": "12 non-common items; partial response can affect inferred groups",
+  "self_iwmode_face": 1,
+  "score_requires_all8": true
+}

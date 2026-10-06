@@ -1,0 +1,59 @@
+{
+  "schema_version": "cfps-table455-456-acceptance-v1",
+  "read_only": true,
+  "new_mplus_submissions": 0,
+  "source_files_modified": false,
+  "tables": [
+    {
+      "table_index": 13,
+      "caption_context": "表4.5.5展示了所有线性调节效应在性别、社会经济条件下的异质性检验结果。由于所有调节效应模型均未通过似然比检验，暗示当前基于线性调节效应的异质性模型拟合度更差，故不再对显著的三维交互效应进行解释（全部三维交互项模型结果见附录表4.5.5.1-附录4.5.5.32）。 | 表4.5.5 线性调节效应异质性：三维交互项的显著性及似然比卡方检验",
+      "producer_scripts": [
+        "relative2"
+      ],
+      "code_line_min": 78096,
+      "code_line_max": 121333,
+      "contract_records": 0,
+      "historical_pair_agrees": 0,
+      "derived_group_count": 8,
+      "source_identity": "resolved",
+      "scientific_acceptance": "SEMANTIC_AND_LRT_REVIEW"
+    },
+    {
+      "table_index": 14,
+      "caption_context": "总体而言，代际关系家内差异之间的调节效应未发现显著的性别差异，假设3.2未获得验证，存在显著的社会经济背景差异，假设4.2b获得验证（假设4.2a未获得验证）。首先，“消极效应对积极效应的弱化作用”发生在社会经济背景更好的群体；学历更高的人群，倾向于追求更全面和谐的代际关系，故在标准差更低时，均值的抑郁缓解作用更强；标准差更高时，均值的抑郁缓解作用不再显著。但这一弱化效应并未在城市、高收入群体中发现。除此之外，研究还发现社会经济背景更差的老人对代际关系之间的互动效应也有显著反映，但并非假设4.2a所认为的弱化效应，反而表现为“消极关系对积极关系的强化作用”，消极关系发挥了正向刺激的作用。例如：学历更低的人群，在标准差更高时，均值的抑郁缓解作用更强；乡村长者在整体亲近度均值增速更慢时，性别差的抑郁缓解作用更强；低学历长者，在整体亲近度更低时，排行差（长子）显现出显著的抑郁缓解作用。这反映了，条件更差的老年人面对代际关系具有更强的生活理性，第一生活要务仍是“解决生存问题”；当所处代际关系本身就很消极时，为了生存，老年人会对任何代际关系的积极变化有积极回应。 | 表4.5.6 非线性调节效应异质性：三维交互项的显著性及似然比卡方检验",
+      "producer_scripts": [
+        "relative3"
+      ],
+      "code_line_min": 2925,
+      "code_line_max": 73557,
+      "contract_records": 0,
+      "historical_pair_agrees": 0,
+      "derived_group_count": 9,
+      "source_identity": "resolved",
+      "scientific_acceptance": "SEMANTIC_AND_LRT_REVIEW"
+    }
+  ],
+  "current_v42": {
+    "rows": 25,
+    "displayed_coefficient_cells": 107,
+    "legacy_review_groups_resolved": 17,
+    "legacy_review_cells_resolved": 67,
+    "current_X_W_Z_Y_mismatches": 0,
+    "original_X_W_Z_mismatch_rows": 13,
+    "python_and_native_R_values_identical": true,
+    "scientific_release": false
+  },
+  "lrt_contract": {
+    "target_rows": 25,
+    "technical_decision_counts": {
+      "sensitivity_only": 6,
+      "defer_source_followup": 12,
+      "defer_nested_pooling_audit": 7
+    },
+    "candidate_D2_rows": 7,
+    "candidate_D2_release": false,
+    "scientific_release": false,
+    "caveat": "Existing sidecar hashes and printed Mplus likelihood precision do not prove immutable historical execution bytes; no LRT row is released by this contract."
+  },
+  "interpretation": "两张表的 R/Mplus producer、历史 pair 和逐组派生来源均已找到；当前 v42 的 X/W/Z/Y 语义与原生回读一致。原始 20260214 初稿的显示标签和 LRT/科学采用合同仍需单独保留，不因当前 v42 的技术核验自动改写初稿或释放推断。"
+}
