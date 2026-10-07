@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "pdfs": [
+    {
+      "document": "PP_LGCM_review_v48_round2C_NOT_RELEASED.docx",
+      "pdf": "PP_LGCM_review_v48_round2C_NOT_RELEASED.pdf",
+      "pages": 17,
+      "sha256": "7337ffa3636c0a052c3355e16ba8456ab6e5655642056bfa1755a872bf62f7f8"
+    },
+    {
+      "document": "PP_LGCM_appendix_review_v40_round2C_NOT_RELEASED.docx",
+      "pdf": "PP_LGCM_appendix_review_v40_round2C_NOT_RELEASED.pdf",
+      "pages": 6,
+      "sha256": "8a3df874fbe89a16caaa13b8fec7e76d5c0d79295ef368d47ae6d031419fc05b"
+    }
+  ],
+  "retained_field_instructions": "BYTE_TEXT_IDENTICAL",
+  "pooled_values_in_PDF": "PASS",
+  "python_syntax": "PASS",
+  "scope": "Numerical text and document bindings; visual inspection recorded separately"
+}

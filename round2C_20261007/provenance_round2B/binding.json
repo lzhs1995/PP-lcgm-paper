@@ -1,0 +1,52 @@
+[
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/observed_longitudinal_descriptives.csv",
+    "sha256": "90fae633ff04b8ec134d3a2cc150f2b68cbbfc4848c4e4550ad9839420df0438"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/main_controls.csv",
+    "sha256": "4df54f4b7f20837e5d13ca0875f3dca8029bd43c41148272c9411d394a7b4080"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/mi_engineering_acceptance.json",
+    "sha256": "7c6b9500cbfed5ad69357f0df32ec198fe0f5aea46384a7502d29d37c6648506"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/mi_member_manifest.json",
+    "sha256": "da688750b3b2afd23406341da4b47f0361cafb3f1467d0ed69b27b863ea57f58"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/source_contract.json",
+    "sha256": "ec05497abe08b155e3189bd2d16cb9eb2b17a07cf8e9e566fda922c8301d77f2"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/clustered_shape_comparison.csv",
+    "sha256": "4373d3ac2cedcd26e2f535890478b11b20338f284ac1d1b9672e2e1316757265"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "audit/target_parent_contract.json",
+    "sha256": "1afea8311b118cf61604af382d09556c63262e1838c996a8ad0ef29fa1ad6e08"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "code/04_hierarchical_mi.R",
+    "sha256": "91efde25e6ccc5946b16b48359f6306d2f9f420e9a2cadc1edaa50ac7941d71a"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "code/mi_validation.R",
+    "sha256": "4074580a5417c8831d4caf3dff926186eccbacc2beb928d6b3bf99379576a7cd"
+  },
+  {
+    "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+    "path": "code/05_target_parent.R",
+    "sha256": "06be17d3500d8ca7ed633227e2ca4f73a8b863d78f1b79899628e76ce804908f"
+  }
+]

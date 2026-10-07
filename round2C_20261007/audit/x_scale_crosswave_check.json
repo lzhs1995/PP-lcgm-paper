@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "baseline_mean": 4.1089078463573,
+  "baseline_sd": 0.709254269021403,
+  "waves": [
+    {
+      "year": 2012,
+      "input_x_mean": 1.0711631509566837e-08,
+      "expected_fixed_baseline_x_mean": 0.0
+    },
+    {
+      "year": 2016,
+      "input_x_mean": 0.20591702177510215,
+      "expected_fixed_baseline_x_mean": 0.2059170075741521
+    },
+    {
+      "year": 2018,
+      "input_x_mean": 0.190023396896642,
+      "expected_fixed_baseline_x_mean": 0.19002338591001522
+    },
+    {
+      "year": 2020,
+      "input_x_mean": 0.3289528362853692,
+      "expected_fixed_baseline_x_mean": 0.3289528221263185
+    },
+    {
+      "year": 2022,
+      "input_x_mean": 0.31060333520839944,
+      "expected_fixed_baseline_x_mean": 0.3106033224435233
+    }
+  ]
+}

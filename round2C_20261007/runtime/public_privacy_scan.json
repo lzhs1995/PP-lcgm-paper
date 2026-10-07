@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "files": 1056,
+  "matching_files": 0,
+  "forbidden_extensions": 0,
+  "limitations": "Known exact numeric identifier scan and explicit file allowlist; no claim of arbitrary microdata deidentification; document images require provenance and visual review"
+}

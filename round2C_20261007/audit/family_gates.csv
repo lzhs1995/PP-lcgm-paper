@@ -1,0 +1,4 @@
+"spec","members","admissible","start_stable","eligible_for_conditional_pooling"
+"C1",10,10,TRUE,TRUE
+"SW",10,10,TRUE,TRUE
+"XLIN",10,0,FALSE,FALSE

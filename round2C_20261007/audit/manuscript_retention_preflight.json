@@ -1,0 +1,9 @@
+{
+  "source_sha256": "ff62cfd3b34ba7e4b1f5f3deee6a59dc9ea60855163cb93a62e7b975a40f232a",
+  "retained_body_nodes": 76,
+  "field_begins": 72,
+  "field_ends": 72,
+  "tracked_insertions": 0,
+  "tracked_deletions": 0,
+  "scope": "read-only retention preflight; new document has not yet been generated"
+}

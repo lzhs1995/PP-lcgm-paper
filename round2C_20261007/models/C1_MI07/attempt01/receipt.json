@@ -1,0 +1,14 @@
+{
+  "id": "C1_MI07",
+  "N": 3274,
+  "status": "REVIEWABLE",
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters": true,
+  "seconds": 201.195266008377,
+  "input_sha256": "328d7fd457b9e9975f33224c6ddcc269a0fff1a6b88168fbe5a33dbabc58d7de",
+  "data_sha256": "6085fc1c5c26bd463d86e23ee7c54ed217ce277a7721a386dfa445500dea42fd",
+  "output_sha256": "8f589bd8f68a965be0b620fe53548ab224624a08564496b5fb9b164de27b6cb4",
+  "diagnostics": []
+}

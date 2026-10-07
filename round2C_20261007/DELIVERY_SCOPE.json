@@ -1,0 +1,19 @@
+{
+  "checkpoint": "C",
+  "ready_for_publication": true,
+  "calls": 36,
+  "eligible_families": [
+    "C1",
+    "SW"
+  ],
+  "new_MI": false,
+  "moderation": false,
+  "H4_2b": false,
+  "window_models": false,
+  "bootstrap": false,
+  "microdata_included": false,
+  "manuscripts": "v48/v40 review candidates; not final submission",
+  "native_plugin_refresh": false,
+  "conditional_inference_only": true,
+  "sources": "Round2B completed MI10 and fixed source hash bindings"
+}

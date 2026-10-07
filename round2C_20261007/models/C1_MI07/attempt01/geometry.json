@@ -1,0 +1,58 @@
+{
+  "checks": {
+    "PSI": {
+      "min_eigen": 0,
+      "max_eigen": 1.15320819227698,
+      "rank": 3,
+      "expected_rank": 3,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": false,
+      "tolerance": 1e-07,
+      "condition": "NA"
+    },
+    "G": {
+      "min_eigen": 6.31439345255558e-16,
+      "max_eigen": 1.97548349455574,
+      "rank": 3,
+      "expected_rank": 3,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": false,
+      "tolerance": 1e-07,
+      "condition": 3.12854038855658e+15
+    },
+    "THETA": {
+      "min_eigen": 1,
+      "max_eigen": 1,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true,
+      "tolerance": 1e-07,
+      "condition": 1
+    },
+    "SIGMA": {
+      "min_eigen": 0.551392753662533,
+      "max_eigen": 3.11313853003134,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true,
+      "tolerance": 1e-07,
+      "condition": 5.64595473798458
+    }
+  },
+  "diagnostic": {
+    "partial_SX": 0.119654821386509,
+    "partial_SY": 0.0643053496539654,
+    "partial_covariance": -0.0877179863371374,
+    "partial_ratio": -1,
+    "residual_reconstructed": 0,
+    "SY_residual": 0
+  },
+  "negative": [],
+  "passed": true
+}

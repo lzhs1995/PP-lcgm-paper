@@ -1,0 +1,15 @@
+{
+  "id": "P020_MI01",
+  "spec": "P020",
+  "member": 1,
+  "attempt": "attempt01",
+  "tau": 0.2,
+  "start_check": false,
+  "N": 3274,
+  "households": 2410,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/P020_MI01/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/P020_MI01/attempt01/data.dat",
+  "source_input_sha256": "a3ba3ec266ce0685fea6d5b233720d5a3b746dcafe880ce1d53017328776cd84",
+  "input_sha256": "7ea670e62f6ea39883984d813fa6c9994f22851700d156c5da260420d4ce78f4",
+  "data_sha256": "d3a58d45bff0244d6d0b04329d6b2f9139eb4e5deb9ebf04b68a535ea809cdda"
+}

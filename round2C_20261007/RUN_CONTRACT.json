@@ -1,0 +1,34 @@
+{
+  "source_commit": "a666e0ea8a610159709bb504d3d275f6f582efb9",
+  "source_root": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006",
+  "target_N": 3274,
+  "households": 2410,
+  "imputations": 10,
+  "main_controls": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "adl12", "finc12"],
+  "estimator": "MLR",
+  "cluster": "fid",
+  "time_unit": "decade",
+  "Y": "CESD8 with frozen 2012 standardization",
+  "specifications": {
+    "C1": "Original X free/Y linear; SY@0; SX WITH IY retained",
+    "SW": "Original model plus five separate same-wave X-Y residual covariances; SY free",
+    "XLIN": "Original model with X calendar-linear; SY free"
+  },
+  "profile_member": 1,
+  "profile_tau": [0, 0.02, 0.08, 0.2, 0.4],
+  "core_calls": 34,
+  "max_start_checks": 3,
+  "max_repairs_and_numeric_retries": 3,
+  "max_total_calls": 40,
+  "start_thresholds": {
+    "absolute_LL": 0.01,
+    "max_absolute_key_path": 0.001
+  },
+  "key_paths": ["bii", "bis", "bss", "bsyiy"],
+  "mcse_over_se_flag": 0.05,
+  "family_selection": "No p-based selection; run all three families on all ten members; pool each eligible family separately",
+  "inference": "Fixed-specification conditional Rubin inference; no selection uncertainty or boundary variance test",
+  "stop_at": "Checkpoint C; no moderation, H4.2b, windows, new MI or bootstrap",
+  "publish": "Aggregate outputs only; ZIP <=25000000 bytes",
+  "created": "2026-10-07 07:31:54.961213"
+}

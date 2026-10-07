@@ -1,0 +1,364 @@
+{
+  "status": "PASS",
+  "models_checked": 36,
+  "models": [
+    {
+      "id": "C1_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.1086244689504383e-15,
+      "vcov_diagonal_difference": 1.0119708099276536e-08,
+      "output_sha256": "28f0d63d33ddd248cb44806ac0b623a2f6d004a8e1c1361b4d79291b8b03eccf"
+    },
+    {
+      "id": "C1_MI01",
+      "attempt": "start_check01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 2.6645352591003757e-15,
+      "vcov_diagonal_difference": 7.335224913584959e-09,
+      "output_sha256": "939ae09fb624c917b21cd8c0eefc35ed4e46daf81e4e47847775e8f444cd8905"
+    },
+    {
+      "id": "C1_MI02",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 4.440892098500626e-15,
+      "vcov_diagonal_difference": 5.086188387126711e-09,
+      "output_sha256": "98df4951dab38f800802d5974606c50df26e1852f46b45a92999b8cd5af2d6a6"
+    },
+    {
+      "id": "C1_MI03",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.774758283725532e-15,
+      "vcov_diagonal_difference": 1.1451012110752501e-08,
+      "output_sha256": "e8bf61fcf83fe86305f4717ec0ddf425453d0206a119c27a40f1bf43e32623cc"
+    },
+    {
+      "id": "C1_MI04",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 2.220446049250313e-15,
+      "vcov_diagonal_difference": 7.71401637011948e-09,
+      "output_sha256": "28d463ec7dfc782c08c627a628b1d112e6e5a7cb6cd9b53c21e18b962d2d05f2"
+    },
+    {
+      "id": "C1_MI05",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 1.1102230246251565e-15,
+      "vcov_diagonal_difference": 8.484928121221813e-09,
+      "output_sha256": "5665aa2460145a0f89968348a6de36b949038fbaca13f6a83b88b6ca2dcb3e06"
+    },
+    {
+      "id": "C1_MI06",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 4.440892098500626e-15,
+      "vcov_diagonal_difference": 8.314300387057827e-09,
+      "output_sha256": "36b71934aa82f99c31d4e53e95b2f81de69678b25c23491828c1383e85e656b6"
+    },
+    {
+      "id": "C1_MI07",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 4.6629367034256575e-15,
+      "vcov_diagonal_difference": 1.046360309508998e-08,
+      "output_sha256": "8f589bd8f68a965be0b620fe53548ab224624a08564496b5fb9b164de27b6cb4"
+    },
+    {
+      "id": "C1_MI08",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 2.4424906541753444e-15,
+      "vcov_diagonal_difference": 9.62898311085425e-09,
+      "output_sha256": "5af07536efa41ac2ebcc5ea4500a63c04bac52911e4708f70e93baace31ae6c4"
+    },
+    {
+      "id": "C1_MI09",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 1.7763568394002505e-15,
+      "vcov_diagonal_difference": 5.794854415763773e-09,
+      "output_sha256": "ab9b468e563e6947b5d56580bbb0d0507647781eb08074b224beed7fc1eea9ae"
+    },
+    {
+      "id": "C1_MI10",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 4.884981308350689e-15,
+      "vcov_diagonal_difference": 1.5240089995538497e-08,
+      "output_sha256": "c95966ed42c18726a3770e3e6d9a4242678c4896dfbed5c4dbc050612d632fd0"
+    },
+    {
+      "id": "P002_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 2.4424906541753444e-15,
+      "vcov_diagonal_difference": 1.025798998521843e-08,
+      "output_sha256": "1db767ff8f1e05b6773eda839ef9d8de9ab0fd53d3278b378ba1feb4bd1230cd"
+    },
+    {
+      "id": "P008_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 2.886579864025407e-15,
+      "vcov_diagonal_difference": 5.085438417595789e-09,
+      "output_sha256": "34aec575e3afa04c55e33e19c8b2b9953699ced9455f6c58458db36f53b13ff0"
+    },
+    {
+      "id": "P020_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.552713678800501e-15,
+      "vcov_diagonal_difference": 4.69534408575889e-09,
+      "output_sha256": "0b8a97ec432d98a3cb5504dfc29f85c3cabb70dd6d5c5d34ff2f521cbfb71f25"
+    },
+    {
+      "id": "P040_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 4.884981308350689e-15,
+      "vcov_diagonal_difference": 5.064303601476361e-09,
+      "output_sha256": "1a1bdd7c247fea63399822722dc650418a104d8a5ce187ab1f5a2c15ba784f79"
+    },
+    {
+      "id": "SW_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.552713678800501e-15,
+      "vcov_diagonal_difference": 8.308995103067929e-09,
+      "output_sha256": "8d9b8856aebc923630a64a469a638996eb852068eae53c48e5fd2d4b0aeba435"
+    },
+    {
+      "id": "SW_MI01",
+      "attempt": "start_check01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 2.220446049250313e-15,
+      "vcov_diagonal_difference": 7.377387076235031e-09,
+      "output_sha256": "271f0f223abf304d122fda1e031de4ebf6919b9153862c5ab4278e9effde17c3"
+    },
+    {
+      "id": "SW_MI02",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 1.1102230246251565e-15,
+      "vcov_diagonal_difference": 1.7607040048162048e-08,
+      "output_sha256": "1ce4a608ff0c6fe02e257663ee5dc9af0c46ede06ea4113268c4e651f61732b7"
+    },
+    {
+      "id": "SW_MI03",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.3306690738754696e-15,
+      "vcov_diagonal_difference": 1.241644709271128e-08,
+      "output_sha256": "9053cea0f51b64bf62f3d37c723369863274842fe760903efeb99cdca910b94c"
+    },
+    {
+      "id": "SW_MI04",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.9968028886505635e-15,
+      "vcov_diagonal_difference": 2.551665562178229e-08,
+      "output_sha256": "8326690de60f96bebe141adc09779f660f25deda01e9cc1f670105cd25951f43"
+    },
+    {
+      "id": "SW_MI05",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.9968028886505635e-15,
+      "vcov_diagonal_difference": 9.917160120886948e-09,
+      "output_sha256": "23c3dcd855218edc2f295b6304148cdea53c7d1c325a849bca0fc49b4334fd62"
+    },
+    {
+      "id": "SW_MI06",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.9968028886505635e-15,
+      "vcov_diagonal_difference": 3.406586490672936e-08,
+      "output_sha256": "f04d15348b817753b1ab296f732501ea5e88e6c50de18cfff223d3392a5995d4"
+    },
+    {
+      "id": "SW_MI07",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 4.218847493575595e-15,
+      "vcov_diagonal_difference": 8.474815904602195e-09,
+      "output_sha256": "6ca905e60e59f1fd2b40eff2997c51bcbf6adb03922d5293b065f9cc870c22ad"
+    },
+    {
+      "id": "SW_MI08",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 1.7763568394002505e-15,
+      "vcov_diagonal_difference": 1.896094359299383e-08,
+      "output_sha256": "586979e626f7eabebdd84d867e169732a8f1eb146c6dbebf01d76b1cfd6ab558"
+    },
+    {
+      "id": "SW_MI09",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.1086244689504383e-15,
+      "vcov_diagonal_difference": 2.315556002496777e-08,
+      "output_sha256": "1b82c1ab3c10adf36dc3989bcb9e77fa5b8123b967ace88311ad48d81fa37e1f"
+    },
+    {
+      "id": "SW_MI10",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": true,
+      "max_matrix_difference": 3.552713678800501e-15,
+      "vcov_diagonal_difference": 2.0962945657121423e-08,
+      "output_sha256": "aab7a35b9190fe956d19613d2e5f719d59fd8ad0de83a098f07ca989c4e57f8f"
+    },
+    {
+      "id": "XLIN_MI01",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 2.220446049250313e-15,
+      "vcov_diagonal_difference": 3.422481004156097e-08,
+      "output_sha256": "841fdab84e61d8e6b5b04a2684e34d17beee90dbaaf29f45ff7e5ebaae594568"
+    },
+    {
+      "id": "XLIN_MI02",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 1.9984014443252818e-15,
+      "vcov_diagonal_difference": 6.925177598038346e-09,
+      "output_sha256": "632570b9fc5d71cfe85314a7b604513a50e28e47bcefb82676cc9e8448feec87"
+    },
+    {
+      "id": "XLIN_MI03",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 2.886579864025407e-15,
+      "vcov_diagonal_difference": 1.1406908390076964e-08,
+      "output_sha256": "99d2f8d3aeb9bdbed37aba4ff3df9038b793088c3c002d688ea956dfc626d508"
+    },
+    {
+      "id": "XLIN_MI04",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 2.6645352591003757e-15,
+      "vcov_diagonal_difference": 2.019389111485026e-08,
+      "output_sha256": "5e23843c92fba633afb8c1aeafa396ba912a85f9cf22ae431e47d834b1a796a0"
+    },
+    {
+      "id": "XLIN_MI05",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 3.9968028886505635e-15,
+      "vcov_diagonal_difference": 1.5810255049597544e-08,
+      "output_sha256": "ae68878f6753c46b81171cb676b01f3b5184e838e069264b3f5c9363d44f1349"
+    },
+    {
+      "id": "XLIN_MI06",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 2.6645352591003757e-15,
+      "vcov_diagonal_difference": 3.4475297505665026e-08,
+      "output_sha256": "31457103181c75d8ae44dc3c53fcc4f550d373ee7eeb070d69e846fb3dee397e"
+    },
+    {
+      "id": "XLIN_MI07",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 3.9968028886505635e-15,
+      "vcov_diagonal_difference": 1.1992559084683663e-08,
+      "output_sha256": "1feca1e8c87c8fcfd864bb2c6d00278757f850c33d11ee5f7b2ddb9de5847258"
+    },
+    {
+      "id": "XLIN_MI08",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 4.440892098500626e-15,
+      "vcov_diagonal_difference": 2.3241577440380468e-08,
+      "output_sha256": "c061dde45b14d322f4900bee2bf9595e7f655c87cc9e238f68e8df0f65ee3180"
+    },
+    {
+      "id": "XLIN_MI09",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 4.884981308350689e-15,
+      "vcov_diagonal_difference": 1.0668639999211749e-08,
+      "output_sha256": "f503c11103e12cfef9ad67c0da3d26cc3c6a1195b9ee8c3c3a419ee0213dd79c"
+    },
+    {
+      "id": "XLIN_MI10",
+      "attempt": "attempt01",
+      "geometry_agrees": true,
+      "geometry_passed": false,
+      "max_matrix_difference": 1.7763568394002505e-15,
+      "vcov_diagonal_difference": 1.600920157551755e-08,
+      "output_sha256": "775667c2200f9c413d6b3d21cad6df846f54e3ade52c4d78e4a0207516159862"
+    }
+  ],
+  "unverified_geometry": [],
+  "pooling": [
+    {
+      "spec": "C1",
+      "members": 10,
+      "four_paths_and_covariances": "PASS"
+    },
+    {
+      "spec": "SW",
+      "members": 10,
+      "four_paths_and_covariances": "PASS"
+    }
+  ],
+  "starts": [
+    {
+      "spec": "C1",
+      "executed": true,
+      "dLL": 0.0,
+      "max_path_difference": 6.250999999998785e-05,
+      "recalculation": "PASS"
+    },
+    {
+      "spec": "SW",
+      "executed": true,
+      "dLL": 0.0,
+      "max_path_difference": 6.27500000000003e-05,
+      "recalculation": "PASS"
+    },
+    {
+      "spec": "XLIN",
+      "executed": false
+    }
+  ],
+  "method": "Python independently rebuilds matrices and Rubin summaries from R-exported high precision parameters; no independent CFPS estimation"
+}

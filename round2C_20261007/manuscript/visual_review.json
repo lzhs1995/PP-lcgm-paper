@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Checkpoint C review-candidate readability: all 23 pages inspected in rendered contact sheets; main results/discussion pages 12-13 and appendix tables pages 4-6 inspected at full rendered size. Not final typography or NLM approval.",
+  "findings": "No detected clipping, overlapping text or split table rows. Continued tables repeat headers. Page-end heading issue repaired and final PDFs rerendered. Original sample-flow image retained. Some confidence intervals wrap within cells; all values verified separately.",
+  "figures": "Both conditional-MI and MI01-profile plots visually reviewed; axes, intervals and scope labels readable.",
+  "files": [
+    {"pdf": "PP_LGCM_review_v48_round2C_NOT_RELEASED.pdf", "sha256": "7337ffa3636c0a052c3355e16ba8456ab6e5655642056bfa1755a872bf62f7f8", "reviewed_pages": 17},
+    {"pdf": "PP_LGCM_appendix_review_v40_round2C_NOT_RELEASED.pdf", "sha256": "8a3df874fbe89a16caaa13b8fec7e76d5c0d79295ef368d47ae6d031419fc05b", "reviewed_pages": 6}
+  ]
+}

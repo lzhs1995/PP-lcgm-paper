@@ -1,0 +1,20 @@
+{
+  "status": "ENGINEERING_DATA_AND_CHAIN_REVIEW_COMPLETE_READY_FOR_PARENT",
+  "m": 10,
+  "iterations": 30,
+  "data_checks": 4300,
+  "passed": 4300,
+  "observed_values_preserved": true,
+  "household_shared_values_consistent": true,
+  "target_missing_completed": true,
+  "frozen_longitudinal_and_structural_masks_preserved": true,
+  "requested_methods_and_predictors_unchanged": true,
+  "logged_events": 0,
+  "final_psrf_range": [0.995835910819073, 1.02935193445562],
+  "visual_review": "Final large-target mean/variance traces inspected; no persistent common drift or separated chains observed. Occasional variance spikes retained, not trimmed. Small targets are suppressed publicly and evaluated with numerical diagnostics and member validation.",
+  "limits": "Engineering acceptance does not prove MAR, model correctness, congeniality with latent interactions, or adequacy of m for every estimand. Parent legality and pooled Monte Carlo uncertainty remain separate gates.",
+  "checkpoint_sha256": "d9bdcea3aba7a30629c74e690b7e8c12993c8b7ce207dd10b6e9c02008222e51",
+  "inputs_sha256": "afd41996ae7dbd9b269b6282f7827bc610a203758abe769a666355123b1b1386",
+  "production_script_sha256": "91efde25e6ccc5946b16b48359f6306d2f9f420e9a2cadc1edaa50ac7941d71a",
+  "validator_sha256": "4074580a5417c8831d4caf3dff926186eccbacc2beb928d6b3bf99379576a7cd"
+}

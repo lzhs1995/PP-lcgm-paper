@@ -1,0 +1,10 @@
+{
+  "status": "CHECKPOINT_C_SUMMARIZED",
+  "eligible_families": ["C1", "SW"],
+  "m": 10,
+  "inference": "Fixed specification conditional Rubin inference, large complete-sample df approximation; no model selection uncertainty or boundary variance test",
+  "profile": "MI01 only; fixed variance grid, not confidence region; no LRT selection",
+  "mcse": "sqrt(B/m) divided by pooled SE; .05 flag only; no automatic additional MI",
+  "moderation_authorized": false,
+  "stop_at": "Checkpoint C"
+}

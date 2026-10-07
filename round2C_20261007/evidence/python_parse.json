@@ -1,0 +1,62 @@
+[
+  {
+    "file": "05_independent_verification.py",
+    "status": "PARSE_PASS",
+    "sha256": "68b3644e89c68a9e56810da8fa7532b7c48938e60515270ba3b33dd8922ebb7f"
+  },
+  {
+    "file": "06_build_manuscripts.py",
+    "status": "PARSE_PASS",
+    "sha256": "ae8c80e8861c6efcd35c45eaf7b41ee380dc14d3b0f97e39506ff2e065e5b688"
+  },
+  {
+    "file": "07_export_word_pdf.py",
+    "status": "PARSE_PASS",
+    "sha256": "ed17beba34cb7e958e19775ea741cf86c45c400f50e7c65f4a14e77519ec0012"
+  },
+  {
+    "file": "08_pdf_readback.py",
+    "status": "PARSE_PASS",
+    "sha256": "3b5bc4876075ecd55b240858fb1dfa52dc08613a3eb44ee8896b8f3cfaeac21a"
+  },
+  {
+    "file": "09_build_reports.py",
+    "status": "PARSE_PASS",
+    "sha256": "6811051dcf469a4e0901dea190215beee7d8551ab4ef2ecf7bc90ad2d2bcd2b8"
+  },
+  {
+    "file": "10_stage_and_scan.py",
+    "status": "PARSE_PASS",
+    "sha256": "c8b8a3b350d828b4d0413ce93b2fcfab953a2aaddf0a92c0be090a83c8df9d17"
+  },
+  {
+    "file": "11_package_public.py",
+    "status": "PARSE_PASS",
+    "sha256": "61b2a5d932fe848f876b6383faa8d458cd004f1e3502695da2cded8b8f209999"
+  },
+  {
+    "file": "12_publish_github.py",
+    "status": "PARSE_PASS",
+    "sha256": "dc03a0ba5bd6bfc7c88f2a5ed766a8fe977ccf4a38181db86713a8a9feb5adbc"
+  },
+  {
+    "file": "13_plot_results.py",
+    "status": "PARSE_PASS",
+    "sha256": "f6f47de724a842d09d04b877468967902104e824e3cbb2ca4b456ec193459293"
+  },
+  {
+    "file": "14_verify_input_scale.py",
+    "status": "PARSE_PASS",
+    "sha256": "49963a26c24cca81d8d23907608a24409c794e4d0ddb7fe475758c6fbd0d36f9"
+  },
+  {
+    "file": "inspect_manuscript.py",
+    "status": "PARSE_PASS",
+    "sha256": "4185595d83dea0f496cf65e0c11d92d267336dc7e3c1949ddf6438c1745c43ee"
+  },
+  {
+    "file": "resource_check.py",
+    "status": "PARSE_PASS",
+    "sha256": "deafc5906406b4725e3de323bc6b91dcbe2630de91202dacee536490a12e436e"
+  }
+]

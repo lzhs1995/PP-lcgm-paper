@@ -1,0 +1,62 @@
+[
+  {
+    "imputation": 1,
+    "sha256": "5441a85e3f2a2fa6b1974b07469e1077db2c0159f16ab8818a0994c7946b7d08",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 2,
+    "sha256": "be148168258594fcb05531e4ff29f53d153c171b31ea289d5532e44d7a80c0fe",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 3,
+    "sha256": "1e46f07a4b7a5539f2fe54db861a1d617b0a7c8302cbecaee0b7c60fb2082ef9",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 4,
+    "sha256": "316114d14cb6530a1e1652d1769b5a22138b4b1b0c371c4957968bbd194758b1",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 5,
+    "sha256": "1a881610d578b4be814908006b1871486cbe4154af941a030b00e65509a800e5",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 6,
+    "sha256": "fb082aa6e4254972193cf646af1f9206235d53ba41b2830ad360e30bad2cb99a",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 7,
+    "sha256": "28b7400d443c279f9e4c74112beb441594d56bb150c44a19579bf6530762d417",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 8,
+    "sha256": "28890b19c6141b9607b64e7ab6c25962e89db8ef2943341eb8aaca8485de9120",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 9,
+    "sha256": "f9cda2606f916d57a4276be7868f1a2261153f7ef70f2f072ccfd1466480cbe9",
+    "N": 3274,
+    "passed": true
+  },
+  {
+    "imputation": 10,
+    "sha256": "b7634c095e6d34989f571ff56f4838410bea54cfee88f3c2dd438717fa5e4f04",
+    "N": 3274,
+    "passed": true
+  }
+]

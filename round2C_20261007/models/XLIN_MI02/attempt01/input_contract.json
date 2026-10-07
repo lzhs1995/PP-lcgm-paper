@@ -1,0 +1,15 @@
+{
+  "id": "XLIN_MI02",
+  "spec": "XLIN",
+  "member": 2,
+  "attempt": "attempt01",
+  "tau": null,
+  "start_check": false,
+  "N": 3274,
+  "households": 2410,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/XLIN_MI02/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/XLIN_MI02/attempt01/data.dat",
+  "source_input_sha256": "095e4cd96ae8bdeea3c13a9a92e6a1d79903f17ec3be0cc11c8351ff9b4982d9",
+  "input_sha256": "df60e0f2b69ae6c32618bfbddf5dda456ba9cf7ce5ee8b599e3469cc736addb9",
+  "data_sha256": "90a9436d7ef9e16c3c14ab98f9ad2e208b83729f6dc49c77e2d9324c9aa44e52"
+}

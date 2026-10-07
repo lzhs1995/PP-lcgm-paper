@@ -1,0 +1,23 @@
+{
+  "id": "XLIN_MI08",
+  "N": 3274,
+  "status": "INADMISSIBLE",
+  "normal": true,
+  "negative_variance": true,
+  "matrix_warning": true,
+  "finite_parameters": true,
+  "seconds": 185.604068040848,
+  "input_sha256": "55a7ea06b505a9410de67149ee7aa27c5f691374ee93050f1d74d62d85353833",
+  "data_sha256": "c4de992a9c42024f074a6ab712d8fb67b4bff62d57763d2ab62d49f0302057b3",
+  "output_sha256": "c061dde45b14d322f4900bee2bf9595e7f655c87cc9e238f68e8df0f65ee3180",
+  "diagnostics": ["     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."],
+  "spec": "XLIN",
+  "member": 8,
+  "attempt": "attempt01",
+  "tau": null,
+  "usable": false,
+  "geometry_passed": false,
+  "negative": "psi:SY",
+  "SY_residual": -0.087902568,
+  "expected_boundary_warning": false
+}

@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "data_sha256": "d3a58d45bff0244d6d0b04329d6b2f9139eb4e5deb9ebf04b68a535ea809cdda",
+  "aggregate_source_sha256": "90fae633ff04b8ec134d3a2cc150f2b68cbbfc4848c4e4550ad9839420df0438",
+  "baseline_reference": {
+    "X": {
+      "mean": 4.1089078463573,
+      "sd": 0.709254269021403
+    },
+    "Y": {
+      "mean": 13.5754428833232,
+      "sd": 4.25923864592045
+    }
+  },
+  "checks": [
+    {
+      "process": "X",
+      "year": 2012,
+      "N": 3274,
+      "input_mean": 1.0711631509566837e-08,
+      "expected_frozen_baseline_mean": 0.0,
+      "difference": 1.0711631509566837e-08
+    },
+    {
+      "process": "X",
+      "year": 2016,
+      "N": 3003,
+      "input_mean": 0.20591702177510215,
+      "expected_frozen_baseline_mean": 0.2059170075741521,
+      "difference": 1.420095005477684e-08
+    },
+    {
+      "process": "X",
+      "year": 2018,
+      "N": 2248,
+      "input_mean": 0.190023396896642,
+      "expected_frozen_baseline_mean": 0.19002338591001522,
+      "difference": 1.0986626775011388e-08
+    },
+    {
+      "process": "X",
+      "year": 2020,
+      "N": 1097,
+      "input_mean": 0.3289528362853692,
+      "expected_frozen_baseline_mean": 0.3289528221263185,
+      "difference": 1.4159050709672272e-08
+    },
+    {
+      "process": "X",
+      "year": 2022,
+      "N": 895,
+      "input_mean": 0.31060333520839944,
+      "expected_frozen_baseline_mean": 0.3106033224435233,
+      "difference": 1.2764876156090565e-08
+    },
+    {
+      "process": "Y",
+      "year": 2012,
+      "N": 3274,
+      "input_mean": -1.3889656410704463e-16,
+      "expected_frozen_baseline_mean": 0.0,
+      "difference": -1.3889656410704463e-16
+    },
+    {
+      "process": "Y",
+      "year": 2016,
+      "N": 3005,
+      "input_mean": 0.01826657660928586,
+      "expected_frozen_baseline_mean": 0.01826657660927719,
+      "difference": 8.670147932932082e-15
+    },
+    {
+      "process": "Y",
+      "year": 2018,
+      "N": 2377,
+      "input_mean": 0.04673670875318575,
+      "expected_frozen_baseline_mean": 0.046736708753186376,
+      "difference": -6.245004513516506e-16
+    },
+    {
+      "process": "Y",
+      "year": 2020,
+      "N": 1194,
+      "input_mean": -0.057040023141352,
+      "expected_frozen_baseline_mean": -0.05704002314136554,
+      "difference": 1.3537782006523003e-14
+    },
+    {
+      "process": "Y",
+      "year": 2022,
+      "N": 889,
+      "input_mean": 0.045274777451342535,
+      "expected_frozen_baseline_mean": 0.045274777451341314,
+      "difference": 1.2212453270876722e-15
+    }
+  ],
+  "scope": "Aggregate count and mean checks supplement prior row/hash binding; do not independently reconstruct raw item scoring"
+}

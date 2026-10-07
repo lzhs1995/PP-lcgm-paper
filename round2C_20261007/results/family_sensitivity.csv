@@ -1,0 +1,5 @@
+"label","families","direction_consistent","estimate_min","estimate_max","absolute_range","interval_width_min","interval_width_max","interpretation"
+"bii",2,TRUE,-0.423959843,-0.350157726,0.073802117,0.410612283158038,0.577384537362317,"Descriptive structural sensitivity; XLIN changes the definition of X change; not a pooled or simultaneous confidence interval"
+"bis",2,TRUE,0.1009827908,0.196767371,0.0957845802,0.745095802522117,1.04799236635406,"Descriptive structural sensitivity; XLIN changes the definition of X change; not a pooled or simultaneous confidence interval"
+"bss",2,TRUE,-0.716782104,-0.246365816,0.470416288,1.87312471585198,2.39041645043032,"Descriptive structural sensitivity; XLIN changes the definition of X change; not a pooled or simultaneous confidence interval"
+"bsyiy",2,TRUE,0.425179134,0.427409443,0.00223030899999999,0.540453613980404,1.17537207434055,"Descriptive structural sensitivity; XLIN changes the definition of X change; not a pooled or simultaneous confidence interval"

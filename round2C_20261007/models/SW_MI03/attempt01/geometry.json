@@ -1,0 +1,58 @@
+{
+  "checks": {
+    "PSI": {
+      "min_eigen": 0.810816847088712,
+      "max_eigen": 1.18918315291129,
+      "rank": 4,
+      "expected_rank": 4,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true,
+      "tolerance": 1e-07,
+      "condition": 1.46664830310461
+    },
+    "G": {
+      "min_eigen": 0.225553474742025,
+      "max_eigen": 1.91744400995014,
+      "rank": 4,
+      "expected_rank": 4,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true,
+      "tolerance": 1e-07,
+      "condition": 8.50106172003425
+    },
+    "THETA": {
+      "min_eigen": 0.896419461058042,
+      "max_eigen": 1.10358053894196,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true,
+      "tolerance": 1e-07,
+      "condition": 1.23109837178167
+    },
+    "SIGMA": {
+      "min_eigen": 0.534547354559049,
+      "max_eigen": 3.0696876677181,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true,
+      "tolerance": 1e-07,
+      "condition": 5.74259257208429
+    }
+  },
+  "diagnostic": {
+    "partial_SX": 0.102071657120716,
+    "partial_SY": 0.0390938551640035,
+    "partial_covariance": -0.0234982091314159,
+    "partial_ratio": -0.371987145097981,
+    "residual_reconstructed": 0.033684265,
+    "SY_residual": 0.033684265
+  },
+  "negative": [],
+  "passed": true
+}

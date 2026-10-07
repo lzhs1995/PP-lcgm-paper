@@ -1,0 +1,19 @@
+{
+  "parameters": 128,
+  "vcov_diagonal_max_difference": 2.55166556217823e-08,
+  "results_sha256": "0e906ad74ec93ede5c37e9c8b9fc4b6b86e581872724a5d04c52fb9a86b9f365",
+  "tech3_sha256": "fac3e8463bd69f4c4251c1a00b809b5dae154ff5af378b02408afcfe9de2a52b",
+  "bound_to_TECH1": true,
+  "valid": true,
+  "covariance": {
+    "min_eigen": 0.00126213946214672,
+    "max_eigen": 15.3433295246373,
+    "rank": 128,
+    "expected_rank": 128,
+    "psd": true,
+    "rank_ok": true,
+    "positive_definite": true,
+    "tolerance": 1e-07,
+    "condition": 12156.6039132795
+  }
+}

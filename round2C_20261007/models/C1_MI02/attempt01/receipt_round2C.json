@@ -1,0 +1,23 @@
+{
+  "id": "C1_MI02",
+  "N": 3274,
+  "status": "CONDITIONAL_FIXED_ZERO",
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters": true,
+  "seconds": 214.827844142914,
+  "input_sha256": "fc612147ffa953d55f29119a3c985571e95c19b28768e2f1998082f1cf1e376d",
+  "data_sha256": "90a9436d7ef9e16c3c14ab98f9ad2e208b83729f6dc49c77e2d9324c9aa44e52",
+  "output_sha256": "98df4951dab38f800802d5974606c50df26e1852f46b45a92999b8cd5af2d6a6",
+  "diagnostics": [],
+  "spec": "C1",
+  "member": 2,
+  "attempt": "attempt01",
+  "tau": 0,
+  "usable": true,
+  "geometry_passed": true,
+  "negative": [],
+  "SY_residual": 0,
+  "expected_boundary_warning": false
+}

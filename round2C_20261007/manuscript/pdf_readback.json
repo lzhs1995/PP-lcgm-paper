@@ -1,0 +1,43 @@
+[
+  {
+    "file": "PP_LGCM_appendix_review_v40_round2C_NOT_RELEASED.pdf",
+    "sha256": "8a3df874fbe89a16caaa13b8fec7e76d5c0d79295ef368d47ae6d031419fc05b",
+    "pages": 6,
+    "rendered_pages": 6,
+    "page_text_lengths": [
+      1565,
+      1720,
+      2037,
+      2193,
+      2555,
+      1589
+    ],
+    "visual_review": "PENDING"
+  },
+  {
+    "file": "PP_LGCM_review_v48_round2C_NOT_RELEASED.pdf",
+    "sha256": "7337ffa3636c0a052c3355e16ba8456ab6e5655642056bfa1755a872bf62f7f8",
+    "pages": 17,
+    "rendered_pages": 17,
+    "page_text_lengths": [
+      496,
+      2752,
+      2543,
+      1921,
+      2226,
+      1924,
+      1199,
+      171,
+      2518,
+      1849,
+      1500,
+      1853,
+      2604,
+      3749,
+      3759,
+      3585,
+      269
+    ],
+    "visual_review": "PENDING"
+  }
+]

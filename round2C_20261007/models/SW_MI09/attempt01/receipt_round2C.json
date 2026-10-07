@@ -1,0 +1,23 @@
+{
+  "id": "SW_MI09",
+  "N": 3274,
+  "status": "CONDITIONAL_REVIEWABLE",
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters": true,
+  "seconds": 193.50724196434,
+  "input_sha256": "572ac15ff0bdd3ddcbfa9f915c1797ae51c00fa528e7ad9e21027e0f56e35356",
+  "data_sha256": "e31da2ac2cee8517be6e244ea9051a981341b1e26046a97d430b31a0412337bb",
+  "output_sha256": "1b82c1ab3c10adf36dc3989bcb9e77fa5b8123b967ace88311ad48d81fa37e1f",
+  "diagnostics": [],
+  "spec": "SW",
+  "member": 9,
+  "attempt": "attempt01",
+  "tau": null,
+  "usable": true,
+  "geometry_passed": true,
+  "negative": [],
+  "SY_residual": 0.035927638,
+  "expected_boundary_warning": false
+}

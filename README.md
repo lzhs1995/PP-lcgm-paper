@@ -1,3 +1,5 @@
+最新复核资料：[PP-LGCM Round2C检查点C报告与读取说明](round2C_20261007/README.md)。统计状态以该目录的REPORT和DELIVERY_SCOPE为准；历史资料继续保留。
+
 最新复核资料：[PP-LGCM Round2B报告与读取说明](round2B_20261006/README.md)。统计状态以该目录的REPORT和DELIVERY_SCOPE为准；历史资料继续保留。
 
 > **2026-10-06附录补充已到位：** [附录v38、独立包03及网页复核说明](round2A_appendix_v38_20261006/README.md)。原第二轮包01、02保持不变。

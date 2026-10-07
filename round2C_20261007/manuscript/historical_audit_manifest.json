@@ -1,0 +1,22 @@
+[
+  {
+    "file": "PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.docx",
+    "source_sha256": "ff62cfd3b34ba7e4b1f5f3deee6a59dc9ea60855163cb93a62e7b975a40f232a",
+    "bytes": 1586614
+  },
+  {
+    "file": "PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.pdf",
+    "source_sha256": "ebe640c032376f2a84f72eed88ec463ad3ad98339edc850a2a60a9887b74d612",
+    "bytes": 1442889
+  },
+  {
+    "file": "PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.docx",
+    "source_sha256": "2e11b41d868ec6778199d43742ac0ef585c42c93ad7d7ad5089a0fc313493f9b",
+    "bytes": 822545
+  },
+  {
+    "file": "PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.pdf",
+    "source_sha256": "618eff8eeec1f4622554ae78b12f90d704d93ae7bc615b32e18c0e01b2e659ed",
+    "bytes": 3693073
+  }
+]

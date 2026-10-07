@@ -1,0 +1,14 @@
+{
+  "N": 3274,
+  "covariates": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "adl12", "finc12"],
+  "time_unit": "decade",
+  "shape_y": "linear",
+  "shape_x": "free",
+  "sy_residual": "unconstrained",
+  "extra_growth_relation": "SX WITH IY; conditionally saturated growth covariance",
+  "samewave_residuals": false,
+  "specification": "ix sx | x1@0 x2*0.4 x3*0.6 x4*0.8 x5@1 ;\niy sy | y1@0 y2@0.4 y3@0.6 y4@0.8 y5@1 ;\niy ON ix (bii);\nsy ON ix (bis);\nsy ON sx (bss);\nsy ON iy (bsyiy);\nix WITH sx;\nix sx iy sy ON c1-c24;\nsx WITH iy;",
+  "imputations": 10,
+  "acceptance": "all members must be admissible; no deletion of failed members",
+  "role": "engineering_target_parent_not_automatically_formal"
+}

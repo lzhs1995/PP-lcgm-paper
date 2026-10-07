@@ -1,0 +1,15 @@
+{
+  "id": "C1_MI08",
+  "spec": "C1",
+  "member": 8,
+  "attempt": "attempt01",
+  "tau": 0,
+  "start_check": false,
+  "N": 3274,
+  "households": 2410,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/C1_MI08/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/C1_MI08/attempt01/data.dat",
+  "source_input_sha256": "23c86ab175c406ffb27d8a24f51c50102e47597ca2aafab0e20488616a77db3d",
+  "input_sha256": "7904872d4ab833f21613a5441dcce0d0e0201aece727a464aa9f29ad5d628f6c",
+  "data_sha256": "c4de992a9c42024f074a6ab712d8fb67b4bff62d57763d2ab62d49f0302057b3"
+}
