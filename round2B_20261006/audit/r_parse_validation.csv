@@ -1,0 +1,16 @@
+"file","parsed"
+"01_source_audit.R",TRUE
+"02_prepare_baseline.R",TRUE
+"03_diagnostics.R",TRUE
+"04_hierarchical_mi.R",TRUE
+"05_target_parent.R",TRUE
+"06_descriptives.R",TRUE
+"07_cluster_shape_compare.R",TRUE
+"08_pool_parent.R",TRUE
+"09_audit_checkpoint.R",TRUE
+"10_public_privacy_scan.R",TRUE
+"15_mi_chain_review.R",TRUE
+"collect_parameters.R",TRUE
+"mi_smoke.R",TRUE
+"mi_validation.R",TRUE
+"model_tools.R",TRUE

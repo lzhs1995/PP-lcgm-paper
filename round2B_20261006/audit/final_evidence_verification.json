@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "models": [
+    {
+      "model": "PARENT_MI01",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.069725484,
+      "SY_SE": 0.18957093,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI02",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.071432687,
+      "SY_SE": 0.19340751,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI03",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.064252436,
+      "SY_SE": 0.18320005,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI04",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.070816398,
+      "SY_SE": 0.19441406,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI05",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.067021757,
+      "SY_SE": 0.18747003,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI06",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.073346369,
+      "SY_SE": 0.19203851,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI07",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.074687518,
+      "SY_SE": 0.20031507,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI08",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.074369036,
+      "SY_SE": 0.19951849,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI09",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.067345828,
+      "SY_SE": 0.19293529,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    },
+    {
+      "model": "PARENT_MI10",
+      "input_output_hashes": "PASS",
+      "raw_negative_variance_warning": true,
+      "SY_residual": -0.073330805,
+      "SY_SE": 0.19609153,
+      "printed_rounding": "PASS",
+      "status": "INADMISSIBLE"
+    }
+  ],
+  "scope_consistent": true,
+  "limits": "Checks saved outputs and file provenance; no independent model refit."
+}

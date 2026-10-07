@@ -1,0 +1,11 @@
+{
+  "iteration": 10,
+  "m": 10,
+  "checkpoint_sha256": "42c5fb70e767313e8ce1d4070fbac4f06e7a4f4a001a74fbb9313b6b8ee7eebd",
+  "methods_unchanged": true,
+  "predictor_changes": 0,
+  "logged_events": 0,
+  "complete_prespecified_iterations": false,
+  "status": "DIAGNOSTICS_REQUIRE_REVIEW_NOT_AUTOMATIC_CONVERGENCE_PASS",
+  "caveats": "Chain moments and convergence diagnostics do not establish MAR or congeniality with latent interactions; household summaries here count missing person records, not independent households."
+}

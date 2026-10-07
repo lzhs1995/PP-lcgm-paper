@@ -1,0 +1,47 @@
+# 只读实际输入与旧输出。联合正态C的边际似然解析扣除，不重估Mplus。
+local({
+ library(jsonlite);library(digest)
+ root<-'C:/Users/LZHS/pp_lgcm_review/round2B_20261006'
+ old<-'C:/Users/LZHS/pp_lgcm_review/round2_20261006/models/D1981_P1_linear_xcov/attempt01'
+ new<-file.path(root,'models/K1/attempt02')
+ read_input<-function(dest){
+  s<-paste(readLines(file.path(dest,'model.inp'),warn=FALSE),collapse='\n')
+  nm<-regmatches(s,regexec('(?is)\\bnames\\s*=([^;]+);',s,perl=TRUE))[[1]][2]
+  nm<-strsplit(tolower(trimws(nm)),'\\s+')[[1]]
+  read.table(file.path(dest,'data.dat'),col.names=nm,na.strings='.')
+ }
+ a<-read_input(old);b<-read_input(new);stopifnot(setequal(names(a),names(b)))
+ b<-b[names(a)]
+ stopifnot(identical(is.na(a),is.na(b)))
+ differences<-vapply(names(a),function(v)max(abs(a[[v]]-b[[v]]),na.rm=TRUE),numeric(1))
+ stopifnot(all(differences<1e-8))
+ C<-as.matrix(a[paste0('c',1:26)]);stopifnot(all(is.finite(C)))
+ N<-nrow(C);p<-ncol(C);S<-crossprod(sweep(C,2,colMeans(C)))/N
+ det<-determinant(S,logarithm=TRUE);stopifnot(det$sign==1,qr(S)$rank==p)
+ LL_C<- -N/2*(p*(log(2*pi)+1)+as.numeric(det$modulus))
+ oldfit<-read.csv(file.path(old,'fit.csv'));newfit<-read.csv(file.path(new,'fit.csv'))
+ result<-data.frame(N=N,C_columns=p,joint_LL=oldfit$LL,marginal_C_LL=LL_C,
+  conditional_LL_from_joint=oldfit$LL-LL_C,conditional_ON_LL=newfit$LL,
+  difference=(oldfit$LL-LL_C)-newfit$LL)
+ write.csv(result,file.path(root,'audit/K1_conditional_likelihood_comparison.csv'),row.names=FALSE)
+ op<-read.csv(file.path(old,'parameters.csv'));np<-read.csv(file.path(new,'parameters_high_precision.csv'))
+ compare<-function(header,param,matrix,row,column,scale){
+  x<-op[op$paramHeader==header&op$param==param,];y<-np[np$matrix==matrix&np$row==row&np$column==column,]
+  stopifnot(nrow(x)==1,nrow(y)==1)
+  data.frame(parameter=paste(header,param),old_printed=x$est,old_scale_multiplier=scale,
+   old_transformed=x$est*scale,new_high_precision=y$estimate,
+   difference=y$estimate-x$est*scale,old_printing_half_width=.0005*abs(scale))
+ }
+ pars<-rbind(compare('IY.ON','IX','beta','IY','IX',1),
+   compare('SY.ON','IX','beta','SY','IX',10),
+   compare('SY.ON','SX','beta','SY','SX',1),
+   compare('SY.ON','IY','beta','SY','IY',10))
+ write.csv(pars,file.path(root,'audit/K1_shared_structural_parameters.csv'),row.names=FALSE)
+ write_json(list(source_joint_output_sha256=digest(file=file.path(old,'model.out'),algo='sha256'),
+  source_conditional_output_sha256=digest(file=file.path(new,'model.out'),algo='sha256'),
+  same_numeric_input_max_difference=max(differences),same_missing_mask=TRUE,N=N,
+  C_rank=qr(S)$rank,marginal_C_parameters=p+p*(p+1)/2,
+  limitations='Old output has printed precision only. No exact full conditional covariance/SE equivalence is claimed. Joint LL minus marginal C LL is a fit-equivalence diagnostic, not a likelihood-ratio hypothesis test. Both unconstrained models retain negative SY conditional residual.'),
+  file.path(root,'audit/K1_equivalence_binding.json'),pretty=TRUE,auto_unbox=TRUE,digits=NA)
+ print(result,row.names=FALSE);print(pars,row.names=FALSE)
+})

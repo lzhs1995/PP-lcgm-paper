@@ -1,0 +1,25 @@
+TITLE:
+Round2B PARENT_MI08
+DATA:
+FILE = "data.dat"; 
+VARIABLE:
+NAMES = fid x1 x2 x3 x4 x5 y1 y2 y3 y4 y5 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13
+     c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24; 
+ MISSING=.;
+ CLUSTER=fid; USEVARIABLES=x1-x5 y1-y5 c1-c24;
+ANALYSIS:
+TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005; ITERATIONS=1000;
+MODEL:
+ix sx | x1@0 x2*0.4 x3*0.6 x4*0.8 x5@1 ;
+iy sy | y1@0 y2@0.4 y3@0.6 y4@0.8 y5@1 ;
+iy ON ix (bii);
+sy ON ix (bis);
+sy ON sx (bss);
+sy ON iy (bsyiy);
+ix WITH sx;
+ix sx iy sy ON c1-c24;
+sx WITH iy;
+OUTPUT:
+TECH1 TECH3 TECH4 TECH8 SAMPSTAT RESIDUAL CINTERVAL;
+SAVEDATA:
+TECH3=tech3.dat; RESULTS=estimates.dat;

@@ -1,0 +1,11 @@
+"case","passed"
+"valid_member",TRUE
+"observed_NA",TRUE
+"observed_Inf",TRUE
+"target_unfilled",TRUE
+"household_conflict",TRUE
+"frozen_filled",TRUE
+"observed_changed",TRUE
+"derived_wrong",TRUE
+"rows_reordered",TRUE
+"duplicate_pid",TRUE

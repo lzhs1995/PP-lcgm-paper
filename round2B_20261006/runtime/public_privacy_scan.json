@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "text_files": 497,
+  "banned_files": 0,
+  "matching_files": 0,
+  "limitations": "Known exact numeric PID/FID token scan plus allowlist; does not certify unrestricted microdata deidentification"
+}

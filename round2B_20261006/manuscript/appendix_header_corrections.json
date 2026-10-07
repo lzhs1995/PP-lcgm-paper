@@ -1,0 +1,994 @@
+[
+  {
+    "table_ordinal": 7,
+    "before": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 8,
+    "before": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 19,
+    "before": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 20,
+    "before": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 27,
+    "before": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 28,
+    "before": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 37,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 38,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 39,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 40,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 41,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 42,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 43,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 44,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 45,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 46,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 47,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 48,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 49,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 50,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 51,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 52,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 57,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 58,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 59,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 60,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 61,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 62,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 63,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 64,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 65,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 66,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 67,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 68,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 69,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 70,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 71,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 72,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I2",
+      "I1S2",
+      "S1I2",
+      "S1S2"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 73,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 74,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 75,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 76,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I3",
+      "I1S3",
+      "S1I3",
+      "S1S3"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 77,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 78,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 79,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 80,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 81,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 82,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 83,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 84,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I1I4",
+      "I1S4",
+      "S1I4",
+      "S1S4"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 89,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 90,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 91,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 92,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I3I1",
+      "I3S1",
+      "S3I1",
+      "S3S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 93,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 94,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 95,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 96,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 97,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 98,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 99,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  },
+  {
+    "table_ordinal": 100,
+    "before": [
+      "I2I1",
+      "I2S1",
+      "S2I1",
+      "S2S1"
+    ],
+    "after": [
+      "I4I1",
+      "I4S1",
+      "S4I1",
+      "S4S1"
+    ],
+    "basis": "table growth-factor row labels and reviewer section 5.8; estimates unchanged"
+  }
+]

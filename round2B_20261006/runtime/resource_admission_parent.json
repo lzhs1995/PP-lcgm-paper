@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-07T10:50:20.037715+00:00",
+  "available_physical_gib": 2.5349388122558594,
+  "commit_headroom_gib": 7.865623474121094,
+  "system_cpu_percent": 58.7,
+  "external_mplus_count": 0,
+  "decision": "ADMIT_ONE_SERIAL_PARENT_WORKER",
+  "scope": "One R worker and one Mplus process at a time; only after MI worker completes.",
+  "rationale": "Small continuous growth parent, based on prior serial K-model calibration; not authorization for latent-interaction concurrency.",
+  "action": "READ_ONLY_NO_PROCESS_CHANGE"
+}

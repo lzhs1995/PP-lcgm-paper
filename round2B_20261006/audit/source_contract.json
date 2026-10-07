@@ -1,0 +1,12 @@
+{
+  "N": 3274,
+  "data_sha256": "b74f5cb311f874803fd91d82caa5517ee9769a3899a77c1adf601b46fb0e1cb7",
+  "baseline_source_sha256": "58513f9e1249b5c3545c2a963dedd51525f37d10995a498e60aec59c3b2e6bf7",
+  "baseline_source": "C:/Users/LZHS/Desktop/开题报告/0_data_clo/satisfaction1_2012_covar.dta",
+  "household_key_matches": 3274,
+  "household_key_missing": 0,
+  "missing_households": 71,
+  "missing_people": 90,
+  "observed_conflict_households": 0,
+  "script_sha256": "5b7c0a5deb1e9f3a0e512a640bf22de7fefe27243e862b053348654b5c084d9d"
+}

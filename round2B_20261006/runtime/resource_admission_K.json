@@ -1,0 +1,10 @@
+{
+  "scope": "K1-K4 serial, no simultaneous MI worker",
+  "host_profile": "host_initial.json",
+  "observed_free_physical_gib": 0.9029693603515625,
+  "observed_commit_headroom_gib": 3.16876220703125,
+  "external_mplus_count": 0,
+  "rationale": "Small 1976/1981-row continuous growth models, one R worker and one Mplus process. Prior 112-parameter TECH3 calibration observed about 204 MiB Mplus private bytes. Reserve at least 0.5 GiB physical; do not generalize this admission to MI or latent interactions.",
+  "decision": "ADMIT_ONE_SERIAL_DIAGNOSTIC_WORKER",
+  "prohibited": "No termination of unrelated processes; no concurrent MI; no increase in model processors."
+}

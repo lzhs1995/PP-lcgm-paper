@@ -1,0 +1,4 @@
+{
+  "status": "PASS",
+  "files": ["01_source_audit.R", "02_prepare_baseline.R", "03_diagnostics.R", "04_hierarchical_mi.R", "05_target_parent.R", "06_descriptives.R", "07_cluster_shape_compare.R", "08_pool_parent.R", "09_audit_checkpoint.R", "10_public_privacy_scan.R", "15_mi_chain_review.R", "18_conditional_equivalence.R", "23_finalize_mi_audit.R", "collect_parameters.R", "mi_smoke.R", "mi_validation.R", "model_tools.R"]
+}

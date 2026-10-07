@@ -1,0 +1,14 @@
+{
+  "id": "K2",
+  "N": 1976,
+  "households": 1515,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K2/attempt02/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K2/attempt02/data.dat",
+  "input_sha256": "65c7fe77d5a48dabe37d5f7748959dbc2f6886c6fd2fa2af92b13eff6d080a1d",
+  "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+  "control_names": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "adl12", "finc12"],
+  "shape_y": "linear",
+  "shape_x": "free",
+  "time_unit": "decade",
+  "purpose": "baseline_controls"
+}

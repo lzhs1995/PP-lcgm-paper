@@ -1,0 +1,12 @@
+{
+  "id": "PARENT_MI07",
+  "N": 3274,
+  "households": 2410,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/PARENT_MI07/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/PARENT_MI07/attempt01/data.dat",
+  "input_sha256": "4366ed96b2c4777985abb8a79723154c15bbc3b2919ed1f5fc47553dd26fb678",
+  "data_sha256": "6085fc1c5c26bd463d86e23ee7c54ed217ce277a7721a386dfa445500dea42fd",
+  "imputation": 7,
+  "source_member_sha256": "28b7400d443c279f9e4c74112beb441594d56bb150c44a19579bf6530762d417",
+  "specification_sha256": "91adfdb745dbaf4f4b65289763b46f4eb1e8fca625d1f69fd94cf0a76d677ee4"
+}

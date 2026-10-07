@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-10-07T11:35:05.508096+00:00",
+  "batch": "round2B_20261006",
+  "ready_for_publication": true,
+  "publication_meaning": "Audit-evidence delivery only; not scientific adoption or journal submission",
+  "target_cohort_N": 3274,
+  "imputations": 10,
+  "iterations": 30,
+  "MI_engineering_data_checks": 4300,
+  "MI_engineering_checks_passed": 4300,
+  "K_scientific_specifications": 4,
+  "K_execution_attempts": 8,
+  "target_parent_executions": 10,
+  "target_parent_states": {
+    "INADMISSIBLE": 10
+  },
+  "target_parent_all_members_admissible": false,
+  "formal_MI_pooling_performed": false,
+  "core_moderation_performed": false,
+  "H4_2b_formal_contrast_performed": false,
+  "new_window_matrix_performed": false,
+  "sat12_sensitivity_performed": false,
+  "FIML_sensitivity_performed": false,
+  "downstream_disposition": "NOT_RUN_PARENT_GATE_FAILED; not evidence of zero effects",
+  "seven_issues_all_resolved": false,
+  "manuscript_build": "build03",
+  "manuscripts_are_review_candidates": true,
+  "same_build_NLM_review": false,
+  "microdata_included": false,
+  "ZIP_limit_bytes": 25000000
+}

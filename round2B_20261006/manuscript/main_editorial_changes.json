@@ -1,0 +1,147 @@
+[
+  {
+    "paragraph": 71,
+    "before": "“60–69岁”“70–79岁”“80岁及以上”",
+    "after": "“61—75岁”“76岁及以上”"
+  },
+  {
+    "paragraph": 73,
+    "before": "最后，还控制了受访者参与调查的总次数，以控制样本流失和数据贡献量的潜在影响",
+    "after": "历史模型曾控制受访者参与调查的总次数；该变量属于基期后的追访信息，不能据此声称控制了样本流失。修正后主模型不将其作为基期控制"
+  },
+  {
+    "paragraph": 83,
+    "before": "先按既定变量规则进行跨期预处理，对可跨期代填的缺失项使用最靠近2012年的可用调查记录代填，这不等于该个体基期的直接观测",
+    "after": "历史版本曾使用其他年份记录补齐部分缺失项；本轮主分析恢复2012年原始缺失，不把这些代填值当作基期观测"
+  },
+  {
+    "paragraph": 83,
+    "before": "对于预处理后仍有缺失的七个变量，拟使用多重插补法（MI）进行填补",
+    "after": "对重建后缺失的协变量采用家庭—个人分层多重插补（MI）"
+  },
+  {
+    "paragraph": 84,
+    "before": "个人年收入高于基期中位数的二分类项",
+    "after": "个人年收入是否大于零的二分类项"
+  },
+  {
+    "paragraph": 91,
+    "before": "个人年收入高于基期中位数的二分类项",
+    "after": "个人年收入是否大于零的二分类项"
+  },
+  {
+    "paragraph": 101,
+    "before": "其中，标准差、性别差、排行差（老大、长子）的参数估计结果基本稳健，均值、方差及相关性等在均值标准化前后均未发生明显变化。",
+    "after": "上述亲近度各行均为历史估计，不能据此宣布修正数据的跨尺度稳健性成立。"
+  },
+  {
+    "paragraph": 107,
+    "before": "Direction effect analysis直接效应：轨迹对轨迹的影响",
+    "after": "直接关联分析：轨迹之间的关联"
+  },
+  {
+    "paragraph": 108,
+    "before": "这些历史估计与假设1.1的预期方向相符，但修复后的假设判定仍待完成",
+    "after": "这些历史估计不用于当前假设1.1的判定，修复后的假设判定须依据合法的新模型"
+  },
+  {
+    "paragraph": 126,
+    "before": "Table 4.4.2.1: PP-LGCM SD_diff moderation effects of closeness mean traj on depressive traj_MI_TICs_",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 131,
+    "before": "Figure 4.4.2.1: PP-LGCM SD_diff moderation effects of closeness mean traj on depressive traj_MI_TICs",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 132,
+    "before": "Table 4.4.2.2: PP-LGCM Gender_diff moderation effects of closeness mean traj on depressive traj_MI_T",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 134,
+    "before": "Figure 4.4.2.2: PP-LGCM Gender_diff moderation effects of closeness mean traj on depressive traj_MI_",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 135,
+    "before": "Table 4.4.2.3: PP-LGCM Sib_diff moderation effects of closeness mean traj on depressive traj_MI_TICs",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 139,
+    "before": "Figure 4.4.2.3: PP-LGCM Sib_diff moderation effects of closeness mean traj on depressive traj_MI_TIC",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 140,
+    "before": "Table 4.4.2.4: PP-LGCM Sib_diff4_4 moderation effects of closeness mean traj on depressive traj_MI_T",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 142,
+    "before": "Figure 4.4.2.4: PP-LGCM Sib_diff4_4 moderation effects of closeness mean traj on depressive traj_MI_",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 152,
+    "before": "Table 4.5.1: PP-LGCM moderation effects of closeness traj on depressive traj",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 155,
+    "before": "Table 4.5.2: PP-LGCM moderation effects of closeness traj on depressive traj",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 158,
+    "before": "图4.5.2 PP-LGCM moderation effects of closeness traj on depressive traj。注：EDU12=0/1分别表示初中以下/初中及以上；共同基",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 159,
+    "before": "Table 4.5.3: PP-LGCM moderation effects of closeness traj on depressive traj",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 162,
+    "before": "图4.5.3: PP-LGCM moderation effects of closeness traj on depressive traj。注：URBAN12=0/1分别表示农村/城镇；共同基线设",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 163,
+    "before": "Table 4.5.4: PP-LGCM moderation effects of closeness traj on depressive traj",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 166,
+    "before": "收入不高于中位数/高于中位数",
+    "after": "无个人收入/有个人收入"
+  },
+  {
+    "paragraph": 166,
+    "before": "图4.5.4: PP-LGCM moderation effects of closeness traj on depressive traj。注：PINC412=0/1分别表示收入不高于中位数/高于",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 171,
+    "before": "表4.5.5 线性调节效应异质性：三维交互项的显著性及似然比卡方检验",
+    "after": "Add historical-version caption marker"
+  },
+  {
+    "paragraph": 228,
+    "before": "“联合交互检验+条件效应估计”验收",
+    "after": "针对具体交互参数及条件效应的正式合并推断"
+  },
+  {
+    "paragraph": 230,
+    "before": "TIC变化",
+    "after": "TVC变化"
+  },
+  {
+    "paragraph": 230,
+    "before": "“代际亲近度家内差异对长者抑郁症状的影响机理”",
+    "after": "代际亲近度家内差异与长者抑郁症状的轨迹关联，不能据此识别影响机理"
+  }
+]

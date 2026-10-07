@@ -1,0 +1,49 @@
+[
+  {
+    "source": "PP_LGCM_appendix_review_v39_round2B_build02_NOT_RELEASED.docx",
+    "output": "PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.docx",
+    "source_sha256": "e59783009b2da4d5247d3f19980f2ca06fa16e23ec7b727538050fc3503003d3",
+    "output_sha256": "2e11b41d868ec6778199d43742ac0ef585c42c93ad7d7ad5089a0fc313493f9b",
+    "changes": [
+      {
+        "text_node": 0,
+        "before": "附录v39：Round2B复核候选，非正式实证定稿。本附录保留历史系数与模型编号供追溯；第3—100表共98张为历史表。旧星号、模型比较和切点不作为修正数据的新推断。表头、异常估计及引文未完成全量再验证的项目另列审读清单；不得将本次版本标记理解为这些问题已全部解决。修正得分SE缺口已补齐，但第一阶段不确定性与正式调节推断仍须分别核验。",
+        "after": "附录v39：Round2B复核候选，非正式实证定稿。本附录保留历史系数与模型编号供追溯；第3—100表共98张为历史表。旧星号、模型比较和切点不作为修正数据的新推断。表头、异常估计及引文未完成全量再验证的项目另列审读清单；不得将本次版本标记理解为这些问题已全部解决。修正得分SE缺口已补齐，但第一阶段不确定性与正式调节推断仍须分别核验。符号按表内模型定义：老大差与长子差模型可各自使用I4/S4，含义以该表标题及Oldest/FirstSon指标为准，两者不是同一数据。本轮核实的PINC412表示个人收入是否大于零；其他收入简称仍须结合各表实际输入判断。历史模型中的追访次数不属于本轮主控制集。"
+      },
+      {
+        "text_node": 612,
+        "before": " are presented. Standard errors in parentheses. All models were also adjusted for number of waves in which respondents participated(Friedman et al.",
+        "after": " are presented. Standard errors in parentheses. These historical models were also adjusted for number of waves in which respondents participated(Friedman et al."
+      },
+      {
+        "text_node": 772,
+        "before": " are presented. Standard errors in parentheses. All models were also adjusted for number of waves in which respondents participated(Friedman et al.",
+        "after": " are presented. Standard errors in parentheses. These historical models were also adjusted for number of waves in which respondents participated(Friedman et al."
+      }
+    ],
+    "fields_and_nontext_xml_identical": true,
+    "other_zip_parts_identical": true,
+    "native_pdf_status": "PENDING"
+  },
+  {
+    "source": "PP_LGCM_review_v47_round2B_build02_NOT_RELEASED.docx",
+    "output": "PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.docx",
+    "source_sha256": "83c8517d61073386ed6f337b27c398fcf0fdb08b04bde81e297351e6b7eec946",
+    "output_sha256": "ff62cfd3b34ba7e4b1f5f3deee6a59dc9ea60855163cb93a62e7b975a40f232a",
+    "changes": [
+      {
+        "text_node": 4278,
+        "before": " are presented. Standard errors in parentheses. All models were also adjusted for number of waves in which respondents ",
+        "after": " are presented. Standard errors in parentheses. These historical models were also adjusted for number of waves in which respondents "
+      },
+      {
+        "text_node": 6423,
+        "before": " are presented. Standard errors in parentheses. All models were also adjusted for number of waves in which respondents ",
+        "after": " are presented. Standard errors in parentheses. These historical models were also adjusted for number of waves in which respondents "
+      }
+    ],
+    "fields_and_nontext_xml_identical": true,
+    "other_zip_parts_identical": true,
+    "native_pdf_status": "PENDING"
+  }
+]

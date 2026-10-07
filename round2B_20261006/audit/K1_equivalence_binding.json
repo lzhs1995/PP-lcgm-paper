@@ -1,0 +1,10 @@
+{
+  "source_joint_output_sha256": "c3c3508be7236cb1a00e038f9c83777dcdf526b9e4703d26841594db2ee257b9",
+  "source_conditional_output_sha256": "7c29adb3bfeb15a06fd6ccd93cb61718fe8901a0f8558594af6ffb2bcefda7a4",
+  "same_numeric_input_max_difference": 0,
+  "same_missing_mask": true,
+  "N": 1981,
+  "C_rank": 26,
+  "marginal_C_parameters": 377,
+  "limitations": "Old output has printed precision only. No exact full conditional covariance/SE equivalence is claimed. Joint LL minus marginal C LL is a fit-equivalence diagnostic, not a likelihood-ratio hypothesis test. Both unconstrained models retain negative SY conditional residual."
+}

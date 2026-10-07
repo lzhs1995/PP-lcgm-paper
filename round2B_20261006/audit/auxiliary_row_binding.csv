@@ -1,0 +1,6 @@
+"variable","maximum_difference","missing_pattern_identical","tolerance"
+"wfd_m12",4.44089209850063e-15,TRUE,1e-12
+"wfd_s12",4.88498130835069e-15,TRUE,1e-12
+"ces812",0,TRUE,1e-12
+"sex12",0,TRUE,1e-12
+"age12",0,TRUE,1e-12

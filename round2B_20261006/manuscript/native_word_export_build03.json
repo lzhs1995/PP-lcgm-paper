@@ -1,0 +1,30 @@
+[
+  {
+    "document": "PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.docx",
+    "pdf": "PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.pdf",
+    "pages": 39,
+    "fields": 129,
+    "footnotes": 22,
+    "revisions": 0,
+    "docx_sha256": "ff62cfd3b34ba7e4b1f5f3deee6a59dc9ea60855163cb93a62e7b975a40f232a",
+    "pdf_sha256": "ebe640c032376f2a84f72eed88ec463ad3ad98339edc850a2a60a9887b74d612",
+    "Word_version": "16.0",
+    "export": "native_Word",
+    "Zotero_refresh": "NOT_PERFORMED_no_new_citations",
+    "visual_review": "PENDING"
+  },
+  {
+    "document": "PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.docx",
+    "pdf": "PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.pdf",
+    "pages": 109,
+    "fields": 81,
+    "footnotes": 0,
+    "revisions": 0,
+    "docx_sha256": "2e11b41d868ec6778199d43742ac0ef585c42c93ad7d7ad5089a0fc313493f9b",
+    "pdf_sha256": "618eff8eeec1f4622554ae78b12f90d704d93ae7bc615b32e18c0e01b2e659ed",
+    "Word_version": "16.0",
+    "export": "native_Word",
+    "Zotero_refresh": "NOT_PERFORMED_no_new_citations",
+    "visual_review": "PENDING"
+  }
+]

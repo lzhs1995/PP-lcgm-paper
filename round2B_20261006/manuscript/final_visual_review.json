@@ -1,0 +1,28 @@
+{
+  "scope": "build02 review candidates only",
+  "documents": [
+    {
+      "pdf": "PP_LGCM_review_v47_round2B_build02_NOT_RELEASED.pdf",
+      "sha256": "b96464dfa32acb186348035d170b839592b874d2290e9c975f5e3891eea485b9",
+      "pages_overviewed": 39,
+      "page_overview": "all contact sheets viewed",
+      "selected_detail_pages": [
+        17
+      ],
+      "finding": "No blank pages or gross cropping observed at reviewed scales",
+      "limits": "Not a full-cell statistical audit or complete final proofreading; original highlights and duplicate historical appendix figures remain."
+    },
+    {
+      "pdf": "PP_LGCM_appendix_review_v39_round2B_build02_NOT_RELEASED.pdf",
+      "sha256": "1ee59791801d0eaf741d708b304e8ee7ba062b756917ecad079660bab31e30b1",
+      "pages_overviewed": 109,
+      "page_overview": "all contact sheets viewed",
+      "selected_detail_pages": [
+        7
+      ],
+      "finding": "No blank pages or gross cropping observed at reviewed scales",
+      "limits": "Not a full-cell statistical audit or complete final proofreading; original highlights and duplicate historical appendix figures remain."
+    }
+  ],
+  "scientific_release": false
+}

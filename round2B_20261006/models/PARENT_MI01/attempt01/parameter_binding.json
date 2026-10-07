@@ -1,0 +1,7 @@
+{
+  "parameters": 123,
+  "vcov_diagonal_max_difference": 5.6469e-08,
+  "results_sha256": "5ede27328c08c0901715144952537aac5e2cd2bd471af003008fe361b9aa7ed6",
+  "tech3_sha256": "b84b16253fc03651d38ce01dea1b937d198ab1de050f549048150545845d5e9e",
+  "bound_to_TECH1": true
+}

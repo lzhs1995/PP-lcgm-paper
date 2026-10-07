@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "audit/mi_chain_review_iteration_06/chain_traces.pdf",
+      "sha256": "3a7e5687c24cd815d15f42c913bd08980ee633b460257a1acbe20dc7f9f94f32",
+      "text_units": 10,
+      "potential_identifier_matches": 0
+    },
+    {
+      "path": "audit/mi_chain_review_iteration_10/chain_traces.pdf",
+      "sha256": "b59c8c77b1d4c3789a6bcbb030f7e2d2ae01674e174146500e530a2170d17fb5",
+      "text_units": 10,
+      "potential_identifier_matches": 0
+    },
+    {
+      "path": "audit/mi_chain_review_iteration_30/chain_traces.pdf",
+      "sha256": "eb65074dde2c0ce89a4a4528edf8240cbfefaa49c9c9ecc41843fe2de5f8a904",
+      "text_units": 10,
+      "potential_identifier_matches": 0
+    },
+    {
+      "path": "manuscript/PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.docx",
+      "sha256": "2e11b41d868ec6778199d43742ac0ef585c42c93ad7d7ad5089a0fc313493f9b",
+      "text_units": 20,
+      "potential_identifier_matches": 0
+    },
+    {
+      "path": "manuscript/PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.pdf",
+      "sha256": "618eff8eeec1f4622554ae78b12f90d704d93ae7bc615b32e18c0e01b2e659ed",
+      "text_units": 109,
+      "potential_identifier_matches": 0
+    },
+    {
+      "path": "manuscript/PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.docx",
+      "sha256": "ff62cfd3b34ba7e4b1f5f3deee6a59dc9ea60855163cb93a62e7b975a40f232a",
+      "text_units": 21,
+      "potential_identifier_matches": 0
+    },
+    {
+      "path": "manuscript/PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.pdf",
+      "sha256": "ebe640c032376f2a84f72eed88ec463ad3ad98339edc850a2a60a9887b74d612",
+      "text_units": 39,
+      "potential_identifier_matches": 0
+    }
+  ],
+  "manuscript_pairs_complete": true,
+  "limitations": "Exact known numeric identifiers in extractable text; no image OCR. Document provenance and visual review remain necessary."
+}

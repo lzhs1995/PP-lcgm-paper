@@ -1,0 +1,6 @@
+{
+  "initial_plot_error": "Undefined variance for a target with one missing record produced an infinite ylim; no imputation or model rerun",
+  "correction": "Undefined plots are labelled, public small cells are suppressed; initial diagnostic files preserved locally",
+  "original_job": "af7b8c1b",
+  "mi_unchanged": true
+}

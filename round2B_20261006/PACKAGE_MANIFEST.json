@@ -1,0 +1,22 @@
+{
+  "limit_bytes": 25000000,
+  "packages": [
+    {
+      "path": "01_reports_manuscripts_01.zip",
+      "bytes": 6928553,
+      "files": 269,
+      "sha256": "6798c8211dbd118bfb84c52b9404d434ece5e6c09d3f12d65e5c169656172b5e",
+      "CRC": "PASS",
+      "extraction_hashes": "PASS"
+    },
+    {
+      "path": "02_models_code_01.zip",
+      "bytes": 3990959,
+      "files": 235,
+      "sha256": "69f81c419bea1741420ee14257f84da21713d9406ef471ac0d77fd4974bb7f8e",
+      "CRC": "PASS",
+      "extraction_hashes": "PASS"
+    }
+  ],
+  "microdata_included": false
+}

@@ -1,0 +1,17 @@
+{
+  "returncode": 0,
+  "notebook_id": "f32d4889-aa8d-43f9-b784-874925f946eb",
+  "bindings": [
+    {
+      "file": "PP_LGCM_review_v47_round2B_build02_NOT_RELEASED.pdf",
+      "source_id": "a275d308-2fe6-4257-8bf5-b7e507cde74e",
+      "sha256": "b96464dfa32acb186348035d170b839592b874d2290e9c975f5e3891eea485b9"
+    },
+    {
+      "file": "PP_LGCM_appendix_review_v39_round2B_build02_NOT_RELEASED.pdf",
+      "source_id": "9b1d44bc-a637-4731-8332-9cfb3eab7e20",
+      "sha256": "1ee59791801d0eaf741d708b304e8ee7ba062b756917ecad079660bab31e30b1"
+    }
+  ],
+  "scope": "editorial candidate review; no final scientific adoption"
+}

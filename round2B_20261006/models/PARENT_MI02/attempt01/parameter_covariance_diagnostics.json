@@ -1,0 +1,8 @@
+{
+  "min_eigenvalue": 0.0007,
+  "max_eigenvalue": 21.5405,
+  "negative_tolerance": 1e-07,
+  "positive_definite": true,
+  "materially_indefinite": false,
+  "note": "Tolerance only screens saved numeric precision; no projection or eigenvalue replacement."
+}

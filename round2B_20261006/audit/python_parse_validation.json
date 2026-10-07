@@ -1,0 +1,62 @@
+[
+  {
+    "file": "11_model_index.py",
+    "parsed": true
+  },
+  {
+    "file": "12_stage_public.py",
+    "parsed": true
+  },
+  {
+    "file": "13_package_public.py",
+    "parsed": true
+  },
+  {
+    "file": "14_publish_github.py",
+    "parsed": true
+  },
+  {
+    "file": "16_document_privacy_scan.py",
+    "parsed": true
+  },
+  {
+    "file": "apply_editorial_checked.py",
+    "parsed": true
+  },
+  {
+    "file": "citation_inventory.py",
+    "parsed": true
+  },
+  {
+    "file": "contact_sheets.py",
+    "parsed": true
+  },
+  {
+    "file": "export_word_pdf.py",
+    "parsed": true
+  },
+  {
+    "file": "nlm_candidate_review.py",
+    "parsed": true
+  },
+  {
+    "file": "pdf_readback.py",
+    "parsed": true
+  },
+  {
+    "file": "propose_word_patch.py",
+    "parsed": true
+  },
+  {
+    "file": "record_visual_review.py",
+    "parsed": true
+  },
+  {
+    "file": "revise_appendix.py",
+    "parsed": true
+  },
+  {
+    "file": "revise_main.py",
+    "parsed": true
+  }
+]

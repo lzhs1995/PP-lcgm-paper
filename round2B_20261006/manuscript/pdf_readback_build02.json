@@ -1,0 +1,1052 @@
+[
+  {
+    "pdf": "PP_LGCM_review_v47_round2B_build02_NOT_RELEASED.pdf",
+    "sha256": "b96464dfa32acb186348035d170b839592b874d2290e9c975f5e3891eea485b9",
+    "pages": [
+      {
+        "page": 1,
+        "text_chars": 523,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 2,
+        "text_chars": 2732,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 3,
+        "text_chars": 2529,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 4,
+        "text_chars": 1908,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 5,
+        "text_chars": 2208,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 6,
+        "text_chars": 1907,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 7,
+        "text_chars": 1595,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 8,
+        "text_chars": 1181,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 9,
+        "text_chars": 2487,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 10,
+        "text_chars": 1926,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 11,
+        "text_chars": 2064,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 12,
+        "text_chars": 2704,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 13,
+        "text_chars": 2242,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 14,
+        "text_chars": 2245,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 15,
+        "text_chars": 2091,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 16,
+        "text_chars": 2233,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 17,
+        "text_chars": 2704,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 18,
+        "text_chars": 2354,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 19,
+        "text_chars": 2880,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 20,
+        "text_chars": 2407,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 21,
+        "text_chars": 1742,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 22,
+        "text_chars": 1452,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 23,
+        "text_chars": 1817,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 24,
+        "text_chars": 1536,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 25,
+        "text_chars": 1568,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 26,
+        "text_chars": 1862,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 27,
+        "text_chars": 3395,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 28,
+        "text_chars": 2910,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 29,
+        "text_chars": 2452,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 30,
+        "text_chars": 2413,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 31,
+        "text_chars": 2074,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 32,
+        "text_chars": 1382,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 33,
+        "text_chars": 1967,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 34,
+        "text_chars": 1712,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 35,
+        "text_chars": 1717,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 36,
+        "text_chars": 1842,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 37,
+        "text_chars": 2002,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 38,
+        "text_chars": 2926,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 39,
+        "text_chars": 913,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      }
+    ],
+    "visual_review": "rendered_not_equivalent_to_human_page_review"
+  },
+  {
+    "pdf": "PP_LGCM_appendix_review_v39_round2B_build02_NOT_RELEASED.pdf",
+    "sha256": "1ee59791801d0eaf741d708b304e8ee7ba062b756917ecad079660bab31e30b1",
+    "pages": [
+      {
+        "page": 1,
+        "text_chars": 2023,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 2,
+        "text_chars": 2204,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 3,
+        "text_chars": 2331,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 4,
+        "text_chars": 2413,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 5,
+        "text_chars": 2148,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 6,
+        "text_chars": 2180,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 7,
+        "text_chars": 2253,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 8,
+        "text_chars": 2219,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 9,
+        "text_chars": 2256,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 10,
+        "text_chars": 2387,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 11,
+        "text_chars": 2125,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 12,
+        "text_chars": 2122,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 13,
+        "text_chars": 2187,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 14,
+        "text_chars": 2216,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 15,
+        "text_chars": 1985,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 16,
+        "text_chars": 1979,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 17,
+        "text_chars": 2073,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 18,
+        "text_chars": 2057,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 19,
+        "text_chars": 1961,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 20,
+        "text_chars": 2169,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 21,
+        "text_chars": 2010,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 22,
+        "text_chars": 2034,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 23,
+        "text_chars": 2208,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 24,
+        "text_chars": 1950,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 25,
+        "text_chars": 2086,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 26,
+        "text_chars": 2146,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 27,
+        "text_chars": 2058,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 28,
+        "text_chars": 2197,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 29,
+        "text_chars": 3258,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 30,
+        "text_chars": 3207,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 31,
+        "text_chars": 2368,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 32,
+        "text_chars": 2477,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 33,
+        "text_chars": 2305,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 34,
+        "text_chars": 2367,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 35,
+        "text_chars": 2414,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 36,
+        "text_chars": 2323,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 37,
+        "text_chars": 2550,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 38,
+        "text_chars": 2244,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 39,
+        "text_chars": 2400,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 40,
+        "text_chars": 2407,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 41,
+        "text_chars": 2307,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 42,
+        "text_chars": 2406,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 43,
+        "text_chars": 2377,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 44,
+        "text_chars": 2370,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 45,
+        "text_chars": 2434,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 46,
+        "text_chars": 2378,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 47,
+        "text_chars": 2287,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 48,
+        "text_chars": 2403,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 49,
+        "text_chars": 2403,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 50,
+        "text_chars": 2440,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 51,
+        "text_chars": 2393,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 52,
+        "text_chars": 2112,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 53,
+        "text_chars": 2338,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 54,
+        "text_chars": 2341,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 55,
+        "text_chars": 2316,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 56,
+        "text_chars": 2444,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 57,
+        "text_chars": 2094,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 58,
+        "text_chars": 2370,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 59,
+        "text_chars": 2351,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 60,
+        "text_chars": 2328,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 61,
+        "text_chars": 2350,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 62,
+        "text_chars": 2222,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 63,
+        "text_chars": 2354,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 64,
+        "text_chars": 2366,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 65,
+        "text_chars": 2397,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 66,
+        "text_chars": 2197,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 67,
+        "text_chars": 2318,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 68,
+        "text_chars": 2306,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 69,
+        "text_chars": 2301,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 70,
+        "text_chars": 2467,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 71,
+        "text_chars": 2222,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 72,
+        "text_chars": 2151,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 73,
+        "text_chars": 2238,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 74,
+        "text_chars": 1844,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 75,
+        "text_chars": 1923,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 76,
+        "text_chars": 2386,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 77,
+        "text_chars": 2341,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 78,
+        "text_chars": 2403,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 79,
+        "text_chars": 2437,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 80,
+        "text_chars": 2411,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 81,
+        "text_chars": 2342,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 82,
+        "text_chars": 2388,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 83,
+        "text_chars": 2406,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 84,
+        "text_chars": 2387,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 85,
+        "text_chars": 2313,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 86,
+        "text_chars": 2399,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 87,
+        "text_chars": 2406,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 88,
+        "text_chars": 2407,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 89,
+        "text_chars": 2276,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 90,
+        "text_chars": 2333,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 91,
+        "text_chars": 2283,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 92,
+        "text_chars": 2403,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 93,
+        "text_chars": 2384,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 94,
+        "text_chars": 2321,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 95,
+        "text_chars": 2286,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 96,
+        "text_chars": 2365,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 97,
+        "text_chars": 2348,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 98,
+        "text_chars": 2242,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 99,
+        "text_chars": 2351,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 100,
+        "text_chars": 2382,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 101,
+        "text_chars": 2350,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 102,
+        "text_chars": 2285,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 103,
+        "text_chars": 2357,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 104,
+        "text_chars": 2369,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 105,
+        "text_chars": 2352,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 106,
+        "text_chars": 1100,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 107,
+        "text_chars": 2168,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 108,
+        "text_chars": 1066,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      },
+      {
+        "page": 109,
+        "text_chars": 579,
+        "width": 792.0,
+        "height": 612.0,
+        "rendered": true
+      }
+    ],
+    "visual_review": "rendered_not_equivalent_to_human_page_review"
+  }
+]

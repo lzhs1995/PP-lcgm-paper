@@ -1,0 +1,14 @@
+{
+  "id": "K1",
+  "N": 1981,
+  "households": 1519,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K1/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K1/attempt01/data.dat",
+  "input_sha256": "ebc148c9e3e6294c5b39a68029b7a4b74cedfc43190b49bcb513db503ba2fbbb",
+  "data_sha256": "8770de9fa21de48d4f9ce93eb28f9ac27bb52fe893014b548e45d3403760aef3",
+  "control_names": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "wave", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "sat12", "adl12", "finc12"],
+  "shape_y": "linear",
+  "shape_x": "free",
+  "time_unit": "decade",
+  "purpose": "conditional_parameterization"
+}

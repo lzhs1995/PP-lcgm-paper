@@ -1,0 +1,11 @@
+{
+  "original_N": 3274,
+  "main_control_columns": 24,
+  "main_complete_N": 2830,
+  "diagnostic_original_N": 1981,
+  "diagnostic_audited_complete_N": 1976,
+  "missing_method": "hierarchical MI covariates; likelihood for longitudinal missing indicators",
+  "sat12": "sensitivity_only",
+  "wave": "not_baseline_control",
+  "status": "PREPARED_NOT_IMPUTED"
+}

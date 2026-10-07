@@ -1,0 +1,14 @@
+{
+  "id": "K3",
+  "N": 1976,
+  "status": "INPUT_REJECTED",
+  "normal": false,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters": false,
+  "seconds": 11.7966730594635,
+  "input_sha256": "5ae8202c3fa72d32bddfa82d7383fe8a16473c8bb8695bf9a34907b7efd432dd",
+  "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+  "output_sha256": "016e32a32ef9ba0e2dd7704789bc54d50da7d14c35c810daa7858ed7251ca035",
+  "diagnostics": "*** ERROR in MODEL command"
+}

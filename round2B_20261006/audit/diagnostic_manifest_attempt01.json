@@ -1,0 +1,58 @@
+[
+  {
+    "id": "K1",
+    "N": 1981,
+    "households": 1519,
+    "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K1/attempt01/model.inp",
+    "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K1/attempt01/data.dat",
+    "input_sha256": "ebc148c9e3e6294c5b39a68029b7a4b74cedfc43190b49bcb513db503ba2fbbb",
+    "data_sha256": "8770de9fa21de48d4f9ce93eb28f9ac27bb52fe893014b548e45d3403760aef3",
+    "control_names": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "wave", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "sat12", "adl12", "finc12"],
+    "shape_y": "linear",
+    "shape_x": "free",
+    "time_unit": "decade",
+    "purpose": "conditional_parameterization"
+  },
+  {
+    "id": "K2",
+    "N": 1976,
+    "households": 1515,
+    "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K2/attempt01/model.inp",
+    "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K2/attempt01/data.dat",
+    "input_sha256": "db7e37a1443a303514b9b48d0c42e22a4dbea16a034b1557e53b38676d67b1b9",
+    "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+    "control_names": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "adl12", "finc12"],
+    "shape_y": "linear",
+    "shape_x": "free",
+    "time_unit": "decade",
+    "purpose": "baseline_controls"
+  },
+  {
+    "id": "K3",
+    "N": 1976,
+    "households": 1515,
+    "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K3/attempt01/model.inp",
+    "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K3/attempt01/data.dat",
+    "input_sha256": "5ae8202c3fa72d32bddfa82d7383fe8a16473c8bb8695bf9a34907b7efd432dd",
+    "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+    "control_names": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "adl12", "finc12"],
+    "shape_y": "linear",
+    "shape_x": "free",
+    "time_unit": "decade",
+    "purpose": "samewave_residual_sensitivity"
+  },
+  {
+    "id": "K4",
+    "N": 1976,
+    "households": 1515,
+    "input": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K4/attempt01/model.inp",
+    "data": "C:/Users/LZHS/pp_lgcm_review/round2B_20261006/models/K4/attempt01/data.dat",
+    "input_sha256": "a2d8fd2465b88ff4156591f37759ee9eccf0e24e125805f589ca59466d86b3c5",
+    "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+    "control_names": ["sex12", "edu12", "urban12", "prov122", "prov123", "cdn12", "cdar12", "cdsc121", "cdsc122", "minor12", "ageg12", "pinc12", "pinc212", "cores12", "heal121", "heal123", "marr12", "eco122", "eco123", "hwc122", "hwc123", "hukou12", "adl12", "finc12"],
+    "shape_y": "linear",
+    "shape_x": "free",
+    "time_unit": "decade",
+    "purpose": "K2_SY_zero_sensitivity"
+  }
+]

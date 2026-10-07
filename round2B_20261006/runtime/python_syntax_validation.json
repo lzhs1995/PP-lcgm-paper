@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "files": [
+    "11_model_index.py",
+    "12_stage_public.py",
+    "13_package_public.py",
+    "14_publish_github.py",
+    "16_document_privacy_scan.py",
+    "17_model_adoption_table.py",
+    "19_build03_document_pack.py",
+    "20_pdf_visual_diff.py",
+    "21_build03_review_receipt.py",
+    "22_parent_resource_admission.py",
+    "24_finalize_report.py",
+    "25_verify_delivery_evidence.py",
+    "apply_editorial_checked.py",
+    "citation_inventory.py",
+    "contact_sheets.py",
+    "export_word_pdf.py",
+    "nlm_candidate_review.py",
+    "pdf_readback.py",
+    "propose_word_patch.py",
+    "record_visual_review.py",
+    "revise_appendix.py",
+    "revise_main.py"
+  ]
+}

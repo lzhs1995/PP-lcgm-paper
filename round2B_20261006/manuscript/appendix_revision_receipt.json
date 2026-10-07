@@ -1,0 +1,1094 @@
+{
+  "source_sha256": "8af7e5b68e37a5cd95cd5b377ebcaa9089b5073374718bace510325b5d48ea9c",
+  "output_sha256": "e59783009b2da4d5247d3f19980f2ca06fa16e23ec7b727538050fc3503003d3",
+  "historical_tables": 98,
+  "all_tables": 103,
+  "text_changes": [
+    {
+      "before": "线性调节",
+      "after": "连续得分交互"
+    },
+    {
+      "before": "非线性调节",
+      "after": "给定切点的二分得分交互"
+    },
+    {
+      "before": "稳健性检验——",
+      "after": "历史替代规格（不构成修正数据稳健性证据）——"
+    },
+    {
+      "before": "稳健性检验——",
+      "after": "历史替代规格（不构成修正数据稳健性证据）——"
+    },
+    {
+      "before": "线性调节",
+      "after": "连续得分交互"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中低收入，1=高收入",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中低收入，1=高收入",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "非线性调节",
+      "after": "给定切点的二分得分交互"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "（完全不显著）",
+      "after": "（历史结果，具体交互待修正数据核验）"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "0=中位数及以下，1=中位数以上",
+      "after": "0=无个人收入，1=有个人收入"
+    },
+    {
+      "before": "I1I3",
+      "after": "I1I4"
+    },
+    {
+      "before": "I1S3",
+      "after": "I1S4"
+    },
+    {
+      "before": "S1I3",
+      "after": "S1I4"
+    },
+    {
+      "before": "S1S3",
+      "after": "S1S4"
+    },
+    {
+      "before": "I1I3",
+      "after": "I1I4"
+    },
+    {
+      "before": "I1S3",
+      "after": "I1S4"
+    },
+    {
+      "before": "S1I3",
+      "after": "S1I4"
+    },
+    {
+      "before": "S1S3",
+      "after": "S1S4"
+    },
+    {
+      "before": "I1I3",
+      "after": "I1I4"
+    },
+    {
+      "before": "I1S3",
+      "after": "I1S4"
+    },
+    {
+      "before": "S1I3",
+      "after": "S1I4"
+    },
+    {
+      "before": "S1S3",
+      "after": "S1S4"
+    },
+    {
+      "before": "I1I3",
+      "after": "I1I4"
+    },
+    {
+      "before": "I1S3",
+      "after": "I1S4"
+    },
+    {
+      "before": "S1I3",
+      "after": "S1I4"
+    },
+    {
+      "before": "S1S3",
+      "after": "S1S4"
+    },
+    {
+      "before": "I1I3",
+      "after": "I1I4"
+    },
+    {
+      "before": "I1S3",
+      "after": "I1S4"
+    },
+    {
+      "before": "S1I3",
+      "after": "S1I4"
+    },
+    {
+      "before": "S1S3",
+      "after": "S1S4"
+    },
+    {
+      "before": "I1I3",
+      "after": "I1I4"
+    },
+    {
+      "before": "I1S3",
+      "after": "I1S4"
+    },
+    {
+      "before": "S1I3",
+      "after": "S1I4"
+    },
+    {
+      "before": "S1S3",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I2"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S2"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I2"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S2"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I3"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S3"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I3"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S3"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I1I4"
+    },
+    {
+      "before": "I2S1",
+      "after": "I1S4"
+    },
+    {
+      "before": "S2I1",
+      "after": "S1I4"
+    },
+    {
+      "before": "S2S1",
+      "after": "S1S4"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I3I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I3S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S3I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S3S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    },
+    {
+      "before": "I2I1",
+      "after": "I4I1"
+    },
+    {
+      "before": "I2S1",
+      "after": "I4S1"
+    },
+    {
+      "before": "S2I1",
+      "after": "S4I1"
+    },
+    {
+      "before": "S2S1",
+      "after": "S4S1"
+    }
+  ],
+  "other_zip_parts_identical": true,
+  "native_pdf_review": "PENDING"
+}

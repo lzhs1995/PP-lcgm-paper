@@ -1,0 +1,58 @@
+[
+  {
+    "id": "K1",
+    "N": 1981,
+    "status": "INADMISSIBLE",
+    "normal": true,
+    "negative_variance": true,
+    "matrix_warning": true,
+    "finite_parameters": true,
+    "seconds": 241.884162902832,
+    "input_sha256": "218b9fdaef1abcae068149219c82de667d579cb855a212a9cf3bc271082ba400",
+    "data_sha256": "8770de9fa21de48d4f9ce93eb28f9ac27bb52fe893014b548e45d3403760aef3",
+    "output_sha256": "7c29adb3bfeb15a06fd6ccd93cb61718fe8901a0f8558594af6ffb2bcefda7a4",
+    "diagnostics": ["*** WARNING in OUTPUT command", "   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS", "     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."]
+  },
+  {
+    "id": "K2",
+    "N": 1976,
+    "status": "INADMISSIBLE",
+    "normal": true,
+    "negative_variance": true,
+    "matrix_warning": true,
+    "finite_parameters": true,
+    "seconds": 271.164628982544,
+    "input_sha256": "65c7fe77d5a48dabe37d5f7748959dbc2f6886c6fd2fa2af92b13eff6d080a1d",
+    "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+    "output_sha256": "138ea81d2dd6dbeedb5708fc0227359c67183ed62c0ad970ce8fddeeb749306c",
+    "diagnostics": ["*** WARNING in OUTPUT command", "   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS", "     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."]
+  },
+  {
+    "id": "K3",
+    "N": 1976,
+    "status": "INADMISSIBLE",
+    "normal": true,
+    "negative_variance": true,
+    "matrix_warning": true,
+    "finite_parameters": true,
+    "seconds": 314.563673019409,
+    "input_sha256": "1c9ad956f69dc749ea64598233f5e696487985cde3201943cddcd232d7841850",
+    "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+    "output_sha256": "56cf730bd83444e55f9a2aeaf48e5473da1f7dc8a4bc4315fdac3019b904b619",
+    "diagnostics": ["*** WARNING in OUTPUT command", "   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS", "     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."]
+  },
+  {
+    "id": "K4",
+    "N": 1976,
+    "status": "REVIEWABLE",
+    "normal": true,
+    "negative_variance": false,
+    "matrix_warning": false,
+    "finite_parameters": true,
+    "seconds": 342.618986845016,
+    "input_sha256": "ced1b3d439b561606021f7aa4ca21b8d99fbdad775ce293e38fb0cc2a257411a",
+    "data_sha256": "17e6b1161c893e88c82b32453c70d50d887eabd7990d609887f1df4ebec8f14f",
+    "output_sha256": "4655603af367b185ff46921acb28d5683ab7c2532b0c7ab2253dee3014d13771",
+    "diagnostics": ["*** WARNING in OUTPUT command", "   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS"]
+  }
+]

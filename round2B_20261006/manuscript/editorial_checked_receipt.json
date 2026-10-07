@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "changes": 29,
+  "changed_text_nodes": 78,
+  "non_text_XML_identical": true,
+  "sha256": "2e4d39d744b64d5ea05778dbbc7dae04f816bf1af4692bc4aa43306f471d9819",
+  "prior_context_patch": "FAILED_HASH_NOT_ADOPTED"
+}

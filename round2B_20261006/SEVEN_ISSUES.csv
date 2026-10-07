@@ -1,0 +1,8 @@
+issue,topic,status,resolved,remaining,evidence
+1,抑郁趋势、时间单位与窗口,部分解决,撤回旧显著下降；统一3274人聚类来源；十年单位用于新条件模型,增长形状最终采用、正式主要关联和核心调节窗口稳健性仍未完成,audit/clustered_shape_comparison.csv; audit/target_parent_gate.json
+2,CES-D计分与范围,已解决：限计分及实际分析入口,修正CESD与基期标准化进入本轮数据及父模型,跨期测量不变性为独立问题，不由恒差8或计分校验证明,audit/source_contract.json; models/PARENT_MI01/attempt01/input_contract.json
+3,增长因子方差与识别,部分解决；无约束主父模型未通过,同条件诊断、原队列逐插补估计和高精度负方差检查均已实际执行,不得将条件残差负值按打印零放行，也不能由不显著证明没有个体变化,audit/model_adoption_summary.csv; audit/target_parent_receipts.json
+4,模型拟合不足,部分解决,澄清条件ON与联合WITH；诊断原零关系及同波残差方案,拟合改善没有消除负残差；尚无通过本轮验收的正式主父模型,audit/K1_conditional_likelihood_comparison.csv; MODEL_INDEX.md
+5,过度表述与版本混杂,关键文字及版本标记已修；正式表仍未形成,正文v47/附录v39 build03修正来源、编码、历史标签、交互术语和局部符号,候选稿保留历史数值供审计，不是修正数据正式结果表或投稿定稿,manuscript/build03_editorial_receipt.json; manuscript/build03_visual_review.json
+6,因子得分、潜调节与MI,具体数据缺口已修；核心推断未完成,修正得分SE导出缺口已关闭；新家庭—个人分层MI完成10份30轮及4300项检查,父模型门未通过，未合并非法成员；潜交互、得分不确定性与MI相容性未闭合,audit/mi_engineering_acceptance.json; audit/target_parent_gate.json
+7,H4.2b判定,文字判定已修；正式统计检验未完成,保留原假设方向和历史证据未获一致支持的限定,相应三阶交互/组间差异未执行，不能以组内星号或整组检验替代,FOR_WEB_REVIEWERS.md; DELIVERY_SCOPE.json

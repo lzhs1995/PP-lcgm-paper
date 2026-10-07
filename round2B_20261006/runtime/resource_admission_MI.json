@@ -1,0 +1,9 @@
+{
+  "scope": "One R hierarchical-MI worker; no simultaneous Mplus worker",
+  "host_profile": "host_before_mi.json",
+  "available_physical_gib_during_preceding_worker": 1.2511749267578125,
+  "commit_headroom_gib": 3.396045684814453,
+  "preceding_worker": "9cb19511 completed before MI submission",
+  "decision": "ADMIT_ONE_SERIAL_MI_WORKER",
+  "monitoring": "Per-iteration durable checkpoint, stage heartbeat and main-session responsiveness; no new worker while this runs."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "K1",
+  "N": 1981,
+  "status": "INADMISSIBLE",
+  "normal": true,
+  "negative_variance": true,
+  "matrix_warning": true,
+  "finite_parameters": true,
+  "seconds": 241.884162902832,
+  "input_sha256": "218b9fdaef1abcae068149219c82de667d579cb855a212a9cf3bc271082ba400",
+  "data_sha256": "8770de9fa21de48d4f9ce93eb28f9ac27bb52fe893014b548e45d3403760aef3",
+  "output_sha256": "7c29adb3bfeb15a06fd6ccd93cb61718fe8901a0f8558594af6ffb2bcefda7a4",
+  "diagnostics": ["*** WARNING in OUTPUT command", "   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS", "     WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "     THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."]
+}

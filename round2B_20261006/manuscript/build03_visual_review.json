@@ -1,0 +1,46 @@
+{
+  "scope": "build03 editorial review, not a final statistical or citation audit",
+  "documents": [
+    {
+      "pdf": "PP_LGCM_review_v47_round2B_build03_NOT_RELEASED.pdf",
+      "sha256": "ebe640c032376f2a84f72eed88ec463ad3ad98339edc850a2a60a9887b74d612",
+      "historical_footnotes": 2,
+      "pages": 39
+    },
+    {
+      "pdf": "PP_LGCM_appendix_review_v39_round2B_build03_NOT_RELEASED.pdf",
+      "sha256": "618eff8eeec1f4622554ae78b12f90d704d93ae7bc615b32e18c0e01b2e659ed",
+      "historical_footnotes": 2,
+      "pages": 109
+    }
+  ],
+  "changed_pages_reviewed": {
+    "main": [
+      19,
+      27
+    ],
+    "appendix": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "unchanged_pages_pixel_identical_to_reviewed_build02": 130,
+  "review_method": "Main changed pages viewed individually; appendix changed pages viewed on contact sheets, with first-page note additionally inspected in detail.",
+  "findings": "No new blank pages or gross cropping observed. Original colored highlighting and historical-table pagination remain.",
+  "same_build_NotebookLM_review": "NOT_PERFORMED; prior build02 response must not be relabelled as a build03 review",
+  "scientific_release": false
+}
