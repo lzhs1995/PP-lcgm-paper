@@ -1,0 +1,31 @@
+{
+  "id": "SD_D0_Z0_1_base",
+  "z": "SD",
+  "spec": "D0",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 3274,
+  "households": 2410,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 21.1481380462646,
+  "exitcode": 0,
+  "output_sha256": "f4a1cb6e57bc8e103776df1bd1b2d83c9bc5761daf614f9daa336ce0c88ef80f",
+  "integration_dimensions": null,
+  "normal": true,
+  "LL": -42664.151,
+  "parameters": 207,
+  "negative": "psi:SY",
+  "geometry_ok": false,
+  "vcov_ok": true,
+  "warnings": ["WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."],
+  "printed_match": true,
+  "status": "INADMISSIBLE"
+}

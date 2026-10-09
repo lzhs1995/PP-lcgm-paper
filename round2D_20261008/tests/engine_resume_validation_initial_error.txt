@@ -1,0 +1,4 @@
+2026-10-08 initial native R execution of 25_engine_resume_validation.R:
+R Error: 缺少参数"attempt",也缺失默认值
+Cause: new validation script called model_dir without its required attempt argument.
+Correction: supply the existing "base" attempt explicitly. No Mplus invocation occurred.

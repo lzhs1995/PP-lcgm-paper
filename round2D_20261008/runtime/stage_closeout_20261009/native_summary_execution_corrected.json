@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "STAGE_CORRECTED_SUMMARY_START\nSUMMARY COMPLETE: 0 eligible families\nSTAGE_CORRECTED_SUMMARY_DONE: all 11 observed and H4 families correctly NOT_RUN_BUDGET"
+    }
+  ],
+  "isError": false
+}

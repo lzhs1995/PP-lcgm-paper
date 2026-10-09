@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-08T09:21:14.493060+00:00",
+  "available_physical_gib": 4.839107513427734,
+  "commit_headroom_gib": 12.677452087402344,
+  "system_cpu_percent": 22.4,
+  "external_mplus_count": 0,
+  "admit": true,
+  "action": "READ_ONLY_NO_PROCESS_CHANGE"
+}

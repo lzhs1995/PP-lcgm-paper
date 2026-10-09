@@ -1,0 +1,32 @@
+{
+  "id": "OLDEST_D1_Z0_1_repair_em",
+  "z": "OLDEST",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "repair_em",
+  "category": "REPAIR",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 3159,
+  "households": 2320,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801,
+    "optimizer": "EM"
+  },
+  "usable": false,
+  "seconds": 13995.5654089451,
+  "exitcode": 0,
+  "output_sha256": "db0fffda1dfdc07f0eaa1f4e9ac84aee4207c8e1ab50f5e577654e97c91b7488",
+  "integration_dimensions": 2,
+  "normal": true,
+  "LL": -41702.619,
+  "parameters": 205,
+  "negative": "psi:SY",
+  "geometry_ok": false,
+  "vcov_ok": false,
+  "warnings": ["WARNING: THE MODEL ESTIMATION HAS REACHED A SADDLE POINT OR A POINT WHERE THE", "THE PROBLEM MAY ALSO BE RESOLVED BY DECREASING THE VALUE OF THE", "WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE"],
+  "printed_match": true,
+  "status": "INADMISSIBLE"
+}

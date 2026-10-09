@@ -1,0 +1,71 @@
+{
+  "checks": {
+    "PSI": {
+      "min_eigen": 0.540505076753786,
+      "rank": 4,
+      "expected_rank": 4,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "THETA": {
+      "min_eigen": 0.869057212174186,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "CONDITIONAL_Z-1_G0": {
+      "min_eigen": 0.195698361679339,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "CONDITIONAL_Z-1_G1": {
+      "min_eigen": 0.195698361679339,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "CONDITIONAL_Z0_G0": {
+      "min_eigen": 0.197327405493513,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "CONDITIONAL_Z0_G1": {
+      "min_eigen": 0.197327405493513,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "CONDITIONAL_Z1_G0": {
+      "min_eigen": 0.198071047870033,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "CONDITIONAL_Z1_G1": {
+      "min_eigen": 0.198071047870033,
+      "rank": 10,
+      "expected_rank": 10,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    }
+  },
+  "passed": true,
+  "note": "Covariance conditional on fixed observed Z0/G; SX coefficients include observed products. No Gaussian product latent factor invented.",
+  "promoted_measurement_variables": ["X1", "Y1"]
+}

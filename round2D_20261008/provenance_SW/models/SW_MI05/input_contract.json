@@ -1,0 +1,15 @@
+{
+  "id": "SW_MI05",
+  "spec": "SW",
+  "member": 5,
+  "attempt": "attempt01",
+  "tau": null,
+  "start_check": false,
+  "N": 3274,
+  "households": 2410,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/SW_MI05/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/SW_MI05/attempt01/data.dat",
+  "source_input_sha256": "fe146722240bd0de3e5afb62228f07a1a4299c73d17baa69a2a58a8033bfbddc",
+  "input_sha256": "a0b0952d2686c129be988d1c95a804c73491f2149a9c65ad5c2c480df985714e",
+  "data_sha256": "3267f729a98802f86c673e6b6b60289110eb6f1c61ffed41918a8aec273e3120"
+}

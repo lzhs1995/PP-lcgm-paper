@@ -1,0 +1,102 @@
+{
+  "status": "CORRECTION_PENDING",
+  "preview": true,
+  "created_at": "2026-10-08T13:59:59.437835+00:00",
+  "documents": [
+    {
+      "document": "PP_LGCM_review_v49_round2D.docx",
+      "pdf": "PP_LGCM_review_v49_round2D.pdf",
+      "pdf_sha256": "2989e97daa57cc7fd811adc92b7883d22fc60e37b387cfd81592cc17d44971c1",
+      "pages": 18,
+      "pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "review_method": "Direct inspection of each full page image",
+      "image_sha256": {
+        "1": "02d3147fc3ced517c67c56ff349214dfc3b889b9aaf89ab18827663fb5be5912",
+        "2": "b4be0199ded6c8524f9e3d4a949ec894f9a5137f39418298d19e18355f48ee35",
+        "3": "7c397a619af283fab949ade486e051fa6f119da4cb9145d9c22da75a93b71d33",
+        "4": "8a78f203e71a40fbcfd08d3f7e7097ab0e64b4bff4fe59708cf1279c5e921c05",
+        "5": "e2da4eee8c40bb401f063b8523e11c2cc1e78fe3558d68d67d947e817df0f039",
+        "6": "db38ad10f55c87990bfb1f8c8f8b324d806595b7fb4335a4e5bc201a0b2c783a",
+        "7": "874d7afe971b31fbb7415cada66062b4280d0933ec53ae7521ca9bec811c5031",
+        "8": "147664c12524d68e09a23b34525c9efe0896b8be1a20e44206c7bfcd48c47063",
+        "9": "74e357282a66fe65d91dcab55309d828fcd3e01cb8dac3dd868415ad38276dc2",
+        "10": "96a062f38b9bdfb10f8a7aeb02a8d15a499d21e57f91bff4d56b5e04395593d7",
+        "11": "349a2f1edb3dc77e1b6a19966321603c526c030258eae6c7a2f3098f870af470",
+        "12": "2686dfbd6059cec87bbf0b630277d924006116ae64d2777de04e672da11e0ce1",
+        "13": "c0b31f4c10e4ddbad78b9217b9d8bbd0d77aa9a3133c714e268335690e369998",
+        "14": "8edc22380702bc0b516c96ea533772952c0f6d5466bf6c391784ee705a3c8e8c",
+        "15": "e06fc587f6adfd6fa734b323f2156df4762c5598d6dcff4228e88dc8c9c66133",
+        "16": "f3943455fb2b72257bc45eb26cf940b79228fb2c6a6311e5ee65eedb1b1f200b",
+        "17": "210254e5f54695b941bc9a8f2f9fbaa65435d26d872757c0c677844d97c5fffc",
+        "18": "b2c28e9bc2087c4cd587f8f72154cc5211e6f038bb14e78312467aab35c1a579"
+      }
+    },
+    {
+      "document": "PP_LGCM_appendix_review_v41_round2D.docx",
+      "pdf": "PP_LGCM_appendix_review_v41_round2D.pdf",
+      "pdf_sha256": "1ed497e80f035b731055b622a02976aec9fe06dac8fb13ef55abe33ad927d709",
+      "pages": 11,
+      "pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "review_method": "Direct inspection of each full page image",
+      "image_sha256": {
+        "1": "bfcf27bd712fa8408c89fbe57795ff337a2a93a42564a73f8d143f5578fcc267",
+        "2": "2f9f212cb2ad1a05e6e5b3e06c2122459c034b7edda4e9e7d1adde9b991a81f5",
+        "3": "d75c27253bf2846fe5d74e819902bd3b028163e9cbc44ffe64f624283ffb5289",
+        "4": "176fba258d259580082bb256c0e8b8a7f384d118696045f17455e3a88af2e8cb",
+        "5": "58e90580a6bc2eeba1f2d0c79d2f22891f6024840446384fd73b607bcb43c087",
+        "6": "0f96200b07c3a1b012c265396ea5e793b087d4838682938782bd461714b445fa",
+        "7": "a64c1240b99c9906af2d9786e79f53e278c4964d33945e0a86673421827f78f8",
+        "8": "7045ffcfe81f1e79cb0f2d1527caaad0d877bc495c969a6cb8a506091e1fbff8",
+        "9": "d0512c4dd4fe8808eade84e8b8e723776e518cc906a77c300d42b84b38542ba6",
+        "10": "f54e29d0183ca25aa827bfe713a0ef6d1e48f1d35786aa4135547443c3a909f2",
+        "11": "27e318075ffa4f499ddde6df63528b30e81257bd634c2e8daef5329ff53df274"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "document": "main",
+      "page": 2,
+      "kind": "ORPHAN_SECTION_HEADING",
+      "action": "Keep original section headings with the following paragraph"
+    },
+    {
+      "document": "main",
+      "page": 3,
+      "kind": "CONCEPTUAL_OVERSTATEMENT",
+      "action": "Distinguish relationship differences from measured collective ambivalence"
+    }
+  ],
+  "scope": "Preview layout review only; no final statistical or publication acceptance"
+}

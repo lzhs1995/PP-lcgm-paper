@@ -1,0 +1,54 @@
+[
+  {
+    "schema_version": "0.2.4",
+    "producer_version": "0.3.4",
+    "evidence_id": "b7f9553a-50c9-4263-9140-bbb9d5a96078",
+    "parent_evidence_ids": [],
+    "task_key": "pp_lgcm_round2D_postqueue_20261009",
+    "harness_name": "async_guard",
+    "timestamp_utc": "2026-10-09T14:13:16.682990Z",
+    "agent": "unknown",
+    "transport_class": null,
+    "session_name": null,
+    "pid": null,
+    "job_id": "36cd3ab7",
+    "io_mode": null,
+    "decision": "PASS",
+    "reasons": [
+      "cancel/archive recorded"
+    ],
+    "artifact_paths": [],
+    "policy_violations": [],
+    "exit_code": 0,
+    "extra": {
+      "archived_path": "C:\\Users\\LZHS\\.clauder_workbench\\inflight\\archive\\20261009T141316Z_pp_lgcm_round2D_postqueue_20261009.json",
+      "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261009T141316Z_async_guard_b7f9553a-50c9-4263-9140-bbb9d5a96078.json"
+    }
+  },
+  {
+    "schema_version": "0.2.4",
+    "producer_version": "0.3.4",
+    "evidence_id": "28b3ba85-3f7c-4843-8976-ab3d6af78ca0",
+    "parent_evidence_ids": [],
+    "task_key": "pp_lgcm_performance_calibration_20261009",
+    "harness_name": "async_guard",
+    "timestamp_utc": "2026-10-09T14:13:16.722634Z",
+    "agent": "unknown",
+    "transport_class": null,
+    "session_name": null,
+    "pid": null,
+    "job_id": "da892b02",
+    "io_mode": null,
+    "decision": "PASS",
+    "reasons": [
+      "cancel/archive recorded"
+    ],
+    "artifact_paths": [],
+    "policy_violations": [],
+    "exit_code": 0,
+    "extra": {
+      "archived_path": "C:\\Users\\LZHS\\.clauder_workbench\\inflight\\archive\\20261009T141316Z_pp_lgcm_performance_calibration_20261009.json",
+      "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261009T141316Z_async_guard_28b3ba85-3f7c-4843-8976-ab3d6af78ca0.json"
+    }
+  }
+]

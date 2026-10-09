@@ -1,0 +1,24 @@
+{
+  "id": "SD_D1_Z0_1_base",
+  "z": "SD",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 3274,
+  "households": 2410,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/SD/D1_Z0_MI01/base",
+  "input_sha256": "3d0979ea4f5229a28a1b24683884bb9db65baf078c40febadc3533d45de8316a",
+  "data_sha256": "aba3e18819adc647848159ec0f18b66a6e295bcb114c549eac01634b6e994dc8",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/SD/Z0_member_01.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+}

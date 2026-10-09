@@ -1,0 +1,5 @@
+﻿target,status,reason
+SD complete observed covariates latent diagnostic,NOT_STARTED_STAGE_DEFERRED,User-approved phase closure; no additional latent fit
+six 1/2/4 processor timing probes,DEFERRED_BEFORE_FIRST_PROBE,Waiting job cancelled before a probe; no measured speedup
+window / scale / Y-shape sensitivity,NOT_EXECUTED,Previously deferred and not reopened
+interaction-compatible MI / household bootstrap,NOT_EXECUTED,Separate method question; previous data-layer checks remain valid

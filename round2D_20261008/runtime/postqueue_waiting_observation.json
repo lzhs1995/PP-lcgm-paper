@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-09T03:56:10.134740+00:00",
+  "postqueue_state": {
+    "status": "RUNNING",
+    "stage": "waiting_original_queue",
+    "message": "Original job cc074578 still running; no estimation or result writes by this waiting worker",
+    "updated_at": "2026-10-08 20:55:57.486855",
+    "pid": 27732,
+    "upstream_job_id": "cc074578",
+    "elapsed_seconds": 61.1481,
+    "new_Mplus_calls": 0,
+    "publication_performed": false
+  },
+  "pid": 27732,
+  "name": "Rterm.exe",
+  "ppid": 26032,
+  "rss_bytes": 82354176,
+  "cpu_seconds": 0.875,
+  "children": [
+    {
+      "pid": 20604,
+      "name": "conhost.exe"
+    }
+  ],
+  "calls": 20,
+  "pooling_summary_exists": false,
+  "upstream_terminal_exists": false
+}

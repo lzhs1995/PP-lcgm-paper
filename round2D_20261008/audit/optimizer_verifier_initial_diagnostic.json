@@ -1,0 +1,9 @@
+{
+  "status": "VERIFIER_CORRECTED",
+  "initial_failure": "The first input-comparison script normalized only a one-line TITLE; actual Mplus TITLE spans two lines.",
+  "actual_difference_observed": ["attempt label in TITLE", "ALGORITHM=INTEGRATION changed to ALGORITHM=INTEGRATION EM"],
+  "correction": "Normalize the bounded TITLE section through the next DATA heading; compare all remaining input unchanged except the permitted EM option.",
+  "model_input_modified": false,
+  "new_Mplus_calls": 0,
+  "scope": "Verifier implementation diagnostic, not a model estimation failure"
+}

@@ -1,0 +1,165 @@
+[
+  {
+    "key": "manual16",
+    "requested_url": "https://www.statmodel.com/HTML_UG/chapter16V8.htm",
+    "retrieved_at": "2026-10-09T10:38:40.817541+00:00",
+    "url": "https://www.statmodel.com/HTML_UG/chapter16V8.htm",
+    "status_code": 200,
+    "bytes": 268595,
+    "sha256": "a3ec4f2bc2821c919e18dfe6c7251e5c06f95e68c2120badab7dc29487f84117",
+    "title": "This chapter describes the user language of MODELING"
+  },
+  {
+    "key": "search_em",
+    "requested_url": "https://html.duckduckgo.com/html/?q=site%3Astatmodel.com%2Fdiscussion+%22ALGORITHM%3DEM%22+slow",
+    "retrieved_at": "2026-10-09T10:38:40.825227+00:00",
+    "url": "https://html.duckduckgo.com/html/?q=site%3Astatmodel.com%2Fdiscussion+%22ALGORITHM%3DEM%22+slow",
+    "status_code": 202,
+    "bytes": 14231,
+    "sha256": "0237c1f9ab545b3b6c7288c224c665e59846267f734ea7c9e3fd1cd172efc0df",
+    "title": "DuckDuckGo"
+  },
+  {
+    "key": "search_threads",
+    "requested_url": "https://www.google.com/search?q=site%3Astatmodel.com%2Fdiscussion+%22PROCESSORS%22+%22INTEGRATION%22&gbv=1",
+    "retrieved_at": "2026-10-09T10:38:40.837357+00:00",
+    "error": "HTTPSConnectionPool(host='www.google.com', port=443): Read timed out. (read timeout=8)"
+  },
+  {
+    "key": "search_lms",
+    "requested_url": "https://www.bing.com/search?format=rss&q=site%3Astatmodel.com%2Fdiscussion+%22XWITH%22+%22slow%22",
+    "retrieved_at": "2026-10-09T10:38:40.852971+00:00",
+    "url": "https://cn.bing.com/search?format=rss&q=site%3Astatmodel.com%2Fdiscussion+%22XWITH%22+%22slow%22",
+    "status_code": 200,
+    "bytes": 6383,
+    "sha256": "d5cf15b42853af28aca18ca086f0f857b05a2783344fd06c40a59dee8e313d2f",
+    "title": "必应：site:statmodel.com/discussion \"XWITH\" \"slow\""
+  },
+  {
+    "key": "sem_index",
+    "requested_url": "https://www.statmodel.com/discussion/messages/11/11.html",
+    "retrieved_at": "2026-10-09T10:39:30.512048+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/11/11.html",
+    "status_code": 200,
+    "bytes": 1281692,
+    "sha256": "8f6b1c21d0acd16edc54aab8958ef8218a60b6d8a074f3479aac6fe20a9b456d",
+    "title": "Mplus Discussion >> Structural Equation Modeling",
+    "links_count": 1608
+  },
+  {
+    "key": "multilevel_index",
+    "requested_url": "https://www.statmodel.com/discussion/messages/12/12.html",
+    "retrieved_at": "2026-10-09T10:39:30.542871+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/12/12.html",
+    "status_code": 200,
+    "bytes": 970435,
+    "sha256": "9ea5ea346c2512df1fc50f1b24f8ac2ca9c9d8e193d30a8143f7698fb11ec639",
+    "title": "Mplus Discussion >> Multilevel Data/Complex Sample",
+    "links_count": 1212
+  },
+  {
+    "key": "processor_faq",
+    "requested_url": "https://www.statmodel.com/faq.shtml",
+    "retrieved_at": "2026-10-09T10:39:30.562368+00:00",
+    "url": "https://www.statmodel.com/faq.shtml",
+    "status_code": 200,
+    "bytes": 26747,
+    "sha256": "46d86054ba011f2f0f52c8ecab6125f3790bdcb3322614f04a11454b8eff1f9a",
+    "title": "Mplus FAQs",
+    "links_count": 199
+  },
+  {
+    "key": "forum_multicore",
+    "requested_url": "https://www.statmodel.com/discussion/messages/11/2261.html",
+    "retrieved_at": "2026-10-09T10:41:50.552135+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/11/2261.html",
+    "status_code": 200,
+    "bytes": 42666,
+    "sha256": "b13158f3df96480520c136a8ac712aede4e5187d96c154cd67d1bfa2b5785ab9",
+    "title": "Mplus Discussion >> Dual/multi-core processor",
+    "links_count": 32
+  },
+  {
+    "key": "forum_integration_points",
+    "requested_url": "https://www.statmodel.com/discussion/messages/11/21880.html",
+    "retrieved_at": "2026-10-09T10:41:50.553720+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/11/21880.html",
+    "status_code": 200,
+    "bytes": 25717,
+    "sha256": "6c809a2d8cf4dd3e7e46494695498620a9b235437cb8e057fb36db86031b48b4",
+    "title": "Mplus Discussion >> Number of integration points",
+    "links_count": 22
+  },
+  {
+    "key": "forum_numeric_integration",
+    "requested_url": "https://www.statmodel.com/discussion/messages/12/451.html",
+    "retrieved_at": "2026-10-09T10:41:50.554981+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/12/451.html",
+    "status_code": 200,
+    "bytes": 37443,
+    "sha256": "a344f0e0cce259f81c5afe06d77d83f46fbfaad1f5732b3f040609f5294c348f",
+    "title": "Mplus Discussion >> Numerical integration",
+    "links_count": 38
+  },
+  {
+    "key": "forum_computing",
+    "requested_url": "https://www.statmodel.com/discussion/messages/12/4364.html",
+    "retrieved_at": "2026-10-09T10:41:50.556160+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/12/4364.html",
+    "status_code": 200,
+    "bytes": 18677,
+    "sha256": "dce78a27991bbc8bb2da3e00a86f9d58f00b8d3bc2e52332c4f32a1a98dcd478",
+    "title": "Mplus Discussion >> Computing Power for a complex multilevel model",
+    "links_count": 19
+  },
+  {
+    "key": "forum_montecarlo",
+    "requested_url": "https://www.statmodel.com/discussion/messages/11/23280.html",
+    "retrieved_at": "2026-10-09T10:41:57.012075+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/11/23280.html",
+    "status_code": 200,
+    "bytes": 21067,
+    "sha256": "ea36e12525e935e7c58c3d7f6bbff6810d4caa88da1325f5174dd8048dac520f",
+    "title": "Mplus Discussion >> Monte Carlo Numerical Integration",
+    "links_count": 20
+  },
+  {
+    "key": "forum_dimensions",
+    "requested_url": "https://www.statmodel.com/discussion/messages/12/8079.html",
+    "retrieved_at": "2026-10-09T10:41:57.085729+00:00",
+    "url": "https://www.statmodel.com/discussion/messages/12/8079.html",
+    "status_code": 200,
+    "bytes": 25375,
+    "sha256": "f8e34b8483f50cd307c1d4eb920945a1496ef88d27c8913606bc51b960f88805",
+    "title": "Mplus Discussion >> Number of dimensions/integration points",
+    "links_count": 25
+  },
+  {
+    "key": "mplusautomation_vignette",
+    "requested_url": "https://cran.r-project.org/web/packages/MplusAutomation/vignettes/vignette.html",
+    "retrieved_at": "2026-10-09T10:45:37.858492+00:00",
+    "error": "HTTPSConnectionPool(host='cran.r-project.org', port=443): Read timed out. (read timeout=8)"
+  },
+  {
+    "key": "mplus_version_history",
+    "requested_url": "https://www.statmodel.com/verhistory.shtml",
+    "retrieved_at": "2026-10-09T10:45:37.859791+00:00",
+    "url": "https://www.statmodel.com/verhistory.shtml",
+    "status_code": 200,
+    "bytes": 140396,
+    "sha256": "5c639a2ce5fd241cfa1a4dadac4a492a52ab8b33cf13eada3f694123b66bcdb7",
+    "title": "Mplus Version History",
+    "links_count": 189
+  },
+  {
+    "key": "mplusautomation_docs",
+    "requested_url": "https://michaelhallquist.github.io/MplusAutomation/articles/vignette.html",
+    "retrieved_at": "2026-10-09T10:50:10.405618+00:00",
+    "url": "https://michaelhallquist.github.io/MplusAutomation/articles/vignette.html",
+    "status_code": 200,
+    "bytes": 117491,
+    "sha256": "0c468480f9cefc186d87af3a244ad3733c02164191023a735f145fa28bf88dad",
+    "title": "MplusAutomation Examples • MplusAutomation",
+    "links_count": 158
+  }
+]

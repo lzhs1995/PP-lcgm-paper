@@ -1,0 +1,21 @@
+{
+  "status": "CANCELLED_BY_STAGE_CLOSEOUT",
+  "stage": "waiting_job_cancelled_before_execution",
+  "job_id": "36cd3ab7",
+  "updated_at": "2026-10-09T12:51:54.561839+00:00",
+  "source": "Controller annotation after native cancel_async_job and process identity verification",
+  "last_worker_state": {
+    "status": "RUNNING",
+    "stage": "waiting_original_queue",
+    "message": "Original job cc074578 still running; no estimation or result writes by this waiting worker",
+    "updated_at": "2026-10-09 05:15:21.743671",
+    "pid": 27732,
+    "upstream_job_id": "cc074578",
+    "elapsed_seconds": 30025.4049,
+    "new_Mplus_calls": 0,
+    "publication_performed": false
+  },
+  "new_Mplus_calls": 0,
+  "reason": "User-approved bounded stage delivery; next-model hold transferred and retained",
+  "native_evidence": "runtime/stage_closeout_20261009/native_waiting_cancellations.json"
+}

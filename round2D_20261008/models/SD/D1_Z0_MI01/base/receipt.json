@@ -1,0 +1,24 @@
+{
+  "id": "SD_D1_Z0_1_base",
+  "z": "SD",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 3274,
+  "households": 2410,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 20327.1578159332,
+  "exitcode": 0,
+  "output_sha256": "3940d53c042cc342dda2a7b81dac4b5e926916cb87d0546158bf8e0a77f08374",
+  "integration_dimensions": 2,
+  "normal": false,
+  "status": "ESTIMATION_FAILED"
+}

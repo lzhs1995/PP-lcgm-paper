@@ -1,0 +1,172 @@
+{
+  "terminal_calls": 23,
+  "terminal_hours": 21.883306461440192,
+  "real_data_terminal_calls": 19,
+  "real_data_hours": 21.81917331914107,
+  "finished_real_latent_interaction_calls": 6,
+  "finished_real_latent_interaction_hours": 21.722799210879536,
+  "latent_share_of_all_finished_seconds": 0.9926653108458048,
+  "provenance": [
+    {
+      "model": "SD/D1_Z0_MI01/base",
+      "file": "model.inp",
+      "sha256": "3d0979ea4f5229a28a1b24683884bb9db65baf078c40febadc3533d45de8316a",
+      "bytes": 1170,
+      "terminal": true
+    },
+    {
+      "model": "SD/D1_Z0_MI01/base",
+      "file": "model.out",
+      "sha256": "3940d53c042cc342dda2a7b81dac4b5e926916cb87d0546158bf8e0a77f08374",
+      "bytes": 202168,
+      "terminal": true
+    },
+    {
+      "model": "SD/D1_Z0_MI01/base",
+      "file": "receipt.json",
+      "sha256": "71f9ff5bbf289b4bcc2143098fb6f2ac89ee47d9ef5042fcd0a034885ae4ed90",
+      "bytes": 545,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/base",
+      "file": "model.inp",
+      "sha256": "708ec5cc661435cf558779227328f5cfbee2c50d014db8761fae04ec56beee35",
+      "bytes": 1188,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/base",
+      "file": "model.out",
+      "sha256": "f4c8bb680d9fb21c493179328d9362ed2498c99657cde45548321a2a3ad2e2b3",
+      "bytes": 822347,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/base",
+      "file": "receipt.json",
+      "sha256": "fdf4e7c489515cbe58e7a21ed98b74022694fca085006c1289b6be76da96a215",
+      "bytes": 925,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/base",
+      "file": "parameters_high_precision.csv",
+      "sha256": "1b86fb89d731553ed782d023da654e3fc26bbe9bfcb0f7846432e3185411e019",
+      "bytes": 8857,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/repair_start",
+      "file": "model.inp",
+      "sha256": "efbc7fe501031bc91213e4af1662dc2940de5b984d21c9e36820914ca165f84f",
+      "bytes": 1205,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/repair_start",
+      "file": "model.out",
+      "sha256": "8ee69e86b8c5fcfef0646fe0e97d64e76cc3521ce77573278f203136f4110cfa",
+      "bytes": 197270,
+      "terminal": true
+    },
+    {
+      "model": "SEXGAP/D1_Z0_MI01/repair_start",
+      "file": "receipt.json",
+      "sha256": "9b161587ff9bc7224b2d66ccdbec0587ac6b6cd5497e42b64ce6cd13028db82f",
+      "bytes": 568,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/base",
+      "file": "model.inp",
+      "sha256": "038dc977ec235c29e1639f37dd3ff7350c519c551d9dc9140601b301a1fa14cb",
+      "bytes": 1174,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/base",
+      "file": "model.out",
+      "sha256": "fa2a86d009ab5309c13e76621577b06a4432c82d5595e30f2115fbb141691ddf",
+      "bytes": 1439,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/base",
+      "file": "receipt.json",
+      "sha256": "164358ac90dac45637f6c46f8626a7489e4f01ba4b3a2eaa912472e05ea68afe",
+      "bytes": 620,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/repair_em",
+      "file": "model.inp",
+      "sha256": "cf963be2310048bee798c49e6990d6084ded438530e424490e697eeb26d47209",
+      "bytes": 1182,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/repair_em",
+      "file": "model.out",
+      "sha256": "db0fffda1dfdc07f0eaa1f4e9ac84aee4207c8e1ab50f5e577654e97c91b7488",
+      "bytes": 1151094,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/repair_em",
+      "file": "receipt.json",
+      "sha256": "b1c1e81234bf1ccd3c5a627da3e60c10325b8b748fb878241e7740a193b6e9cd",
+      "bytes": 959,
+      "terminal": true
+    },
+    {
+      "model": "OLDEST/D1_Z0_MI01/repair_em",
+      "file": "parameters_high_precision.csv",
+      "sha256": "2e41beddf521fd374d429f2ee795c98ae9b035dca218491cbb504e0b971a1567",
+      "bytes": 9354,
+      "terminal": true
+    },
+    {
+      "model": "SONGAP/D1_Z0_MI01/base",
+      "file": "model.inp",
+      "sha256": "e18e58621314549d514275419a5359c0765efa83c29f9e2ded48b261bd7df61f",
+      "bytes": 1188,
+      "terminal": true
+    },
+    {
+      "model": "SONGAP/D1_Z0_MI01/base",
+      "file": "model.out",
+      "sha256": "f1a975d95d8275b965a68aacf04f5b3c8e9d23e4aa5faf69b128448e0464bd1a",
+      "bytes": 919618,
+      "terminal": true
+    },
+    {
+      "model": "SONGAP/D1_Z0_MI01/base",
+      "file": "receipt.json",
+      "sha256": "6176c49eba880f35d64f346c2659d0ba993ccd4914219871e5da3f78c2d383f4",
+      "bytes": 925,
+      "terminal": true
+    },
+    {
+      "model": "SONGAP/D1_Z0_MI01/base",
+      "file": "parameters_high_precision.csv",
+      "sha256": "3d1c9116ccf923d604e600e74e9f6201db5b63a7faaf21018a92b7e1cb5085a2",
+      "bytes": 9099,
+      "terminal": true
+    },
+    {
+      "model": "SONGAP/D1_Z0_MI01/repair_start",
+      "file": "model.inp",
+      "sha256": "a24d2687e311c58256b750464eb60b6474ce4de6f753edff691c23cf9124036b",
+      "bytes": 1205,
+      "terminal": false
+    },
+    {
+      "model": "SONGAP/D1_Z0_MI01/repair_start",
+      "file": "model.out",
+      "sha256": "2630ddcc14226d25367434c8fc2fcfa56ea9019155ba2e131378fbde0de4799c",
+      "bytes": 1478,
+      "terminal": false
+    }
+  ]
+}

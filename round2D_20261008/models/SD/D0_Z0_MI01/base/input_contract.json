@@ -1,0 +1,24 @@
+{
+  "id": "SD_D0_Z0_1_base",
+  "z": "SD",
+  "spec": "D0",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 3274,
+  "households": 2410,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/SD/D0_Z0_MI01/base",
+  "input_sha256": "b74e2a5e39aadaba5b55966f3b6fbf4549bc249fb30d4420bce89d084a7bbecb",
+  "data_sha256": "aba3e18819adc647848159ec0f18b66a6e295bcb114c549eac01634b6e994dc8",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/SD/Z0_member_01.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+}

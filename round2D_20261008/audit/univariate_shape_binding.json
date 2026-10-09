@@ -1,0 +1,57 @@
+{
+  "df": 3,
+  "correction": 2.5727333333333324,
+  "statistic": 8.451711538959389,
+  "p": 0.037542852494032684,
+  "precision": "Printed likelihood and correction factors; old models, no new estimation",
+  "sources": [
+    {
+      "model": "D3274_U0_free",
+      "file": "model.inp",
+      "source_sha256": "64e2fa7fa82f0fd4006d761eea6261edaa21d9c5e9f4859bb7de0793f399181c",
+      "evidence": "audit/univariate_shape_history/D3274_U0_free/model.inp"
+    },
+    {
+      "model": "D3274_U0_free",
+      "file": "model.out",
+      "source_sha256": "27913bdf7d39cfcd16edf737a80aca784acd1048dc4d94345506e22ac8cd51dc",
+      "evidence": "audit/univariate_shape_history/D3274_U0_free/model.out"
+    },
+    {
+      "model": "D3274_U0_free",
+      "file": "fit.csv",
+      "source_sha256": "b06fbaaa437caf62535912be83af53c115b392728b3a8e6a40d1800f8ae5500d",
+      "evidence": "audit/univariate_shape_history/D3274_U0_free/fit.csv"
+    },
+    {
+      "model": "D3274_U0_free",
+      "file": "parameters.csv",
+      "source_sha256": "0ce328938f9af09c3d47350d6f1b2c24743aeb18239c06b77bf90666e9c2058e",
+      "evidence": "audit/univariate_shape_history/D3274_U0_free/parameters.csv"
+    },
+    {
+      "model": "D3274_U0_linear",
+      "file": "model.inp",
+      "source_sha256": "9b7820d089b057cc2514a1a96e2ce55ecbbb20a173e61216e85338f5acade70d",
+      "evidence": "audit/univariate_shape_history/D3274_U0_linear/model.inp"
+    },
+    {
+      "model": "D3274_U0_linear",
+      "file": "model.out",
+      "source_sha256": "45e65601930ce85b4c23b566003d3a94c7436ecee0833aa200a28bc2a89147ca",
+      "evidence": "audit/univariate_shape_history/D3274_U0_linear/model.out"
+    },
+    {
+      "model": "D3274_U0_linear",
+      "file": "fit.csv",
+      "source_sha256": "e4f53941f1c85b2b75d97960827a9e42c4ef9efa65b600b1be8e887cebda8ce9",
+      "evidence": "audit/univariate_shape_history/D3274_U0_linear/fit.csv"
+    },
+    {
+      "model": "D3274_U0_linear",
+      "file": "parameters.csv",
+      "source_sha256": "19fcbd3657a313775a18d9ec6fed8c8704d0d389c47db0932b4b4b13c823ffc3",
+      "evidence": "audit/univariate_shape_history/D3274_U0_linear/parameters.csv"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "SONGAP_D1_Z0_1_repair_start",
+  "z": "SONGAP",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "repair_start",
+  "category": "REPAIR",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 2894,
+  "households": 2134,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 21608.8962368965,
+  "exitcode": 124,
+  "output_sha256": "2630ddcc14226d25367434c8fc2fcfa56ea9019155ba2e131378fbde0de4799c",
+  "integration_dimensions": null,
+  "normal": false,
+  "status": "TIMEOUT",
+  "timeout_reason": "SINGLE_ATTEMPT_LIMIT",
+  "limit_seconds": 21600
+}

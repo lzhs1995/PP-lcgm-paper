@@ -1,0 +1,31 @@
+{
+  "id": "SEXGAP_D0_Z0_1_base",
+  "z": "SEXGAP",
+  "spec": "D0",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 2339,
+  "households": 1730,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 23.360494852066,
+  "exitcode": 0,
+  "output_sha256": "2c4dd577b420a65c9763c50e7a68952280bed4c2080da64929d5d43c21e6fd71",
+  "integration_dimensions": null,
+  "normal": true,
+  "LL": -30073.604,
+  "parameters": 192,
+  "negative": ["psi:SX", "psi:SY"],
+  "geometry_ok": false,
+  "vcov_ok": true,
+  "warnings": ["WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."],
+  "printed_match": true,
+  "status": "INADMISSIBLE"
+}

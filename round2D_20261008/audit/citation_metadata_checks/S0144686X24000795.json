@@ -1,0 +1,536 @@
+{
+  "doi": "10.1017/S0144686X24000795",
+  "retrieved_at": "2026-10-08T10:44:15.075641+00:00",
+  "url": "https://api.crossref.org/works/10.1017%2FS0144686X24000795",
+  "scope": "Publisher-deposited metadata only; no full-text verification",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          29
+        ]
+      ],
+      "date-time": "2026-08-29T19:08:11Z",
+      "timestamp": 1788030491240,
+      "version": "build-2784847793"
+    },
+    "reference-count": 55,
+    "publisher": "Cambridge University Press (CUP)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              24
+            ]
+          ],
+          "date-time": "2025-01-24T00:00:00Z",
+          "timestamp": 1737676800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Ageing and Society"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>High-quality intergenerational relationships positively influence cognitive functioning in older parents. However, there is insufficient information on how they shape the trajectories of mothers’ and fathers’ cognitive functioning decline in multi-child families, owing to the complexity of intergenerational relationships, such as multi-dimensional and ambivalent natures and differences varying across children. Drawing on three waves of data (2014, 2016 and 2018) from a nationally representative survey – the China Longitudinal Ageing Social Survey (N = 9,404) – we used the k-means clustering method to discern patterns of intergenerational relationships in multi-child Chinese families, as well as the growth curve models, to examine the associations between parent–child relationship types and the trajectories of older parents’ cognitive functioning. Five types of intergenerational relationship were identified: <jats:italic>alienated, stressfully interacting, independent, beneficially interacting</jats:italic> and <jats:italic>tight-knit</jats:italic>. We then investigated the associations between trajectories of cognitive functioning and the most distant type, the closest type, and the heterogeneity of parent–child relationships across multiple children. The most distant parent–child relationship was significantly related to cognitive functioning trajectories with the alienated (tight-knit) type associated with the lowest (highest) levels of cognitive functioning and the fastest (slowest) cognitive decline. However, the closest parent–child relationship was not significantly related to cognitive functioning trajectories. Moreover, greater variation in relationships with multiple children was correlated with lower levels of cognitive functioning and faster cognitive functioning decline. These associations were stronger among mothers than fathers. This study provides new insights into the potentially protective role of intergenerational relationships in older parents’ cognitive functioning and their gendered differences.</jats:p>",
+    "DOI": "10.1017/s0144686x24000795",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          24
+        ]
+      ],
+      "date-time": "2025-01-24T00:59:52Z",
+      "timestamp": 1737680392000
+    },
+    "page": "2089-2115",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Intergenerational relationships and trajectories of older parents’ cognitive functioning in multi-child families"
+    ],
+    "prefix": "10.1017",
+    "volume": "45",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7147-6645",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Peking University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaowei",
+        "family": "Gong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harvard University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianrong",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Renmin University of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5397-4536",
+        "authenticated-orcid": false,
+        "given": "Ting",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Renmin University of China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "S0144686X24000795_ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/63.6.P362"
+      },
+      {
+        "key": "S0144686X24000795_ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jomf.12716"
+      },
+      {
+        "key": "S0144686X24000795_ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jomf.12302"
+      },
+      {
+        "key": "S0144686X24000795_ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/13607863.2020.1711867"
+      },
+      {
+        "key": "S0144686X24000795_ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2136679"
+      },
+      {
+        "key": "S0144686X24000795_ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3724/SP.J.1041.2013.00811"
+      },
+      {
+        "key": "S0144686X24000795_ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1741-3737.2002.00558.x"
+      },
+      {
+        "key": "S0144686X24000795_ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/ggi.13666"
+      },
+      {
+        "key": "S0144686X24000795_ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jomf.12150"
+      },
+      {
+        "key": "S0144686X24000795_ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/63.4.S239"
+      },
+      {
+        "key": "S0144686X24000795_ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11199-017-0751-1"
+      },
+      {
+        "key": "S0144686X24000795_ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geront/gnaa114"
+      },
+      {
+        "key": "S0144686X24000795_ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1741-3737.2006.00306.x"
+      },
+      {
+        "key": "S0144686X24000795_ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geront/gnac103"
+      },
+      {
+        "key": "S0144686X24000795_ref6",
+        "first-page": "367",
+        "volume-title": "American Handbook of Psychiatry",
+        "author": "Bowen",
+        "year": "1975"
+      },
+      {
+        "key": "S0144686X24000795_ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0144686X11000420"
+      },
+      {
+        "key": "S0144686X24000795_ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geront/gnx156"
+      },
+      {
+        "key": "S0144686X24000795_ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/gbu017"
+      },
+      {
+        "key": "S0144686X24000795_ref32",
+        "volume-title": "Live in the Heart: Intergenerational Relationships and Practice of Filial Piety (in Chinese)",
+        "author": "Liu",
+        "year": "2021"
+      },
+      {
+        "key": "S0144686X24000795_ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/gbad004"
+      },
+      {
+        "key": "S0144686X24000795_ref12",
+        "first-page": "49",
+        "article-title": "The demands of old-age care and the family and social resources for the Chinese elderly: A study based on 2014 China Longitudinal Aging Social Survey (in Chinese)",
+        "volume": "6",
+        "author": "Du",
+        "year": "2016",
+        "journal-title": "Population Research"
+      },
+      {
+        "key": "S0144686X24000795_ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/13607863.2017.1423035"
+      },
+      {
+        "key": "S0144686X24000795_ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.annepidem.2006.07.010"
+      },
+      {
+        "key": "S0144686X24000795_ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/231213"
+      },
+      {
+        "key": "S0144686X24000795_ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jomf.12391"
+      },
+      {
+        "key": "S0144686X24000795_ref13",
+        "first-page": "7",
+        "article-title": "Old-age care during the family structure change: Revisiting the family structure change (in Chinese)",
+        "volume": "1",
+        "author": "Fei",
+        "year": "1983",
+        "journal-title": "Journal of Peking University (Philosophy and Social Sciences)"
+      },
+      {
+        "key": "S0144686X24000795_ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/353984"
+      },
+      {
+        "key": "S0144686X24000795_ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/53B.2.P86"
+      },
+      {
+        "key": "S0144686X24000795_ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-3956(75)90026-6"
+      },
+      {
+        "key": "S0144686X24000795_ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-701630-6.50015-0"
+      },
+      {
+        "key": "S0144686X24000795_ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/gbx037"
+      },
+      {
+        "key": "S0144686X24000795_ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8721.2008.00601.x"
+      },
+      {
+        "key": "S0144686X24000795_ref47",
+        "unstructured": "World Health Organization (2021) Global Status Report on the Public Health Response to Dementia. Available at www.who.int/publications-detail-redirect/9789240033245 (accessed 1 September 2021 )."
+      },
+      {
+        "key": "S0144686X24000795_ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/gbx009"
+      },
+      {
+        "key": "S0144686X24000795_ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1741-3737.2002.00568.x"
+      },
+      {
+        "key": "S0144686X24000795_ref21",
+        "first-page": "879",
+        "article-title": "Guilt in adult mother–child relationships: Connections to intergenerational ambivalence and support",
+        "volume": "75",
+        "author": "Kalmijn",
+        "year": "2020",
+        "journal-title": "Journals of Gerontology Series B: Psychological Sciences and Social Sciences"
+      },
+      {
+        "key": "S0144686X24000795_ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2095420"
+      },
+      {
+        "key": "S0144686X24000795_ref51",
+        "article-title": "Association of intergenerational relationships with cognitive impairment among Chinese adults 80 years of age or older: Prospective cohort study",
+        "volume": "22",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "BMC (BioMed Central) Geriatrics"
+      },
+      {
+        "key": "S0144686X24000795_ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geronb/61.2.S107"
+      },
+      {
+        "key": "S0144686X24000795_ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1741-3737.2012.01014.x"
+      },
+      {
+        "key": "S0144686X24000795_ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/fam0000595"
+      },
+      {
+        "key": "S0144686X24000795_ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/geront/32.4.498"
+      },
+      {
+        "key": "S0144686X24000795_ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1741-3737.2008.00587.x"
+      },
+      {
+        "key": "S0144686X24000795_ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/352993"
+      },
+      {
+        "key": "S0144686X24000795_ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/a0017820"
+      },
+      {
+        "key": "S0144686X24000795_ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(20)30367-6"
+      },
+      {
+        "key": "S0144686X24000795_ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1741-3737.2008.00588.x"
+      },
+      {
+        "key": "S0144686X24000795_ref25",
+        "first-page": "1",
+        "volume-title": "The Encyclopedia of Clinical Psychology",
+        "author": "Krull",
+        "year": "2015"
+      },
+      {
+        "key": "S0144686X24000795_ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1353/jhr.2012.0033"
+      },
+      {
+        "key": "S0144686X24000795_ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/spol.12368"
+      },
+      {
+        "key": "S0144686X24000795_ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2096456"
+      },
+      {
+        "key": "S0144686X24000795_ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/353858"
+      },
+      {
+        "key": "S0144686X24000795_ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2702.2012.04178.x"
+      },
+      {
+        "key": "S0144686X24000795_ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jomf.12101"
+      },
+      {
+        "key": "S0144686X24000795_ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2753/CSA2162-0555450302"
+      }
+    ],
+    "container-title": [
+      "Ageing and Society"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0144686X24000795",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2025-09-08T08:11:50Z",
+      "timestamp": 1757319110000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/S0144686X24000795/type/journal_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          24
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "10",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0144686X24000795"
+    ],
+    "URL": "https://doi.org/10.1017/s0144686x24000795",
+    "relation": {},
+    "ISSN": [
+      "0144-686X",
+      "1469-1779"
+    ],
+    "issn-type": [
+      {
+        "value": "0144-686X",
+        "type": "print"
+      },
+      {
+        "value": "1469-1779",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          24
+        ]
+      ]
+    }
+  }
+}

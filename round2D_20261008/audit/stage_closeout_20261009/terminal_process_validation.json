@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "time": "2026-10-09T14:44:59.604172+00:00",
+  "owned_processes_exited": true,
+  "all_registered_receipts_verified": true,
+  "registered_calls": 24,
+  "new_calls": 0,
+  "original_estimation_code_unchanged": true,
+  "current_receipt": {
+    "id": "SONGAP_D1_Z0_1_repair_start",
+    "z": "SONGAP",
+    "spec": "D1",
+    "member": 1,
+    "attempt": "repair_start",
+    "category": "REPAIR",
+    "kind": "lms_latent",
+    "sample": "Z0",
+    "N": 2894,
+    "households": 2134,
+    "settings": {
+      "method": "quadrature",
+      "points": 15,
+      "seed": 26100801
+    },
+    "usable": false,
+    "seconds": 21608.8962368965,
+    "exitcode": 124,
+    "output_sha256": "2630ddcc14226d25367434c8fc2fcfa56ea9019155ba2e131378fbde0de4799c",
+    "integration_dimensions": null,
+    "normal": false,
+    "status": "TIMEOUT",
+    "timeout_reason": "SINGLE_ATTEMPT_LIMIT",
+    "limit_seconds": 21600
+  },
+  "admission_hold_retained": true,
+  "terminal_sha256": "ec1409dc88f1bca2aea2f29fcf5a96f3df2fa2105c7fe1cf66e7ca3304e63da6"
+}

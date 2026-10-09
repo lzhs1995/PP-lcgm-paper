@@ -1,0 +1,2 @@
+"Mplus.version","Title","AnalysisType","DataType","Estimator","Observations","NGroups","NDependentVars","NIndependentVars","NContinuousLatentVars","Parameters","LL","LLCorrectionFactor","AIC","BIC","aBIC","AICC","Filename"
+"9","Round2D OLDEST D1 Z0 MI01 repair_em","COMPLEX RANDOM","INDIVIDUAL","MLR",3159,1,15,24,7,205,-41702.619,1.9326,83815.238,85057.13,84405.759,83843.8394222824,"model.out"

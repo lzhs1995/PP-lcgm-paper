@@ -1,0 +1,31 @@
+{
+  "id": "SONGAP_D0_Z0_1_repair_start",
+  "z": "SONGAP",
+  "spec": "D0",
+  "member": 1,
+  "attempt": "repair_start",
+  "category": "REPAIR",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 2894,
+  "households": 2134,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 40.5408849716187,
+  "exitcode": 0,
+  "output_sha256": "e46f610f2f26ac0ddd484973599a7ed3002bae6f51ae2099a3bbac0da867315c",
+  "integration_dimensions": null,
+  "normal": true,
+  "LL": -37703.205,
+  "parameters": 198,
+  "negative": "psi:SY",
+  "geometry_ok": false,
+  "vcov_ok": true,
+  "warnings": ["WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE", "THE WARNING IS DUE TO A NEGATIVE VARIANCE/RESIDUAL VARIANCE."],
+  "printed_match": true,
+  "status": "INADMISSIBLE"
+}

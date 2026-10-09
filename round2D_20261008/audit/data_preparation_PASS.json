@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "N": 3274,
+  "members": 10,
+  "frozen_checks": 350,
+  "source_preMI_sha256": "e62c24879c25d28bde0634d6c1fd90daf3fa323a2b5f35df84ce1eb5948b36a5",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "Z_contract_sha256": "e80e5da5f9e0a90dacb3a944b5afa55cc7e6b91b34f073be5d4c03d5e66bad8c",
+  "created": "2026-10-08 02:05:08.117788"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "files_scanned": 1003,
+  "exact_identifier_hits": 0,
+  "prohibited_file_or_column_hits": 0,
+  "current_cohort_unique_identifier_tokens": 5684,
+  "preview": false,
+  "procedure": "Explicit aggregate file whitelist; exact cohort PID/FID tokens; individual-data formats and identifier columns excluded",
+  "individual_data_included": false,
+  "source_list_sha256": "4a8f48a9d3d8b5e4c326c1bef03929ee90176efd968ba365dcfee346d7172e7e",
+  "created_at": "2026-10-09T16:02:18.568573+00:00"
+}

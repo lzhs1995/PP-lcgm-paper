@@ -1,0 +1,158 @@
+{
+  "created": "2026-10-08 02:04:29.738821",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "samples": {
+    "SD_Z0": {
+      "N": 3274,
+      "households": 2410,
+      "ctrl_index": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "ctrl_term": "c1-c24",
+      "data_sha256": ["aba3e18819adc647848159ec0f18b66a6e295bcb114c549eac01634b6e994dc8", "e1cf6daf913fa97537341b21b8d53a7fc13c7e5b6e60ce7c400672e87beae90b", "da01ec0e1e28857b4ce6833d9c0173d921cd70c9753f904818ae4705ba40adc6", "bdac7498cbf37a30e069df409f124c5af912ea5b0dea26294851953e4a8aa175", "e59032d21940c95146a0a3f7419ef7eb86cda1737f6588c467a8cad31c5a8b52", "f4e4ca2c1ae8181437629e35bb794c840e096a29ecec7be52adcfed18a7ab60e", "ee501deb951c30591b862151d5dec0a92cd5ea001bd9e46e7fa460a530d093c8", "b35541955133851f50aaea648fe0b7213e88f96e16945aebc052f6fa7c9c3aed", "48780088d934fe60a6ad2f96eae8e383bdd58a2df911a65eafd42187f746b415", "2086b8effd231b70a5a5863ce0b42bf940305a026c4b906400f4a24a3c596890"],
+      "later_only_excluded": 0
+    },
+    "SEXGAP_Z0": {
+      "N": 2339,
+      "households": 1730,
+      "ctrl_index": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "ctrl_term": "c1-c7 c10-c24",
+      "data_sha256": ["3b61b0b5f3b5e6c5b103382f90a6f759fbcd13c339ab2670dee6ba10e109ee20", "1de319d73f3d61072a1baf09117072f27afb6777f8da29fb7ce1bf6d352b33a4", "b5321955f503d6a1c97b2ed762fd224f64943b4a45c593d75d31c1a30ce56b5e", "d8380b5ad04ff1f7a7621ced4da3c59b646865b9e3111be0bf54baed731f953e", "70c58a0343bb66be57e23f397473a5491826bfae9a5a08f64922c80b9490ace6", "b0e6db71aed96e9635d0d414ce4b12210ab5d371d8a3a3b1ce7e8b3ba18cc216", "a9c6d0dfe0729b9daa1306b9374ae1c695fb840348ff228dfe908a4e246d9960", "a139011bee40ca0c60f63a271d76c0b6ca484c6565458124bb54d957b2493d7f", "ad711d6e98d61e137dbc3e759f0a348545785508a418fdfe3ecb4f8b371050e7", "025324c23fc4cf51d2e31d2ad7bf9c12c068b9615e7dbd4de27b701e7e2c04b4"],
+      "later_only_excluded": 6
+    },
+    "OLDEST_Z0": {
+      "N": 3159,
+      "households": 2320,
+      "ctrl_index": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "ctrl_term": "c1-c24",
+      "data_sha256": ["05601bc6f5f95ebb48ad34aa81175b9ecbef2c59fbf1d491897b20594827959f", "aa258b160ca35a15518c0d51e7238e800783a13236617a1d00a3f44c3eb4d8ce", "7b0f40b23fbc30bfc8790e6d51bf7b801c5982751ecb2f8fd5bca78604f3a832", "a21aba294824ab1b2b2d1aba21a6ee6ee0c05aa5632dea10098edb0f33dcbe27", "5019e0fcc915c76e128c0c1c99f31eaa626ebef3913cce2ac8264a337a2a0f74", "c0ea37fde5aa9573a109dd7e40ec020a3be1434f23120671ea6ac6a0a2ee9da1", "ecd05c7dd2dda7684a9c2ed3235e4e7dcc7102be52d1536b1a37c9d55cf770cb", "2307791867ef312ee775c085307b11b5890da56c74d52c2cb8009307730942de", "2686d46a33029704ee2acc83c3a4db64189bcba7aaa948b80fcd77cc7b1410ab", "675e86e58b1f9263b2f089a8adeef219d8a865b3c6622b8d75b818a8c35bcf1d"],
+      "later_only_excluded": 107
+    },
+    "SONGAP_Z0": {
+      "N": 2894,
+      "households": 2134,
+      "ctrl_index": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "ctrl_term": "c1-c8 c10-c24",
+      "data_sha256": ["564f2f342fe35c0d6600e7f8dfa01c8df61bb6aad3338776379a312a47ccdc59", "35ff7586e87b57be086647372379cd32b8da356da7ee286c1b56fbd9a4914701", "920f938077c865d8ca342ccb33a2c454c70e5b9dab6073708a05b2e5df168b66", "611e902ac0ffb5c1283e2fa9f4a54ae9b2cec22b68df20f5f7813791b9470f2e", "63f33128a6c78c6c567c2390f0bfdce53fa14f692acc98e31aa838988033e6e7", "fa7500dee6918e4c64959d269df99ffa00efa836f7c9de16cc218ef6ac04e17f", "6b551184aa9a75e686a4e37d704635f386842f14447558b05a7d38a58edb4da5", "982176e7e9faabd5b495a1a6d10acbb6cdf83fb3d3a81183ecff8d82ca62b291", "94c5d64114fa87a8e6d66f7badaebc135e329d652c408978ef7280e72e75f002", "259ee0e53ef641cbef279402ed6d884364f41836fba30114be2d9e06a58a6671"],
+      "later_only_excluded": 101
+    },
+    "SD_CC": {
+      "N": 2830,
+      "households": 2105,
+      "ctrl_index": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+      "ctrl_term": "c1-c24",
+      "data_sha256": "de758567d51ef42d564b3c30599b1a87cb9253a849eed67896b8dbc8a070e993",
+      "role": "diagnostic only, not MI-congeniality proof"
+    }
+  },
+  "z": {
+    "SD": {
+      "raw_prefix": "wfd_s",
+      "orientation": 1,
+      "shape": "free",
+      "ref_mean": 4.85780660460734,
+      "ref_sd": 10.2070583983168
+    },
+    "SEXGAP": {
+      "raw_prefix": "wfd_d",
+      "orientation": -1,
+      "shape": "linear",
+      "ref_mean": -0.952219362132148,
+      "ref_sd": 15.0211286862575
+    },
+    "OLDEST": {
+      "raw_prefix": "wfd_d1",
+      "orientation": -1,
+      "shape": "linear",
+      "ref_mean": -0.830398112173222,
+      "ref_sd": 14.5684128834059
+    },
+    "SONGAP": {
+      "raw_prefix": "wfd_d4",
+      "orientation": -1,
+      "shape": "linear",
+      "ref_mean": -0.86581374017909,
+      "ref_sd": 15.3711748475785
+    }
+  },
+  "g": {
+    "EDU": {
+      "source": "edu12",
+      "column": "c2",
+      "one_means": "junior high or above",
+      "share_one": [0.195174098961515, 0.195479535736103, 0.195174098961515, 0.195174098961515, 0.195479535736103, 0.195479535736103, 0.195174098961515, 0.195174098961515, 0.195479535736103, 0.195479535736103]
+    },
+    "URBAN": {
+      "source": "urban12",
+      "column": "c3",
+      "one_means": "urban NBS2012",
+      "share_one": [0.435858277336591, 0.436163714111179, 0.435552840562004, 0.435247403787416, 0.435858277336591, 0.436163714111179, 0.436163714111179, 0.434941967012828, 0.435552840562004, 0.435247403787416]
+    },
+    "INC": {
+      "source": "pinc412",
+      "column": "ginc",
+      "one_means": "positive personal income, not high income",
+      "share_one": [0.352168601099572, 0.352168601099572, 0.352168601099572, 0.352779474648748, 0.352168601099572, 0.352168601099572, 0.35247403787416, 0.352168601099572, 0.352168601099572, 0.352168601099572]
+    }
+  },
+  "source_members": [
+    {
+      "imputation": 1,
+      "sha256": "5441a85e3f2a2fa6b1974b07469e1077db2c0159f16ab8818a0994c7946b7d08",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 2,
+      "sha256": "be148168258594fcb05531e4ff29f53d153c171b31ea289d5532e44d7a80c0fe",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 3,
+      "sha256": "1e46f07a4b7a5539f2fe54db861a1d617b0a7c8302cbecaee0b7c60fb2082ef9",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 4,
+      "sha256": "316114d14cb6530a1e1652d1769b5a22138b4b1b0c371c4957968bbd194758b1",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 5,
+      "sha256": "1a881610d578b4be814908006b1871486cbe4154af941a030b00e65509a800e5",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 6,
+      "sha256": "fb082aa6e4254972193cf646af1f9206235d53ba41b2830ad360e30bad2cb99a",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 7,
+      "sha256": "28b7400d443c279f9e4c74112beb441594d56bb150c44a19579bf6530762d417",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 8,
+      "sha256": "28890b19c6141b9607b64e7ab6c25962e89db8ef2943341eb8aaca8485de9120",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 9,
+      "sha256": "f9cda2606f916d57a4276be7868f1a2261153f7ef70f2f072ccfd1466480cbe9",
+      "N": 3274,
+      "passed": true
+    },
+    {
+      "imputation": 10,
+      "sha256": "b7634c095e6d34989f571ff56f4838410bea54cfee88f3c2dd438717fa5e4f04",
+      "N": 3274,
+      "passed": true
+    }
+  ]
+}

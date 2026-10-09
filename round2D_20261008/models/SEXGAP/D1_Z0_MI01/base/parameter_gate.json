@@ -1,0 +1,15 @@
+{
+  "passed": false,
+  "flags": {
+    "normal": true,
+    "fatal": true,
+    "psi_warning": true,
+    "theta_warning": false,
+    "warnings": ["WARNING: THE MODEL ESTIMATION HAS REACHED A SADDLE POINT OR A POINT WHERE THE", "THE PROBLEM MAY ALSO BE RESOLVED BY DECREASING THE VALUE OF THE", "WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE"]
+  },
+  "negative": "psi:SY",
+  "vcov": {
+    "ok": false,
+    "minimum": -4.28366771660369e-09
+  }
+}

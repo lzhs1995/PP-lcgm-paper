@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-09T14:44:17.985279+00:00",
+  "current_attempt_terminal": true,
+  "current_mplus_alive": false,
+  "original_worker_alive": true,
+  "original_progress": {
+    "stage": "resource_wait",
+    "message": "SD_E0_Z0_1_base available GiB 3.44 external Mplus 0",
+    "updated_at": "2026-10-09 07:44:13.128504",
+    "pid": 24800
+  },
+  "hold_active": true,
+  "ready_to_cancel_original_worker": true
+}

@@ -1,0 +1,67 @@
+{
+  "diagnostic_files_verified": true,
+  "finite_timing_total": 78779.90326118469,
+  "latent_fraction_of_terminal_engine_time": 0.9926653108458048,
+  "source_preservation": [
+    {
+      "path": "RUN_CONTRACT.json",
+      "unchanged": true
+    },
+    {
+      "path": "code/00_upstream_math.R",
+      "unchanged": true
+    },
+    {
+      "path": "code/01_tools.R",
+      "unchanged": true
+    },
+    {
+      "path": "code/03_engine.R",
+      "unchanged": true
+    },
+    {
+      "path": "code/06_queue.R",
+      "unchanged": true
+    },
+    {
+      "path": "code/07_pool.R",
+      "unchanged": true
+    },
+    {
+      "path": "code/09_independent_verify.py",
+      "unchanged": true
+    },
+    {
+      "path": "code/14_manuscript_support.py",
+      "unchanged": true
+    },
+    {
+      "path": "code/15_build_manuscripts.py",
+      "unchanged": true
+    },
+    {
+      "path": "code/17_export_manuscript_pdf.py",
+      "unchanged": true
+    },
+    {
+      "path": "code/18_validate_manuscripts.py",
+      "unchanged": true
+    },
+    {
+      "path": "code/19_build_reports.py",
+      "unchanged": true
+    },
+    {
+      "path": "code/31_postqueue.R",
+      "unchanged": true
+    }
+  ],
+  "prepared_timing_probes": 6,
+  "submitted_timing_probes": 0,
+  "limitations": [
+    "Active optimizer logs are a time-specific snapshot, not a terminal estimate",
+    "Between-call timing is not pure R overhead",
+    "No measured parallel speedup or production adoption"
+  ],
+  "private_full_sources_excluded_from_public_tree": true
+}

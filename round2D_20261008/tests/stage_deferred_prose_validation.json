@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "case": "actual-stage-all-latent-unpoolable-observed-H4-deferred",
+  "summary": "潜在初始差异调节未取得可合并估计。观测基期差异调节按阶段计划延期，尚未执行。三项SD资源差异尚未执行，H4.2b未完成正式统计检验。",
+  "checks": 5,
+  "new_Mplus_calls": 0,
+  "time": "2026-10-09T13:00:32.526973+00:00"
+}

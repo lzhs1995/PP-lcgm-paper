@@ -1,0 +1,26 @@
+{
+  "id": "SEXGAP_D1_Z0_1_base",
+  "z": "SEXGAP",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 2339,
+  "households": 1730,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/SEXGAP/D1_Z0_MI01/base",
+  "input_sha256": "708ec5cc661435cf558779227328f5cfbee2c50d014db8761fae04ec56beee35",
+  "data_sha256": "3b61b0b5f3b5e6c5b103382f90a6f759fbcd13c339ab2670dee6ba10e109ee20",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/SEXGAP/Z0_member_01.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "warm_start_output_sha256": {},
+  "producer_code_sha256": ["112a457a9f6e1fe3ca565bdac200bb8d6d2336acaa06ddb5ac1d4fed3f187e47", "651f05c83f2510f289be66791bf1f910b3a02750469ec3a20f70e525b8777619", "936938ce2e264de2a69c440042ce32724afa7119aac5db716db1328fe03fae1e"]
+}

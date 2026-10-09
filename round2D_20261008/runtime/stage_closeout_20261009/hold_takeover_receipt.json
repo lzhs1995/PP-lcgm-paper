@@ -1,0 +1,24 @@
+{
+  "status": "HOLD_TRANSFERRED",
+  "time": "2026-10-09T12:15:23.207144+00:00",
+  "prior_owner": {
+    "purpose": "six_registered_short_performance_probes",
+    "pid": 34244,
+    "created": 1791546233.7613182,
+    "upstream_job_id": "cc074578",
+    "source_attempt": "models/SONGAP/D1_Z0_MI01/repair_start",
+    "script_sha256": "9b3e72350de9a080e1d185cc1b1a96a36fbcfc7d1815182c53f018bc0ad277c6",
+    "time": "2026-10-09 04:43:59.381044"
+  },
+  "current_owner": {
+    "purpose": "round2D_stage_release_no_further_models",
+    "owner": "stage_closeout_20261009",
+    "upstream_job_id": "cc074578",
+    "adopted_at": "2026-10-09T12:15:22.997755+00:00",
+    "contract_sha256": "966e57b08a98c4dbb977cb83d5ece17358f6dab35ca95dc772a877fe4af7e8e3",
+    "persistent_until_queue_exit": true
+  },
+  "current_mplus_untouched": true,
+  "new_Mplus_calls": 0,
+  "old_bound_sources_unchanged": true
+}

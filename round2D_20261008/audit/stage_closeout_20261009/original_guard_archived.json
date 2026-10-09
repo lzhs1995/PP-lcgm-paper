@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "0d68bd78-af8e-4332-8b01-872797e3a65d",
+  "parent_evidence_ids": [],
+  "task_key": "pp_lgcm_round2D_20261008",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-09T14:47:36.110519Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": null,
+  "pid": null,
+  "job_id": "cc074578",
+  "io_mode": null,
+  "decision": "PASS",
+  "reasons": [
+    "cancel/archive recorded"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "archived_path": "C:\\Users\\LZHS\\.clauder_workbench\\inflight\\archive\\20261009T144736Z_pp_lgcm_round2D_20261008.json",
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261009T144736Z_async_guard_0d68bd78-af8e-4332-8b01-872797e3a65d.json"
+  }
+}

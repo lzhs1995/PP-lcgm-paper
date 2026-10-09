@@ -1,0 +1,7 @@
+{
+  "reason": "USER_APPROVED_STAGE_BUDGET_STOP",
+  "message": "按用户批准的阶段计算预算，在最后一个在途尝试终态后停止追加；原完整队列未全部执行。",
+  "time": "2026-10-09T14:44:59.595353+00:00",
+  "original_budget_exhausted": false,
+  "user_approved_scope_reduction": true
+}

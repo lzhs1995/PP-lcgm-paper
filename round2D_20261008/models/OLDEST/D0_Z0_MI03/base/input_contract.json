@@ -1,0 +1,26 @@
+{
+  "id": "OLDEST_D0_Z0_3_base",
+  "z": "OLDEST",
+  "spec": "D0",
+  "member": 3,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 3159,
+  "households": 2320,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/OLDEST/D0_Z0_MI03/base",
+  "input_sha256": "ca442903d683ce585caba788da36d144930d4d7debb8732f89d4a69be1291a9f",
+  "data_sha256": "7b0f40b23fbc30bfc8790e6d51bf7b801c5982751ecb2f8fd5bca78604f3a832",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/OLDEST/Z0_member_03.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "warm_start_output_sha256": {},
+  "producer_code_sha256": ["112a457a9f6e1fe3ca565bdac200bb8d6d2336acaa06ddb5ac1d4fed3f187e47", "651f05c83f2510f289be66791bf1f910b3a02750469ec3a20f70e525b8777619", "936938ce2e264de2a69c440042ce32724afa7119aac5db716db1328fe03fae1e"]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "time": "2026-10-09T14:13:16.187955+00:00",
+  "jobs": {
+    "calibration": {
+      "job": "da892b02",
+      "alive": false
+    },
+    "postqueue": {
+      "job": "36cd3ab7",
+      "alive": false
+    }
+  },
+  "calibration_status": "DEFERRED_BEFORE_FIRST_PROBE",
+  "new_Mplus_calls": 0,
+  "original_current_attempt_preserved": true,
+  "admission_hold_active": true
+}

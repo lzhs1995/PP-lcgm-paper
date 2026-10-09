@@ -1,0 +1,8 @@
+"check","passed"
+"real_cached_optional_fields_are_empty",TRUE
+"cached_empty_objects_restore_NULL",TRUE
+"restored_scientific_specification_unchanged",TRUE
+"explicit_options_preserved",TRUE
+"JSON_null_also_supported",TRUE
+"prepare_reuses_existing_contract_without_model_submission",TRUE
+"inputs_and_register_unchanged",TRUE

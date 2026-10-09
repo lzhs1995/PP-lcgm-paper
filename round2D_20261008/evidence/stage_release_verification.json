@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-09T15:59:00.087717+00:00",
+  "actual_calls": 24,
+  "real_calls": 20,
+  "target_positions": 190,
+  "complete_interaction_MI_families": 0,
+  "observed_and_H4_calls": 0,
+  "performance_probe_calls": 0,
+  "D0_variance_rows_checked": 78,
+  "original_estimation_sources_unchanged": true,
+  "all_attempted_outputs_bound": true,
+  "scientific_project_complete": false,
+  "scope": "Public saved artifacts and arithmetic; no microdata refit or live-process check on the reviewing host",
+  "verifier_sha256": "8143ebc0d0129d7642f2b119fed6375be46be425425f852b6f9e0aef498199a2"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "SUMMARIZED",
+  "families": 19,
+  "eligible": 0,
+  "pooled_parameter_rows": 0,
+  "all_failed_members_preserved": true,
+  "queue_terminal_reason": "USER_APPROVED_STAGE_BUDGET_STOP",
+  "limitations": ["conditional on model and current MI assumptions", "MI01 numerical validation only", "unestimated contrasts are not null effects", "no model-selection uncertainty"]
+}

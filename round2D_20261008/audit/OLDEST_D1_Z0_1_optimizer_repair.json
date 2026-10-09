@@ -1,0 +1,13 @@
+{
+  "z": "OLDEST",
+  "spec": "D1",
+  "member": 1,
+  "source_attempt": "base",
+  "source_output_sha256": "fa2a86d009ab5309c13e76621577b06a4432c82d5595e30f2115fbb141691ddf",
+  "console_sha256": "8f045a971ed35c28198af0cdf7c1457de014b0b1cc5d71855eaa07bd64af0bce",
+  "old_optimizer": "automatic EM with acceleration",
+  "new_optimizer": "INTEGRATION EM",
+  "scientific_model_changed": false,
+  "integration_rule_changed": false,
+  "reason": "Mplus speed recommendation and terminal time/nonconvergence failure"
+}

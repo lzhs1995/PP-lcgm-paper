@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "PSI": {
+      "min_eigen": -1,
+      "rank": 5,
+      "expected_rank": 6,
+      "psd": false,
+      "rank_ok": false,
+      "positive_definite": false
+    },
+    "THETA": {
+      "min_eigen": 0.865150365967495,
+      "rank": 15,
+      "expected_rank": 15,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "NONLINEAR_COV_C0": {
+      "min_eigen": -3.24034476746173,
+      "rank": 5,
+      "expected_rank": 6,
+      "psd": false,
+      "rank_ok": false,
+      "positive_definite": false
+    },
+    "NONLINEAR_SIGMA_C0": {
+      "min_eigen": 0.542200887563229,
+      "rank": 15,
+      "expected_rank": 15,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    }
+  },
+  "passed": false,
+  "note": "Exact Gaussian product moments conditional on controls=0; validity of primitive residual blocks is also checked. No independent product variance. Not a population-marginal covariance.",
+  "promoted_measurement_variables": []
+}

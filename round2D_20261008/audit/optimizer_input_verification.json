@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-09T01:31:17.086290+00:00",
+  "repairs": [
+    {
+      "id": "OLDEST_D1_Z0_1_repair_em",
+      "source_id": "OLDEST_D1_Z0_1_base",
+      "source_input_sha256": "038dc977ec235c29e1639f37dd3ff7350c519c551d9dc9140601b301a1fa14cb",
+      "repaired_input_sha256": "cf963be2310048bee798c49e6990d6084ded438530e424490e697eeb26d47209",
+      "data_sha256": "05601bc6f5f95ebb48ad34aa81175b9ecbef2c59fbf1d491897b20594827959f",
+      "settings_unchanged_except_optimizer": true,
+      "model_and_all_other_input_unchanged": true,
+      "source_status": "TIMEOUT"
+    }
+  ],
+  "new_Mplus_calls": 0,
+  "scope": "Input identity only; does not establish convergence or model admissibility"
+}

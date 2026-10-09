@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "actual_preview_archive_integrity",
+      "passed": true,
+      "payload_files": 406
+    },
+    {
+      "check": "reject_unsafe_archive_path",
+      "path": "../data.dat",
+      "passed": true
+    },
+    {
+      "check": "reject_unsafe_archive_path",
+      "path": "/data.dat",
+      "passed": true
+    },
+    {
+      "check": "reject_unsafe_archive_path",
+      "path": "C:/data.dat",
+      "passed": true
+    },
+    {
+      "check": "reject_unsafe_archive_path",
+      "path": "x/../../data.dat",
+      "passed": true
+    },
+    {
+      "check": "reject_unsafe_archive_path",
+      "path": "x\\data.dat",
+      "passed": true
+    },
+    {
+      "check": "preview_cannot_publish",
+      "passed": true,
+      "reason": "Only final packages can be published"
+    }
+  ],
+  "remote_mutations": 0,
+  "local_git_mutations": 0,
+  "final_publication_verified": false
+}

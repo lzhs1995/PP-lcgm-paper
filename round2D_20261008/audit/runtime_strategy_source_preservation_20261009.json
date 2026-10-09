@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "RUN_CONTRACT.json",
+      "matches": true
+    },
+    {
+      "path": "code/00_upstream_math.R",
+      "matches": true
+    },
+    {
+      "path": "code/01_tools.R",
+      "matches": true
+    },
+    {
+      "path": "code/03_engine.R",
+      "matches": true
+    },
+    {
+      "path": "code/06_queue.R",
+      "matches": true
+    },
+    {
+      "path": "code/07_pool.R",
+      "matches": true
+    },
+    {
+      "path": "code/09_independent_verify.py",
+      "matches": true
+    },
+    {
+      "path": "code/14_manuscript_support.py",
+      "matches": true
+    },
+    {
+      "path": "code/15_build_manuscripts.py",
+      "matches": true
+    },
+    {
+      "path": "code/17_export_manuscript_pdf.py",
+      "matches": true
+    },
+    {
+      "path": "code/18_validate_manuscripts.py",
+      "matches": true
+    },
+    {
+      "path": "code/19_build_reports.py",
+      "matches": true
+    },
+    {
+      "path": "code/31_postqueue.R",
+      "matches": true
+    }
+  ],
+  "checked_at": "2026-10-09T09:04:25.889367+00:00",
+  "no_model_code_change": true
+}

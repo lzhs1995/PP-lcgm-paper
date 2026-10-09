@@ -1,0 +1,31 @@
+{
+  "id": "SONGAP_D1_Z0_1_base",
+  "z": "SONGAP",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 2894,
+  "households": 2134,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 11866.0978631973,
+  "exitcode": 0,
+  "output_sha256": "f1a975d95d8275b965a68aacf04f5b3c8e9d23e4aa5faf69b128448e0464bd1a",
+  "integration_dimensions": 2,
+  "normal": true,
+  "LL": -37640.601,
+  "parameters": 199,
+  "negative": "psi:SY",
+  "geometry_ok": false,
+  "vcov_ok": false,
+  "warnings": ["WARNING: THE MODEL ESTIMATION HAS REACHED A SADDLE POINT OR A POINT WHERE THE", "THE PROBLEM MAY ALSO BE RESOLVED BY DECREASING THE VALUE OF THE", "WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE"],
+  "printed_match": true,
+  "status": "INADMISSIBLE"
+}

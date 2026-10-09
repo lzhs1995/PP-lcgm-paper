@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "tests": 12,
+  "Mplus_calls": 0,
+  "note": "Synthetic rule tests only; actual pooled paths and contrasts await terminal analysis"
+}

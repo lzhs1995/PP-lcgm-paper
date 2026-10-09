@@ -1,0 +1,72 @@
+{
+  "z": "SONGAP",
+  "spec": "D1",
+  "eligible": false,
+  "members": [
+    {
+      "member": 1,
+      "status": "TIMEOUT",
+      "attempt": "repair_start",
+      "usable": false,
+      "output_sha256": "2630ddcc14226d25367434c8fc2fcfa56ea9019155ba2e131378fbde0de4799c"
+    },
+    {
+      "member": 2,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 3,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 4,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 5,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 6,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 7,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 8,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 9,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 10,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    }
+  ],
+  "numeric": {},
+  "reason": "Pilot model inadmissible; no slope or factor-significance gate applied",
+  "updated_at": "2026-10-09 07:43:07.679938",
+  "inference": "Fixed model/current MI assumptions; MI01 numerical checks only; no failed-member deletion"
+}

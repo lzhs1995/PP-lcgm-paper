@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source_distinct_ids": 75,
+  "mapped_distinct_ids": 75,
+  "unmapped": [],
+  "unknown": [],
+  "response_sha256": "2c9213ff8dfa90686433b6233e72c7ef657a721e4a9820a3e13625cd197e3d24",
+  "scope": "Editorial disposition coverage only, not scientific acceptance of all comments"
+}

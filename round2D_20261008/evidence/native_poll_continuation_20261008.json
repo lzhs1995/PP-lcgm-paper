@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Job 8d074cab is still running (8167s elapsed). Latest progress: stage=estimating; percent={}; message=SD_D1_Z0_1_base elapsed_s 8080 out_bytes 1431; updated_at=2026-10-08 04:36:37 PDT. Call get_async_result(\"8d074cab\") again to check."
+    }
+  ],
+  "isError": false
+}

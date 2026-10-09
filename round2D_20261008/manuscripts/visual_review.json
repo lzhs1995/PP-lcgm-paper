@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "preview": false,
+  "created_at": "2026-10-09T15:58:59.155599+00:00",
+  "scope": "Visual layout and stage-status presentation of the final 29 pages; not a new statistical fit, literature review, or NotebookLM gate",
+  "documents": [
+    {
+      "pdf": "PP_LGCM_review_v49_round2D.pdf",
+      "pdf_sha256": "02fd4bd3766d471c3998136d257b431390b271e0f37bbcc30f92d6a2029675ea",
+      "document": "PP_LGCM_review_v49_round2D.docx",
+      "docx_sha256": "c6d6fa6eea0aeccb83b4cae5eda6c3e389fb5860966b6a3ca8681909072f782f",
+      "pages": 18,
+      "pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "method": "All final pages viewed in contact sheets; selected status page additionally inspected at full page size",
+      "detailed_pages": [
+        13
+      ],
+      "observations": "No visible clipping, overlap or omitted table rows; table headers repeat at page breaks. Observed alternatives and H4 correctly read as unexecuted; failed latent families have no adopted coefficients.",
+      "status": "PASS"
+    },
+    {
+      "pdf": "PP_LGCM_appendix_review_v41_round2D.pdf",
+      "pdf_sha256": "0d6ce594ff07d6f56a9dbf1e146f401e0e5828deb6b098bfab0e898430c223f5",
+      "document": "PP_LGCM_appendix_review_v41_round2D.docx",
+      "docx_sha256": "f1e5765656dfe0e41c9cba3c215b73b7d439a571348b5313a745181dacca089a",
+      "pages": 11,
+      "pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "method": "All final pages viewed in contact sheets; selected status page additionally inspected at full page size",
+      "detailed_pages": [
+        7
+      ],
+      "observations": "No visible clipping, overlap or omitted table rows; table headers repeat at page breaks. Observed alternatives and H4 correctly read as unexecuted; failed latent families have no adopted coefficients.",
+      "status": "PASS"
+    }
+  ],
+  "supersedes": "The earlier candidate with synthetic-status misclassification was archived before rebuilding."
+}

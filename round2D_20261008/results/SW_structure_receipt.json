@@ -1,0 +1,8 @@
+{
+  "status": "DERIVED_FROM_EXISTING_OUTPUTS",
+  "new_mplus_calls": 0,
+  "members": 10,
+  "rows": 17,
+  "limits": ["Conditional on adopted SW and current MI; not model-selection uncertainty", "Residual correlations use a delta approximation; not Fisher-z pooled", "Variance Wald P values are descriptive; not boundary-aware hypothesis tests"],
+  "source_commit": "63c5eb3bfb7525d4e6dbf4876f0d0a9998c47ef0"
+}

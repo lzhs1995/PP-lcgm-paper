@@ -1,0 +1,9 @@
+{
+  "stage": "preview_native_export",
+  "document_opened": false,
+  "error": "AttributeError: Word.Application.Hwnd",
+  "recovery": "Use the opened document ActiveWindow.Hwnd when available; process identity metadata is optional and does not change COM instance ownership checks.",
+  "original_instance_closed_by_finally": true,
+  "user_document_modified": false,
+  "scope": "Document export interface; unrelated to Mplus statistical estimation"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "BOUND_TO_CURRENT_MISSINGNESS",
+  "source_sha256": "40024e92d7955a72dbdd7dbff4b0a0df6714672a1fca4725a0d88873285d0e73",
+  "row_matching": "PID and wave, unique exact matches",
+  "alignment": {
+    "16": {
+      "X_missing_equal": true,
+      "Y_missing_equal": true
+    },
+    "18": {
+      "X_missing_equal": true,
+      "Y_missing_equal": true
+    },
+    "20": {
+      "X_missing_equal": true,
+      "Y_missing_equal": true
+    },
+    "22": {
+      "X_missing_equal": true,
+      "Y_missing_equal": true
+    }
+  },
+  "limitations": ["same-year death order remains uncertain", "rank unavailable does not by itself prove structural undefinedness", "leaving post-death values missing does not solve survival-truncation estimand"]
+}

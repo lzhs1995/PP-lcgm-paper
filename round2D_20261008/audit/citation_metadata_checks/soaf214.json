@@ -1,0 +1,738 @@
+{
+  "doi": "10.1093/sf/soaf214",
+  "retrieved_at": "2026-10-08T10:44:15.423765+00:00",
+  "url": "https://api.crossref.org/works/10.1093%2Fsf%2Fsoaf214",
+  "scope": "Publisher-deposited metadata only; no full-text verification",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2026-07-08T19:06:25Z",
+      "timestamp": 1783537585684,
+      "version": "3.55.0"
+    },
+    "reference-count": 45,
+    "publisher": "Oxford University Press (OUP)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              22
+            ]
+          ],
+          "date-time": "2025-12-22T00:00:00Z",
+          "timestamp": 1766361600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://academic.oup.com/pages/standard-publication-reuse-rights"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012456",
+        "name": "National Social Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "22CRK010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "22CRK010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012456",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>As population aging emerges as a global concern, health declines among older parents have become prevalent. However, we know little about how intergenerational relationships adapt to declines in older parents’ physical, mental, and cognitive health, considering their multi-dimensional and ambivalent natures and the multi-child family context. Drawing on four waves (2014, 2016, 2018, and 2020) of data from a nationally representative survey, the China Longitudinal Aging Social Survey, we found that parent–child relationships became closer after declines in older parents’ physical and cognitive health, while the variation in parent–child relationships across children increased. The greater intimacy was driven by increased functional exchanges and associational connections rather than improved emotional affinity. Compared to families without daughters, the pattern was more pronounced in families with daughters. Moreover, intergenerational relationships were unresponsive to declines in mental health. These findings suggest that Chinese families employ strategic family resilience in response to changing family demands.</jats:p>",
+    "DOI": "10.1093/sf/soaf214",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2025-12-05T13:44:07Z",
+      "timestamp": 1764942247000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Strategic family resilience: health declines and intergenerational relationships in multi-child Chinese families"
+    ],
+    "prefix": "10.1093",
+    "author": [
+      {
+        "given": "Yang",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Sociology, Peking University , Beijing ,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiaowei",
+        "family": "Gong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Global Health and Population, Harvard University , Massachusetts ,",
+            "place": [
+              "United States"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianrong",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Sociology, The Chinese University of Hong Kong , Hong Kong SAR ,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ting",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Sociology, Tsinghua University , Beijing ,",
+            "place": [
+              "China"
+            ]
+          },
+          {
+            "name": "Center for Population and Development Studies, Renmin University of China , Beijing ,",
+            "place": [
+              "China"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2025122210451482100_ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1111/j.1460-2466.1982.tb02503.x",
+        "article-title": "Family Systems Theory: Background and Implications",
+        "volume": "32",
+        "author": "Bavelas",
+        "year": "1982",
+        "journal-title": "Journal of Communication"
+      },
+      {
+        "key": "2025122210451482100_ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "856",
+        "DOI": "10.2307/352993",
+        "article-title": "Intergenerational Solidarity in Aging Families: An Example of Formal Theory Construction",
+        "volume": "53",
+        "author": "Bengtson",
+        "year": "1991",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref3",
+        "first-page": "367",
+        "volume-title": "American Handbook of Psychiatry",
+        "author": "Bowen",
+        "year": "1975",
+        "edition": "2nd"
+      },
+      {
+        "key": "2025122210451482100_ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "39",
+        "DOI": "10.1146/annurev-soc-073117-041429",
+        "article-title": "Interpreting and Understanding Logits, Probits, and Other Nonlinear Probability Models",
+        "volume": "44",
+        "author": "Breen",
+        "year": "2018",
+        "journal-title": "Annual Review of Sociology"
+      },
+      {
+        "key": "2025122210451482100_ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "711",
+        "DOI": "10.1080/13607863.2020.1711867",
+        "article-title": "Within-Family Patterns of Intergenerational Emotional Closeness and Psychological Well-Being of Older Parents in China",
+        "volume": "25",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "Aging & Mental Health"
+      },
+      {
+        "key": "2025122210451482100_ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "995",
+        "DOI": "10.1093/geronb/gbu076",
+        "article-title": "Older Adults’ Residential Proximity to their Children: Changes After Cardiovascular Events",
+        "volume": "70",
+        "author": "Choi",
+        "year": "2015",
+        "journal-title": "Journals of Gerontology: Series B"
+      },
+      {
+        "key": "2025122210451482100_ref7",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1017/S0144686X11000420",
+        "article-title": "Caring for Grandchildren and Intergenerational Support in Rural China: A Gendered Extended Family Perspective",
+        "volume": "32",
+        "author": "Cong",
+        "year": "2012",
+        "journal-title": "Ageing & Society"
+      },
+      {
+        "key": "2025122210451482100_ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1111/jomf.12150",
+        "article-title": "Exploring Ambivalence in Family Ties: Progress and Prospects",
+        "volume": "77",
+        "author": "Connidis",
+        "year": "2015",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "594",
+        "DOI": "10.1111/j.1741-3737.2002.00594.x",
+        "article-title": "Ambivalence, Family Ties, and Doing Sociology",
+        "volume": "64",
+        "author": "Connidis",
+        "year": "2002",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.2307/2786971",
+        "article-title": "Time, Human Agency, and Social Change: Perspectives on the Life Course",
+        "volume": "57",
+        "author": "Elder",
+        "year": "1994",
+        "journal-title": "Social Psychology Quarterly"
+      },
+      {
+        "key": "2025122210451482100_ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1007/978-0-306-48247-2_1",
+        "volume-title": "Handbook of the Life Course",
+        "author": "Elder",
+        "year": "2003"
+      },
+      {
+        "key": "2025122210451482100_ref12",
+        "first-page": "7",
+        "article-title": "Old-Age Care during the Family Structure Change: Revisiting the Family Structure Change",
+        "volume": "1",
+        "author": "Fei",
+        "year": "1983",
+        "journal-title": "Journal of Peking University (Humanities & Social Sciences) (in Chinese)"
+      },
+      {
+        "key": "2025122210451482100_ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1016/0022-3956(75)90026-6",
+        "article-title": "‘Mini-Mental State: A Practical Method for Grading the Cognitive State of Patients for the Clinician",
+        "volume": "12",
+        "author": "Folstein",
+        "year": "1975",
+        "journal-title": "Journal of Psychiatric Research"
+      },
+      {
+        "key": "2025122210451482100_ref14",
+        "first-page": "e068208",
+        "article-title": "Global, Regional, and National Burden of Diseases and Injuries for Adults 70 Years and Older: Systematic Analysis for the Global Burden of Disease 2019 Study",
+        "volume": "376",
+        "author": "GBD 2019 Ageing Collaborators",
+        "year": "2022",
+        "journal-title": "British Medical Journal"
+      },
+      {
+        "key": "2025122210451482100_ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1114",
+        "DOI": "10.1111/j.1741-3737.2012.01014.x",
+        "article-title": "The Structure of Intergenerational Relations in Rural China: A Latent Class Analysis",
+        "volume": "74",
+        "author": "Guo",
+        "year": "2012",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "612",
+        "DOI": "10.1093/geront/25.6.612",
+        "article-title": "Sons and Daughters as Caregivers to Older Parents: Differences in Role Performance and Consequences",
+        "volume": "25",
+        "author": "Horowitz",
+        "year": "1985",
+        "journal-title": "The Gerontologist"
+      },
+      {
+        "key": "2025122210451482100_ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/B978-0-12-701630-6.50015-0",
+        "volume-title": "Chinese Culture and Mental Health",
+        "author": "Hsu",
+        "year": "1985"
+      },
+      {
+        "key": "2025122210451482100_ref18",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1111/jomf.12391",
+        "article-title": "Providing More but Receiving Less: Daughters in Intergenerational Exchange in Mainland China",
+        "volume": "79",
+        "author": "Hu",
+        "year": "2017",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "103094",
+        "DOI": "10.1016/j.ssresearch.2024.103094",
+        "article-title": "Adult Intergenerational Proximity and Parents’ Depressive Symptoms: A Bidirectional Approach",
+        "volume": "125",
+        "author": "Jessee",
+        "year": "2025",
+        "journal-title": "Social Science Research"
+      },
+      {
+        "key": "2025122210451482100_ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "924",
+        "DOI": "10.2307/353635",
+        "article-title": "Effects of Life Course Transitions on the Quality of Relationships between Adult Children and Their Parents",
+        "volume": "60",
+        "author": "Kaufman",
+        "year": "1998",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref22",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.1080/09540260701278903",
+        "article-title": "Stigma towards People with Mental Illness in Developing Countries in Asia",
+        "volume": "19",
+        "author": "Lauber",
+        "year": "2007",
+        "journal-title": "International Review of Psychiatry"
+      },
+      {
+        "key": "2025122210451482100_ref23",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1192/bjp.186.2.153",
+        "article-title": "Experience of Social Stigma by People with Schizophrenia in Hong Kong",
+        "volume": "186",
+        "author": "Lee",
+        "year": "2005",
+        "journal-title": "British Journal of Psychiatry"
+      },
+      {
+        "key": "2025122210451482100_ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1010",
+        "DOI": "10.1086/230370",
+        "article-title": "Sons, Daughters, and Intergenerational Support in Taiwan",
+        "volume": "99",
+        "author": "Lee",
+        "year": "1994",
+        "journal-title": "American Journal of Sociology"
+      },
+      {
+        "key": "2025122210451482100_ref25",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.2753/CSA2162-0555450302",
+        "article-title": "Sons, Daughters, and Intergenerational Support in China",
+        "volume": "45",
+        "author": "Lei",
+        "year": "2013",
+        "journal-title": "Chinese Sociological Review"
+      },
+      {
+        "key": "2025122210451482100_ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "925",
+        "DOI": "10.1093/geronb/gbad004",
+        "article-title": "Intergenerational Relationships Across Multiple Children and Older Parents’ Depressive Symptoms in China—A Resource Contingency Perspective",
+        "volume": "78",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "The Journals of Gerontology: Series B"
+      },
+      {
+        "key": "2025122210451482100_ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "gnaf024",
+        "DOI": "10.1093/geront/gnaf024",
+        "article-title": "Care Recipients’ Cognitive Trajectories and Caregivers’ Depressive Symptoms: The Mediating Role of Caregiving Burden",
+        "volume": "65",
+        "author": "Lou",
+        "year": "2025",
+        "journal-title": "The Gerontologist"
+      },
+      {
+        "key": "2025122210451482100_ref28",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.2307/353858",
+        "article-title": "Intergenerational Ambivalence: A New Approach to the Study of Parent-Child Relations in Later Life",
+        "volume": "60",
+        "author": "Lüscher",
+        "year": "1998",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.1111/jomf.12939",
+        "article-title": "Geographic Relocation in Response to Parents’ Health Shocks: Who Moves and How Close?",
+        "volume": "86",
+        "author": "Reyes",
+        "year": "2024",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "970",
+        "DOI": "10.2307/353984",
+        "article-title": "Too Much of a Good Thing? Intergenerational Social Support and the Psychological Well-Being of Older Parents",
+        "volume": "58",
+        "author": "Silverstein",
+        "year": "1996",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref31",
+        "doi-asserted-by": "crossref",
+        "first-page": "40",
+        "DOI": "10.1093/geronb/gbx037",
+        "article-title": "Applying Within-Family Differences Approaches to Enhance Understanding of the Complexity of Intergenerational Relations",
+        "volume": "73",
+        "author": "Suitor",
+        "year": "2017",
+        "journal-title": "The Journals of Gerontology: Series B"
+      },
+      {
+        "key": "2025122210451482100_ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "334",
+        "DOI": "10.1111/j.1467-8721.2008.00601.x",
+        "article-title": "Within-Family Differences in Parent–Child Relations Across the Life Course",
+        "volume": "17",
+        "author": "Suitor",
+        "year": "2008",
+        "journal-title": "Current Directions in Psychological Science"
+      },
+      {
+        "key": "2025122210451482100_ref33",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1146/annurev.soc.34.040507.134615",
+        "article-title": "Intergenerational Family Relations in Adulthood: Patterns, Variations, and Implications in the Contemporary United States",
+        "volume": "35",
+        "author": "Swartz",
+        "year": "2009",
+        "journal-title": "Annual Review of Sociology"
+      },
+      {
+        "key": "2025122210451482100_ref34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1133",
+        "DOI": "10.1093/geronb/gbx009",
+        "article-title": "Do Older Parents’ Relationships with Their Adult Children Affect Cognitive Limitations, and Does This Differ for Mothers and Fathers?",
+        "volume": "73",
+        "author": "Thomas",
+        "year": "2018",
+        "journal-title": "The Journals of Gerontology: Series B"
+      },
+      {
+        "key": "2025122210451482100_ref35",
+        "doi-asserted-by": "crossref",
+        "first-page": "113910",
+        "DOI": "10.1016/j.socscimed.2021.113910",
+        "article-title": "Adult Child Socio-Economic Status Disadvantage and Cognitive Decline among Older Parents in Mexico",
+        "volume": "279",
+        "author": "Torres",
+        "year": "2021",
+        "journal-title": "Social Science & Medicine"
+      },
+      {
+        "key": "2025122210451482100_ref36",
+        "doi-asserted-by": "crossref",
+        "first-page": "947",
+        "DOI": "10.1111/j.1741-3737.2006.00306.x",
+        "article-title": "Solidarity and Conflict between Adult Children and Parents: A Latent Class Analysis",
+        "volume": "68",
+        "author": "Gaalen",
+        "year": "2006",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref37",
+        "doi-asserted-by": "crossref",
+        "first-page": "S239",
+        "DOI": "10.1093/geronb/63.4.S239",
+        "article-title": "Multiple Parent–Adult Child Relations and Well-Being in Middle and Later Life",
+        "volume": "63",
+        "author": "Ward",
+        "year": "2008",
+        "journal-title": "The Journals of Gerontology: Series B"
+      },
+      {
+        "key": "2025122210451482100_ref38",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1111/j.1741-3737.2008.00587.x",
+        "article-title": "The More the Merrier? Multiple Parent-Adult Child Relations",
+        "volume": "71",
+        "author": "Ward",
+        "year": "2009",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref39",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1093/oxfordjournals.aje.a112455",
+        "article-title": "Assessing Depressive Symptoms in Five Psychiatric Populations: A Validation Study",
+        "volume": "106",
+        "author": "Weissman",
+        "year": "1977",
+        "journal-title": "American Journal of Epidemiology"
+      },
+      {
+        "key": "2025122210451482100_ref40",
+        "doi-asserted-by": "crossref",
+        "first-page": "102886",
+        "DOI": "10.1016/j.jhealeco.2024.102886",
+        "article-title": "Parental Health Penalty on Adult Children’s Employment: Gender Differences and Long-Term Consequences",
+        "volume": "95",
+        "author": "Wen",
+        "year": "2024",
+        "journal-title": "Journal of Health Economics"
+      },
+      {
+        "key": "2025122210451482100_ref41",
+        "doi-asserted-by": "crossref",
+        "first-page": "174",
+        "DOI": "10.1111/j.1741-3737.2008.00588.x",
+        "article-title": "Do Sons or Daughters Give More Money to Parents in Urban China?",
+        "volume": "71",
+        "author": "Xie",
+        "year": "2009",
+        "journal-title": "Journal of Marriage and Family"
+      },
+      {
+        "key": "2025122210451482100_ref42",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1016/j.socscimed.2008.03.011",
+        "article-title": "‘Face’ and the Embodiment of Stigma in China: The Cases of Schizophrenia and AIDS",
+        "volume": "67",
+        "author": "Yang",
+        "year": "2008",
+        "journal-title": "Social Science & Medicine"
+      },
+      {
+        "key": "2025122210451482100_ref43",
+        "first-page": "135",
+        "volume-title": "Handbook of parenting, Volume 1",
+        "author": "Zarit",
+        "year": "2005"
+      },
+      {
+        "key": "2025122210451482100_ref44",
+        "first-page": "1214",
+        "article-title": "Age, Period, and Cohort Effects on Activities of Daily Living, Physical Performance, and Cognitive Functioning Impairment Among the Oldest-Old in China",
+        "volume": "75",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "The Journals of Gerontology: Series A"
+      },
+      {
+        "key": "2025122210451482100_ref45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1410",
+        "DOI": "10.1111/spol.12368",
+        "article-title": "Pension System Reform in China: Who Gets What Pensions?",
+        "volume": "52",
+        "author": "Zhu",
+        "year": "2018",
+        "journal-title": "Social Policy & Administration"
+      },
+      {
+        "key": "2025122210451482100_ref46",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.2307/3004043",
+        "article-title": "Educational Attainment and Transitions in Functional Status among Older Taiwanese",
+        "volume": "35",
+        "author": "Zimmer",
+        "year": "1998",
+        "journal-title": "Demography"
+      }
+    ],
+    "container-title": [
+      "Social Forces"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/sf/advance-article-pdf/doi/10.1093/sf/soaf214/66100635/soaf214.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/sf/advance-article-pdf/doi/10.1093/sf/soaf214/66100635/soaf214.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2025-12-22T15:45:27Z",
+      "timestamp": 1766418327000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/sf/advance-article/doi/10.1093/sf/soaf214/8400397"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          22
+        ]
+      ]
+    },
+    "references-count": 45,
+    "URL": "https://doi.org/10.1093/sf/soaf214",
+    "relation": {},
+    "ISSN": [
+      "0037-7732",
+      "1534-7605"
+    ],
+    "issn-type": [
+      {
+        "value": "0037-7732",
+        "type": "print"
+      },
+      {
+        "value": "1534-7605",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          22
+        ]
+      ]
+    },
+    "article-number": "soaf214"
+  }
+}

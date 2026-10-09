@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-10-09T15:02:41.987638+00:00",
+  "scope": "Independent raw-output arithmetic audit; not independent refitting of CFPS microdata",
+  "model_count": 24,
+  "synthetic_models": 4,
+  "printed_parameter_rows": 4288,
+  "high_precision_parameters": 3490,
+  "rebuilt_matrices": 128,
+  "pooled_path_or_contrast_checks": 0,
+  "existing_SW_structure_checks": 17,
+  "multiplicity_direction_and_status_checks": 22,
+  "historical_reporting_context_checks": {
+    "historical_parent_SY_members": 10,
+    "MI_terminal_targets": 10,
+    "old_univariate_models": 2,
+    "old_univariate_printed_rows": 50,
+    "new_model_calls": 0
+  },
+  "unfinished_calls": [],
+  "family_checks": [
+    {
+      "z": "OLDEST",
+      "spec": "D0",
+      "eligible": false,
+      "member_count": 6
+    },
+    {
+      "z": "OLDEST",
+      "spec": "D1",
+      "eligible": false,
+      "member_count": 1
+    },
+    {
+      "z": "SD",
+      "spec": "D0",
+      "eligible": false,
+      "member_count": 1
+    },
+    {
+      "z": "SD",
+      "spec": "D1",
+      "eligible": false,
+      "member_count": 1
+    },
+    {
+      "z": "SEXGAP",
+      "spec": "D0",
+      "eligible": false,
+      "member_count": 1
+    },
+    {
+      "z": "SEXGAP",
+      "spec": "D1",
+      "eligible": false,
+      "member_count": 1
+    },
+    {
+      "z": "SONGAP",
+      "spec": "D0",
+      "eligible": false,
+      "member_count": 1
+    },
+    {
+      "z": "SONGAP",
+      "spec": "D1",
+      "eligible": false,
+      "member_count": 1
+    }
+  ],
+  "errors": [],
+  "script_sha256": "5cf50b5261f0622fa5f27c91fc81978421e4b9409b522122a54c7b2da3f0c486",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+}

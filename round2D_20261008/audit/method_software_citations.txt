@@ -1,0 +1,40 @@
+mice
+To cite mice in publications use:
+
+  Stef van Buuren, Karin Groothuis-Oudshoorn (2011). mice: Multivariate Imputation by Chained Equations in R. Journal of Statistical Software, 45(3), 1-67. DOI
+  10.18637/jss.v045.i03.
+
+LaTeX的用户的BibTeX条目是
+
+  @Article{,
+    title = {{mice}: Multivariate Imputation by Chained Equations in R},
+    author = {Stef {van Buuren} and Karin Groothuis-Oudshoorn},
+    journal = {Journal of Statistical Software},
+    year = {2011},
+    volume = {45},
+    number = {3},
+    pages = {1-67},
+    doi = {10.18637/jss.v045.i03},
+  }
+
+miceadds
+NOT_VISIBLE_IN_CURRENT_SESSION: 不存在叫‘miceadds’这个名称的程序包
+
+MplusAutomation
+To cite MplusAutomation in publications use:
+
+  Hallquist, M. N. & Wiley, J. F. (2018). MplusAutomation: An R Package for Facilitating Large-Scale Latent Variable Analyses in Mplus Structural Equation Modeling,
+  25, 621-638. doi: 10.1080/10705511.2017.1402334.
+
+LaTeX的用户的BibTeX条目是
+
+  @Article{,
+    title = {{MplusAutomation}: An {R} Package for Facilitating Large-Scale Latent Variable Analyses in {Mplus}},
+    author = {Michael N. Hallquist and Joshua F. Wiley},
+    journal = {Structural Equation Modeling},
+    year = {2018},
+    pages = {621--638},
+    doi = {10.1080/10705511.2017.1402334},
+    url = {https://www.tandfonline.com/doi/full/10.1080/10705511.2017.1402334},
+  }
+

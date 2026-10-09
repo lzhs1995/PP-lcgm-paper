@@ -1,0 +1,72 @@
+{
+  "z": "SD",
+  "spec": "D0",
+  "eligible": false,
+  "members": [
+    {
+      "member": 1,
+      "status": "INADMISSIBLE",
+      "attempt": "repair_start",
+      "usable": false,
+      "output_sha256": "93765c451881e32a4c8a29fa11d7a3c56d220dd28abe992785a634f94eac43e4"
+    },
+    {
+      "member": 2,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 3,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 4,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 5,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 6,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 7,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 8,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 9,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 10,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    }
+  ],
+  "numeric": {},
+  "reason": "Member 1 inadmissible after limited starting-value check; later members not estimated",
+  "updated_at": "2026-10-08 02:21:55.868532",
+  "inference": "Fixed model/current MI assumptions; MI01 numerical checks only; no failed-member deletion"
+}

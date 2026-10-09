@@ -1,0 +1,72 @@
+{
+  "z": "SEXGAP",
+  "spec": "D1",
+  "eligible": false,
+  "members": [
+    {
+      "member": 1,
+      "status": "ESTIMATION_FAILED",
+      "attempt": "repair_start",
+      "usable": false,
+      "output_sha256": "8ee69e86b8c5fcfef0646fe0e97d64e76cc3521ce77573278f203136f4110cfa"
+    },
+    {
+      "member": 2,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 3,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 4,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 5,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 6,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 7,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 8,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 9,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 10,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    }
+  ],
+  "numeric": {},
+  "reason": "Pilot model inadmissible; no slope or factor-significance gate applied",
+  "updated_at": "2026-10-08 12:25:13.757259",
+  "inference": "Fixed model/current MI assumptions; MI01 numerical checks only; no failed-member deletion"
+}

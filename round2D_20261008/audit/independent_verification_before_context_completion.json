@@ -1,0 +1,27 @@
+{
+  "status": "IN_PROGRESS",
+  "verified_at": "2026-10-08T10:35:39.542164+00:00",
+  "scope": "Independent raw-output arithmetic audit; not independent refitting of CFPS microdata",
+  "model_count": 6,
+  "synthetic_models": 4,
+  "printed_parameter_rows": 895,
+  "high_precision_parameters": 685,
+  "rebuilt_matrices": 44,
+  "pooled_path_or_contrast_checks": 0,
+  "existing_SW_structure_checks": 17,
+  "multiplicity_direction_and_status_checks": 0,
+  "unfinished_calls": [
+    "SD_D1_Z0_1_base"
+  ],
+  "family_checks": [
+    {
+      "z": "SD",
+      "spec": "D0",
+      "eligible": false,
+      "member_count": 1
+    }
+  ],
+  "errors": [],
+  "script_sha256": "845f2cfa5d54fa954c34ffa9c5d10c0f9bba50f7651f0eb92b49ed9e418114d3",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+}

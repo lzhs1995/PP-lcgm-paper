@@ -1,0 +1,205 @@
+{
+  "raw_sha256": "3d56f35d748d68413c9f64250fabdec0456fb8ac17f773e99c59cc7765c935da",
+  "records": [
+    {
+      "event": "start",
+      "time": 1791542211.4391599,
+      "owner": [
+        26032,
+        1791438168.6295075
+      ],
+      "counter_errors": {},
+      "submission": false,
+      "memory_admission_overridden": false
+    },
+    {
+      "time": 1791542216.7705534,
+      "memory": {
+        "total": 16763641856,
+        "available": 4379332608,
+        "percent": 73.9,
+        "used": 12384309248,
+        "free": 4379332608
+      },
+      "performance_bytes": {
+        "CommitTotal": 25747546112,
+        "CommitLimit": 33527283712,
+        "PhysicalAvailable": 4379340800,
+        "SystemCache": 4596809728,
+        "KernelTotal": 1668128768,
+        "KernelPaged": 761323520,
+        "KernelNonpaged": 906805248
+      },
+      "event": "sample",
+      "cpu_percent": 49.0,
+      "paging": {
+        "page_reads_per_sec": 584.7936895123215,
+        "pages_input_per_sec": 7703.349771934182,
+        "disk_transfer_seconds": 0.000326505764075067
+      },
+      "disk_free_gib": 29.54450225830078,
+      "models": [
+        {
+          "pid": 36148,
+          "created": 1791535378.6898053,
+          "owned": true,
+          "rss_mib": 47.203125,
+          "private_mib": 142.84765625,
+          "cpu_core_percent": null,
+          "io": {
+            "read_count": 441,
+            "write_count": 17610,
+            "read_bytes": 3509669,
+            "write_bytes": 2125880,
+            "other_count": 886,
+            "other_bytes": 102262
+          },
+          "priority": 32
+        }
+      ]
+    },
+    {
+      "time": 1791542222.0659993,
+      "memory": {
+        "total": 16763641856,
+        "available": 4163944448,
+        "percent": 75.2,
+        "used": 12599697408,
+        "free": 4163944448
+      },
+      "performance_bytes": {
+        "CommitTotal": 25981472768,
+        "CommitLimit": 33527283712,
+        "PhysicalAvailable": 4163944448,
+        "SystemCache": 4375322624,
+        "KernelTotal": 1666637824,
+        "KernelPaged": 760672256,
+        "KernelNonpaged": 905965568
+      },
+      "event": "sample",
+      "cpu_percent": 50.5,
+      "paging": {
+        "page_reads_per_sec": 211.81192311581162,
+        "pages_input_per_sec": 4138.801171538788,
+        "disk_transfer_seconds": 0.0005067492857142857
+      },
+      "disk_free_gib": 29.543392181396484,
+      "models": [
+        {
+          "pid": 36148,
+          "created": 1791535378.6898053,
+          "owned": true,
+          "rss_mib": 47.203125,
+          "private_mib": 142.84765625,
+          "cpu_core_percent": 66.61239384865084,
+          "io": {
+            "read_count": 441,
+            "write_count": 17615,
+            "read_bytes": 3509669,
+            "write_bytes": 2126131,
+            "other_count": 886,
+            "other_bytes": 102262
+          },
+          "priority": 32
+        }
+      ]
+    },
+    {
+      "time": 1791542227.1612968,
+      "memory": {
+        "total": 16763641856,
+        "available": 4221366272,
+        "percent": 74.8,
+        "used": 12542275584,
+        "free": 4221366272
+      },
+      "performance_bytes": {
+        "CommitTotal": 25946963968,
+        "CommitLimit": 33527283712,
+        "PhysicalAvailable": 4221374464,
+        "SystemCache": 4410589184,
+        "KernelTotal": 1667719168,
+        "KernelPaged": 760586240,
+        "KernelNonpaged": 907132928
+      },
+      "event": "sample",
+      "cpu_percent": 51.9,
+      "paging": {
+        "page_reads_per_sec": 62.4963300441703,
+        "pages_input_per_sec": 437.4743103091921,
+        "disk_transfer_seconds": 0.0002521912917271408
+      },
+      "disk_free_gib": 29.54046630859375,
+      "models": [
+        {
+          "pid": 36148,
+          "created": 1791535378.6898053,
+          "owned": true,
+          "rss_mib": 47.203125,
+          "private_mib": 142.84765625,
+          "cpu_core_percent": 67.58142360235188,
+          "io": {
+            "read_count": 441,
+            "write_count": 17617,
+            "read_bytes": 3509669,
+            "write_bytes": 2126264,
+            "other_count": 886,
+            "other_bytes": 102262
+          },
+          "priority": 32
+        }
+      ]
+    },
+    {
+      "time": 1791542231.469107,
+      "memory": {
+        "total": 16763641856,
+        "available": 4035579904,
+        "percent": 75.9,
+        "used": 12728061952,
+        "free": 4035579904
+      },
+      "performance_bytes": {
+        "CommitTotal": 26128965632,
+        "CommitLimit": 33527283712,
+        "PhysicalAvailable": 4035579904,
+        "SystemCache": 4250632192,
+        "KernelTotal": 1669427200,
+        "KernelPaged": 762019840,
+        "KernelNonpaged": 907407360
+      },
+      "event": "sample",
+      "cpu_percent": 47.7,
+      "paging": {
+        "page_reads_per_sec": 331.917355766321,
+        "pages_input_per_sec": 19597.1882849488,
+        "disk_transfer_seconds": 0.00047248557527189466
+      },
+      "disk_free_gib": 29.539596557617188,
+      "models": [
+        {
+          "pid": 36148,
+          "created": 1791535378.6898053,
+          "owned": true,
+          "rss_mib": 47.203125,
+          "private_mib": 142.84765625,
+          "cpu_core_percent": 67.70809488302326,
+          "io": {
+            "read_count": 441,
+            "write_count": 17617,
+            "read_bytes": 3509669,
+            "write_bytes": 2126264,
+            "other_count": 886,
+            "other_bytes": 102262
+          },
+          "priority": 32
+        }
+      ]
+    },
+    {
+      "event": "end",
+      "time": 1791542231.4834309,
+      "monitor_private_mib": 21.8984375
+    }
+  ]
+}

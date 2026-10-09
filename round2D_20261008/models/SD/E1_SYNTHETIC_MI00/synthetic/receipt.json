@@ -1,0 +1,31 @@
+{
+  "id": "SD_E1_SYNTHETIC_0_synthetic",
+  "z": "SD",
+  "spec": "E1",
+  "member": 0,
+  "attempt": "synthetic",
+  "category": "SYNTHETIC",
+  "kind": "lms_observed",
+  "sample": "SYNTHETIC",
+  "N": 1200,
+  "households": 600,
+  "settings": {
+    "method": "montecarlo",
+    "points": 500,
+    "seed": 26100803
+  },
+  "usable": true,
+  "seconds": 51.7840411663055,
+  "exitcode": 0,
+  "output_sha256": "5dbc01f7de5f27ace03cd541e8d32b8714aede97e7de7d65e09bc68faf3bc77e",
+  "integration_dimensions": 1,
+  "normal": true,
+  "LL": -15026.266,
+  "parameters": 51,
+  "negative": [],
+  "geometry_ok": true,
+  "vcov_ok": true,
+  "warnings": [],
+  "printed_match": true,
+  "status": "USABLE"
+}

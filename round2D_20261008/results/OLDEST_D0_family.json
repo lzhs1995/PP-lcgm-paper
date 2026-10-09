@@ -1,0 +1,77 @@
+{
+  "z": "OLDEST",
+  "spec": "D0",
+  "eligible": false,
+  "members": [
+    {
+      "member": 1,
+      "status": "USABLE",
+      "attempt": "base",
+      "usable": true,
+      "output_sha256": "afcb26e2070bea59e3ccef2c4b22163cd8064e2a347338cdd248d0cc5ee3045e"
+    },
+    {
+      "member": 2,
+      "status": "USABLE",
+      "attempt": "base",
+      "usable": true,
+      "output_sha256": "609b94c80a661048df4d831255e3d05ea54a28f8883c60497937b602930afa8e"
+    },
+    {
+      "member": 3,
+      "status": "USABLE",
+      "attempt": "base",
+      "usable": true,
+      "output_sha256": "eeb1817f86883813a5ff6d91879f702432fc5eaf35e8e07b52b71eab16dc3626"
+    },
+    {
+      "member": 4,
+      "status": "USABLE",
+      "attempt": "base",
+      "usable": true,
+      "output_sha256": "dff0cf1d4b12ef4526ee7974e717ef9f0b561ca16288464a3f92f468d0891e7d"
+    },
+    {
+      "member": 5,
+      "status": "USABLE",
+      "attempt": "base",
+      "usable": true,
+      "output_sha256": "8f055e16361035fcff2ecc877243ccef55c7d6781774e1d7f7da398ed7c4b218"
+    },
+    {
+      "member": 6,
+      "status": "INADMISSIBLE",
+      "attempt": "repair_start",
+      "usable": false,
+      "output_sha256": "f2286cfb3239e8db66bdc8b98b38b76cd508a90f4d777a8d637e11ba218caea7"
+    },
+    {
+      "member": 7,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 8,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 9,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 10,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    }
+  ],
+  "numeric": {},
+  "reason": "Member 6 inadmissible after limited starting-value check; later members not estimated",
+  "updated_at": "2026-10-08 12:29:42.665097",
+  "inference": "Fixed model/current MI assumptions; MI01 numerical checks only; no failed-member deletion"
+}

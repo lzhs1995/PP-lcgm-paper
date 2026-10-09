@@ -1,0 +1,21 @@
+{
+  "status": "READBACK_FIXED",
+  "models": {
+    "E1": {
+      "before": "INADMISSIBLE",
+      "after": "USABLE",
+      "output_sha256": "5dbc01f7de5f27ace03cd541e8d32b8714aede97e7de7d65e09bc68faf3bc77e",
+      "new_model_calls": 0,
+      "reason": "Indicators regressed ON Z0 are promoted by Mplus into BETA/PSI; collapse unit-loading proxies to actual measurement residual covariance"
+    },
+    "H4_EDU": {
+      "before": "INADMISSIBLE",
+      "after": "USABLE",
+      "output_sha256": "8256e7d32227b948d786517fb90970928830af96e132ac82572bdd52119c6574",
+      "new_model_calls": 0,
+      "reason": "Indicators regressed ON Z0 are promoted by Mplus into BETA/PSI; collapse unit-loading proxies to actual measurement residual covariance"
+    }
+  },
+  "new_model_calls": 0,
+  "script_sha256": "a3015c48e2f67f57543f09f88b690cca3206af8b9ba0623f8c6ef569dcf639fe"
+}

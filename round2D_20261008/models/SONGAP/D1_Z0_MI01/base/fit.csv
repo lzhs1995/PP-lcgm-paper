@@ -1,0 +1,2 @@
+"Mplus.version","Title","AnalysisType","DataType","Estimator","Observations","NGroups","NDependentVars","NIndependentVars","NContinuousLatentVars","Parameters","LL","LLCorrectionFactor","AIC","BIC","aBIC","AICC","Filename"
+"9","Round2D SONGAP D1 Z0 MI01 base","COMPLEX RANDOM","INDIVIDUAL","MLR",2894,1,15,23,7,199,-37640.601,1.7519,75679.203,76867.311,76235.016,75708.7501417966,"model.out"

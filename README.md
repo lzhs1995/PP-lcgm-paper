@@ -1,3 +1,5 @@
+最新阶段资料：[PP-LGCM Round2D成果与未竟问题（2026-10-09收口）](round2D_20261008/README.md)。潜调节未形成可合并结果，观测替代与H4延期；当前成果、失败证据及网页端评议问题均已列明，历史材料保留。
+
 最新复核资料：[PP-LGCM Round2C检查点C报告与读取说明](round2C_20261007/README.md)。统计状态以该目录的REPORT和DELIVERY_SCOPE为准；历史资料继续保留。
 
 最新复核资料：[PP-LGCM Round2B报告与读取说明](round2B_20261006/README.md)。统计状态以该目录的REPORT和DELIVERY_SCOPE为准；历史资料继续保留。

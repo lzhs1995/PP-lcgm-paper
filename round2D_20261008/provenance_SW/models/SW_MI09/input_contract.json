@@ -1,0 +1,15 @@
+{
+  "id": "SW_MI09",
+  "spec": "SW",
+  "member": 9,
+  "attempt": "attempt01",
+  "tau": null,
+  "start_check": false,
+  "N": 3274,
+  "households": 2410,
+  "input": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/SW_MI09/attempt01/model.inp",
+  "data": "C:/Users/LZHS/pp_lgcm_review/round2C_20261007/models/SW_MI09/attempt01/data.dat",
+  "source_input_sha256": "23ee10cbf513812b1b42e4b71b57b3321b92a14746ce06dcc5bac64e695d7248",
+  "input_sha256": "572ac15ff0bdd3ddcbfa9f915c1797ae51c00fa528e7ad9e21027e0f56e35356",
+  "data_sha256": "e31da2ac2cee8517be6e244ea9051a981341b1e26046a97d430b31a0412337bb"
+}

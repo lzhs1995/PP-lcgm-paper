@@ -1,0 +1,105 @@
+{
+  "scope": "Round2D approved continuation only",
+  "observed_at": "2026-10-09T09:22:18.426Z",
+  "user_authorization": "同意，按计划执行。",
+  "native_poll_results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "job_id": "cc074578",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Job cc074578 is still running (60614s elapsed). Latest progress: stage=estimating; percent={}; message=SONGAP_D1_Z0_1_repair_start elapsed_s 2247 out_bytes 1478; updated_at=2026-10-09 02:20:25 PDT. Call get_async_result(\"cc074578\") again to check."
+            }
+          ],
+          "isError": false
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "job_id": "36cd3ab7",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "Job 36cd3ab7 is still running (19533s elapsed). Latest progress: stage=waiting_original_queue; percent={}; message=Original job cc074578 still running; no estimation or result writes by this waiting worker; updated_at=2026-10-09 02:20:23 PDT. Call get_async_result(\"36cd3ab7\") again to check."
+            }
+          ],
+          "isError": false
+        }
+      }
+    }
+  ],
+  "sources_unchanged": true,
+  "source_checks": [
+    {
+      "path": "RUN_CONTRACT.json",
+      "expected": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+      "actual": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+    },
+    {
+      "path": "code/00_upstream_math.R",
+      "expected": "8a55e357475128d6c6538171022ad0778bb693c44fc13c89e28d400106cf4554",
+      "actual": "8a55e357475128d6c6538171022ad0778bb693c44fc13c89e28d400106cf4554"
+    },
+    {
+      "path": "code/01_tools.R",
+      "expected": "112a457a9f6e1fe3ca565bdac200bb8d6d2336acaa06ddb5ac1d4fed3f187e47",
+      "actual": "112a457a9f6e1fe3ca565bdac200bb8d6d2336acaa06ddb5ac1d4fed3f187e47"
+    },
+    {
+      "path": "code/03_engine.R",
+      "expected": "651f05c83f2510f289be66791bf1f910b3a02750469ec3a20f70e525b8777619",
+      "actual": "651f05c83f2510f289be66791bf1f910b3a02750469ec3a20f70e525b8777619"
+    },
+    {
+      "path": "code/06_queue.R",
+      "expected": "936938ce2e264de2a69c440042ce32724afa7119aac5db716db1328fe03fae1e",
+      "actual": "936938ce2e264de2a69c440042ce32724afa7119aac5db716db1328fe03fae1e"
+    },
+    {
+      "path": "code/07_pool.R",
+      "expected": "47f1c31878d3450460f2c11e6abc01d33ff7220bf8d79b83f203f0280b735eae",
+      "actual": "47f1c31878d3450460f2c11e6abc01d33ff7220bf8d79b83f203f0280b735eae"
+    },
+    {
+      "path": "code/09_independent_verify.py",
+      "expected": "5cf50b5261f0622fa5f27c91fc81978421e4b9409b522122a54c7b2da3f0c486",
+      "actual": "5cf50b5261f0622fa5f27c91fc81978421e4b9409b522122a54c7b2da3f0c486"
+    },
+    {
+      "path": "code/14_manuscript_support.py",
+      "expected": "023bcb74e1401a129c28b280feeeb3bd83ef77171ed58aaa8b985e606a7e86e3",
+      "actual": "023bcb74e1401a129c28b280feeeb3bd83ef77171ed58aaa8b985e606a7e86e3"
+    },
+    {
+      "path": "code/15_build_manuscripts.py",
+      "expected": "425285fcb4e7831059562bf4b0d7ecc1c848ac510bf0adc832eacd226b0f310b",
+      "actual": "425285fcb4e7831059562bf4b0d7ecc1c848ac510bf0adc832eacd226b0f310b"
+    },
+    {
+      "path": "code/17_export_manuscript_pdf.py",
+      "expected": "c1f1e3833baaa1111941b0c1675eb2f0181529dbd4b85b9866a77b359e216a07",
+      "actual": "c1f1e3833baaa1111941b0c1675eb2f0181529dbd4b85b9866a77b359e216a07"
+    },
+    {
+      "path": "code/18_validate_manuscripts.py",
+      "expected": "f802edecd8eac4c78825c676f8b1baf0127e649ea5a0e84bdabfca5ad3a809de",
+      "actual": "f802edecd8eac4c78825c676f8b1baf0127e649ea5a0e84bdabfca5ad3a809de"
+    },
+    {
+      "path": "code/19_build_reports.py",
+      "expected": "f00771ed3000cb8db25f509c14bfc28053214a732c720e76c6074ea2b868fd72",
+      "actual": "f00771ed3000cb8db25f509c14bfc28053214a732c720e76c6074ea2b868fd72"
+    },
+    {
+      "path": "code/31_postqueue.R",
+      "expected": "6e1cfa6b4057bbbe7730ef4582fed93427d72d31204c611718ec24933be3f8dd",
+      "actual": "6e1cfa6b4057bbbe7730ef4582fed93427d72d31204c611718ec24933be3f8dd"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "SD_D0_SYNTHETIC_0_synthetic",
+  "z": "SD",
+  "spec": "D0",
+  "member": 0,
+  "attempt": "synthetic",
+  "category": "SYNTHETIC",
+  "kind": "linear",
+  "sample": "SYNTHETIC",
+  "N": 1200,
+  "households": 600,
+  "settings": {
+    "method": "montecarlo",
+    "points": 500,
+    "seed": 26100803
+  },
+  "ctrl": "c1-c3",
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/SD/D0_SYNTHETIC_MI00/synthetic",
+  "input_sha256": "3eaccc4d49494c338d53906db807a3d575e673095e314c293dfdb7ef96210118",
+  "data_sha256": "582e14ce035f027fca9bd4fbb8e41319c2a85c928ef618e790a6b8c49c785e13",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/tests/synthetic_data.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+}

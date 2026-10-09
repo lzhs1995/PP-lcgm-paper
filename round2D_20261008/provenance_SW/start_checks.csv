@@ -1,0 +1,4 @@
+"spec","executed","stable","reason","dLL","max_path_difference"
+"C1",TRUE,TRUE,"No detected start sensitivity",0,6.25099999999879e-05
+"SW",TRUE,TRUE,"No detected start sensitivity",0,6.27500000000003e-05
+"XLIN",FALSE,FALSE,"MI01 not admissible",NA,NA

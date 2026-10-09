@@ -1,0 +1,395 @@
+{
+  "doi": "10.1177/0962280214521348",
+  "retrieved_at": "2026-10-08T10:47:38.282889+00:00",
+  "url": "https://api.crossref.org/works/10.1177%2F0962280214521348",
+  "scope": "Publisher-deposited metadata only; no full-text verification",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T15:18:05Z",
+      "timestamp": 1791386285616,
+      "version": "4.3.3"
+    },
+    "reference-count": 25,
+    "publisher": "SAGE Publications",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2014-02-12T00:00:00Z",
+          "timestamp": 1392163200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Stat Methods Med Res"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Missing covariate data commonly occur in epidemiological and clinical research, and are often dealt with using multiple imputation. Imputation of partially observed covariates is complicated if the substantive model is non-linear (e.g. Cox proportional hazards model), or contains non-linear (e.g. squared) or interaction terms, and standard software implementations of multiple imputation may impute covariates from models that are incompatible with such substantive models. We show how imputation by fully conditional specification, a popular approach for performing multiple imputation, can be modified so that covariates are imputed from models which are compatible with the substantive model. We investigate through simulation the performance of this proposal, and compare it with existing approaches. Simulation results suggest our proposal gives consistent estimates for a range of common substantive models, including models which contain non-linear covariate effects or interactions, provided data are missing at random and the assumed imputation models are correctly specified and mutually compatible. Stata software implementing the approach is freely available.</jats:p>",
+    "DOI": "10.1177/0962280214521348",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2014-02-13T21:53:20Z",
+      "timestamp": 1392328400000
+    },
+    "page": "462-487",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 427,
+    "title": [
+      "Multiple imputation of covariates by fully conditional specification: Accommodating the substantive model"
+    ],
+    "prefix": "10.1177",
+    "volume": "24",
+    "author": [
+      {
+        "given": "Jonathan W",
+        "family": "Bartlett",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Medical Statistics, London School of Hygiene & Tropical Medicine, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaun R",
+        "family": "Seaman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MRC Biostatistics Unit, Cambridge, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ian R",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MRC Biostatistics Unit, Cambridge, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James R",
+        "family": "Carpenter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Medical Statistics, London School of Hygiene & Tropical Medicine, UK"
+          },
+          {
+            "name": "MRC Clinical Trials Unit, London, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "for the Alzheimer's Disease Neuroimaging Initiative*",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "bibr1-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0962280206075304"
+      },
+      {
+        "key": "bibr2-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.3944"
+      },
+      {
+        "key": "bibr3-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470316696"
+      },
+      {
+        "key": "bibr4-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.4067"
+      },
+      {
+        "key": "bibr5-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0962280206074463"
+      },
+      {
+        "key": "bibr6-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1177010269"
+      },
+      {
+        "key": "bibr7-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781439821862"
+      },
+      {
+        "key": "bibr8-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1082-989X.6.4.330"
+      },
+      {
+        "key": "bibr9-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9574.00218"
+      },
+      {
+        "key": "bibr10-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2288-12-46"
+      },
+      {
+        "key": "bibr11-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/brain/awq277"
+      },
+      {
+        "key": "bibr12-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/63.3.581"
+      },
+      {
+        "key": "bibr13-0962280214521348",
+        "author": "Liu J",
+        "year": "2013",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "bibr14-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1989.10478750"
+      },
+      {
+        "key": "bibr15-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9531.2009.01215.x"
+      },
+      {
+        "key": "bibr16-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.3618"
+      },
+      {
+        "key": "bibr17-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0006-341X.1999.00591.x"
+      },
+      {
+        "key": "bibr18-0962280214521348",
+        "author": "Goldstein H",
+        "year": "2013",
+        "journal-title": "J R Stat Soc A"
+      },
+      {
+        "key": "bibr19-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10629360600810434"
+      },
+      {
+        "key": "bibr20-0962280214521348",
+        "unstructured": "Hughes RA, White IR, Seaman S, et al. Joint modelling rationale for chained equations imputation (under review)."
+      },
+      {
+        "key": "bibr21-0962280214521348",
+        "volume-title": "Bayesian data analysis",
+        "author": "Gelman A",
+        "year": "2004",
+        "edition": "2"
+      },
+      {
+        "key": "bibr22-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biostatistics/kxl014"
+      },
+      {
+        "key": "bibr23-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b11826"
+      },
+      {
+        "key": "bibr24-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.3177"
+      },
+      {
+        "key": "bibr25-0962280214521348",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1992.10476282"
+      }
+    ],
+    "container-title": [
+      "Statistical Methods in Medical Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0962280214521348",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/0962280214521348",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/0962280214521348",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2026-05-01T23:46:54Z",
+      "timestamp": 1777679214000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/0962280214521348"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          12
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/0962280214521348"
+    ],
+    "URL": "https://doi.org/10.1177/0962280214521348",
+    "relation": {},
+    "ISSN": [
+      "0962-2802",
+      "1477-0334"
+    ],
+    "issn-type": [
+      {
+        "value": "0962-2802",
+        "type": "print"
+      },
+      {
+        "value": "1477-0334",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          12
+        ]
+      ]
+    }
+  }
+}

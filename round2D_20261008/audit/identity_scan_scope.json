@@ -1,0 +1,7 @@
+{
+  "scope": "Exact current-cohort PID/FID tokens; private scan list is not for publication",
+  "source_sha256": "22bb014fc4b1a7906721ea7534ca46b0f280f8af08929bf96fc2b45b4efbce99",
+  "scan_list_sha256": "4a8f48a9d3d8b5e4c326c1bef03929ee90176efd968ba365dcfee346d7172e7e",
+  "distinct_identifiers": 5684,
+  "created": "2026-10-08 04:42:29.820616"
+}

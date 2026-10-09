@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Cancelled job cc074578 after 80068s. Background process killed and tempfiles cleaned up."
+    }
+  ],
+  "isError": false
+}

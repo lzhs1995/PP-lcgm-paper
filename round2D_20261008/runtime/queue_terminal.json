@@ -1,0 +1,17 @@
+{
+  "status": "QUEUE_TERMINAL",
+  "reason": "USER_APPROVED_STAGE_BUDGET_STOP",
+  "message": "按用户批准的阶段计算预算，在最后一个在途尝试终态后停止追加；原完整队列未全部执行。",
+  "families": 8,
+  "eligible": 0,
+  "call_count": 24,
+  "created": "2026-10-09T14:44:59.587816+00:00",
+  "original_registered_queue_completed": false,
+  "all_registered_calls_terminal": true,
+  "new_calls_since_stage_plan": 0,
+  "release_type": "PARTIAL_RESEARCH_STAGE_FOR_EXTERNAL_REVIEW",
+  "model_specifications_unchanged": true,
+  "original_168_hour_budget_exhausted": false,
+  "note": "Operational stage closure; remaining scientific questions are explicitly deferred, not null effects",
+  "closeout_contract_sha256": "966e57b08a98c4dbb977cb83d5ece17358f6dab35ca95dc772a877fe4af7e8e3"
+}

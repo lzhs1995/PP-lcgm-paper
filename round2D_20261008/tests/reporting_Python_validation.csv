@@ -1,0 +1,13 @@
+﻿test,passed
+Holm_declared_family_four,True
+Holm_missing_preserved,True
+Holm_monotonicity_and_cap,True
+Holm_no_valid_tests,True
+missing_H4_not_estimable,True
+positive_larger,True
+negative_larger_magnitude,True
+positive_smaller,True
+negative_smaller_magnitude,True
+different_signs,True
+difference_interval_contains_zero,True
+one_group_not_identified,True

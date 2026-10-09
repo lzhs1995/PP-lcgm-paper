@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "guard": "refuses_stage_terminal_while_original_process_is_alive",
+  "observed_error": "('Owned process is still live', 24800)",
+  "new_Mplus_calls": 0,
+  "time": "2026-10-09T12:31:48.221745+00:00"
+}

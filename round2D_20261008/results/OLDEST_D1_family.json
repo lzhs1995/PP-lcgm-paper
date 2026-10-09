@@ -1,0 +1,72 @@
+{
+  "z": "OLDEST",
+  "spec": "D1",
+  "eligible": false,
+  "members": [
+    {
+      "member": 1,
+      "status": "INADMISSIBLE",
+      "attempt": "repair_em",
+      "usable": false,
+      "output_sha256": "db0fffda1dfdc07f0eaa1f4e9ac84aee4207c8e1ab50f5e577654e97c91b7488"
+    },
+    {
+      "member": 2,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 3,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 4,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 5,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 6,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 7,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 8,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 9,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 10,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    }
+  ],
+  "numeric": {},
+  "reason": "Pilot model inadmissible; no slope or factor-significance gate applied",
+  "updated_at": "2026-10-08 22:23:17.497815",
+  "inference": "Fixed model/current MI assumptions; MI01 numerical checks only; no failed-member deletion"
+}

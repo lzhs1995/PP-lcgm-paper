@@ -1,0 +1,22 @@
+{
+  "Number of Free Parameters": 207,
+  "H0 Loglikelihood": -42664.151,
+  "H0 Scaling Correction Factor for MLR": 1.3818071,
+  "H1 Loglikelihood": -42459.765,
+  "H1 Scaling Correction Factor for MLR": 1.2246902,
+  "Akaike (AIC)": 85742.303,
+  "Bayesian (BIC)": 87003.713,
+  "Sample-Size Adjusted BIC": 86345.982,
+  "Chi-square : Value": 367.6807,
+  "Chi-square : Degrees of Freedom": 288,
+  "Chi-square : P-Value": 0.0010260569,
+  "Chi-square : Scaling Correction Factor for MLR/MLM/WLSM": 1.1117624,
+  "CFI": 0.9865434,
+  "TLI": 0.9782732,
+  "RMSEA : Estimate": 0.0091926555,
+  "RMSEA : Low CI": 0.0060502187,
+  "RMSEA : High CI": 0.011875889,
+  "RMSEA : Probability": 1,
+  "SRMR": 0.023504015,
+  "Condition Number": 2.8136143e-07
+}

@@ -1,0 +1,72 @@
+{
+  "z": "SEXGAP",
+  "spec": "D0",
+  "eligible": false,
+  "members": [
+    {
+      "member": 1,
+      "status": "INADMISSIBLE",
+      "attempt": "repair_start",
+      "usable": false,
+      "output_sha256": "a448399331c04b5aeb200758a6ea8371133f57677cd3235d87fd0d8e2246f8a1"
+    },
+    {
+      "member": 2,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 3,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 4,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 5,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 6,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 7,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 8,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 9,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    },
+    {
+      "member": 10,
+      "status": "NOT_RUN",
+      "attempt": null,
+      "usable": false
+    }
+  ],
+  "numeric": {},
+  "reason": "Member 1 inadmissible after limited starting-value check; later members not estimated",
+  "updated_at": "2026-10-08 09:31:35.13364",
+  "inference": "Fixed model/current MI assumptions; MI01 numerical checks only; no failed-member deletion"
+}

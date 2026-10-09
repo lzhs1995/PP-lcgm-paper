@@ -1,0 +1,2 @@
+"Mplus.version","Title","AnalysisType","DataType","Estimator","Observations","NGroups","NDependentVars","NIndependentVars","NContinuousLatentVars","Parameters","LL","LLCorrectionFactor","AIC","BIC","aBIC","AICC","Filename"
+"9","Round2D SEXGAP D1 Z0 MI01 base","COMPLEX RANDOM","INDIVIDUAL","MLR",2339,1,15,22,7,193,-30077.758,1.4056,60541.516,61652.709,61039.509,60576.426955711,"model.out"

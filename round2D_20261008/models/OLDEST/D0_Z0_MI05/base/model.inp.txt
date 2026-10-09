@@ -1,0 +1,47 @@
+TITLE:
+Round2D OLDEST D0 Z0 MI05 base
+DATA:
+FILE = "data.dat";
+VARIABLE:
+NAMES = fid x1 x2 x3 x4 x5 y1 y2 y3 y4 y5 z1 z2 z3 z4 z5 z0 gedu gurb ginc c1 c2 c3 c4
+  c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24;
+ MISSING=.;
+ CLUSTER=fid; USEVARIABLES=x1-x5 y1-y5 z1-z5 c1-c24;
+ANALYSIS:
+TYPE=COMPLEX; ESTIMATOR=MLR; PROCESSORS=1; COVERAGE=.005; ITERATIONS=2000;
+MODEL:
+ix sx | x1@0 x2*0.4 x3*0.6 x4*0.8 x5@1 ;
+iy sy | y1@0 y2@0.4 y3@0.6 y4@0.8 y5@1 ;
+iz sz | z1@0 z2@0.4 z3@0.6 z4@0.8 z5@1 ;
+iy ON ix (bii);
+iy ON iz (gii);
+sy ON ix (bis);
+sy ON sx (bss);
+sy ON iy (bsyiy);
+sy ON iz (gis);
+sy ON sz (gss);
+ix sx iz sz iy sy ON c1-c24;
+ix WITH sx iz sz;
+sx WITH iz sz;
+iz WITH sz;
+sx WITH iy;
+sz WITH iy;
+x1 WITH y1;
+x2 WITH y2;
+x3 WITH y3;
+x4 WITH y4;
+x5 WITH y5;
+x1 WITH z1;
+x2 WITH z2;
+x3 WITH z3;
+x4 WITH z4;
+x5 WITH z5;
+y1 WITH z1;
+y2 WITH z2;
+y3 WITH z3;
+y4 WITH z4;
+y5 WITH z5;
+OUTPUT:
+TECH1 TECH3 TECH4 SAMPSTAT RESIDUAL CINTERVAL SVALUES;
+SAVEDATA:
+TECH3=tech3.dat; RESULTS=estimates.dat;

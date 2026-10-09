@@ -1,0 +1,38 @@
+[
+  {
+    "document": "PP_LGCM_review_v49_round2D.docx",
+    "pdf": "PP_LGCM_review_v49_round2D.pdf",
+    "pages": 18,
+    "fields": 72,
+    "footnotes": 2,
+    "tables": 7,
+    "revisions": 0,
+    "Word_version": "16.0",
+    "Word_instance_pid": 30880,
+    "docx_sha256": "c6d6fa6eea0aeccb83b4cae5eda6c3e389fb5860966b6a3ca8681909072f782f",
+    "pdf_sha256": "02fd4bd3766d471c3998136d257b431390b271e0f37bbcc30f92d6a2029675ea",
+    "exported_at": "2026-10-09T15:03:20.233434+00:00",
+    "preview": false,
+    "export": "NATIVE_WORD",
+    "Zotero_refresh": "NOT_PERFORMED",
+    "visual_review": "PENDING"
+  },
+  {
+    "document": "PP_LGCM_appendix_review_v41_round2D.docx",
+    "pdf": "PP_LGCM_appendix_review_v41_round2D.pdf",
+    "pages": 11,
+    "fields": 0,
+    "footnotes": 0,
+    "tables": 14,
+    "revisions": 0,
+    "Word_version": "16.0",
+    "Word_instance_pid": 30880,
+    "docx_sha256": "f1e5765656dfe0e41c9cba3c215b73b7d439a571348b5313a745181dacca089a",
+    "pdf_sha256": "0d6ce594ff07d6f56a9dbf1e146f401e0e5828deb6b098bfab0e898430c223f5",
+    "exported_at": "2026-10-09T15:03:39.506813+00:00",
+    "preview": false,
+    "export": "NATIVE_WORD",
+    "Zotero_refresh": "NOT_PERFORMED",
+    "visual_review": "PENDING"
+  }
+]

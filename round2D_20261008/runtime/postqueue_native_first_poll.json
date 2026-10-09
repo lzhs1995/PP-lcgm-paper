@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Job 36cd3ab7 is still running (34s elapsed). Latest progress: stage=waiting_original_queue; percent={}; message=Original job cc074578 still running; no estimation or result writes by this waiting worker; updated_at=2026-10-08 20:55:26 PDT. Call get_async_result(\"36cd3ab7\") again to check."
+    }
+  ],
+  "isError": false
+}

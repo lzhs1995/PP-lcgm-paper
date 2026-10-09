@@ -1,0 +1,9 @@
+{
+  "Number of Free Parameters": 82,
+  "H0 Loglikelihood": -22515.497,
+  "H0 Scaling Correction Factor for MLR": 0.99260322,
+  "Akaike (AIC)": 45194.994,
+  "Bayesian (BIC)": 45612.38,
+  "Sample-Size Adjusted BIC": 45351.916,
+  "Condition Number": 4.0409661e-05
+}

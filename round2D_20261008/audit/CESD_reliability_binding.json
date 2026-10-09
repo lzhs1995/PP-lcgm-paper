@@ -1,0 +1,9 @@
+{
+  "status": "PRIOR_ITEM_RELIABILITY_BOUND_TO_CURRENT_SCORES",
+  "old_candidate_sha256": "d1a688ebea7d7d89d63f49ef6edfcd17d09f14b8e243b0c725bca5e1d6b996ac",
+  "current_baseline_sha256": "e62c24879c25d28bde0634d6c1fd90daf3fa323a2b5f35df84ce1eb5948b36a5",
+  "alpha_source_sha256": "a889ea95d3b49e7f950acdff1f997fd7d211ac96cdb85b93ea6ea05613bff04b",
+  "no_new_item_reconstruction": true,
+  "no_new_models": true,
+  "note": "The historical scientific_release=false referred to unresolved analyses at that time; reuse here is limited to item scoring and reliability, never to historical model estimates."
+}

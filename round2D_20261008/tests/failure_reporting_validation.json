@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-09T12:53:16.588960+00:00",
+  "checks": [
+    {
+      "check": "exitcode_zero_does_not_mean_success",
+      "passed": true
+    },
+    {
+      "check": "independent_SD_error_iteration_preserved",
+      "passed": true
+    },
+    {
+      "check": "normal_termination_does_not_hide_negative_variance",
+      "passed": true
+    },
+    {
+      "check": "failed_start_repair_remains_failed",
+      "passed": true
+    },
+    {
+      "check": "single_member_success_does_not_imply_family_success",
+      "passed": true
+    },
+    {
+      "check": "running_model_not_interpreted",
+      "passed": true
+    },
+    {
+      "check": "timeout_is_distinct_from_estimation_failure",
+      "passed": true
+    },
+    {
+      "check": "parameter_uncertainty_and_latent_geometry_separate",
+      "passed": true
+    },
+    {
+      "check": "five_usable_members_not_pooled_after_sixth_failure",
+      "passed": true
+    },
+    {
+      "check": "four_latent_and_three_H4_targets_remain_visible",
+      "passed": true
+    }
+  ],
+  "source_receipts": [
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/receipt.json",
+      "sha256": "9b161587ff9bc7224b2d66ccdbec0587ac6b6cd5497e42b64ce6cd13028db82f"
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/receipt.json",
+      "sha256": "71f9ff5bbf289b4bcc2143098fb6f2ac89ee47d9ef5042fcd0a034885ae4ed90"
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/receipt.json",
+      "sha256": "516865a1586998224232075485dff101e3e28997d8dd43551ccc06243d4613fa"
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/receipt.json",
+      "sha256": "6423342829ccb8f90daf6117e91ac2be241d8fe9e246447aa14fd6baf02f5026"
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/receipt.json",
+      "sha256": "5572fa1f3d895849c5674c4288bc25cb7ee2f2a36b0820c56f902555e24b668b"
+    }
+  ],
+  "report_code_sha256": "3b33a85572069bfbc775fd0649c986020ad39027bb4e1a8c3f08f88ea7b0fcb2",
+  "new_Mplus_calls": 0,
+  "scope": "Terminal classification and family-count reporting only; no new model fit or MI inference"
+}

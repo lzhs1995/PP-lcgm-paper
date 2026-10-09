@@ -1,0 +1,26 @@
+{
+  "id": "SONGAP_D1_Z0_1_base",
+  "z": "SONGAP",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 2894,
+  "households": 2134,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/SONGAP/D1_Z0_MI01/base",
+  "input_sha256": "e18e58621314549d514275419a5359c0765efa83c29f9e2ded48b261bd7df61f",
+  "data_sha256": "564f2f342fe35c0d6600e7f8dfa01c8df61bb6aad3338776379a312a47ccdc59",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/SONGAP/Z0_member_01.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "warm_start_output_sha256": {},
+  "producer_code_sha256": ["112a457a9f6e1fe3ca565bdac200bb8d6d2336acaa06ddb5ac1d4fed3f187e47", "651f05c83f2510f289be66791bf1f910b3a02750469ec3a20f70e525b8777619", "936938ce2e264de2a69c440042ce32724afa7119aac5db716db1328fe03fae1e"]
+}

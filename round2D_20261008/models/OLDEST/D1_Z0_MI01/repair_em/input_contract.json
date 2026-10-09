@@ -1,0 +1,27 @@
+{
+  "id": "OLDEST_D1_Z0_1_repair_em",
+  "z": "OLDEST",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "repair_em",
+  "category": "REPAIR",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 3159,
+  "households": 2320,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801,
+    "optimizer": "EM"
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/OLDEST/D1_Z0_MI01/repair_em",
+  "input_sha256": "cf963be2310048bee798c49e6990d6084ded438530e424490e697eeb26d47209",
+  "data_sha256": "05601bc6f5f95ebb48ad34aa81175b9ecbef2c59fbf1d491897b20594827959f",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/OLDEST/Z0_member_01.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "warm_start_output_sha256": {},
+  "producer_code_sha256": ["112a457a9f6e1fe3ca565bdac200bb8d6d2336acaa06ddb5ac1d4fed3f187e47", "651f05c83f2510f289be66791bf1f910b3a02750469ec3a20f70e525b8777619", "936938ce2e264de2a69c440042ce32724afa7119aac5db716db1328fe03fae1e"]
+}

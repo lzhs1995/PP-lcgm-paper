@@ -1,0 +1,102 @@
+{
+  "latMeansEst": [
+    [0.002, -0.019, -0.032, 0.018, 0.023, -0.001, 0.409, 0.385, 0.39]
+  ],
+  "latMeansSE": [
+    [0.029, 0.031, 0.029, 0.032, 0.029, 0.029, 0.014, 0.014, 0.014]
+  ],
+  "latMeansEstSE": [
+    [0.073, -0.614, -1.09, 0.558, 0.785, -0.04, 28.362, 27.976, 27.414]
+  ],
+  "latMeansPValue": [
+    [0.942, 0.539, 0.276, 0.577, 0.432, 0.968, 0, 0, 0]
+  ],
+  "latCovEst": [
+    [0.598, null, null, null, null, null, null, null, null],
+    [0.197, 0.404, null, null, null, null, null, null, null],
+    [-0.221, 0.049, 0.766, null, null, null, null, null, null],
+    [-0.018, -0.137, 0.095, 0.556, null, null, null, null, null],
+    [0.22, 0.003, 0.064, 0.04, 0.761, null, null, null, null],
+    [-0.022, 0.078, -0.002, 0.089, -0.046, 0.374, null, null, null],
+    [0.029, -0.006, -0.027, 0.011, 0.026, -0.014, 0.242, null, null],
+    [0.002, -0.002, -0.001, -0.011, -0.003, 0.008, -0.008, 0.237, null],
+    [-0.018, -0.008, 0.014, -0.011, 0.017, -0.014, -0.005, 0.005, 0.238]
+  ],
+  "latCovSE": [
+    [0.049, null, null, null, null, null, null, null, null],
+    [0.052, 0.064, null, null, null, null, null, null, null],
+    [0.033, 0.039, 0.045, null, null, null, null, null, null],
+    [0.039, 0.043, 0.037, 0.059, null, null, null, null, null],
+    [0.041, 0.044, 0.033, 0.041, 0.053, null, null, null, null],
+    [0.045, 0.048, 0.034, 0.039, 0.055, 0.072, null, null, null],
+    [0.014, 0.015, 0.014, 0.015, 0.015, 0.014, 0.003, null, null],
+    [0.014, 0.014, 0.014, 0.015, 0.014, 0.014, 0.007, 0.003, null],
+    [0.014, 0.015, 0.014, 0.015, 0.015, 0.015, 0.007, 0.007, 0.003]
+  ],
+  "latCovEstSE": [
+    [12.323, null, null, null, null, null, null, null, null],
+    [3.777, 6.314, null, null, null, null, null, null, null],
+    [-6.591, 1.25, 17.126, null, null, null, null, null, null],
+    [-0.45, -3.231, 2.561, 9.409, null, null, null, null, null],
+    [5.353, 0.072, 1.964, 0.981, 14.469, null, null, null, null],
+    [-0.486, 1.604, -0.069, 2.273, -0.841, 5.158, null, null, null],
+    [2.044, -0.382, -1.89, 0.725, 1.78, -1.022, 92.242, null, null],
+    [0.135, -0.138, -0.053, -0.744, -0.2, 0.589, -1.079, 74.806, null],
+    [-1.224, -0.562, 0.948, -0.716, 1.151, -0.942, -0.658, 0.696, 76.011]
+  ],
+  "latCovPValue": [
+    [0, null, null, null, null, null, null, null, null],
+    [0, 0, null, null, null, null, null, null, null],
+    [0, 0.211, 0, null, null, null, null, null, null],
+    [0.652, 0.001, 0.01, 0, null, null, null, null, null],
+    [0, 0.943, 0.05, 0.327, 0, null, null, null, null],
+    [0.627, 0.109, 0.945, 0.023, 0.4, 0, null, null, null],
+    [0.041, 0.702, 0.059, 0.469, 0.075, 0.307, 0, null, null],
+    [0.893, 0.891, 0.957, 0.457, 0.841, 0.556, 0.281, 0, null],
+    [0.221, 0.574, 0.343, 0.474, 0.25, 0.346, 0.51, 0.486, 0]
+  ],
+  "latCorEst": [
+    [1, null, null, null, null, null, null, null, null],
+    [0.401, 1, null, null, null, null, null, null, null],
+    [-0.326, 0.088, 1, null, null, null, null, null, null],
+    [-0.03, -0.29, 0.146, 1, null, null, null, null, null],
+    [0.326, 0.006, 0.084, 0.061, 1, null, null, null, null],
+    [-0.047, 0.2, -0.004, 0.196, -0.087, 1, null, null, null],
+    [0.076, -0.018, -0.063, 0.03, 0.061, -0.048, 1, null, null],
+    [0.005, -0.006, -0.002, -0.031, -0.007, 0.028, -0.031, 1, null],
+    [-0.046, -0.027, 0.032, -0.03, 0.039, -0.047, -0.019, 0.02, 1]
+  ],
+  "latCorSE": [
+    [0, null, null, null, null, null, null, null, null],
+    [0.138, 0, null, null, null, null, null, null, null],
+    [0.048, 0.069, 0, null, null, null, null, null, null],
+    [0.067, 0.091, 0.063, 0, null, null, null, null, null],
+    [0.057, 0.079, 0.042, 0.063, 0, null, null, null, null],
+    [0.095, 0.121, 0.064, 0.087, 0.095, 0, null, null, null],
+    [0.038, 0.048, 0.033, 0.042, 0.034, 0.047, 0, null, null],
+    [0.038, 0.047, 0.032, 0.042, 0.034, 0.048, 0.029, 0, null],
+    [0.038, 0.048, 0.034, 0.042, 0.034, 0.051, 0.029, 0.029, 0]
+  ],
+  "latCorEstSE": [
+    [999, null, null, null, null, null, null, null, null],
+    [2.91, 999, null, null, null, null, null, null, null],
+    [-6.798, 1.27, 999, null, null, null, null, null, null],
+    [-0.453, -3.193, 2.312, 999, null, null, null, null, null],
+    [5.69, 0.072, 1.992, 0.978, 999, null, null, null, null],
+    [-0.49, 1.65, -0.069, 2.258, -0.912, 999, null, null, null],
+    [2.032, -0.381, -1.897, 0.722, 1.795, -1.028, 999, null, null],
+    [0.135, -0.138, -0.053, -0.746, -0.2, 0.587, -1.079, 999, null],
+    [-1.224, -0.561, 0.95, -0.716, 1.15, -0.932, -0.658, 0.696, 999]
+  ],
+  "latCorPValue": [
+    [0, null, null, null, null, null, null, null, null],
+    [0.004, 0, null, null, null, null, null, null, null],
+    [0, 0.204, 0, null, null, null, null, null, null],
+    [0.651, 0.001, 0.021, 0, null, null, null, null, null],
+    [0, 0.943, 0.046, 0.328, 0, null, null, null, null],
+    [0.624, 0.099, 0.945, 0.024, 0.362, 0, null, null, null],
+    [0.042, 0.703, 0.058, 0.47, 0.073, 0.304, 0, null, null],
+    [0.893, 0.891, 0.957, 0.456, 0.842, 0.557, 0.28, 0, null],
+    [0.221, 0.575, 0.342, 0.474, 0.25, 0.351, 0.51, 0.486, 0]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "PSI": {
+      "min_eigen": 0.659667293269369,
+      "rank": 6,
+      "expected_rank": 6,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "G": {
+      "min_eigen": 0.0118111631879185,
+      "rank": 6,
+      "expected_rank": 6,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "THETA": {
+      "min_eigen": 0.815609343294167,
+      "rank": 15,
+      "expected_rank": 15,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    },
+    "SIGMA": {
+      "min_eigen": 0.530006136279104,
+      "rank": 15,
+      "expected_rank": 15,
+      "psd": true,
+      "rank_ok": true,
+      "positive_definite": true
+    }
+  },
+  "passed": true,
+  "note": "Linear model covariance reconstruction"
+}

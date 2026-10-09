@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-09T12:26:02.490016+00:00",
+  "checks": [
+    {
+      "check": "current_preview_is_not_a_final_judgment",
+      "passed": true
+    },
+    {
+      "check": "running_family_cannot_enter_final_prose",
+      "passed": true
+    },
+    {
+      "check": "no_pooling_is_not_a_null_effect",
+      "passed": true
+    },
+    {
+      "check": "nominal_interval_does_not_override_multiplicity",
+      "passed": true
+    },
+    {
+      "check": "adjusted_interaction_is_reported_with_model_scope",
+      "passed": true
+    },
+    {
+      "check": "missing_adopted_coefficient_blocks_final_text",
+      "passed": true
+    },
+    {
+      "check": "H4_opposing_predictions_remain_distinct",
+      "passed": true
+    },
+    {
+      "check": "unestimated_resource_remains_visible",
+      "passed": true
+    },
+    {
+      "check": "partial_resource_coverage_not_claimed_complete",
+      "passed": true
+    },
+    {
+      "check": "ineligible_family_cannot_support_H4",
+      "passed": true
+    }
+  ],
+  "source_sha256": "078dae7880260ebe86fb1a133fefac7d4f96d16d4973f6633153708b1b29638a",
+  "new_Mplus_calls": 0,
+  "scope": "Prose validation; synthetic decision examples are not empirical estimates or P values"
+}

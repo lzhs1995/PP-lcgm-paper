@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Read-only candidate file scan before final current-attempt terminal; not final publication authorization",
+  "files_checked": 900,
+  "exact_identifier_hit_records": 0,
+  "prohibited_files_or_columns": [],
+  "actual_publication": false,
+  "checked_at": "2026-10-09T13:04:26.372231+00:00"
+}

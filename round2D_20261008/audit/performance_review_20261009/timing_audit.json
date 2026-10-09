@@ -1,0 +1,892 @@
+{
+  "created_at": "2026-10-09T10:36:58.676461+00:00",
+  "registered": 24,
+  "terminal": 23,
+  "timing_groups": [
+    {
+      "synthetic": true,
+      "kind": "linear",
+      "completed": 1,
+      "seconds": 0.764724016189575,
+      "median_seconds": 0.764724016189575
+    },
+    {
+      "synthetic": true,
+      "kind": "lms_latent",
+      "completed": 1,
+      "seconds": 89.1569359302521,
+      "median_seconds": 89.1569359302521
+    },
+    {
+      "synthetic": true,
+      "kind": "lms_observed",
+      "completed": 2,
+      "seconds": 140.9576523303985,
+      "median_seconds": 70.47882616519925
+    },
+    {
+      "synthetic": false,
+      "kind": "linear",
+      "completed": 13,
+      "seconds": 346.9467897415161,
+      "median_seconds": 25.0984668731689
+    },
+    {
+      "synthetic": false,
+      "kind": "lms_latent",
+      "completed": 6,
+      "seconds": 78202.07715916634,
+      "median_seconds": 12930.8316360712
+    }
+  ],
+  "total_terminal_engine_seconds": 78779.90326118469,
+  "between_call_seconds": 5647.963046,
+  "gap_warning": "Between-call interval includes parsing, preparation, resource waits and deliberate maintenance; it is not a pure R overhead measurement.",
+  "active_model_rows": [
+    {
+      "id": "SONGAP_D1_Z0_1_repair_start",
+      "kind": "lms_latent",
+      "category": "REPAIR",
+      "status": "RUNNING",
+      "started": "2026-10-09T01:42:58.681658",
+      "engine_wall_seconds": null,
+      "since_previous_engine_end_seconds": 16.387214,
+      "log_rows": 725,
+      "last_log_iteration": 725,
+      "last_log_elapsed_seconds": 6838.1,
+      "max_step_seconds": 802.59,
+      "median_step_seconds": 1.93,
+      "integration_dimensions": null,
+      "integration_points": null,
+      "free_parameters": null,
+      "analysis_block": "TYPE=COMPLEX RANDOM; ESTIMATOR=MLR; PROCESSORS=1; ALGORITHM=INTEGRATION; INTEGRATION=15; MCSEED=26100801; COVERAGE=.005; ITERATIONS=2000; MITERATIONS=4000;",
+      "console_bytes": 63000
+    }
+  ],
+  "source_files": [
+    {
+      "path": "models/SD/D0_SYNTHETIC_MI00/synthetic/model.inp",
+      "sha256": "3eaccc4d49494c338d53906db807a3d575e673095e314c293dfdb7ef96210118",
+      "bytes": 1076,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_SYNTHETIC_MI00/synthetic/input_contract.json",
+      "sha256": "9b0cda0519a99237cbc855794310d2c603836c3c31070b2e8a42d4d98297950d",
+      "bytes": 813,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_SYNTHETIC_MI00/synthetic/process.json",
+      "sha256": "317af30c37fde63c86a5d3b6abfeea253a9dc9eb56e08eb120d1dcd0116c973e",
+      "bytes": 193,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_SYNTHETIC_MI00/synthetic/receipt.json",
+      "sha256": "8a480a884fa51885a971b29255c6d8825c75acee143c8301525e49bcde855e2c",
+      "bytes": 709,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_SYNTHETIC_MI00/synthetic/model.out",
+      "sha256": "47704f8947a6f0127a19687aa655503b3d6e8d5573bd36b84e2dd0ea6f2a2861",
+      "bytes": 226299,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_SYNTHETIC_MI00/synthetic/model.inp",
+      "sha256": "65838ec931f634bda89c401d656b6edd12d4360528dce01e175ad83b5ee92eac",
+      "bytes": 1193,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_SYNTHETIC_MI00/synthetic/input_contract.json",
+      "sha256": "a8f29f9b043ba3cde73f230e4e55a4929b6abfff8491bf283900e665e933c309",
+      "bytes": 817,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_SYNTHETIC_MI00/synthetic/process.json",
+      "sha256": "5a80d4fa3fe4a2ac07f9fa574d3715ef2a3438a4e535687410d03b4554b01e85",
+      "bytes": 193,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_SYNTHETIC_MI00/synthetic/receipt.json",
+      "sha256": "bcd43980e99aa4c5366ab3c283fede1316f6fbeb52c59d8eb187596906f82307",
+      "bytes": 709,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_SYNTHETIC_MI00/synthetic/model.out",
+      "sha256": "80bb597f882c360bfec6178644f0730d79a7085576993623a6bd4dc3ef022b86",
+      "bytes": 184180,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/E1_SYNTHETIC_MI00/synthetic/model.inp",
+      "sha256": "33d6749086f9c938f5aea2110bff7fc9807cff8cefb2e4797c9d8082b1ed7e80",
+      "bytes": 973,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/E1_SYNTHETIC_MI00/synthetic/input_contract.json",
+      "sha256": "19315207c53ebcb21db3fac83e622ab5c3c49037034cdfcb2cd1541c8a7f4387",
+      "bytes": 819,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/E1_SYNTHETIC_MI00/synthetic/process.json",
+      "sha256": "43b71e3a8ed8484f5d88a26c108ae5cb0d37203e9608ace77597dd4475955da8",
+      "bytes": 193,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/E1_SYNTHETIC_MI00/synthetic/receipt.json",
+      "sha256": "ebea2170bb016b1f82ff0dc67c161259c5471f9311631226e9e08a7e261d1b3b",
+      "bytes": 711,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/E1_SYNTHETIC_MI00/synthetic/model.out",
+      "sha256": "5dbc01f7de5f27ace03cd541e8d32b8714aede97e7de7d65e09bc68faf3bc77e",
+      "bytes": 98294,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/H4_EDU_SYNTHETIC_MI00/synthetic/model.inp",
+      "sha256": "cb8b1bfebb3c26159fd23567d3f0ae7b0d8210c8723f5e46a02e574a923ff9af",
+      "bytes": 1117,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/H4_EDU_SYNTHETIC_MI00/synthetic/input_contract.json",
+      "sha256": "11225f34a022d4b11b12ca59611a1f78ebcde4a7a9b00e1cdc53f2a28480b3a5",
+      "bytes": 831,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/H4_EDU_SYNTHETIC_MI00/synthetic/process.json",
+      "sha256": "4324b4d1727a72c7a98ae6948198e15bc2c15215f9257b25a9836b157cea25c2",
+      "bytes": 197,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/H4_EDU_SYNTHETIC_MI00/synthetic/receipt.json",
+      "sha256": "7866fd0a148436748d036c5c29f6a64eff926a51a24d7b39bc64df505ed1295c",
+      "bytes": 718,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/H4_EDU_SYNTHETIC_MI00/synthetic/model.out",
+      "sha256": "8256e7d32227b948d786517fb90970928830af96e132ac82572bdd52119c6574",
+      "bytes": 117782,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/base/model.inp",
+      "sha256": "b74e2a5e39aadaba5b55966f3b6fbf4549bc249fb30d4420bce89d084a7bbecb",
+      "bytes": 1066,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/base/input_contract.json",
+      "sha256": "768beeb1b6d1c641819f042729ebd0379987f28062ac9a83b83fc1651b295df9",
+      "bytes": 765,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/base/process.json",
+      "sha256": "0dabcf8a6b670c1e7a4d3ccaf91a6117520b62733fb143ea524e5f0c6f1d437d",
+      "bytes": 181,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/base/receipt.json",
+      "sha256": "dc4a7f498cb4dff381c8d0aa42859143def1f9fee4c57c694555ecb385c37a4b",
+      "bytes": 824,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/base/model.out",
+      "sha256": "f4a1cb6e57bc8e103776df1bd1b2d83c9bc5761daf614f9daa336ce0c88ef80f",
+      "bytes": 1150115,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/repair_start/model.inp",
+      "sha256": "c2e38e7131bba6397d197f98b3c9e8e522c9fd21190eb2315dd8eecabab7004d",
+      "bytes": 1079,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/repair_start/input_contract.json",
+      "sha256": "4806eef6506e233ce293fa1ae1c26209c3799634e787cfb1ba6fde0af3c82561",
+      "bytes": 789,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/repair_start/process.json",
+      "sha256": "9d487cc1ef180c4cec5676b9624863021b491a8a513ac0232ff8f5ed1631cb4a",
+      "bytes": 189,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/repair_start/receipt.json",
+      "sha256": "cc4c0d3ff5700f6f9ebf72f059b29487d6c4fb2b5dffb76a908c61288487be54",
+      "bytes": 840,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D0_Z0_MI01/repair_start/model.out",
+      "sha256": "93765c451881e32a4c8a29fa11d7a3c56d220dd28abe992785a634f94eac43e4",
+      "bytes": 1150136,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/model.inp",
+      "sha256": "3d0979ea4f5229a28a1b24683884bb9db65baf078c40febadc3533d45de8316a",
+      "bytes": 1170,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/input_contract.json",
+      "sha256": "cfc4cc23c6dfccc230842f4f535020d81d5a52e521df425e502c1ec25dc3ade5",
+      "bytes": 776,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/process.json",
+      "sha256": "ccaa5eb89deac7b4dca4ccb89e2b7e4898f616ccbbd279d62238b38705e82262",
+      "bytes": 181,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/receipt.json",
+      "sha256": "71f9ff5bbf289b4bcc2143098fb6f2ac89ee47d9ef5042fcd0a034885ae4ed90",
+      "bytes": 545,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/model.out",
+      "sha256": "3940d53c042cc342dda2a7b81dac4b5e926916cb87d0546158bf8e0a77f08374",
+      "bytes": 202168,
+      "still_running": false
+    },
+    {
+      "path": "models/SD/D1_Z0_MI01/base/mplus_console.log",
+      "sha256": "8877a1b345629fed9b31e8f59e2255064f0f2f73c862b4317855b877ce13c874",
+      "bytes": 73513,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/base/model.inp",
+      "sha256": "975b91173c58f44007a3f7ca578d57fba036254b0f99cbdd4d9c5135d6df8d17",
+      "bytes": 1084,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/base/input_contract.json",
+      "sha256": "db574bd24b3b18d8720fe7e28230b5f542c0e29705f300984443eb568167b65f",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/base/process.json",
+      "sha256": "e3469288243e8eb3b486e97af165c683cd4a7ac7755d06ec317c553c3406adaf",
+      "bytes": 184,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/base/receipt.json",
+      "sha256": "7031ddcd87bba0f93f6ec22fe6e8a1ceab39050876ca69439b2322d222c12bbb",
+      "bytes": 843,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/base/model.out",
+      "sha256": "2c4dd577b420a65c9763c50e7a68952280bed4c2080da64929d5d43c21e6fd71",
+      "bytes": 1013044,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/base/mplus_console.log",
+      "sha256": "797b7828fc60adf1e4f87ca3fd1cc2996564bc25e413728250e8c4dcd0d547cd",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/repair_start/model.inp",
+      "sha256": "739e4efa6519569f27b6f48477509dadef863af8ce0403a23301accd612e1e38",
+      "bytes": 1097,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/repair_start/input_contract.json",
+      "sha256": "1732e8cac2ee0013a89a579a3502404d52b00809c62d20173a3fb6e6cdfff095",
+      "bytes": 1073,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/repair_start/process.json",
+      "sha256": "5ed3e4c0ea0e5f4876846e1fa248184235c1ce784ae04d942153c16f3178011b",
+      "bytes": 192,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/repair_start/receipt.json",
+      "sha256": "66fc8afdcdf9741b411aed067119322d9f58cf3c14dcd95b21809c021a7137a5",
+      "bytes": 860,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/repair_start/model.out",
+      "sha256": "a448399331c04b5aeb200758a6ea8371133f57677cd3235d87fd0d8e2246f8a1",
+      "bytes": 1013065,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D0_Z0_MI01/repair_start/mplus_console.log",
+      "sha256": "e19ddbb662bc350eebb95607f7d3b68569bc099aa28aff7d1fff43d4e6f22929",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/base/model.inp",
+      "sha256": "708ec5cc661435cf558779227328f5cfbee2c50d014db8761fae04ec56beee35",
+      "bytes": 1188,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/base/input_contract.json",
+      "sha256": "c6d6592abfafbfc2a8ed732e03b52cd8552921af1625a81408a1600373bf7398",
+      "bytes": 1060,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/base/process.json",
+      "sha256": "de7b84b108d694fcf76ecfe8d45148339f165ed2991ae983b3386709b17a1087",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/base/receipt.json",
+      "sha256": "fdf4e7c489515cbe58e7a21ed98b74022694fca085006c1289b6be76da96a215",
+      "bytes": 925,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/base/model.out",
+      "sha256": "f4c8bb680d9fb21c493179328d9362ed2498c99657cde45548321a2a3ad2e2b3",
+      "bytes": 822347,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/base/mplus_console.log",
+      "sha256": "5e22ec9ec43a493f9d60d3d811091eacca29d334aff015f13a3fe4288822ad57",
+      "bytes": 22067,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/model.inp",
+      "sha256": "efbc7fe501031bc91213e4af1662dc2940de5b984d21c9e36820914ca165f84f",
+      "bytes": 1205,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/input_contract.json",
+      "sha256": "991a3edeba91b6ffc6e81a4f6c2210c5659726bbd1edd7464cde42318f20adac",
+      "bytes": 1084,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/process.json",
+      "sha256": "8d013ddae35c4b070ab07bad74d0e35bc171d6d5b95a7f9d0529aeef1329edba",
+      "bytes": 192,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/receipt.json",
+      "sha256": "9b161587ff9bc7224b2d66ccdbec0587ac6b6cd5497e42b64ce6cd13028db82f",
+      "bytes": 568,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/model.out",
+      "sha256": "8ee69e86b8c5fcfef0646fe0e97d64e76cc3521ce77573278f203136f4110cfa",
+      "bytes": 197270,
+      "still_running": false
+    },
+    {
+      "path": "models/SEXGAP/D1_Z0_MI01/repair_start/mplus_console.log",
+      "sha256": "0aace6f6f08655ae6763e3ff42b2d4e38a05fa3dffc89f9b9cccd7071f54dcf7",
+      "bytes": 86477,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/model.inp",
+      "sha256": "5d9560130de7bf1fc575460a0335d0f6ce154d2e221a4461b25ff601e7c6261a",
+      "bytes": 1070,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/input_contract.json",
+      "sha256": "7692542f652e007a4e5cd40839c111dd7fb46be0da3e642c5d5cdb5b0bfd9f44",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/process.json",
+      "sha256": "c0c5b81ed59953ffecdc97d8ef58b9f0fb88a0cab69e5624d4b0e4eac9693889",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/receipt.json",
+      "sha256": "5572fa1f3d895849c5674c4288bc25cb7ee2f2a36b0820c56f902555e24b668b",
+      "bytes": 683,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/model.out",
+      "sha256": "afcb26e2070bea59e3ccef2c4b22163cd8064e2a347338cdd248d0cc5ee3045e",
+      "bytes": 1129211,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI01/base/mplus_console.log",
+      "sha256": "825dd0c794d8ce5b1b6a5930164c729b39dfe2577475ecc967beca0b4c719be6",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI02/base/model.inp",
+      "sha256": "b50bdcb5b481a810d616793bfd6e35a80ab8b66ce74874adac11388efb4c5369",
+      "bytes": 1070,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI02/base/input_contract.json",
+      "sha256": "2040e43f82aa48674bdbb64eb88297b0a4a100e2ebf2e487aa615c8dbed56dc6",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI02/base/process.json",
+      "sha256": "c95e859e010e19d0c4a6cfec81e1ac106a204f855e9560e29b66009a57a65068",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI02/base/receipt.json",
+      "sha256": "0d8e5fe9acc558433b51fec147e2624c38847430ca73fef6e808353d79e035f6",
+      "bytes": 682,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI02/base/model.out",
+      "sha256": "609b94c80a661048df4d831255e3d05ea54a28f8883c60497937b602930afa8e",
+      "bytes": 1129211,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI02/base/mplus_console.log",
+      "sha256": "ed2010fcb04e6006c86fbe8c4b6cbfa8e3593c1b819761dadc78261aec8fbd1e",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI03/base/model.inp",
+      "sha256": "ca442903d683ce585caba788da36d144930d4d7debb8732f89d4a69be1291a9f",
+      "bytes": 1070,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI03/base/input_contract.json",
+      "sha256": "460fb199cf55265462ebec8c90f9d7c2fe69f1b711044dd4cd9913565739e01f",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI03/base/process.json",
+      "sha256": "a9e0a19bcdbe936ec95f9977f671b6e9b288df2c0748902ec691375a381ac44d",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI03/base/receipt.json",
+      "sha256": "3e5164c8371ca673749a7f94557314be0516061a19329fd44972d52ee41b76b1",
+      "bytes": 683,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI03/base/model.out",
+      "sha256": "eeb1817f86883813a5ff6d91879f702432fc5eaf35e8e07b52b71eab16dc3626",
+      "bytes": 1129212,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI03/base/mplus_console.log",
+      "sha256": "e4eb42961cce228ef41413b4540f2cf15ff81f8346618dbd480e823f4c427d98",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI04/base/model.inp",
+      "sha256": "e40f8f6467bfd642d19905db1e27241ebd2b1ff6737f0a03bf431ac35e2ade3c",
+      "bytes": 1070,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI04/base/input_contract.json",
+      "sha256": "ecf799f6b3340d7cee27ab194eec2184831460dfb8f730489c9fe87b54d273c7",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI04/base/process.json",
+      "sha256": "4c7f882d170ed7dc81de33349dacc669638b2fdddcacb9b74c44c071e69a7d35",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI04/base/receipt.json",
+      "sha256": "54bdc19832b3714742101b5b46f379ba1c0f90bd9822a18fa909cc6b2c164ceb",
+      "bytes": 683,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI04/base/model.out",
+      "sha256": "dff0cf1d4b12ef4526ee7974e717ef9f0b561ca16288464a3f92f468d0891e7d",
+      "bytes": 1129211,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI04/base/mplus_console.log",
+      "sha256": "b39cb550bc294b1a9b11555578e3e50dbf7567e7f789c63c5fb109cc1bde746d",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI05/base/model.inp",
+      "sha256": "04ff073a4761994a302cad06ef8ce8956bfd4e0a47f3c354349712ef0b74a0eb",
+      "bytes": 1070,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI05/base/input_contract.json",
+      "sha256": "d79813af7dc6af02dcd8bc98287d0084712b21701001888298b26f681fa20d8d",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI05/base/process.json",
+      "sha256": "c13ca13ce14f8ec6886933cc4c3cbe81276e3436e5d9d75023bbee9a7db5d636",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI05/base/receipt.json",
+      "sha256": "272e59b7fd4189d693aa87c94b9205fb7f79e516ebc9afad288893f3716515ee",
+      "bytes": 683,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI05/base/model.out",
+      "sha256": "8f055e16361035fcff2ecc877243ccef55c7d6781774e1d7f7da398ed7c4b218",
+      "bytes": 1129211,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI05/base/mplus_console.log",
+      "sha256": "bef7ef5b7e575bc6cd739df87dda2cac577c0e9de7b2d0733ebc59afa0e977ae",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/model.inp",
+      "sha256": "b3bef39f12cdd594068ce3c1c38eb204e313fcb924f27cd666fa8e72cd3aac1d",
+      "bytes": 1070,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/input_contract.json",
+      "sha256": "37df741178325f4c3beb1f2a35d872f8f179693522d2984f3e74516e3d579dab",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/process.json",
+      "sha256": "cf2a4dc86ed9298c645afe8c6e51ab723f5682a82e84ed4de0fac1b3958c90c3",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/receipt.json",
+      "sha256": "516865a1586998224232075485dff101e3e28997d8dd43551ccc06243d4613fa",
+      "bytes": 832,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/model.out",
+      "sha256": "d49880a303d3849cf282a1c93319e74c93d92d678f26f90ed7ff92f7e74cc17f",
+      "bytes": 1129783,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/base/mplus_console.log",
+      "sha256": "998d72f871a0e759ea586825b7e76330bf458d8026015fa28e4ad40c1f58f904",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/model.inp",
+      "sha256": "276da5229a88d05d016e7278ca82f955f5136fe73fd325e6ffb30273d704a7c9",
+      "bytes": 1082,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/input_contract.json",
+      "sha256": "1766773d1d7094c839a08c03131a807e0789f105de16b46de962e37a3f280305",
+      "bytes": 1073,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/process.json",
+      "sha256": "634c83ca558213f6e79c2afebf427e57c9a4e0dc4ec2bf2092a6a3c3ede9246d",
+      "bytes": 193,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/receipt.json",
+      "sha256": "6423342829ccb8f90daf6117e91ac2be241d8fe9e246447aa14fd6baf02f5026",
+      "bytes": 847,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/model.out",
+      "sha256": "f2286cfb3239e8db66bdc8b98b38b76cd508a90f4d777a8d637e11ba218caea7",
+      "bytes": 1129803,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D0_Z0_MI06/repair_start/mplus_console.log",
+      "sha256": "c353cefd13b69ebc5af8e83ac5449cc090dfa26472f6ed643f6217544d5e8c9f",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/base/model.inp",
+      "sha256": "038dc977ec235c29e1639f37dd3ff7350c519c551d9dc9140601b301a1fa14cb",
+      "bytes": 1174,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/base/input_contract.json",
+      "sha256": "28f08ba671c9d0072883a5419874618800033325740c6cac7d1ef11b3b5d6c5d",
+      "bytes": 1060,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/base/process.json",
+      "sha256": "d6bf093ae481e9c387fca890632cf77d9c849f17b3cd869efe07d29ddb5d5e7d",
+      "bytes": 184,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/base/receipt.json",
+      "sha256": "164358ac90dac45637f6c46f8626a7489e4f01ba4b3a2eaa912472e05ea68afe",
+      "bytes": 620,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/base/model.out",
+      "sha256": "fa2a86d009ab5309c13e76621577b06a4432c82d5595e30f2115fbb141691ddf",
+      "bytes": 1439,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/base/mplus_console.log",
+      "sha256": "8f045a971ed35c28198af0cdf7c1457de014b0b1cc5d71855eaa07bd64af0bce",
+      "bytes": 291098,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/repair_em/model.inp",
+      "sha256": "cf963be2310048bee798c49e6990d6084ded438530e424490e697eeb26d47209",
+      "bytes": 1182,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/repair_em/input_contract.json",
+      "sha256": "52ee4117c72f4e2e362b480633f0addac2fef5000516a1c3e51a916b4804b29a",
+      "bytes": 1099,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/repair_em/process.json",
+      "sha256": "12ec14c6973b2cff89931e4e4fa3692cc55445b551ee368214894d7aa1b8ac11",
+      "bytes": 190,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/repair_em/receipt.json",
+      "sha256": "b1c1e81234bf1ccd3c5a627da3e60c10325b8b748fb878241e7740a193b6e9cd",
+      "bytes": 959,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/repair_em/model.out",
+      "sha256": "db0fffda1dfdc07f0eaa1f4e9ac84aee4207c8e1ab50f5e577654e97c91b7488",
+      "bytes": 1151094,
+      "still_running": false
+    },
+    {
+      "path": "models/OLDEST/D1_Z0_MI01/repair_em/mplus_console.log",
+      "sha256": "560334e7d4830af8a2fb9e5abfd37292c22e2cd8810afbda508213e0c82423ee",
+      "bytes": 523679,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/base/model.inp",
+      "sha256": "03dfa7321a8b2b5262be44331ef7c6936c368b27b06a423cf6fb8238a635bb71",
+      "bytes": 1084,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/base/input_contract.json",
+      "sha256": "58b5ea3854ae82ce7a9e38e23c7e0145bcd1c976d21e7ea9c01735c772d1588a",
+      "bytes": 1049,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/base/process.json",
+      "sha256": "a4272f1e833fdd81d09879a27074857dd1fa9392530c925431d8b8ee2d8021ec",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/base/receipt.json",
+      "sha256": "182da748c8aa32eaa27a81867ebc9d93e858bcfc7626064ffe5af9b4a44f2e9b",
+      "bytes": 832,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/base/model.out",
+      "sha256": "0325fcc2c00cdf1916f96ae93262677e71601a13bb76056f33a9bc18255df1ae",
+      "bytes": 1070632,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/base/mplus_console.log",
+      "sha256": "f87096f096696b8dec828efb1541140205eee0e5222b8ca53121a9b8d0cd229a",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/repair_start/model.inp",
+      "sha256": "52a2f9eefa9bbf26d1592d2072027cff137486b152e4063f2f0e54b972d6cd49",
+      "bytes": 1096,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/repair_start/input_contract.json",
+      "sha256": "af0d9dbd71d66f0926998bbc25ab98d7f5a02071e631f96eecad77200e70c8de",
+      "bytes": 1073,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/repair_start/process.json",
+      "sha256": "7034cf537c63c051b4b5c6848d1c49fbfd43149c960c0ddce6819280ed764cdf",
+      "bytes": 192,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/repair_start/receipt.json",
+      "sha256": "b86f5821b87d25b264acb52da0f3efbeeb86cbef6f32b10ff984ab3511e7fe8b",
+      "bytes": 848,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/repair_start/model.out",
+      "sha256": "e46f610f2f26ac0ddd484973599a7ed3002bae6f51ae2099a3bbac0da867315c",
+      "bytes": 1070652,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D0_Z0_MI01/repair_start/mplus_console.log",
+      "sha256": "18a46d120ee30f959b5edc6736056a9b78665d13fe98e804cd6ea1f77d555d6f",
+      "bytes": 526,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/base/model.inp",
+      "sha256": "e18e58621314549d514275419a5359c0765efa83c29f9e2ded48b261bd7df61f",
+      "bytes": 1188,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/base/input_contract.json",
+      "sha256": "eb5a4be55d8ab3eab10c7ae1a5c82d6624a76cd4b72146004486b5faa2b4b5de",
+      "bytes": 1060,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/base/process.json",
+      "sha256": "f345ca59e9fce74258182b75c52a844ecc9e05ebb57be5328057f16bbf6fc05b",
+      "bytes": 185,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/base/receipt.json",
+      "sha256": "6176c49eba880f35d64f346c2659d0ba993ccd4914219871e5da3f78c2d383f4",
+      "bytes": 925,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/base/model.out",
+      "sha256": "f1a975d95d8275b965a68aacf04f5b3c8e9d23e4aa5faf69b128448e0464bd1a",
+      "bytes": 919618,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/base/mplus_console.log",
+      "sha256": "aff01d47ed24a75b9991b4a90cfe8300dbdd4aa2cf5c84f43d2da5c0626c09b8",
+      "bytes": 109335,
+      "still_running": false
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/repair_start/model.inp",
+      "sha256": "a24d2687e311c58256b750464eb60b6474ce4de6f753edff691c23cf9124036b",
+      "bytes": 1205,
+      "still_running": true
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/repair_start/input_contract.json",
+      "sha256": "a98ae722eab89151eeb2dfd4d3c3cf8ac9dfdc8280f4d7302b97840c65b2b6d9",
+      "bytes": 1084,
+      "still_running": true
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/repair_start/process.json",
+      "sha256": "3802d931cba6f9c00d7e0b3a657e38273a64fbb7646b450c935bbc23cc859d86",
+      "bytes": 193,
+      "still_running": true
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/repair_start/model.out",
+      "sha256": "2630ddcc14226d25367434c8fc2fcfa56ea9019155ba2e131378fbde0de4799c",
+      "bytes": 1478,
+      "still_running": true
+    },
+    {
+      "path": "models/SONGAP/D1_Z0_MI01/repair_start/mplus_console.log",
+      "sha256": "292cb15e2f8f148278beeac603b7f40fc9115aceba5907f722c3a745036c2609",
+      "bytes": 63000,
+      "still_running": true
+    }
+  ],
+  "new_model_calls": 0,
+  "original_files_changed": false
+}

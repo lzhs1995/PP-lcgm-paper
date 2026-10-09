@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Read-only independent verification of two newly completed inadmissible models; not the formal postqueue pipeline",
+  "records": [
+    {
+      "id": "OLDEST_D1_Z0_1_repair_em",
+      "category": "REPAIR",
+      "status": "INADMISSIBLE",
+      "usable": false,
+      "output_sha256": "db0fffda1dfdc07f0eaa1f4e9ac84aee4207c8e1ab50f5e577654e97c91b7488",
+      "printed_rows": 247,
+      "free_parameters": 205,
+      "matrices": 6,
+      "verified": true,
+      "promoted": []
+    },
+    {
+      "id": "SONGAP_D1_Z0_1_base",
+      "category": "TARGET",
+      "status": "INADMISSIBLE",
+      "usable": false,
+      "output_sha256": "f1a975d95d8275b965a68aacf04f5b3c8e9d23e4aa5faf69b128448e0464bd1a",
+      "printed_rows": 241,
+      "free_parameters": 199,
+      "matrices": 6,
+      "verified": true,
+      "promoted": []
+    }
+  ],
+  "verified_at": "2026-10-09T08:58:40.435543+00:00",
+  "scientific_adoption": false
+}

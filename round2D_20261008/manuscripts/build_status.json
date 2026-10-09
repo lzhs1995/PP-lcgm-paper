@@ -1,0 +1,10 @@
+{
+  "preview": false,
+  "status": "DOCX_BUILT_NATIVE_PDF_PENDING",
+  "release_type": "PARTIAL_RESEARCH_STAGE_FOR_EXTERNAL_REVIEW",
+  "source_sha256": "e4f02dc421e3bcbf49dcfc4909b81fd9b807d2875170e9c885564553c1ae2216",
+  "template_sha256": "5eed093523000defc7e21d99d7cec0219f29a0d38429f4f8da66393ea54ad0bc",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103",
+  "table_count": 21,
+  "papers_in_retained_fields": 58
+}

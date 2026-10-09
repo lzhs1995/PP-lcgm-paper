@@ -1,0 +1,23 @@
+{
+  "id": "SW_MI08",
+  "N": 3274,
+  "status": "CONDITIONAL_REVIEWABLE",
+  "normal": true,
+  "negative_variance": false,
+  "matrix_warning": false,
+  "finite_parameters": true,
+  "seconds": 211.799772977829,
+  "input_sha256": "d5f62ed5b767990e16def309fc2527ae2f80376cc54e664230f10917d5fc15d9",
+  "data_sha256": "c4de992a9c42024f074a6ab712d8fb67b4bff62d57763d2ab62d49f0302057b3",
+  "output_sha256": "586979e626f7eabebdd84d867e169732a8f1eb146c6dbebf01d76b1cfd6ab558",
+  "diagnostics": [],
+  "spec": "SW",
+  "member": 8,
+  "attempt": "attempt01",
+  "tau": null,
+  "usable": true,
+  "geometry_passed": true,
+  "negative": [],
+  "SY_residual": 0.032605179,
+  "expected_boundary_warning": false
+}

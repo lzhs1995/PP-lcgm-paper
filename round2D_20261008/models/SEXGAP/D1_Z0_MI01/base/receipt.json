@@ -1,0 +1,31 @@
+{
+  "id": "SEXGAP_D1_Z0_1_base",
+  "z": "SEXGAP",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 2339,
+  "households": 1730,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 984.411253929138,
+  "exitcode": 0,
+  "output_sha256": "f4c8bb680d9fb21c493179328d9362ed2498c99657cde45548321a2a3ad2e2b3",
+  "integration_dimensions": 2,
+  "normal": true,
+  "LL": -30077.758,
+  "parameters": 193,
+  "negative": "psi:SY",
+  "geometry_ok": false,
+  "vcov_ok": false,
+  "warnings": ["WARNING: THE MODEL ESTIMATION HAS REACHED A SADDLE POINT OR A POINT WHERE THE", "THE PROBLEM MAY ALSO BE RESOLVED BY DECREASING THE VALUE OF THE", "WARNING:  THE LATENT VARIABLE COVARIANCE MATRIX (PSI) IS NOT POSITIVE"],
+  "printed_match": true,
+  "status": "INADMISSIBLE"
+}

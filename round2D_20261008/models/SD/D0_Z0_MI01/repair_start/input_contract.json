@@ -1,0 +1,24 @@
+{
+  "id": "SD_D0_Z0_1_repair_start",
+  "z": "SD",
+  "spec": "D0",
+  "member": 1,
+  "attempt": "repair_start",
+  "category": "REPAIR",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 3274,
+  "households": 2410,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "ctrl": {},
+  "shape": {},
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/models/SD/D0_Z0_MI01/repair_start",
+  "input_sha256": "c2e38e7131bba6397d197f98b3c9e8e522c9fd21190eb2315dd8eecabab7004d",
+  "data_sha256": "aba3e18819adc647848159ec0f18b66a6e295bcb114c549eac01634b6e994dc8",
+  "source_data": "C:/Users/LZHS/pp_lgcm_review/round2D_20261008/private/SD/Z0_member_01.dat",
+  "contract_sha256": "8fa70ff495480fa945084e5b2582963ecae02e5995b7ec4fafbcba664ff10103"
+}

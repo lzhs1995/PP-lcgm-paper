@@ -1,0 +1,36 @@
+{
+  "status": "VERIFIED",
+  "groups": {
+    "EDU": {
+      "one": "初中及以上",
+      "zero": "小学及以下",
+      "rule": "as.integer(source edu12 > 1)",
+      "source_labels": {
+        "小学及以下": 1,
+        "初中": 2,
+        "高中及以上": 3
+      },
+      "source_sha256": "58513f9e1249b5c3545c2a963dedd51525f37d10995a498e60aec59c3b2e6bf7"
+    },
+    "URBAN": {
+      "one": "城市",
+      "zero": "乡村",
+      "rule": "CFPS2012 urban12; negative special codes -> missing",
+      "source_labels": {
+        "缺失": -9,
+        "乡村": 0,
+        "城市": 1
+      },
+      "source_sha256": "e3fcb04c4c3831b68027ba568de0fe40d5b6a9b1c10e1ad76812f188ed7ceeb5",
+      "classification": "National Bureau of Statistics 2012; not urbancomm"
+    },
+    "INC": {
+      "one": "有个人收入",
+      "zero": "无个人收入",
+      "rule": "as.integer(pinc212 > 0)",
+      "not_equal_to": "high income",
+      "amount_unit": "万元"
+    }
+  },
+  "all_ten_income_derivations_match": true
+}

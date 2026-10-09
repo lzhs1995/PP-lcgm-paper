@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "flags": {
+    "normal": true,
+    "fatal": false,
+    "psi_warning": false,
+    "theta_warning": false,
+    "warnings": []
+  },
+  "negative": [],
+  "vcov": {
+    "ok": true,
+    "minimum": 0.0321569573333105
+  }
+}

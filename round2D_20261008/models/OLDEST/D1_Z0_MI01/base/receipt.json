@@ -1,0 +1,26 @@
+{
+  "id": "OLDEST_D1_Z0_1_base",
+  "z": "OLDEST",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 3159,
+  "households": 2320,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 21607.4181029797,
+  "exitcode": 124,
+  "output_sha256": "fa2a86d009ab5309c13e76621577b06a4432c82d5595e30f2115fbb141691ddf",
+  "integration_dimensions": null,
+  "normal": false,
+  "status": "TIMEOUT",
+  "timeout_reason": "SINGLE_ATTEMPT_LIMIT",
+  "limit_seconds": 21600
+}

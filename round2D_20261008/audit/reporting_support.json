@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "new_model_calls": 0,
+  "historical_parent_members": 10,
+  "sy_residual_min": -0.074687518,
+  "sy_residual_max": -0.064252436,
+  "imputed_targets": 10,
+  "terminal_iteration": 30,
+  "psrf_min": 0.995835910819073,
+  "psrf_max": 1.02935193445562,
+  "prior_univariate_models": 2,
+  "prior_shape_statistic": 8.451711538959389,
+  "protocol_sha256": "89070df1d067e4f27c7ba18386f38af8f08b6fa6b7a3bc1374c3ba3d321c6fa2",
+  "convergence_sha256": "fc5f8031ba89b4140da50b6cd23a2cf56b611d0d58bbf95b212e3be1bb4aa1a6",
+  "note": "Source binding and summary only; not a fresh imputation or model-fit validation",
+  "created_at": "2026-10-08T13:09:42.218340+00:00"
+}

@@ -1,0 +1,29 @@
+# 仅验证已保存输入合同的恢复；不调用Mplus、不改活动估计或现有输入输出。
+local({
+ old_lib<-.libPaths();on.exit(.libPaths(old_lib),add=TRUE)
+ source('C:/Users/LZHS/pp_lgcm_review/round2D_20261008/code/03_engine.R',local=TRUE)
+ checks<-list()
+ check<-function(name,ok){stopifnot(isTRUE(ok));checks[[length(checks)+1L]]<<-data.frame(check=name,passed=ok)}
+ dir<-model_dir('SD','D1',1,'base')
+ files<-file.path(dir,c('model.inp','input_contract.json'))
+ before<-vapply(files,hashf,character(1));ncall<-nrow(read.csv(REG))
+ raw<-fromJSON(file.path(dir,'input_contract.json'))
+ check('real_cached_optional_fields_are_empty',length(raw$ctrl)==0L&&length(raw$shape)==0L)
+ row<-normalize_input_contract(raw)
+ check('cached_empty_objects_restore_NULL',is.null(row$ctrl)&&is.null(row$shape))
+ si<-spec_info(row$z,row$spec,row$ctrl,row$sample,row$shape)
+ expected<-spec_info('SD','D1')
+ check('restored_scientific_specification_unchanged',identical(si,expected))
+ explicit<-normalize_input_contract(list(ctrl='c1-c3',shape='linear'))
+ check('explicit_options_preserved',identical(explicit,list(ctrl='c1-c3',shape='linear')))
+ newer<-normalize_input_contract(fromJSON('{"ctrl":null,"shape":null}'))
+ check('JSON_null_also_supported',is.null(newer$ctrl)&&is.null(newer$shape))
+ reused<-prepare_model('SD','D1',1)
+ check('prepare_reuses_existing_contract_without_model_submission',is.null(reused$ctrl)&&is.null(reused$shape)&&reused$id==raw$id)
+ check('inputs_and_register_unchanged',identical(before,vapply(files,hashf,character(1)))&&nrow(read.csv(REG))==ncall)
+ write.csv(do.call(rbind,checks),file.path(ROOT,'tests/engine_resume_validation.csv'),row.names=FALSE)
+ wj(list(status='PASS',checks=length(checks),Mplus_calls=0L,active_attempt_changed=FALSE,
+  engine_sha256=hashf(file.path(ROOT,'code/03_engine.R')),created_at=as.character(Sys.time())),
+  file.path(ROOT,'tests/engine_resume_validation.json'))
+ cat('ENGINE_RESUME_VALIDATION',length(checks),'PASS; no model calls\n')
+})

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "tests": 19,
+  "created": "2026-10-08 03:48:57.153918",
+  "Mplus_calls": 0,
+  "note": "Reporting and SVALUES text checks; not real-data fit or numeric stability validation"
+}

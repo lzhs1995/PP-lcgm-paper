@@ -1,0 +1,24 @@
+{
+  "id": "SEXGAP_D1_Z0_1_repair_start",
+  "z": "SEXGAP",
+  "spec": "D1",
+  "member": 1,
+  "attempt": "repair_start",
+  "category": "REPAIR",
+  "kind": "lms_latent",
+  "sample": "Z0",
+  "N": 2339,
+  "households": 1730,
+  "settings": {
+    "method": "quadrature",
+    "points": 15,
+    "seed": 26100801
+  },
+  "usable": false,
+  "seconds": 9421.4267141819,
+  "exitcode": 0,
+  "output_sha256": "8ee69e86b8c5fcfef0646fe0e97d64e76cc3521ce77573278f203136f4110cfa",
+  "integration_dimensions": 2,
+  "normal": false,
+  "status": "ESTIMATION_FAILED"
+}

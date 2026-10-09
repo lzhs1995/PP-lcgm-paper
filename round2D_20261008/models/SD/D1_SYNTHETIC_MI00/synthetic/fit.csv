@@ -1,0 +1,2 @@
+"Mplus.version","Title","AnalysisType","DataType","Estimator","Observations","NGroups","NDependentVars","NIndependentVars","NContinuousLatentVars","Parameters","LL","LLCorrectionFactor","AIC","BIC","aBIC","AICC","Filename"
+"9","Round2D SD D1 SYNTHETIC MI00 synthetic","COMPLEX RANDOM","INDIVIDUAL","MLR",1200,1,15,3,7,82,-22515.497,0.9926,45194.994,45612.38,45351.916,45207.1802130707,"model.out"

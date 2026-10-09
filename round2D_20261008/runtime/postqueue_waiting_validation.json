@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": {
+    "native_wait_stage": true,
+    "no_Mplus_child": true,
+    "windows_console_only": true,
+    "no_pooling_while_upstream_active": true,
+    "frozen_sources_unchanged": true
+  },
+  "observed_at": "2026-10-09T03:56:10.134740+00:00",
+  "worker_pid": 27732,
+  "evidence": "postqueue_waiting_observation.json",
+  "scope": "Actual waiting state only; subsequent postqueue execution remains untested until upstream terminal",
+  "initial_diagnostic": "Initial shell assertion incorrectly disallowed the normal Windows conhost.exe child. Corrected the validation condition; original analysis and postqueue R script were not changed or restarted."
+}

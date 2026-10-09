@@ -1,0 +1,83 @@
+{
+  "status": "PASS_PENDING_VISUAL",
+  "preview": false,
+  "scope": "Exact ordered DOCX cells and PDF table coordinates; citation integrity and package structure",
+  "documents": [
+    {
+      "document": "PP_LGCM_review_v49_round2D.docx",
+      "docx_sha256": "c6d6fa6eea0aeccb83b4cae5eda6c3e389fb5860966b6a3ca8681909072f782f",
+      "pdf_sha256": "02fd4bd3766d471c3998136d257b431390b271e0f37bbcc30f92d6a2029675ea",
+      "pages": 18,
+      "expected_tables": 7,
+      "matched_pdf_rows": 44,
+      "matched_pdf_cells": 200,
+      "retained_citations": 71,
+      "omitted_source_citation_fields": 1,
+      "docx_tables_match": true,
+      "pdf_tables_match": true,
+      "visual_review": "PENDING",
+      "rendering": {
+        "page_images": [
+          "main_p001.png",
+          "main_p002.png",
+          "main_p003.png",
+          "main_p004.png",
+          "main_p005.png",
+          "main_p006.png",
+          "main_p007.png",
+          "main_p008.png",
+          "main_p009.png",
+          "main_p010.png",
+          "main_p011.png",
+          "main_p012.png",
+          "main_p013.png",
+          "main_p014.png",
+          "main_p015.png",
+          "main_p016.png",
+          "main_p017.png",
+          "main_p018.png"
+        ],
+        "contact_sheets": [
+          "main_contact_001.png",
+          "main_contact_007.png",
+          "main_contact_013.png"
+        ]
+      }
+    },
+    {
+      "document": "PP_LGCM_appendix_review_v41_round2D.docx",
+      "docx_sha256": "f1e5765656dfe0e41c9cba3c215b73b7d439a571348b5313a745181dacca089a",
+      "pdf_sha256": "0d6ce594ff07d6f56a9dbf1e146f401e0e5828deb6b098bfab0e898430c223f5",
+      "pages": 11,
+      "expected_tables": 14,
+      "matched_pdf_rows": 178,
+      "matched_pdf_cells": 1186,
+      "retained_citations": 0,
+      "omitted_source_citation_fields": 0,
+      "docx_tables_match": true,
+      "pdf_tables_match": true,
+      "visual_review": "PENDING",
+      "rendering": {
+        "page_images": [
+          "appendix_p001.png",
+          "appendix_p002.png",
+          "appendix_p003.png",
+          "appendix_p004.png",
+          "appendix_p005.png",
+          "appendix_p006.png",
+          "appendix_p007.png",
+          "appendix_p008.png",
+          "appendix_p009.png",
+          "appendix_p010.png",
+          "appendix_p011.png"
+        ],
+        "contact_sheets": [
+          "appendix_contact_001.png",
+          "appendix_contact_007.png"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "created_at": "2026-10-09T15:04:01.214020+00:00"
+}

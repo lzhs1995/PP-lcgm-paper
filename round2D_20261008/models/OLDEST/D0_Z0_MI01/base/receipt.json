@@ -1,0 +1,31 @@
+{
+  "id": "OLDEST_D0_Z0_1_base",
+  "z": "OLDEST",
+  "spec": "D0",
+  "member": 1,
+  "attempt": "base",
+  "category": "TARGET",
+  "kind": "linear",
+  "sample": "Z0",
+  "N": 3159,
+  "households": 2320,
+  "settings": {
+    "method": "none",
+    "points": 0,
+    "seed": 26100801
+  },
+  "usable": true,
+  "seconds": 24.4405138492584,
+  "exitcode": 0,
+  "output_sha256": "afcb26e2070bea59e3ccef2c4b22163cd8064e2a347338cdd248d0cc5ee3045e",
+  "integration_dimensions": null,
+  "normal": true,
+  "LL": -41778.473,
+  "parameters": 204,
+  "negative": [],
+  "geometry_ok": true,
+  "vcov_ok": true,
+  "warnings": [],
+  "printed_match": true,
+  "status": "USABLE"
+}

@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-09T10:59:41.445636+00:00",
+  "skills_read": [
+    {
+      "path": "C:/Users/LZHS/.agents/skills/mplusautomation-guide/SKILL.md",
+      "sha256": "0032b1d766eefc8e33f9e54cc166a4104c3275c739a41b3df58402fe247ad62d"
+    },
+    {
+      "path": "C:/Users/LZHS/.agents/skills/clauder-rstudio-workbench/SKILL.md",
+      "sha256": "ae211458620d4c13f3ba98250e2390e3e1432bb52f6439377bb926cb703d40ef"
+    }
+  ],
+  "power_scheme": "电源方案 GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c  (高性能)",
+  "cpu": {
+    "Name": "12th Gen Intel(R) Core(TM) i7-1260P",
+    "NumberOfCores": 12,
+    "NumberOfLogicalProcessors": 16,
+    "MaxClockSpeed": 2100,
+    "CurrentClockSpeed": 2100
+  },
+  "configuration_changed": false
+}
