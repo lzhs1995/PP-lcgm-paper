@@ -1,0 +1,12 @@
+{
+  "id": "CFPS_SONGAP_E0_01_repair_start",
+  "status": "EXITED",
+  "seconds": 24.088284730911255,
+  "cpu_seconds": 18.28125,
+  "max_rss": 36171776,
+  "limit_seconds": 300,
+  "exitcode": 0,
+  "started_epoch": 1791604127.0889103,
+  "finished_epoch": 1791604151.1772022,
+  "finished_utc": "2026-10-10T03:49:11.177210+00:00"
+}

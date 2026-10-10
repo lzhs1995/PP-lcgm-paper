@@ -1,0 +1,1 @@
+{"id": "SYNTHETIC_SD_E0B_01_smoke", "status": "EXITED", "seconds": 3.133139133453369, "cpu_seconds": 0.6875, "max_rss": 16220160, "limit_seconds": 180, "exitcode": 0, "started_epoch": 1791603346.8055356, "finished_epoch": 1791603349.9386818, "finished_utc": "2026-10-10T03:35:49.938695+00:00"}

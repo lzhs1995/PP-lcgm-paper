@@ -1,0 +1,8 @@
+"scenario","test","passed","note"
+"dryrun","calls_within_caps",TRUE,"B1 CHECK 4; B1 MEMBER 36; B1 PILOT 8; B1 PROBE 5"
+"dryrun","inputs_width_and_no_bare_fix",TRUE,"53 inputs"
+"dryrun","support_points_frozen",TRUE,""
+"dryrun","first_calls_rotate_branches",TRUE,""
+"dryrun","dryrun_planned_status",TRUE,""
+"dryrun","dryrun_phase_A_inputs",TRUE,"53"
+"dryrun","dryrun_no_repairs",TRUE,""

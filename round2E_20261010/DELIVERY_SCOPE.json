@@ -1,0 +1,24 @@
+{
+  "release_type": "PARTIAL_RESEARCH_STAGE_FOR_EXTERNAL_REVIEW",
+  "round": "Round2E",
+  "preview": false,
+  "ready_for_publication": true,
+  "scientific_project_complete": false,
+  "public_microdata": false,
+  "independent_status": "PASS",
+  "H4": "DEFERRED_BY_USER_STAGE_CHOICE",
+  "primary_E0_families_adopted": 1,
+  "primary_E1_families_adopted": 0,
+  "calls": 34,
+  "public_content": "aggregate model outputs, parameters, covariance, code, contracts, reports and review manuscripts",
+  "excluded": [
+    "microdata",
+    "participant PID/FID values",
+    "individual scores",
+    "income records",
+    "MI objects"
+  ],
+  "explicit_deviation": "One nominal 1800-second wall cap ended at 2002.49 seconds after recorded system standby; fully charged, no retry added.",
+  "NLM_three_pass": "NOT_PERFORMED_FOR_THIS_STAGE",
+  "created_utc": "2026-10-10T05:53:32.417830+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "calls": 34,
+  "cfps_calls": 28,
+  "synthetic_calls": 6,
+  "statuses": {
+    "USABLE": 23,
+    "INADMISSIBLE_SY_ONLY": 7,
+    "INADMISSIBLE": 2,
+    "ESTIMATION_FAILED": 1,
+    "TIMEOUT": 1
+  },
+  "engine_wall_seconds": 3030.919851303103,
+  "cpu_seconds_recorded": 1096.9375,
+  "batch_wall_until_queue_terminal_seconds": 4154.0595688819885,
+  "ledger_wall_at_last_engine": 4137.713702917099,
+  "batch_started_utc": "2026-10-10T03:33:50.940431+00:00",
+  "queue_terminal_utc": "2026-10-10T04:43:05+00:00",
+  "cap_overshoots": [
+    {
+      "id": "CFPS_SEXGAP_E1_01_q15_repair",
+      "z": "SEXGAP",
+      "spec": "E1",
+      "member": 1,
+      "sample": "CFPS",
+      "attempt": "q15_repair",
+      "category": "REPAIR",
+      "status": "TIMEOUT",
+      "seconds": 2002.4892616272,
+      "processors": 1,
+      "points": 15,
+      "sy": null,
+      "integration_dimensions": null,
+      "cpu_seconds_recorded": 331.09375,
+      "limit_seconds": 1800,
+      "input_sha256": "d4eb45710a4ae7c63f001c362aa1a521a40e0da807a5ffe3edb2be2d1c27bb10",
+      "output_sha256": "857e5729d6c3222cd8cc33e684af18623beabdea4199d460edf03f685da6710f",
+      "time_over_limit": 202.48926162719727,
+      "started_epoch": 1791604536.4245183,
+      "finished_epoch": 1791606538.913791
+    }
+  ],
+  "performance_pair": "NOT_RUN: primary SD E1 pilot inadmissible; synthetic CPU checks do not establish CFPS acceleration",
+  "H4": "DEFERRED_BY_USER_STAGE_CHOICE",
+  "new_latent_IZ_calls": 0,
+  "primary_E1_adopted": 0,
+  "interpretation": "Engine-wall timing includes modern standby; recorded process CPU time is a separate sampled quantity, not a controlled speed comparison."
+}

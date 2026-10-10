@@ -1,0 +1,86 @@
+{
+  "round": "Round2E",
+  "created_utc": "2026-10-10T03:40:12.665374+00:00",
+  "status": "FROZEN",
+  "authorization": "User selected B1 delivery before H4; user instructed Implement the plan.",
+  "source_round2D_commit": "cf5ab4fb9e1e59742462a7dadd85ff6fdbdb83b0",
+  "estimand": "Observed 2012 Z0 moderates SX to SY in the SW two-process working model; not latent IZ moderation.",
+  "branches": [
+    "SD",
+    "SEXGAP",
+    "OLDEST",
+    "SONGAP"
+  ],
+  "N": [
+    3274,
+    2339,
+    3159,
+    2894
+  ],
+  "science": {
+    "E0": "SW + ix sx ON z0; iy ON z0; sy ON z0; x1 y1 ON z0",
+    "E1": "E0 + sxz | sx XWITH z0; sy ON sxz",
+    "controls": "Round2D fixed 24 controls with already documented constant-column exclusions",
+    "XY_samewave_residuals": 5,
+    "X_shape": "free endpoint anchored 0/1",
+    "Y_shape": "calendar linear 0/.4/.6/.8/1",
+    "estimator": "MLR; COMPLEX; CLUSTER=fid; RANDOM INTEGRATION for E1"
+  },
+  "budget": {
+    "max_calls_total_including_synthetic": 101,
+    "engine_seconds": 28800,
+    "wall_seconds": 36000,
+    "categories": {
+      "SMOKE": 6,
+      "TARGET": 80,
+      "NUMERIC": 8,
+      "PERFORMANCE": 1,
+      "REPAIR": 4,
+      "BOUNDARY": 2
+    },
+    "per_call_seconds": {
+      "synthetic": 180,
+      "linear": 300,
+      "observed_LMS": 1800
+    },
+    "unknown_elapsed": "stop new admission unless reconstructed from independently written receipt",
+    "pause_counts_in_wall": true
+  },
+  "numerics": {
+    "points": [
+      15,
+      20
+    ],
+    "one_repair_points": 30,
+    "path_change_integration_SE": 0.05,
+    "SE_relative": 0.05,
+    "start_LL": 0.01,
+    "start_path_absolute": 0.001,
+    "start_path_SE": 0.01,
+    "alternate_failed_is_pass": false,
+    "MI01_only": true
+  },
+  "warm_start": "All common free parameters by semantic name from admissible source, target syntax retained; no negative-variance clipping; additions start at zero; deterministic perturbation only non-variance starts.",
+  "processors": "single external slot; actual SD E1 same-start 1-vs-4 pair; adopt 4 only if numerical agreement and >=20 percent faster",
+  "selection": "all four MI01 E0/E1 first; complete remaining legal E0; E1 family expected remaining cost=9*1.25*MI01 seconds; increasing cost then fixed branch order; no P-value selection",
+  "primary_pooling": "All 10 usable at identical scientific specification and integration precision, plus MI01 start and integration checks; Rubin conditional inference, full covariance in contrasts",
+  "boundary": "SD earliest member with only SY negative and otherwise required checks passing; at most same-member E0B/E1B sy@0 diagnostic pair; never replaces free primary family",
+  "multiplicity": "dc,E0 gi0,E0 gs0 each fixed family of 4; unavailable tests remain missing",
+  "presentation": "SUPPORT_POINTS.csv frozen before CFPS estimates; neighborhood +/-0.1 standardized units",
+  "deferred": [
+    "H4 by explicit user choice",
+    "latent IZ",
+    "window/scale/Y-shape",
+    "complete-case and winsorization",
+    "JN/MDE exploratory expansion"
+  ],
+  "code_sha256": {
+    "pool_results.R": "a8b7f81c3d8f83a5e6535ca2e667795730b9a74b22059dff901e04dc5d0fec25",
+    "preflight.R": "bdeea0588e0523ac8dfde6718d0481244d4ed992ed6e1890a61e1365116efaf2",
+    "queue.R": "ec33864efd7a6d3a335c43b9f05f5fc3376e0baecb6eebdd9c38d9619a98c71f",
+    "r2e_local.R": "ea633592087605f00769ae0eba2d64ae834d62ec06a8248c3ce12788a6bd58b6",
+    "r2e_tools.R": "8739a21e74425f06a0151bdc3093d43f0b5c4d0d8e736dd746265202f4a5c233",
+    "r2e_upstream_math.R": "8a55e357475128d6c6538171022ad0778bb693c44fc13c89e28d400106cf4554",
+    "run_engine.py": "2a88b6ba83c8a0aa75d5f7f2cf3d800c7e5d7cd19727041e1cbeacc473525416"
+  }
+}

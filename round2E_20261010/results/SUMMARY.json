@@ -1,0 +1,388 @@
+{
+  "families": [
+    {
+      "z": "SD",
+      "spec": "E0",
+      "status": "ADOPT",
+      "n_usable": 10,
+      "numeric_ok": true,
+      "member_statuses": "USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE"
+    },
+    {
+      "z": "SD",
+      "spec": "E1",
+      "status": "PILOT_NOT_USABLE",
+      "n_usable": 0,
+      "numeric_ok": false,
+      "member_statuses": "INADMISSIBLE_SY_ONLY;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    },
+    {
+      "z": "SEXGAP",
+      "spec": "E0",
+      "status": "NOT_POOLABLE",
+      "n_usable": 0,
+      "numeric_ok": true,
+      "member_statuses": "INADMISSIBLE;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    },
+    {
+      "z": "SEXGAP",
+      "spec": "E1",
+      "status": "PILOT_NOT_USABLE",
+      "n_usable": 0,
+      "numeric_ok": false,
+      "member_statuses": "TIMEOUT;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    },
+    {
+      "z": "OLDEST",
+      "spec": "E0",
+      "status": "NOT_POOLABLE",
+      "n_usable": 5,
+      "numeric_ok": true,
+      "member_statuses": "USABLE;USABLE;USABLE;USABLE;USABLE;INADMISSIBLE_SY_ONLY;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    },
+    {
+      "z": "OLDEST",
+      "spec": "E1",
+      "status": "PILOT_NOT_USABLE",
+      "n_usable": 0,
+      "numeric_ok": false,
+      "member_statuses": "INADMISSIBLE_SY_ONLY;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    },
+    {
+      "z": "SONGAP",
+      "spec": "E0",
+      "status": "NOT_POOLABLE",
+      "n_usable": 0,
+      "numeric_ok": true,
+      "member_statuses": "INADMISSIBLE_SY_ONLY;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    },
+    {
+      "z": "SONGAP",
+      "spec": "E1",
+      "status": "PILOT_NOT_USABLE",
+      "n_usable": 0,
+      "numeric_ok": false,
+      "member_statuses": "INADMISSIBLE_SY_ONLY;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN;NOT_RUN"
+    }
+  ],
+  "terminal": {
+    "status": "FINISHED",
+    "utc": "2026-10-10 04:43:05 UTC"
+  },
+  "performance": {},
+  "budget": {
+    "calls": 34,
+    "engine_seconds": 3030.9198513031,
+    "wall_seconds": 4137.7137029171,
+    "updated_utc": "2026-10-10T04:42:48.654134+00:00",
+    "rows": [
+      {
+        "id": "SYNTHETIC_SD_E0_01_smoke",
+        "category": "SMOKE",
+        "state": "EXITED",
+        "seconds": 2.89361929893494,
+        "reserved": 180,
+        "start": 1791603235.25359,
+        "finish": 1791603238.14722
+      },
+      {
+        "id": "SYNTHETIC_SD_E1_01_smoke",
+        "category": "SMOKE",
+        "state": "EXITED",
+        "seconds": 11.539901971817,
+        "reserved": 180,
+        "start": 1791603252.27046,
+        "finish": 1791603263.81037
+      },
+      {
+        "id": "SYNTHETIC_SD_E1_01_smoke_start",
+        "category": "SMOKE",
+        "state": "EXITED",
+        "seconds": 11.3595695495605,
+        "reserved": 180,
+        "start": 1791603288.54533,
+        "finish": 1791603299.90491
+      },
+      {
+        "id": "SYNTHETIC_SD_E1_01_smoke_p4",
+        "category": "SMOKE",
+        "state": "EXITED",
+        "seconds": 5.05821657180786,
+        "reserved": 180,
+        "start": 1791603321.39563,
+        "finish": 1791603326.45385
+      },
+      {
+        "id": "SYNTHETIC_SD_E0B_01_smoke",
+        "category": "SMOKE",
+        "state": "EXITED",
+        "seconds": 3.13313913345337,
+        "reserved": 180,
+        "start": 1791603346.80554,
+        "finish": 1791603349.93868
+      },
+      {
+        "id": "SYNTHETIC_SD_E1B_01_smoke",
+        "category": "SMOKE",
+        "state": "EXITED",
+        "seconds": 10.2962477207184,
+        "reserved": 180,
+        "start": 1791603372.98862,
+        "finish": 1791603383.28487
+      },
+      {
+        "id": "CFPS_SD_E0_01_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 43.6611089706421,
+        "reserved": 300,
+        "start": 1791603675.47211,
+        "finish": 1791603719.13323
+      },
+      {
+        "id": "CFPS_SEXGAP_E0_01_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 48.8786268234253,
+        "reserved": 300,
+        "start": 1791603777.47023,
+        "finish": 1791603826.34886
+      },
+      {
+        "id": "CFPS_SEXGAP_E0_01_repair_start",
+        "category": "REPAIR",
+        "state": "EXITED",
+        "seconds": 45.1408505439758,
+        "reserved": 300,
+        "start": 1791603884.43457,
+        "finish": 1791603929.57543
+      },
+      {
+        "id": "CFPS_OLDEST_E0_01_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 40.4442408084869,
+        "reserved": 300,
+        "start": 1791603989.51248,
+        "finish": 1791604029.95673
+      },
+      {
+        "id": "CFPS_SONGAP_E0_01_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 32.3605635166168,
+        "reserved": 300,
+        "start": 1791604064.36052,
+        "finish": 1791604096.72109
+      },
+      {
+        "id": "CFPS_SONGAP_E0_01_repair_start",
+        "category": "REPAIR",
+        "state": "EXITED",
+        "seconds": 24.0882847309113,
+        "reserved": 300,
+        "start": 1791604127.08891,
+        "finish": 1791604151.1772
+      },
+      {
+        "id": "CFPS_SD_E1_01_q15",
+        "category": "NUMERIC",
+        "state": "EXITED",
+        "seconds": 105.338150978088,
+        "reserved": 1800,
+        "start": 1791604179.93868,
+        "finish": 1791604285.27753
+      },
+      {
+        "id": "CFPS_SD_E1_01_q15_repair",
+        "category": "REPAIR",
+        "state": "EXITED",
+        "seconds": 96.5259912014008,
+        "reserved": 1800,
+        "start": 1791604317.87115,
+        "finish": 1791604414.39714
+      },
+      {
+        "id": "CFPS_SEXGAP_E1_01_q15",
+        "category": "NUMERIC",
+        "state": "EXITED",
+        "seconds": 80.3060164451599,
+        "reserved": 1800,
+        "start": 1791604440.62501,
+        "finish": 1791604520.93103
+      },
+      {
+        "id": "CFPS_SEXGAP_E1_01_q15_repair",
+        "category": "REPAIR",
+        "state": "TIMEOUT",
+        "seconds": 2002.4892616272,
+        "reserved": 1800,
+        "start": 1791604536.42452,
+        "finish": 1791606538.91379
+      },
+      {
+        "id": "CFPS_OLDEST_E1_01_q15",
+        "category": "NUMERIC",
+        "state": "EXITED",
+        "seconds": 63.1019449234009,
+        "reserved": 1800,
+        "start": 1791606561.99503,
+        "finish": 1791606625.09698
+      },
+      {
+        "id": "CFPS_SONGAP_E1_01_q15",
+        "category": "NUMERIC",
+        "state": "EXITED",
+        "seconds": 44.0848972797394,
+        "reserved": 1800,
+        "start": 1791606639.56683,
+        "finish": 1791606683.65173
+      },
+      {
+        "id": "CFPS_SD_E0_02_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 15.0509912967682,
+        "reserved": 300,
+        "start": 1791606697.61393,
+        "finish": 1791606712.66493
+      },
+      {
+        "id": "CFPS_OLDEST_E0_02_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 13.0444905757904,
+        "reserved": 300,
+        "start": 1791606727.18213,
+        "finish": 1791606740.22663
+      },
+      {
+        "id": "CFPS_SD_E0_03_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 15.046728849411,
+        "reserved": 300,
+        "start": 1791606755.07538,
+        "finish": 1791606770.12211
+      },
+      {
+        "id": "CFPS_OLDEST_E0_03_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 17.0672209262848,
+        "reserved": 300,
+        "start": 1791606786.04159,
+        "finish": 1791606803.10881
+      },
+      {
+        "id": "CFPS_SD_E0_04_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 15.0486245155334,
+        "reserved": 300,
+        "start": 1791606818.33911,
+        "finish": 1791606833.38774
+      },
+      {
+        "id": "CFPS_OLDEST_E0_04_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 19.0573146343231,
+        "reserved": 300,
+        "start": 1791606851.74147,
+        "finish": 1791606870.79879
+      },
+      {
+        "id": "CFPS_SD_E0_05_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 21.0837721824646,
+        "reserved": 300,
+        "start": 1791606896.01006,
+        "finish": 1791606917.09383
+      },
+      {
+        "id": "CFPS_OLDEST_E0_05_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 15.0628452301025,
+        "reserved": 300,
+        "start": 1791606935.13843,
+        "finish": 1791606950.20128
+      },
+      {
+        "id": "CFPS_SD_E0_06_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 15.0374903678894,
+        "reserved": 300,
+        "start": 1791606965.22575,
+        "finish": 1791606980.26325
+      },
+      {
+        "id": "CFPS_OLDEST_E0_06_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 19.0553476810455,
+        "reserved": 300,
+        "start": 1791606997.38651,
+        "finish": 1791607016.44186
+      },
+      {
+        "id": "CFPS_SD_E0_07_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 22.0737040042877,
+        "reserved": 300,
+        "start": 1791607041.98945,
+        "finish": 1791607064.06316
+      },
+      {
+        "id": "CFPS_SD_E0_08_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 18.0622909069061,
+        "reserved": 300,
+        "start": 1791607090.01481,
+        "finish": 1791607108.0771
+      },
+      {
+        "id": "CFPS_SD_E0_09_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 17.0541543960571,
+        "reserved": 300,
+        "start": 1791607125.4367,
+        "finish": 1791607142.49086
+      },
+      {
+        "id": "CFPS_SD_E0_10_base",
+        "category": "TARGET",
+        "state": "EXITED",
+        "seconds": 23.1205759048462,
+        "reserved": 300,
+        "start": 1791607165.51673,
+        "finish": 1791607188.63731
+      },
+      {
+        "id": "CFPS_SD_E0B_01_diagnostic",
+        "category": "BOUNDARY",
+        "state": "EXITED",
+        "seconds": 25.1699771881104,
+        "reserved": 300,
+        "start": 1791607217.89275,
+        "finish": 1791607243.06273
+      },
+      {
+        "id": "CFPS_SD_E1B_01_diagnostic",
+        "category": "BOUNDARY",
+        "state": "EXITED",
+        "seconds": 90.1836905479431,
+        "reserved": 1800,
+        "start": 1791607278.45187,
+        "finish": 1791607368.63556
+      }
+    ]
+  },
+  "inference": "Conditional on the current household-person MI and fixed working model; observed Z0 is not latent IZ; numeric checks are MI01 only; no constrained family replaces the primary."
+}

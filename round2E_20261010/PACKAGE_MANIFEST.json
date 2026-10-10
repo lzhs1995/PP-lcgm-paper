@@ -1,0 +1,29 @@
+{
+  "limit_bytes": 25000000,
+  "preview": false,
+  "packages": [
+    {
+      "path": "packages/01_reports_manuscripts_01.zip",
+      "bytes": 1898031,
+      "files": 115,
+      "sha256": "78e02cfc76096aaa62d3ebef258ca5ea1b095710a859fbac55c246b2b61fd09e",
+      "CRC": "PASS",
+      "decompressed_file_hashes": "PASS"
+    },
+    {
+      "path": "packages/02_models_code_01.zip",
+      "bytes": 11963315,
+      "files": 762,
+      "sha256": "83e9319f50bc829ca8f237494a4e184b43d96408dcccd4207e706ffd74ac6285",
+      "CRC": "PASS",
+      "decompressed_file_hashes": "PASS"
+    }
+  ],
+  "files_in_internal_manifest": 876,
+  "unique_files_in_packages": 877,
+  "manifest_excludes_itself": true,
+  "packages_extract_into_one_directory": true,
+  "public_microdata": false,
+  "note": "FILE_MANIFEST lists payload files except itself; PACKAGE_MANIFEST and ZIP files are external manifests/artifacts, not recursively included.",
+  "created_at": "2026-10-10T05:58:56.657613+00:00"
+}

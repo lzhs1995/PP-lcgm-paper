@@ -1,0 +1,81 @@
+﻿z,spec,member,attempted,status,call_ids,reason
+SD,E0,1,True,USABLE,CFPS_SD_E0_01_base,Actual call retained
+SD,E0,2,True,USABLE,CFPS_SD_E0_02_base,Actual call retained
+SD,E0,3,True,USABLE,CFPS_SD_E0_03_base,Actual call retained
+SD,E0,4,True,USABLE,CFPS_SD_E0_04_base,Actual call retained
+SD,E0,5,True,USABLE,CFPS_SD_E0_05_base,Actual call retained
+SD,E0,6,True,USABLE,CFPS_SD_E0_06_base,Actual call retained
+SD,E0,7,True,USABLE,CFPS_SD_E0_07_base,Actual call retained
+SD,E0,8,True,USABLE,CFPS_SD_E0_08_base,Actual call retained
+SD,E0,9,True,USABLE,CFPS_SD_E0_09_base,Actual call retained
+SD,E0,10,True,USABLE,CFPS_SD_E0_10_base,Actual call retained
+SD,E1,1,True,INADMISSIBLE_SY_ONLY,CFPS_SD_E1_01_q15;CFPS_SD_E1_01_q15_repair,15-point pilot did not pass; 20-point MI01 and numerical checks not admitted
+SD,E1,2,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,3,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,4,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,5,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,6,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SD,E1,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,1,True,INADMISSIBLE,CFPS_SEXGAP_E0_01_base;CFPS_SEXGAP_E0_01_repair_start,Actual call retained
+SEXGAP,E0,2,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,3,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,4,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,5,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,6,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E0,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,1,True,TIMEOUT,CFPS_SEXGAP_E1_01_q15;CFPS_SEXGAP_E1_01_q15_repair,15-point pilot did not pass; 20-point MI01 and numerical checks not admitted
+SEXGAP,E1,2,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,3,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,4,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,5,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,6,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SEXGAP,E1,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E0,1,True,USABLE,CFPS_OLDEST_E0_01_base,Actual call retained
+OLDEST,E0,2,True,USABLE,CFPS_OLDEST_E0_02_base,Actual call retained
+OLDEST,E0,3,True,USABLE,CFPS_OLDEST_E0_03_base,Actual call retained
+OLDEST,E0,4,True,USABLE,CFPS_OLDEST_E0_04_base,Actual call retained
+OLDEST,E0,5,True,USABLE,CFPS_OLDEST_E0_05_base,Actual call retained
+OLDEST,E0,6,True,INADMISSIBLE_SY_ONLY,CFPS_OLDEST_E0_06_base,Actual call retained
+OLDEST,E0,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E0,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E0,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E0,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,1,True,INADMISSIBLE_SY_ONLY,CFPS_OLDEST_E1_01_q15,15-point pilot did not pass; 20-point MI01 and numerical checks not admitted
+OLDEST,E1,2,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,3,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,4,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,5,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,6,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+OLDEST,E1,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,1,True,INADMISSIBLE_SY_ONLY,CFPS_SONGAP_E0_01_base;CFPS_SONGAP_E0_01_repair_start,Actual call retained
+SONGAP,E0,2,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,3,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,4,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,5,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,6,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E0,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,1,True,INADMISSIBLE_SY_ONLY,CFPS_SONGAP_E1_01_q15,15-point pilot did not pass; 20-point MI01 and numerical checks not admitted
+SONGAP,E1,2,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,3,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,4,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,5,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,6,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,7,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,8,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,9,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling
+SONGAP,E1,10,False,NOT_RUN,,Earlier family member/pilot failed; no selected-member pooling

@@ -1,0 +1,96 @@
+{
+  "start": {
+    "passed": true,
+    "mode": "start",
+    "reference": "SYNTHETIC_SD_E1_01_smoke",
+    "candidate": "SYNTHETIC_SD_E1_01_smoke_start",
+    "delta_LL": 0,
+    "max_path_over_SE": 0.000120377113291281,
+    "max_SE_relative": 1.7512750019385e-05,
+    "paths": [
+      {
+        "label": "bii",
+        "difference": 9.89999999978508e-07,
+        "tolerance": 0.001
+      },
+      {
+        "label": "bis",
+        "difference": 1.20399999999771e-06,
+        "tolerance": 0.001
+      },
+      {
+        "label": "bss",
+        "difference": 4.10000000000688e-06,
+        "tolerance": 0.001
+      },
+      {
+        "label": "bsyiy",
+        "difference": 2.30000000017716e-07,
+        "tolerance": 0.001
+      },
+      {
+        "label": "gi0",
+        "difference": 1.34999999998331e-06,
+        "tolerance": 0.001
+      },
+      {
+        "label": "gs0",
+        "difference": 1.6989999999939e-06,
+        "tolerance": 0.001
+      },
+      {
+        "label": "dc",
+        "difference": 6.53000000000459e-06,
+        "tolerance": 0.001
+      }
+    ],
+    "outcome": "AGREE"
+  },
+  "processors": {
+    "passed": true,
+    "mode": "processors",
+    "reference": "SYNTHETIC_SD_E1_01_smoke",
+    "candidate": "SYNTHETIC_SD_E1_01_smoke_p4",
+    "delta_LL": 0,
+    "max_path_over_SE": 0,
+    "max_SE_relative": 0,
+    "paths": [
+      {
+        "label": "bii",
+        "difference": 0,
+        "tolerance": 0.001
+      },
+      {
+        "label": "bis",
+        "difference": 0,
+        "tolerance": 0.001
+      },
+      {
+        "label": "bss",
+        "difference": 0,
+        "tolerance": 0.001
+      },
+      {
+        "label": "bsyiy",
+        "difference": 0,
+        "tolerance": 0.001
+      },
+      {
+        "label": "gi0",
+        "difference": 0,
+        "tolerance": 0.001
+      },
+      {
+        "label": "gs0",
+        "difference": 0,
+        "tolerance": 0.001
+      },
+      {
+        "label": "dc",
+        "difference": 0,
+        "tolerance": 0.001
+      }
+    ],
+    "outcome": "AGREE"
+  }
+}

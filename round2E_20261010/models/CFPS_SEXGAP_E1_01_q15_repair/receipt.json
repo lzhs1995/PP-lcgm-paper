@@ -1,0 +1,21 @@
+{
+  "id": "CFPS_SEXGAP_E1_01_q15_repair",
+  "z": "SEXGAP",
+  "spec": "E1",
+  "member": 1,
+  "attempt": "q15_repair",
+  "category": "REPAIR",
+  "sample": "CFPS",
+  "points": 15,
+  "processors": 1,
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2E_20261010/models/CFPS_SEXGAP_E1_01_q15_repair",
+  "expected_free": 127,
+  "structural_signature": "2b62f58f68d7c8b07bfc5923f501fce0ae3e679c77284303e347787e03000291",
+  "round": "Round2E",
+  "seconds": 2002.4892616272,
+  "engine_status": "TIMEOUT",
+  "status": "TIMEOUT",
+  "usable": false,
+  "output_sha256": "857e5729d6c3222cd8cc33e684af18623beabdea4199d460edf03f685da6710f",
+  "normal": false
+}

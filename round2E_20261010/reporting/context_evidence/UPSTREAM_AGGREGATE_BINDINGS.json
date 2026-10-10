@@ -1,0 +1,146 @@
+[
+  {
+    "source_round": "Round2D",
+    "path": "audit/MI_CONGENIALITY_AUDIT.json",
+    "sha256": "907144de817140b83861b0fd0927aa63732b38fc333886ef7f5183c7013e07e0",
+    "bytes": 2310
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/MI_actual_predictor_coverage.csv",
+    "sha256": "c30a1333c23e867d86ac604b9467160b3a6d97974547fdb699c252b81b3ebd2c",
+    "bytes": 3441
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/MI_terminal_chain_summary.csv",
+    "sha256": "3667f99c09dc5427cafd64c56a2d8a2f99c9bcd347b0d46e945bd62d6d17289c",
+    "bytes": 506
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/G_CODING_CONFIRMATION.json",
+    "sha256": "91fdda897f18a972734cd502a39a3f494d1ed565c8790af5f5714004083f17e3",
+    "bytes": 1055
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/baseline_controls_descriptives.csv",
+    "sha256": "6164c96caf48511e957c4b1d269597bd6c9c7f4632515c1d99861e481d3a63b5",
+    "bytes": 2777
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/baseline_Z_eligibility.csv",
+    "sha256": "fc299bd1aa7e3eaf6b1ecdf04653e412d55b01c73df693a679de76f6796546b8",
+    "bytes": 553
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/control_column_decisions.csv",
+    "sha256": "1b343053d9f5d81f85691d0c17f006fccd823d29cd7e4af73412f0ab67fe9cb3",
+    "bytes": 3925
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/moderator_descriptives.csv",
+    "sha256": "b34a4c230c0e4736bfa5efde1fec0c9cfd2913908fc925185daea624cb716b80",
+    "bytes": 3557
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/Z_CONTRACT.json",
+    "sha256": "e80e5da5f9e0a90dacb3a944b5afa55cc7e6b91b34f073be5d4c03d5e66bad8c",
+    "bytes": 7730
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/PERFORMANCE_REVIEW_20261009.md",
+    "sha256": "383ace2840699ecc945ccefb44782407ba1fb8ba473291d3c93faea68f1dd194",
+    "bytes": 12387
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/PERFORMANCE_CALIBRATION_EXECUTION.md",
+    "sha256": "426134f3fba3a36fe4ff1185e3997217ea18b6f3b0d3d4bd10d91b49812ca26b",
+    "bytes": 2450
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/stage_closeout_20261009/D0_VARIANCE_DIAGNOSTICS.csv",
+    "sha256": "3a5a59d229fa87ae46e080b2ee666a9f25d153b956a469908fd260c6807adca1",
+    "bytes": 16064
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/stage_closeout_20261009/changed_bound_sources.json",
+    "sha256": "87613705227690df846ea1fe0455c08c111924eb48050eb2331152ffe5efa80b",
+    "bytes": 1062
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/stage_closeout_20261009/PROSE_SYNC_20261009.md",
+    "sha256": "7e5bf993861328fd0b4363cdebdd03f9682a15831f19e6b7f07fa429a6d6a40a",
+    "bytes": 670
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/stage_closeout_20261009/SYNTHETIC_STATUS_CORRECTION.md",
+    "sha256": "88ec2bb060b155704d46fde8354ff4584ef991c0ddedbfa0d7bbbf27b3eb74ca",
+    "bytes": 1221
+  },
+  {
+    "source_round": "Round2D",
+    "path": "audit/stage_closeout_20261009/synthetic_status_correction.json",
+    "sha256": "5a0d89062a0811338133ca8101d976e9b45d20a707ed7f8e7c64f99a5a7e877c",
+    "bytes": 377
+  },
+  {
+    "source_round": "Round2D",
+    "path": "reports_final/MODEL_EXECUTION.csv",
+    "sha256": "cf54ae572c283a08f66464b98e72f1e02e8ab74685089a598f28b91719495081",
+    "bytes": 14884
+  },
+  {
+    "source_round": "Round2D",
+    "path": "reports_final/PERFORMANCE_FINAL.csv",
+    "sha256": "b4080a404b07e1e980d3ef6fa3501e920167407c73928defca656db9ddce72e0",
+    "bytes": 6630
+  },
+  {
+    "source_round": "Round2D",
+    "path": "results/SW_structure_pooled.csv",
+    "sha256": "b188ea9abd36d7f445a8170f9680a95b4946177c7cb2562596f59059e7439759",
+    "bytes": 4140
+  },
+  {
+    "source_round": "Round2D",
+    "path": "results/SW_structure_members.csv",
+    "sha256": "5b4a06fad44d3b7f6c8d13d33fcf6e96cf714f65485d05cfb1f8260429921f77",
+    "bytes": 21338
+  },
+  {
+    "source_round": "Round2D",
+    "path": "manuscript/delivery/expected_tables.json",
+    "sha256": "a256adf9c8e4cf4d36a58aee5a4411c9703a9b26aa5eed3617410c4ab3347aa5",
+    "bytes": 40646
+  },
+  {
+    "source_round": "Round2D",
+    "path": "manuscript/delivery/retained_citations.json",
+    "sha256": "55fa738ef8368bf4a4366a5a2e4dd9ae5153a19d078402301e6e95da68836d9e",
+    "bytes": 137268
+  },
+  {
+    "source_round": "Round2D",
+    "path": "manuscript/delivery/PP_LGCM_review_v49_round2D.docx",
+    "sha256": "c6d6fa6eea0aeccb83b4cae5eda6c3e389fb5860966b6a3ca8681909072f782f",
+    "bytes": 312382
+  },
+  {
+    "source_round": "Round2D",
+    "path": "manuscript/delivery/PP_LGCM_appendix_review_v41_round2D.docx",
+    "sha256": "f1e5765656dfe0e41c9cba3c215b73b7d439a571348b5313a745181dacca089a",
+    "bytes": 51383
+  }
+]

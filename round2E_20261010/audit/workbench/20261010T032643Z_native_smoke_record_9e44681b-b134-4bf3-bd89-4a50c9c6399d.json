@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "9e44681b-b134-4bf3-bd89-4a50c9c6399d",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-round2e-20261010",
+  "harness_name": "native_smoke_record",
+  "timestamp_utc": "2026-10-10T03:26:43.454107Z",
+  "agent": "codex",
+  "transport_class": "NATIVE_MCP_OK",
+  "session_name": "default",
+  "pid": null,
+  "job_id": null,
+  "io_mode": null,
+  "decision": "PASS",
+  "reasons": [
+    "recorded native smoke step: list_sessions"
+  ],
+  "artifact_paths": [
+    "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\raw\\9e44681b-b134-4bf3-bd89-4a50c9c6399d\\native_list_sessions.json"
+  ],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "entry": {
+      "step": "list_sessions",
+      "ok": true,
+      "recorded_at_utc": "2026-10-10T03:26:43.454021Z",
+      "tool_layer": "codex-native",
+      "transport_class": "NATIVE_MCP_OK",
+      "session_name": "default",
+      "session_count": 0,
+      "pid": null,
+      "job_id": null,
+      "marker": null,
+      "raw_file": "C:/Users/LZHS/pp_lgcm_review/round2E_20261010/runtime/native_list_sessions.json",
+      "evidence_id": "9e44681b-b134-4bf3-bd89-4a50c9c6399d",
+      "raw_file_proof": {
+        "source_path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\runtime\\native_list_sessions.json",
+        "sha256": "db014f6edcd87980fdca3c218ad5eded22fea691ccc0e1602a2a7ddccbe627fd",
+        "size_bytes": 210,
+        "mtime_utc": "2026-10-10T03:26:37.034480Z",
+        "evidence_copy": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\raw\\9e44681b-b134-4bf3-bd89-4a50c9c6399d\\native_list_sessions.json"
+      }
+    }
+  }
+}

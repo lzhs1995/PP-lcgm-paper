@@ -1,0 +1,12 @@
+{
+  "id": "CFPS_SONGAP_E0_01_base",
+  "status": "EXITED",
+  "seconds": 32.36056351661682,
+  "cpu_seconds": 18.03125,
+  "max_rss": 36147200,
+  "limit_seconds": 300,
+  "exitcode": 0,
+  "started_epoch": 1791604064.3605206,
+  "finished_epoch": 1791604096.7210906,
+  "finished_utc": "2026-10-10T03:48:16.721099+00:00"
+}

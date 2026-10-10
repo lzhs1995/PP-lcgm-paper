@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "scientific_project_complete": false,
+  "new_model_calls": 0,
+  "queue_terminal": {
+    "status": "FINISHED",
+    "utc": "2026-10-10 04:43:05 UTC"
+  },
+  "completed_attempts": 34,
+  "evidence_type": "derived durable-file completion check; not a fabricated native tool response",
+  "native_terminal_response": "Later get_async_result returned No job found; this alone does not prove completion.",
+  "completion_basis": "Saved queue FINISHED and results_written states, all 34 engine receipts, full independent recalculation, archived original job registration.",
+  "sources": [
+    {
+      "path": "runtime/selection.json",
+      "sha256": "0a7238e71e9113d26b5da4ccf4d6c853f062b60b1b89b12374f627f8b9b613cb"
+    },
+    {
+      "path": "runtime/progress.json",
+      "sha256": "fd2b2bba47a9a6637979ed2edfbfaa704127abdefbee2c570705c64461daa738"
+    },
+    {
+      "path": "results/SUMMARY.json",
+      "sha256": "bb8cada73f977a4c55fe453d5dfe1463d3e2a5af2f41567ef30b70ed14c7760d"
+    },
+    {
+      "path": "audit/independent/independent_verification.json",
+      "sha256": "1a257304c82370c171d1ba15eef4c7879c939f4d603e5e180c99a5a795b66f95"
+    },
+    {
+      "path": "runtime/native_queue_terminal.json",
+      "sha256": "071eeb1b51eab80cde521d69e275d5ea17a45b8092dfc300ea607c5d0e1112a6"
+    },
+    {
+      "path": "runtime/native_history_round2E.json",
+      "sha256": "d04fc2d5e4a2593b4fb8fa2591489a61c64b0e34487b86439bbe4fef396aa7c8"
+    }
+  ],
+  "created_utc": "2026-10-10T05:52:09.618750+00:00"
+}

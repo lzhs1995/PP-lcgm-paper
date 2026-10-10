@@ -1,0 +1,12 @@
+{
+  "id": "CFPS_SEXGAP_E1_01_q15_repair",
+  "status": "TIMEOUT",
+  "seconds": 2002.4892616271973,
+  "cpu_seconds": 331.09375,
+  "max_rss": 29294592,
+  "limit_seconds": 1800,
+  "exitcode": 124,
+  "started_epoch": 1791604536.4245183,
+  "finished_epoch": 1791606538.913791,
+  "finished_utc": "2026-10-10T04:28:58.913802+00:00"
+}

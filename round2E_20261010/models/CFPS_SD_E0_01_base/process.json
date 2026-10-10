@@ -1,0 +1,9 @@
+{
+  "pid": 31076,
+  "create_time": 1791603675.4937515,
+  "exe": "C:/Users/LZHS/Downloads/Mplus/mplus9/ducument/Mplus.exe",
+  "cwd": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\models\\CFPS_SD_E0_01_base",
+  "input_sha256": "d50aa0568a3b38628e3cfdb5a3a124dd08668fd58408884fb64cbcbb75d7d481",
+  "started_epoch": 1791603675.472113,
+  "limit_seconds": 300
+}

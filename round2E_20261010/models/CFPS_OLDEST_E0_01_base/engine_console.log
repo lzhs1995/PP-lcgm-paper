@@ -1,0 +1,1 @@
+{"id": "CFPS_OLDEST_E0_01_base", "status": "EXITED", "seconds": 40.44424080848694, "cpu_seconds": 19.90625, "max_rss": 34734080, "limit_seconds": 300, "exitcode": 0, "started_epoch": 1791603989.512484, "finished_epoch": 1791604029.9567318, "finished_utc": "2026-10-10T03:47:09.956741+00:00"}

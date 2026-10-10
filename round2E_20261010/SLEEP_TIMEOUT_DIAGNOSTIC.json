@@ -1,0 +1,8 @@
+{
+  "event_evidence": "audit/SYSTEM_POWER_EVENTS.json",
+  "standby_entry_utc": "2026-10-10T04:02:09.2692806Z",
+  "standby_exit_utc": "2026-10-10T04:28:58.6364917Z",
+  "affected_call": "CFPS_SEXGAP_E1_01_q15_repair",
+  "conclusion": "The large monitoring gap overlaps recorded Kernel-Power modern-standby events. The watchdog stopped the owned job immediately after resume. The 202-second wall-cap overrun is reported, not clipped; all elapsed time remains charged.",
+  "limitation": "Recorded CPU usage is about 331 seconds; a 2002-second wall record is not evidence of 2002 seconds of active Mplus calculation. No retry was added after batch termination."
+}

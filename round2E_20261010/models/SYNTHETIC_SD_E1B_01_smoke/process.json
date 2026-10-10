@@ -1,0 +1,9 @@
+{
+  "pid": 9680,
+  "create_time": 1791603373.0831368,
+  "exe": "C:/Users/LZHS/Downloads/Mplus/mplus9/ducument/Mplus.exe",
+  "cwd": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\models\\SYNTHETIC_SD_E1B_01_smoke",
+  "input_sha256": "b9f06c72ec234912ea3f6ef6391a3a85088438d9be855faa750cc1c33371dfd0",
+  "started_epoch": 1791603372.9886167,
+  "limit_seconds": 180
+}

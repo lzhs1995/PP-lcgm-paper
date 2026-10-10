@@ -1,0 +1,1 @@
+{"id": "CFPS_SD_E1_01_q15_repair", "status": "EXITED", "seconds": 96.52599120140076, "cpu_seconds": 73.25, "max_rss": 33181696, "limit_seconds": 1800, "exitcode": 0, "started_epoch": 1791604317.8711462, "finished_epoch": 1791604414.3971443, "finished_utc": "2026-10-10T03:53:34.397151+00:00"}

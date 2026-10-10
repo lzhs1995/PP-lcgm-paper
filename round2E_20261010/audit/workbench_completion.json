@@ -1,0 +1,104 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "4583f2f1-353a-40dd-ae8e-eb03f5fc6202",
+  "parent_evidence_ids": [
+    "95d59c52-0085-42d1-acad-b3db6f5fe7fe",
+    "0cde1be0-15b5-4011-a0d2-a704fe6f51fe",
+    "d72bec3f-9d77-42d7-a067-b80f7dba45ec"
+  ],
+  "task_key": "pp-lgcm-round2e-20261010",
+  "harness_name": "completion_check",
+  "timestamp_utc": "2026-10-10T05:52:10.371216Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": null,
+  "pid": null,
+  "job_id": null,
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "completion contract passed"
+  ],
+  "artifact_paths": [
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\audit\\independent\\verified_calls.csv",
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\results\\FAMILY_STATUS.csv",
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\results\\POOLED_KEY_PATHS.csv",
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\audit\\SMOKE_RESULTS.csv",
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\manuscript\\delivery\\manuscript_validation.json",
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\manuscript\\delivery\\visual_review.json"
+  ],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "artifact_checks": [
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\audit\\independent\\verified_calls.csv",
+        "artifact_type": "validation",
+        "options": {
+          "min_rows": 34,
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "csv has 34 data rows"
+      },
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\results\\FAMILY_STATUS.csv",
+        "artifact_type": "validation",
+        "options": {
+          "min_rows": 8,
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "csv has 8 data rows"
+      },
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\results\\POOLED_KEY_PATHS.csv",
+        "artifact_type": "validation",
+        "options": {
+          "min_rows": 6,
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "csv has 6 data rows"
+      },
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\audit\\SMOKE_RESULTS.csv",
+        "artifact_type": "validation",
+        "options": {
+          "min_rows": 9,
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "csv has 9 data rows"
+      },
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\manuscript\\delivery\\manuscript_validation.json",
+        "artifact_type": "file",
+        "options": {
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "file exists"
+      },
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\manuscript\\delivery\\visual_review.json",
+        "artifact_type": "file",
+        "options": {
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "file exists"
+      }
+    ],
+    "mode": "formal",
+    "policy": "strict",
+    "contract": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "upstream_fixed_commit": "cf5ab4fb9e1e59742462a7dadd85ff6fdbdb83b0",
+  "versions": [
+    {
+      "file": "code/15_build_manuscripts.py",
+      "original_sha256": "425285fcb4e7831059562bf4b0d7ecc1c848ac510bf0adc832eacd226b0f310b",
+      "interim_stage_sha256": "07589d77c3ce5201aab2c19a88629599ad52708221bad2e8f903a2d0658d12f8",
+      "final_local_sha256": "bf00f7573c216050ca5630ed2a8f5978c5820e3a6613597544817273972a0cdb",
+      "final_published_sha256": "bf00f7573c216050ca5630ed2a8f5978c5820e3a6613597544817273972a0cdb",
+      "final_local_matches_published": true,
+      "interim_is_final": false
+    },
+    {
+      "file": "code/18_validate_manuscripts.py",
+      "original_sha256": "f802edecd8eac4c78825c676f8b1baf0127e649ea5a0e84bdabfca5ad3a809de",
+      "interim_stage_sha256": "b50e8e1d7efb5345780b56f9953982537e55d7c83767147b78c1ab6f63f7d7a2",
+      "final_local_sha256": "b50e8e1d7efb5345780b56f9953982537e55d7c83767147b78c1ab6f63f7d7a2",
+      "final_published_sha256": "b50e8e1d7efb5345780b56f9953982537e55d7c83767147b78c1ab6f63f7d7a2",
+      "final_local_matches_published": true,
+      "interim_is_final": true
+    },
+    {
+      "file": "code/19_build_reports.py",
+      "original_sha256": "f00771ed3000cb8db25f509c14bfc28053214a732c720e76c6074ea2b868fd72",
+      "interim_stage_sha256": "3b33a85572069bfbc775fd0649c986020ad39027bb4e1a8c3f08f88ea7b0fcb2",
+      "final_local_sha256": "7752d21572894d585e43360ce57b0e18e73ecd3e24ce47b3213ce3e035b7dc59",
+      "final_published_sha256": "7752d21572894d585e43360ce57b0e18e73ecd3e24ce47b3213ce3e035b7dc59",
+      "final_local_matches_published": true,
+      "interim_is_final": false
+    }
+  ],
+  "explanation": "changed_bound_sources.json is an interim stage snapshot, not the final publication manifest. Subsequent prose/status corrections are documented in the two retained notes. No historical package was rewritten.",
+  "remaining_limit": "The interim manifest was not updated after those corrections; this is a reporting provenance defect. Final published bytes, original model outputs and final status correction evidence are retained separately."
+}

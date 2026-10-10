@@ -1,0 +1,37 @@
+{
+  "8d9b8856aebc923630a64a469a638996eb852068eae53c48e5fd2d4b0aeba435": {
+    "path": "upstream/start_sources/8d9b8856aebc9236",
+    "source_original": "C:\\Users\\LZHS\\pp_lgcm_review\\round2C_20261007\\models\\SW_MI01\\attempt01",
+    "out_sha256": "8d9b8856aebc923630a64a469a638996eb852068eae53c48e5fd2d4b0aeba435",
+    "estimates_sha256": "e6892d5f32c072e402f72a3024d616de68e7765b7686674bfbb44bf531317520",
+    "tech3_sha256": "8f48e7ed5ef9480dc68a12bf0d2deb60333cbf12f2558c5fb20a0391bb431dd9"
+  },
+  "7224b327d55d081574ff9856222174caa0d32dd0a18409ca56e0e911c6928a42": {
+    "path": "models/CFPS_OLDEST_E0_01_base",
+    "source_original": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\models\\CFPS_OLDEST_E0_01_base",
+    "out_sha256": "7224b327d55d081574ff9856222174caa0d32dd0a18409ca56e0e911c6928a42",
+    "estimates_sha256": "d497cf1cee038a0ebddcbc5592e86598f07d894083b7ad1b29754699f1bf4995",
+    "tech3_sha256": "e9e72bf0e6be9758b229590c75e131b4403f105fe7ac67c3f699d98a0c923709"
+  },
+  "ec84ef3ed897c555a06f4d5fd414ec12d22b268bf56d868bf086668082ba7c61": {
+    "path": "models/CFPS_SD_E0_01_base",
+    "source_original": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\models\\CFPS_SD_E0_01_base",
+    "out_sha256": "ec84ef3ed897c555a06f4d5fd414ec12d22b268bf56d868bf086668082ba7c61",
+    "estimates_sha256": "7a34ab6af0a8989f714c71d45a20adec712138464970e32faab5344fa967581b",
+    "tech3_sha256": "1560db1d85c95e291e8fad75ad74f91132113a6e8f7b63ba88d86b8637b31e08"
+  },
+  "98f59ce189baebf0e147e5a90b679540c3e7339a6d4f266b6266126ffb3e3826": {
+    "path": "models/SYNTHETIC_SD_E0_01_smoke",
+    "source_original": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\models\\SYNTHETIC_SD_E0_01_smoke",
+    "out_sha256": "98f59ce189baebf0e147e5a90b679540c3e7339a6d4f266b6266126ffb3e3826",
+    "estimates_sha256": "d42826ed1e7259fe11e67cbccf77a50a4cf963162e10b183a9c7ade1d25aa516",
+    "tech3_sha256": "2f0917fda5b3173180ceb199f3b456b235d62bbef3d498a9ed6de284fab5fb92"
+  },
+  "1fa5c46ae364d074be8b73f7a8ee7ebac53e8cf2fa32342228af9e3f5c59c7c7": {
+    "path": "models/SYNTHETIC_SD_E1_01_smoke",
+    "source_original": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\models\\SYNTHETIC_SD_E1_01_smoke",
+    "out_sha256": "1fa5c46ae364d074be8b73f7a8ee7ebac53e8cf2fa32342228af9e3f5c59c7c7",
+    "estimates_sha256": "7a63c49622b09da746a11aa0feaccc36f72f01819796c75f8b230830e0f6631b",
+    "tech3_sha256": "664b4891cc9e045b21a4380a701fcd05ced90179e1d66e167ec375709ad62dc9"
+  }
+}

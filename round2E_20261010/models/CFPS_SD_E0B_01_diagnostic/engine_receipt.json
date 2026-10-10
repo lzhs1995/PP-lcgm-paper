@@ -1,0 +1,12 @@
+{
+  "id": "CFPS_SD_E0B_01_diagnostic",
+  "status": "EXITED",
+  "seconds": 25.16997718811035,
+  "cpu_seconds": 18.96875,
+  "max_rss": 36122624,
+  "limit_seconds": 300,
+  "exitcode": 0,
+  "started_epoch": 1791607217.892746,
+  "finished_epoch": 1791607243.06273,
+  "finished_utc": "2026-10-10T04:40:43.062737+00:00"
+}

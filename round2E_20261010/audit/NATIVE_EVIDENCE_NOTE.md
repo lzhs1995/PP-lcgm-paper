@@ -1,0 +1,5 @@
+# 原生执行与终态证据的区别
+
+原生接口smoke作业499ae5f0已通过；正式登记作业8a148647与前置作业7e08df97均已归档。原生会话历史保留Round2E脚本提交记录。文件runtime/native_queue_terminal.json的实际内容为后续查询返回的“No job found”，不能因文件名含terminal就把它当作原生完成输出。
+
+本批终态由runtime/selection.json的FINISHED、runtime/progress.json的results_written、34份独立engine_receipt、完整结果文件与独立数值复核共同确认。audit/completion_state.json是这些证据的派生检查记录，不是伪造的MCP原始回执。完成验收不会重提已结束作业。

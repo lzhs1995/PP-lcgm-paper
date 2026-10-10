@@ -1,0 +1,22 @@
+[
+  {
+    "test": "unknown_duration_blocks_new_admission",
+    "passed": true
+  },
+  {
+    "test": "durable_receipt_recovers_exact_cost",
+    "passed": true
+  },
+  {
+    "test": "recovery_is_idempotent",
+    "passed": true
+  },
+  {
+    "test": "duplicate_claim_rejected",
+    "passed": true
+  },
+  {
+    "test": "category_caps_sum_101",
+    "passed": true
+  }
+]

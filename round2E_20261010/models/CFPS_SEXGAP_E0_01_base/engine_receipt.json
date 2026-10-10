@@ -1,0 +1,12 @@
+{
+  "id": "CFPS_SEXGAP_E0_01_base",
+  "status": "EXITED",
+  "seconds": 48.87862682342529,
+  "cpu_seconds": 17.96875,
+  "max_rss": 33898496,
+  "limit_seconds": 300,
+  "exitcode": 0,
+  "started_epoch": 1791603777.4702306,
+  "finished_epoch": 1791603826.348864,
+  "finished_utc": "2026-10-10T03:43:46.348871+00:00"
+}

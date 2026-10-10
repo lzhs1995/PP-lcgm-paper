@@ -1,0 +1,3 @@
+export has SMOKE_RESULTS: TRUE ; private excluded: TRUE 
+SMOKE CLOUDCHECK PASSED 38 checks
+exit 0
