@@ -1,0 +1,21 @@
+{
+  "id": "CFPS_SEXGAP_E1_01_q15",
+  "z": "SEXGAP",
+  "spec": "E1",
+  "member": 1,
+  "attempt": "q15",
+  "category": "NUMERIC",
+  "sample": "CFPS",
+  "points": 15,
+  "processors": 1,
+  "dest": "C:/Users/LZHS/pp_lgcm_review/round2E_20261010/models/CFPS_SEXGAP_E1_01_q15",
+  "expected_free": 127,
+  "structural_signature": "2b62f58f68d7c8b07bfc5923f501fce0ae3e679c77284303e347787e03000291",
+  "round": "Round2E",
+  "seconds": 80.3060164451599,
+  "engine_status": "EXITED",
+  "status": "ESTIMATION_FAILED",
+  "usable": false,
+  "output_sha256": "8c52a115af2b748361d4b90ed5793ea04fc3f3f642d529f28c500c1c6279bab7",
+  "normal": false
+}

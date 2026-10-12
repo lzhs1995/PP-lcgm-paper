@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "759da112-a4e8-45c7-8fc9-41cf9c1eec69",
+  "parent_evidence_ids": [
+    "d525d403-93e7-4db9-9a23-5471d9c863bb"
+  ],
+  "task_key": "pp-lgcm-round2f-20261011",
+  "harness_name": "completion_check",
+  "timestamp_utc": "2026-10-11T22:30:05.059077Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": null,
+  "pid": null,
+  "job_id": null,
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "completion contract passed"
+  ],
+  "artifact_paths": [
+    "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\runtime\\native_formal_terminal.json"
+  ],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "artifact_checks": [
+      {
+        "path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\runtime\\native_formal_terminal.json",
+        "artifact_type": "file",
+        "options": {
+          "min_bytes": 100,
+          "max_age_h": 24.0
+        },
+        "ok": true,
+        "reason": "file exists"
+      }
+    ],
+    "mode": "formal",
+    "policy": "strict",
+    "contract": "",
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261011T223005Z_completion_check_759da112-a4e8-45c7-8fc9-41cf9c1eec69.json"
+  }
+}
+

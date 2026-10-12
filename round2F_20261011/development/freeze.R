@@ -1,0 +1,8 @@
+Sys.setenv(R2F_ROOT='C:/Users/LZHS/pp_lgcm_review/round2F_20261011',R2F_RUN_MAIN='0')
+root<-Sys.getenv('R2F_ROOT')
+source(file.path(root,'code/r2f_local.R'),local=TRUE)
+for(f in list.files(file.path(root,'code'),pattern='\\.R$',full.names=TRUE))parse(f)
+stopifnot(all(read.csv(file.path(root,'audit/SELFTEST_2F.csv'))$result=='PASS'),all(read.csv(file.path(root,'audit/CONSENSUS_QUEUE_TESTS.csv'))$passed),isTRUE(rj(file.path(root,'audit/CONSENSUS_ENGINE_TESTS.json'))$passed))
+f<-file.path(root,'audit/ATOMIC_STATE_TEST.json');wj(list(version=1L),f);wj(list(version=2L),f);stopifnot(rj(f)$version==2L)
+source(file.path(root,'code/r2f_setup.R'),local=TRUE)
+cat('READY_FOR_NATIVE_BATCH\n')

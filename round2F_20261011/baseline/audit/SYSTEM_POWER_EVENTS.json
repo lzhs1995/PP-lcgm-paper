@@ -1,0 +1,56 @@
+[
+    {
+        "utc":  "2026-10-10T05:03:16.2434728Z",
+        "id":  506,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在进入新型待机状态 \r\n\r\n原因: Idle Timeout。"
+    },
+    {
+        "utc":  "2026-10-10T04:53:08.1548964Z",
+        "id":  507,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在退出新型待机状态 \r\n\r\n原因: Input Keyboard。"
+    },
+    {
+        "utc":  "2026-10-10T04:33:15.3555280Z",
+        "id":  506,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在进入新型待机状态 \r\n\r\n原因: Idle Timeout。"
+    },
+    {
+        "utc":  "2026-10-10T04:32:45.3135169Z",
+        "id":  507,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在退出新型待机状态 \r\n\r\n原因: Sleep Button。"
+    },
+    {
+        "utc":  "2026-10-10T04:31:46.9932335Z",
+        "id":  506,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在进入新型待机状态 \r\n\r\n原因: Idle Timeout。"
+    },
+    {
+        "utc":  "2026-10-10T04:31:15.9609637Z",
+        "id":  507,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在退出新型待机状态 \r\n\r\n原因: Sleep Button。"
+    },
+    {
+        "utc":  "2026-10-10T04:29:33.6670570Z",
+        "id":  506,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在进入新型待机状态 \r\n\r\n原因: Idle Timeout。"
+    },
+    {
+        "utc":  "2026-10-10T04:28:58.6364917Z",
+        "id":  507,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在退出新型待机状态 \r\n\r\n原因: Sleep Button。"
+    },
+    {
+        "utc":  "2026-10-10T04:02:09.2692806Z",
+        "id":  506,
+        "provider":  "Microsoft-Windows-Kernel-Power",
+        "message":  "系统正在进入新型待机状态 \r\n\r\n原因: Idle Timeout。"
+    }
+]

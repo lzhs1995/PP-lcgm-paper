@@ -1,0 +1,40 @@
+{
+  "model_dir": "SYNTHETIC_SD_E1_01_smoke_start",
+  "data_sha256": "5156c4f0970bca1c01f9a22e447331ab9e9d4321ddf4ece7c7dd87360016d966",
+  "matrix_values_sha256": "85ca0ad45fb22539077af22d8e5ff42de3bb943fea16b51e8298c4f9a7a1db53",
+  "products": {
+    "SXZ": [
+      "SX",
+      "Z0"
+    ]
+  },
+  "conditioned_on": [
+    "Z0",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "indicators": [
+    "X1",
+    "X2",
+    "X3",
+    "X4",
+    "X5",
+    "Y1",
+    "Y2",
+    "Y3",
+    "Y4",
+    "Y5"
+  ],
+  "n_used": 1600,
+  "n_dropped_no_outcome_or_missing_x": 0,
+  "mplus_n": 1600,
+  "missing_patterns": 1,
+  "exact_LL": -17709.222378,
+  "mplus_printed_LL": -17709.222,
+  "difference": -0.000378,
+  "min_latent_residual_eigenvalue": 0.24982204,
+  "min_observed_cov_eigenvalue": 0.214252775552394,
+  "diagnostic_only": false,
+  "note": "Evaluation at saved estimates only; no optimisation, SE or P value; no person-level output."
+}

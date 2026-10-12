@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "R2F_NATIVE_ASYNC_DONE"
+    },
+    {
+      "type": "text",
+      "text": "--- Final progress ---\nstage=native_smoke; percent={}; message=Round2F durable transport check; updated_at=2026-10-11 14:19:35 PDT"
+    }
+  ],
+  "isError": false
+}

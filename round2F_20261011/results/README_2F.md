@@ -1,0 +1,5 @@
+# 冻结程序汇总的解释边界
+
+TIGHT_VS_DEFAULT_2F.csv是不同轮次所选结果的描述，F1比较新30点与旧20点，F2比较新30点与旧15点，不能把差异全部归于EM收敛。同20点E1B对照另见根目录CONVERGENCE_COMPARISON.csv；起点来源仍不同。
+
+SE_DECOMPOSITION_2F.csv的N2 not run表示本轮没有该诊断；没有家族时MI文件只有明确的无结果说明。进度中的active及合同per_call_active_seconds沿用接口命名；本轮实际记账为gross engine wall，秒数与finished_epoch−started_epoch逐调用相等，未扣除轮询间隙或待机。

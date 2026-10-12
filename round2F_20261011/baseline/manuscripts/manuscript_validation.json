@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "document": "PP_LGCM_review_v50_round2E.docx",
+      "pdf": "PP_LGCM_review_v50_round2E.pdf",
+      "pages": 19,
+      "tables": 7,
+      "cells": 216,
+      "docx_sha256": "95fabe4bbd2676fff7192cc1f22231946eef561987b7806929805187da683060",
+      "pdf_sha256": "4ea4ee86210267706c65c95b74dda54b69a52e4ffc44908c9f7273775c9f723f",
+      "docx_tables_match": true,
+      "pdf_tables_match": true,
+      "citations_preserved": true,
+      "rendering": {
+        "page_images": [
+          "main_p001.png",
+          "main_p002.png",
+          "main_p003.png",
+          "main_p004.png",
+          "main_p005.png",
+          "main_p006.png",
+          "main_p007.png",
+          "main_p008.png",
+          "main_p009.png",
+          "main_p010.png",
+          "main_p011.png",
+          "main_p012.png",
+          "main_p013.png",
+          "main_p014.png",
+          "main_p015.png",
+          "main_p016.png",
+          "main_p017.png",
+          "main_p018.png",
+          "main_p019.png"
+        ],
+        "contact_sheets": [
+          "main_contact_001.png",
+          "main_contact_007.png",
+          "main_contact_013.png",
+          "main_contact_019.png"
+        ]
+      }
+    },
+    {
+      "document": "PP_LGCM_appendix_review_v42_round2E.docx",
+      "pdf": "PP_LGCM_appendix_review_v42_round2E.pdf",
+      "pages": 15,
+      "tables": 20,
+      "cells": 1544,
+      "docx_sha256": "269e96902c06834f714fb52494bcb807a1baf85a6e0649db9ef3fc692feccbfd",
+      "pdf_sha256": "22a1ffa9b7b217892a95b97cbac57a9f8b8659472dbebd71fd13066fe8336cd3",
+      "docx_tables_match": true,
+      "pdf_tables_match": true,
+      "citations_preserved": true,
+      "rendering": {
+        "page_images": [
+          "appendix_p001.png",
+          "appendix_p002.png",
+          "appendix_p003.png",
+          "appendix_p004.png",
+          "appendix_p005.png",
+          "appendix_p006.png",
+          "appendix_p007.png",
+          "appendix_p008.png",
+          "appendix_p009.png",
+          "appendix_p010.png",
+          "appendix_p011.png",
+          "appendix_p012.png",
+          "appendix_p013.png",
+          "appendix_p014.png",
+          "appendix_p015.png"
+        ],
+        "contact_sheets": [
+          "appendix_contact_001.png",
+          "appendix_contact_007.png",
+          "appendix_contact_013.png"
+        ]
+      }
+    }
+  ],
+  "stage": "PARTIAL_RESEARCH_STAGE_FOR_EXTERNAL_REVIEW",
+  "visual_review": "PASS: see hash-bound visual_review.json"
+}

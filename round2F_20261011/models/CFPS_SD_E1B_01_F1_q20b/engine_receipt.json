@@ -1,0 +1,21 @@
+{
+  "id": "CFPS_SD_E1B_01_F1_q20b",
+  "round": "Round2F",
+  "status": "EXITED",
+  "seconds": 154.68700051307678,
+  "wall_seconds": 154.68700051307678,
+  "gap_seconds": 0,
+  "suspend_gaps": [],
+  "suspend_affected": null,
+  "polling_gap_affected": false,
+  "accounting": "gross engine wall; no suspension deduction",
+  "cpu_seconds": 114.578125,
+  "max_rss": 36077568,
+  "limit_seconds": 600,
+  "exitcode": 0,
+  "keep_awake": "ON",
+  "test_hook": null,
+  "started_epoch": 1791754439.1449478,
+  "finished_epoch": 1791754593.8319483,
+  "finished_utc": "2026-10-11T21:36:33.831948+00:00"
+}

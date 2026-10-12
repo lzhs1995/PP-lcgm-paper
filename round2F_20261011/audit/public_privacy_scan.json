@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "files_scanned": 783,
+  "exact_identifier_hit_parts": 0,
+  "prohibited_file_or_column_hits": 0,
+  "identifier_tokens_checked": 5684,
+  "identifier_source_sha256": "4a8f48a9d3d8b5e4c326c1bef03929ee90176efd968ba365dcfee346d7172e7e",
+  "public_microdata": false,
+  "preview": false,
+  "exclusions": [
+    "participant records",
+    "raw data.dat",
+    "MI and score objects",
+    "article fulltexts",
+    "runtime databases",
+    "Office embedded objects"
+  ],
+  "procedure": "Aggregate whitelist + exact cohort identifiers + credential signatures; DOCX XML/relationships and PDF text/attachments scanned.",
+  "created_utc": "2026-10-12T04:35:11.958519+00:00"
+}

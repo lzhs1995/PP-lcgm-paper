@@ -1,0 +1,5 @@
+﻿id,old_id,old_points,new_points,old_LL,new_LL,delta_LL,comparison
+CFPS_SD_E1B_01_F1_q20a,CFPS_SD_E1B_01_diagnostic,20,20,-27658.036,-27658.017,0.01900000000023283,same integration; tighter stopping and different full start source
+CFPS_SD_E1B_01_F1_q20b,CFPS_SD_E1B_01_diagnostic,20,20,-27658.036,-27658.016,0.020000000000436557,same integration; tighter stopping and different full start source
+CFPS_SD_E1B_01_F1_q30a,CFPS_SD_E1B_01_diagnostic,20,30,-27658.036,-27658.017,0.01900000000023283,integration and stopping/start settings both differ
+CFPS_SD_E1B_01_F1_q30b,CFPS_SD_E1B_01_diagnostic,20,30,-27658.036,-27658.016,0.020000000000436557,integration and stopping/start settings both differ

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "R2F_NATIVE_EXECUTE_OK\nPID= 26032 \nR= C:/Users/LZHS/Downloads/RStudio/R_ducument/R-4.5.2 \nPACKAGES  jsonlite TRUE; digest TRUE; processx TRUE; MplusAutomation TRUE "
+    }
+  ],
+  "isError": false
+}

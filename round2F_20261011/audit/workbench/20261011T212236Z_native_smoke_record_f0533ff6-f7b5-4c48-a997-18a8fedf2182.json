@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "f0533ff6-f7b5-4c48-a997-18a8fedf2182",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-round2f-20261011",
+  "harness_name": "native_smoke_record",
+  "timestamp_utc": "2026-10-11T21:22:36.011861Z",
+  "agent": "codex",
+  "transport_class": "NATIVE_MCP_OK",
+  "session_name": "default",
+  "pid": null,
+  "job_id": "c1843a06",
+  "io_mode": null,
+  "decision": "PASS",
+  "reasons": [
+    "recorded native smoke step: get_async_result"
+  ],
+  "artifact_paths": [
+    "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\raw\\f0533ff6-f7b5-4c48-a997-18a8fedf2182\\native_async_result.json"
+  ],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "entry": {
+      "step": "get_async_result",
+      "ok": true,
+      "recorded_at_utc": "2026-10-11T21:22:36.010513Z",
+      "tool_layer": "codex-native",
+      "transport_class": "NATIVE_MCP_OK",
+      "session_name": "default",
+      "session_count": 0,
+      "pid": null,
+      "job_id": "c1843a06",
+      "marker": "R2F_NATIVE_ASYNC_DONE",
+      "raw_file": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\runtime\\native_async_result.json",
+      "evidence_id": "f0533ff6-f7b5-4c48-a997-18a8fedf2182",
+      "raw_file_proof": {
+        "source_path": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\runtime\\native_async_result.json",
+        "sha256": "32cca9ed23739b88b85a6c19f8f4259b20c241ff74ae1e9dd7563d484fc3e9bc",
+        "size_bytes": 298,
+        "mtime_utc": "2026-10-11T21:22:31.498827Z",
+        "evidence_copy": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\raw\\f0533ff6-f7b5-4c48-a997-18a8fedf2182\\native_async_result.json"
+      }
+    }
+  }
+}

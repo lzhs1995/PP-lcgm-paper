@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "preview": false,
+  "reviewed_on": "2026-10-11",
+  "reviewer": "Codex",
+  "method": "Actual inspection of all-page contact sheets and selected full-page renders; table text separately checked against DOCX cell by cell.",
+  "documents": [
+    {
+      "document": "PP_LGCM_review_v51_round2F.docx",
+      "pdf": "PP_LGCM_review_v51_round2F.pdf",
+      "pdf_sha256": "7709eca11539c6ade3b540adc24ee803a95173d11d1a5705df29df92020553d1",
+      "pages": 20,
+      "contact_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "detailed_pages_viewed": [
+        13,
+        14
+      ],
+      "notes": [
+        "表4、表5a/5b的E0、自由E1和强约束E1B范围清楚。",
+        "表7跨页重复表头，未发现裁切、覆盖或缺行；72个域、2个脚注由独立结构与原生Word记录核对。"
+      ]
+    },
+    {
+      "document": "PP_LGCM_appendix_review_v43_round2F.docx",
+      "pdf": "PP_LGCM_appendix_review_v43_round2F.pdf",
+      "pdf_sha256": "b79bea460697f9fa8e33888ccc0f1ec2865296d5dbe90a61bd8da76e0f6d497d",
+      "pages": 19,
+      "contact_pages_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "detailed_pages_viewed": [
+        17
+      ],
+      "notes": [
+        "附表A22加宽后负方差的末位数字不再换行，简写调用标签与积分点可清楚对应。",
+        "附表A23系数与SE在同格；表注续至18页。附表A26跨18—19页重复表头，全部15次调用保留。",
+        "附表A13明确完整控制E0标准误失败；A24无家族、A25未执行的状态明确。"
+      ]
+    }
+  ],
+  "resolved_issues": [
+    "PDF table extractor displaced underscore glyphs; same-cell character-origin reconstruction must still match the entire expected cell exactly.",
+    "A22 numerical column width was increased after actual visual review; no model or estimate was changed."
+  ],
+  "scope": "Document layout and reported-status consistency only; not full-paper scientific acceptance, literature fulltext verification, or proof of model identification.",
+  "render_files": "Local manuscript/delivery/visual; source PDFs and structured verification receipts are included in the public deliverable."
+}

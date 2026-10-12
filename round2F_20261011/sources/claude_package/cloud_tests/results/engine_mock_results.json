@@ -1,0 +1,57 @@
+[
+  {
+    "test": "normal_exit",
+    "result": "PASS",
+    "detail": "{'id': 'A', 'round': 'Round2F', 'status': 'EXITED', 'seconds': 2.0035812854766846, 'wall_seconds': 2.0035812854766846, 'gap_seconds': 0, 'suspend_gaps': [], 'suspend_affected': False, 'cpu_seconds': 0.0, 'max_rss': 8204288, 'limit_seconds': 20, 'exitcode': 0, 'keep_awake': 'NOT_WINDOWS', 'test_hook'"
+  },
+  {
+    "test": "budget_status_written",
+    "result": "PASS",
+    "detail": "1"
+  },
+  {
+    "test": "idempotent_receipt",
+    "result": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "timeout_active_cap",
+    "result": "PASS",
+    "detail": "('TIMEOUT', 3.0037858486175537, 3.5703721046447754)"
+  },
+  {
+    "test": "gap_recorded_and_excluded",
+    "result": "PASS",
+    "detail": "(4.004798650741577, 100.0003297328949, 104.00512838363647)"
+  },
+  {
+    "test": "gap_does_not_trigger_timeout",
+    "result": "PASS",
+    "detail": "(4.003305435180664, 4.565844774246216)"
+  },
+  {
+    "test": "category_cap",
+    "result": "PASS",
+    "detail": "<cloud_work>/pkg_out/code/r2f_engine.py\", line 169, in main\n    raise RuntimeError('CALL_CAP before launch')\nRuntimeError: CALL_CAP before launch\n"
+  },
+  {
+    "test": "engine_budget",
+    "result": "PASS",
+    "detail": "...<cloud_work>/pkg_out/code/r2f_engine.py\", line 147, in main\n    raise RuntimeError('BUDGET_EXHAUSTED before launch')\nRuntimeError: BUDGET_EXHAUSTED before launch\n"
+  },
+  {
+    "test": "frozen_code_changed",
+    "result": "PASS",
+    "detail": "...<cloud_work>/pkg_out/code/r2f_engine.py\", line 95, in verify_frozen\n    raise RuntimeError('Frozen code changed: ' + name)\nRuntimeError: Frozen code changed: r2f_engine.py\n"
+  },
+  {
+    "test": "input_hash_mismatch",
+    "result": "PASS",
+    "detail": "...<cloud_work>/pkg_out/code/r2f_engine.py\", line 132, in main\n    assert sha(dest / 'model.inp') == job['input_sha256']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "test": "keep_awake_stop_flag",
+    "result": "PASS",
+    "detail": "KEEP_AWAKE_END stop_flag NOT_WINDOWS 0"
+  }
+]

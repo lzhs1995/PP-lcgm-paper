@@ -1,0 +1,10 @@
+{
+  "available": true,
+  "N": 2830,
+  "households": 2105,
+  "expected": {
+    "N": 2830,
+    "households": 2105
+  },
+  "passed": true
+}

@@ -1,0 +1,39 @@
+{
+  "status": "completed",
+  "scientific_project_complete": false,
+  "new_model_calls": 0,
+  "queue_terminal": {
+    "status": "FINISHED",
+    "utc": "2026-10-11 22:04:26 UTC"
+  },
+  "completed_attempts": 15,
+  "native_job_id": "796384d5",
+  "evidence_type": "derived completion check linked to original native tool response and persistent files",
+  "sources": [
+    {
+      "path": "runtime/native_formal_submit.json",
+      "sha256": "a0905fc62bcaf87ad19bfaeecf854fa79e402edd97391b8023429a76d286c6a8"
+    },
+    {
+      "path": "runtime/native_formal_terminal.json",
+      "sha256": "f2d1ed213833e3b9536cd76fbb42b64864b4f86985408729c685eb11fb3e6d26"
+    },
+    {
+      "path": "runtime/selection_2f.json",
+      "sha256": "e5623150f5f41db73e31011b528e9ce3761f62d455d1ea01dbd2610485ba0445"
+    },
+    {
+      "path": "runtime/progress.json",
+      "sha256": "ce334f9fd160be9125b2744cc7fa737c48b99bdb064696dd3e3fdab1ea6c3d50"
+    },
+    {
+      "path": "results/DECISION_2F.json",
+      "sha256": "493d132d5c95eea67e86e853bffe276bad314abe45312b80177bbab5be15afe3"
+    },
+    {
+      "path": "audit/independent/independent_verification.json",
+      "sha256": "7c91d913e6aa4c32366208585c4b33c08b0287c9539e16a88644c47bf86f81be"
+    }
+  ],
+  "created_utc": "2026-10-11T22:24:07.945673+00:00"
+}

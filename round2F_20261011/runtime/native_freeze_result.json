@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "SETUP_OK 15 code files frozen\nCONTRACT FROZEN\nREADY_FOR_NATIVE_BATCH"
+    },
+    {
+      "type": "text",
+      "text": "--- Final progress ---\nstage=started; percent={}; message=Background process started; updated_at=2026-10-11 14:27:48 PDT"
+    }
+  ],
+  "isError": false
+}

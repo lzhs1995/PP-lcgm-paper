@@ -1,0 +1,16 @@
+{
+  "task_key": "pp-lgcm-round2f-formal-20261011",
+  "job_id": "796384d5",
+  "status": "inflight",
+  "io_mode": "durable_files",
+  "outputs": [],
+  "session_name": "",
+  "transport_scope": "",
+  "pre_submitted_at_utc": "2026-10-11T21:27:50.070183Z",
+  "via_mcp_stdio": false,
+  "via_mcp_stdio_result": null,
+  "registered_at_utc": "2026-10-11T21:28:55.269858Z",
+  "registration_transport": "",
+  "archive_reason": "Actual native terminal and all durable engine receipts verified; no new model calls",
+  "archived_at_utc": "2026-10-11T22:30:04.404477Z"
+}

@@ -1,0 +1,44 @@
+{
+  "decision": "A",
+  "primary": "E1",
+  "primary_label": "free SY (primary); E1B strong-constraint sensitivity",
+  "convergence": "tight",
+  "F1_passed": true,
+  "F2_passed": true,
+  "families": [
+    {
+      "family": "E1",
+      "role": "PRIMARY",
+      "status": "POOLED",
+      "n_usable": 10,
+      "member_statuses": "USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE",
+      "repairs": 0
+    },
+    {
+      "family": "E1B",
+      "role": "SENSITIVITY_STRONG_CONSTRAINT",
+      "status": "POOLED",
+      "n_usable": 10,
+      "member_statuses": "USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE;USABLE",
+      "repairs": 0
+    }
+  ],
+  "terminal": {
+    "status": "FINISHED",
+    "utc": "2026-10-10 08:21:57 UTC"
+  },
+  "budget": {
+    "calls": 30,
+    "engine_seconds": 3600,
+    "wall_seconds": 1.08875513076782
+  },
+  "keep_awake": {},
+  "p0": {
+    "passed": true
+  },
+  "smoke": {
+    "passed": true,
+    "convergence_choice": "tight"
+  },
+  "inference": "Conditional on the household-person MI and the fixed SW working model; observed Z0 is not latent IZ; E1B fixes the SY residual at zero and its intervals do not include uncertainty about choosing that constraint; single-model diagnostics are not MI-pooled evidence."
+}

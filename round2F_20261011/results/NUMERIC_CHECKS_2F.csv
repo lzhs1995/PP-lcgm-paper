@@ -1,0 +1,3 @@
+"step","a","a_status","b","b_status","start_outcome","delta_LL","max_path_over_SE","max_SE_relative","best","q30","integration_a","integration_b","integration_outcome","passed"
+"F1","CFPS_SD_E1B_01_F1_q30a","USABLE","CFPS_SD_E1B_01_F1_q30b","USABLE","NOT_REPLICATED",0.00100000000020373,0.0184447232359844,0.0377046675176715,"CFPS_SD_E1B_01_F1_q30b","CFPS_SD_E1B_01_F1_q30b","AGREE","AGREE","AGREE",FALSE
+"F2","CFPS_SD_E1_01_F2_q30a","INADMISSIBLE_SY_ONLY","CFPS_SD_E1_01_F2_q30b","INADMISSIBLE_SY_ONLY","UNAVAILABLE_OR_FAILED",,,,"","","AGREE","AGREE","AGREE",FALSE

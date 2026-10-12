@@ -1,0 +1,181 @@
+Mplus VERSION 9
+MUTHEN & MUTHEN
+10/09/2026   8:55 PM
+
+INPUT INSTRUCTIONS
+
+  TITLE:
+  Round2E CFPS_SEXGAP_E1_01_q15_repair
+  DATA:
+  FILE = "data.dat";
+  VARIABLE:
+  NAMES = fid x1 x2 x3 x4 x5 y1 y2 y3 y4 y5 z1 z2 z3 z4 z5 z0 gedu gurb ginc c1 c2 c3 c4
+    c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24;
+   MISSING=.;
+   CLUSTER=fid; USEVARIABLES=x1-x5 y1-y5 z0 c1-c7 c10-c24;
+  ANALYSIS:
+  TYPE=COMPLEX RANDOM; ESTIMATOR=MLR; PROCESSORS=1;
+  ALGORITHM=INTEGRATION; INTEGRATION=15;
+  MCSEED=26101001; COVERAGE=.005; ITERATIONS=2000; MITERATIONS=4000;
+  MODEL:
+  ix sx | x1@0 x2*0.4 x3*0.6 x4*0.8 x5@1 ;
+  iy sy | y1@0 y2@0.4 y3@0.6 y4@0.8 y5@1 ;
+  iy ON ix (bii);
+  sy ON ix (bis);
+  sy ON sx (bss);
+  sy ON iy (bsyiy);
+  ix WITH sx;
+  ix sx iy sy ON c1-c7 c10-c24;
+  sx WITH iy;
+  x1 WITH y1;
+  x2 WITH y2;
+  x3 WITH y3;
+  x4 WITH y4;
+  x5 WITH y5;
+  ix sx ON z0;
+  iy ON z0 (gi0);
+  sy ON z0 (gs0);
+  x1 y1 ON z0;
+  sxz | sx XWITH z0;
+  sy ON sxz (dc);
+  sx BY x2*0.79739626;
+  sx BY x3*0.66766749;
+  sx BY x4*1.146757;
+  [ix*-0.17162268];
+  [sx*0.22861202];
+  [iy*0.22107698];
+  [sy*-0.13096569];
+  x1*0.69474345;
+  x2*0.65620005;
+  x3*0.5453732;
+  x4*0.53352362;
+  x5*0.50153238;
+  y1*0.55433172;
+  y2*0.63508999;
+  y3*0.57490152;
+  y4*0.58348083;
+  y5*0.61259276;
+  ix*0.22963953;
+  sx*0.10214575;
+  iy*0.2068657;
+  sy*0.032750063;
+  iy ON ix*-0.36765372;
+  sy ON ix*0.116652642;
+  sy ON sx*-0.25899694;
+  sy ON iy*0.44362383;
+  ix WITH sx*-0.0078531224;
+  ix ON c1*-0.16139919;
+  sx ON c1*0.043843843;
+  iy ON c1*-0.23864058;
+  sy ON c1*0.054507722;
+  ix ON c2*0.072178836;
+  sx ON c2*-0.003614904;
+  iy ON c2*-0.083789926;
+  sy ON c2*0.032416005;
+  ix ON c3*-0.039850042;
+  sx ON c3*0.051086419;
+  iy ON c3*-0.18726221;
+  sy ON c3*0.110578921;
+  ix ON c4*-0.066239343;
+  sx ON c4*0.14312764;
+  iy ON c4*-0.083135423;
+  sy ON c4*0.20382496;
+  ix ON c5*-0.10142706;
+  sx ON c5*0.0110595948;
+  iy ON c5*0.21935765;
+  sy ON c5*-0.17958754;
+  ix ON c6*-0.0125517812;
+  sx ON c6*-0.00617;
+  iy ON c6*-0.0226686473;
+  sy ON c6*0.067474444;
+  ix ON c7*-0.02085593452;
+  sx ON c7*0.02001625711;
+  iy ON c7*-0.0123006478;
+  sy ON c7*0.004044671;
+  ix ON c10*-0.098004256;
+  sx ON c10*-0.10978588;
+  iy ON c10*0.004657637;
+  sy ON c10*0.2151443;
+  ix ON c11*-0.096085605;
+  sx ON c11*0.024765084;
+  iy ON c11*-0.14379527;
+  sy ON c11*0.27675976;
+  ix ON c12*0.007059902;
+  sx ON c12*0.0223689007;
+  iy ON c12*-0.071094193;
+  sy ON c12*0.061590609;
+  ix ON c13*0.018198236;
+  sx ON c13*0.003115463;
+  iy ON c13*-0.03357105;
+  sy ON c13*0.057658855;
+  ix ON c14*-0.008707804;
+  sx ON c14*-0.011407207;
+  iy ON c14*0.072480756;
+  sy ON c14*-0.15953598;
+  ix ON c15*-0.071507842;
+  sx ON c15*0.061104607;
+  iy ON c15*0.46386249;
+  sy ON c15*-0.4322818;
+  ix ON c16*0.14702245;
+  sx ON c16*-0.037488859;
+  iy ON c16*-0.11551917;
+  sy ON c16*0.032974393;
+  ix ON c17*0.08951159;
+  sx ON c17*0.065021035;
+  iy ON c17*-0.23412434;
+  sy ON c17*0.29092025;
+  ix ON c18*0.22233013;
+  sx ON c18*-0.09904123;
+  iy ON c18*0.012911271;
+  sy ON c18*0.071144622;
+  ix ON c19*-0.0294067641;
+  sx ON c19*0.003674118;
+  iy ON c19*0.045849349;
+  sy ON c19*0.086213094;
+  ix ON c20*0.25646375;
+  sx ON c20*-0.08260447;
+  iy ON c20*0.070847425;
+  sy ON c20*-0.09955912;
+  ix ON c21*0.1317289;
+  sx ON c21*-0.033415563;
+  iy ON c21*0.014367695;
+  sy ON c21*0.037167725;
+  ix ON c22*-0.12907191;
+  sx ON c22*0.15064773;
+  iy ON c22*-0.044327034;
+  sy ON c22*0.17138946;
+  ix ON c23*0.006405014;
+  sx ON c23*-0.045314263;
+  iy ON c23*0.10766363;
+  sy ON c23*-0.11064647;
+  ix ON c24*-0.0220946797;
+  sx ON c24*0.0272813495;
+  iy ON c24*-0.031806778;
+  sy ON c24*0.0278937346;
+  iy WITH sx*-0.024620194;
+  x1 WITH y1*-0.027896183;
+  x2 WITH y2*-0.066797473;
+  x3 WITH y3*-0.047784001;
+  x4 WITH y4*-0.050462853;
+  x5 WITH y5*-0.030791704;
+  ix ON z0*-0.02;
+  sx ON z0*0.02;
+  iy ON z0*-0.02;
+  sy ON z0*0.02;
+  x1 ON z0*-0.02;
+  y1 ON z0*0.02;
+  sy ON sxz*-0.02;
+  OUTPUT:
+  TECH1 TECH3 TECH8 CINTERVAL SVALUES;
+  SAVEDATA:
+  TECH3=tech3.dat; RESULTS=estimates.dat;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+Round2E CFPS_SEXGAP_E1_01_q15_repair
+

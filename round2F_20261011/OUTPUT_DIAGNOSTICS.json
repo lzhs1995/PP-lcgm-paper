@@ -1,0 +1,17 @@
+[
+  {
+    "id": "CFPS_SD_E0_01_CC_F6",
+    "receipt_status": "EXTRACTION_FAILED",
+    "output_diagnosis": "STANDARD_ERRORS_UNAVAILABLE",
+    "normal_termination_text": true,
+    "source": "models/CFPS_SD_E0_01_CC_F6/model.out",
+    "sha256": "6416b8764f0c47fd135d93de8be873dfd8f55398b86940b54d8952829229c0b9",
+    "first_line": 916,
+    "last_line": 945,
+    "excerpt": "THE STANDARD ERRORS OF THE MODEL PARAMETER ESTIMATES COULD NOT BE\n     COMPUTED.  THE MODEL MAY NOT BE IDENTIFIED.  CHECK YOUR MODEL.\n     PROBLEM INVOLVING THE FOLLOWING PARAMETER:\n     Parameter 126, SX\n\n     THE CONDITION NUMBER IS      -0.280D-06.\n     THE FOLLOWING SET OF PARAMETERS IS INVOLVED IN THE NON-IDENTIFICATION\n     Parameter 1, SX BY X2\n     Parameter 2, SX BY X3\n     Parameter 3, SX BY X4\n     Parameter 4, X2\n     Parameter 5, X3\n     Parameter 6, X4\n     Parameter 7, X5\n     Parameter 8, Y2 WITH X2\n     Parameter 9, Y2\n     Parameter 10, Y3 WITH X3\n     Parameter 11, Y3\n     Parameter 12, Y4 WITH X4\n     Parameter 13, Y4\n     Parameter 14, Y5 WITH X5\n     Parameter 15, Y5\n     Parameter 16, [ SX ]\n     Parameter 17, [ IX ]\n     Parameter 18, [ IY ]\n     Parameter 19, [ SY ]\n     Parameter 20, SX ON Z0",
+    "estimates_saved": false,
+    "tech3_bytes": 0,
+    "parameter_covariance_available": false,
+    "scope": "Raw Mplus warning; no valid SE/CI. Frozen receipt and queue decision are preserved."
+  }
+]

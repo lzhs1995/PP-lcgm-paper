@@ -1,0 +1,21 @@
+{
+  "id": "SYNTHETIC_SD_E1_01_smoke_release",
+  "round": "Round2F",
+  "status": "EXITED",
+  "seconds": 23.119330167770386,
+  "wall_seconds": 23.119330167770386,
+  "gap_seconds": 0,
+  "suspend_gaps": [],
+  "suspend_affected": null,
+  "polling_gap_affected": false,
+  "accounting": "gross engine wall; no suspension deduction",
+  "cpu_seconds": 17.140625,
+  "max_rss": 22364160,
+  "limit_seconds": 180,
+  "exitcode": 0,
+  "keep_awake": "ON",
+  "test_hook": null,
+  "started_epoch": 1791754238.3202302,
+  "finished_epoch": 1791754261.4395604,
+  "finished_utc": "2026-10-11T21:31:01.439560+00:00"
+}

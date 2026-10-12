@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "f0e1a573-f095-4607-9a71-5570826f6802",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-round2f-formal-20261011",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-11T21:28:55.278412Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": "",
+  "pid": null,
+  "job_id": "796384d5",
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "registered real async job_id for pre-submitted task"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "inflight": {
+      "task_key": "pp-lgcm-round2f-formal-20261011",
+      "job_id": "796384d5",
+      "status": "inflight",
+      "io_mode": "durable_files",
+      "outputs": [],
+      "session_name": "",
+      "transport_scope": "",
+      "pre_submitted_at_utc": "2026-10-11T21:27:50.070183Z",
+      "via_mcp_stdio": false,
+      "via_mcp_stdio_result": null,
+      "registered_at_utc": "2026-10-11T21:28:55.269858Z",
+      "registration_transport": ""
+    }
+  }
+}

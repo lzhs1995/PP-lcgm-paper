@@ -1,0 +1,13 @@
+"test","passed"
+"ten_members_and_q30_inheritance",TRUE
+"complete_family_not_relaunched",TRUE
+"resume_starts_at_member05",TRUE
+"mixed_integration_not_poolable",TRUE
+"mixed_constraints_not_poolable",TRUE
+"missing_member_not_poolable",TRUE
+"negative_variance_not_poolable",TRUE
+"failed_member_one_repair_then_stop",TRUE
+"successful_repair_preserves_ten",TRUE
+"budget_blocks_whole_family",TRUE
+"pilot_uses_both_grids_both_starts",TRUE
+"alternate_failure_never_passes",TRUE
