@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "commit": "04f90ed6948da85719c266b9730afdb7e662adbd",
+  "tag": "scoped-closeout-20261012",
+  "repository": "lzhs1995/PP-lcgm-paper",
+  "prefix": "final_closeout_after_Round2F",
+  "anonymous": true,
+  "authenticated_headers": false,
+  "packages": [
+    {
+      "path": "PP_LGCM_Final_Closeout_Package_01.zip",
+      "bytes": 7094920,
+      "files": 167,
+      "sha256": "86f337d52039f858b998cf14e667b1a17108209b03ecb536ff5cce5a37c97400"
+    },
+    {
+      "path": "PP_LGCM_Final_Closeout_Package_02.zip",
+      "bytes": 279644,
+      "files": 80,
+      "sha256": "2559fd8ac22975b31f1f6c7d43419738dadd58af81c765c7a767089f6fb8dd4c"
+    }
+  ],
+  "payload_files": 247,
+  "manifest_entries": 246,
+  "checked_urls": [
+    {
+      "path": "README.md",
+      "bytes": 2387,
+      "sha256": "6fa3f06cb703f135336e09bc20253dba6601651314ec3d2575e115733dc3703a"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 7032,
+      "sha256": "eb68ccffb2886421065d7ff9dddd0b92cee79aec26df65c58c8a8c8cb0c3636d"
+    },
+    {
+      "path": "FOR_WEB_REVIEWERS.md",
+      "bytes": 2492,
+      "sha256": "2a89ded495cffb80c1b19ba24ab06b9a3777b991e1ffdd57375e742719492c3f"
+    },
+    {
+      "path": "CLOSED_AND_UNTESTED.md",
+      "bytes": 3017,
+      "sha256": "cc1ee2c494dec00e8ac7a26715430cfe7a8218b5e053c32679436d4511a46524"
+    },
+    {
+      "path": "CLOSEOUT_RECEIPT.json",
+      "bytes": 5180,
+      "sha256": "9611fe470938d332a5d9db41e26ca573d51ee96115ba020051bc226d43d8a9c8"
+    },
+    {
+      "path": "FINAL_EVIDENCE_MAP.csv",
+      "bytes": 103657,
+      "sha256": "68c51bafe87f2631f3c7e3bfad1179edc42ca59efd9bce8718909bfcdc5aa87f"
+    },
+    {
+      "path": "FILE_MANIFEST.csv",
+      "bytes": 28634,
+      "sha256": "f38cf0993d37a1a558ff3861f008d5bc188ea50fd7617611173938d846380a67"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 583,
+      "sha256": "f86d05aef92a1a8abbde610007562d76831967dc927df455f5f50adf4ba7655b"
+    },
+    {
+      "path": "manuscript/delivery/main_readable.md",
+      "bytes": 27747,
+      "sha256": "14d1b18ddd0e3a2eab582df48e0eeb66455ca8df081f28abe3454521c1d4147b"
+    },
+    {
+      "path": "manuscript/delivery/appendix_readable.md",
+      "bytes": 85106,
+      "sha256": "c3662b29044e7dc0efb6a7938f483b5bd6550ec1619e67cbd2d60237a43152a3"
+    },
+    {
+      "path": "PP_LGCM_Final_Closeout_Package_01.zip",
+      "bytes": 7094920,
+      "sha256": "86f337d52039f858b998cf14e667b1a17108209b03ecb536ff5cce5a37c97400"
+    },
+    {
+      "path": "PP_LGCM_Final_Closeout_Package_02.zip",
+      "bytes": 279644,
+      "sha256": "2559fd8ac22975b31f1f6c7d43419738dadd58af81c765c7a767089f6fb8dd4c"
+    }
+  ],
+  "validators": [
+    {
+      "script": "verify_evidence.py",
+      "returncode": 0,
+      "log_sha256": "21ae743b5bf5cae31049780094916380e9970cdc820f3ce341b0bbd7f3bc081c"
+    },
+    {
+      "script": "validate_manuscripts.py",
+      "returncode": 0,
+      "log_sha256": "f4af95952b17e16692b8475d4b2e3c98d7ce6c929cc9418981162e1df1df1982"
+    }
+  ],
+  "verified_at": "2026-10-13T06:18:40.914394+00:00"
+}
