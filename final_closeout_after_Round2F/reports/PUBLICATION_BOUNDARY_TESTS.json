@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "tests": 8,
+  "results": [
+    {
+      "test": "actual_final_rounds_5_to_9",
+      "status": "PASS",
+      "behavior": "ACCEPTED"
+    },
+    {
+      "test": "omitted_intervening_round",
+      "status": "PASS",
+      "behavior": "REJECTED"
+    },
+    {
+      "test": "metadata_disagrees_with_hashed_raw",
+      "status": "PASS",
+      "behavior": "REJECTED"
+    },
+    {
+      "test": "a5_round_identity_mismatch",
+      "status": "PASS",
+      "behavior": "REJECTED"
+    },
+    {
+      "test": "pdf_changed_after_review",
+      "status": "PASS",
+      "behavior": "REJECTED"
+    },
+    {
+      "test": "exact_approved_aggregate_set",
+      "status": "PASS",
+      "behavior": "ACCEPTED"
+    },
+    {
+      "test": "unlisted_file_with_unrecognized_identifier_alias",
+      "status": "PASS",
+      "behavior": "REJECTED"
+    },
+    {
+      "test": "changed_previously_approved_file",
+      "status": "PASS",
+      "behavior": "REJECTED"
+    }
+  ],
+  "scope": "No NLM, R, Mplus or publication; temporary synthetic/aggregate copies only",
+  "source_hashes": {
+    "publication_gate.py": "53b5e2ccdda113be217cc6680ec6896beabde4a43c40edaba6c884fa2ce2c89b",
+    "public_file_selection.py": "07e48ad2afbed4b915ab7efd9887645fd6ad4fa20a6a25b37916052777292b68",
+    "package_closeout.py": "a4a5f8f4901fc159c274120829829c0ed2ff7509f820ef42962039ad4bbe20df",
+    "privacy_scan.py": "1b659f27afa7918c7b427b2d908e960c573b5abacde53dee104f633639ef25e9"
+  }
+}

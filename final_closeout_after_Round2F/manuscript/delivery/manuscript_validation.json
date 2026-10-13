@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "mode": "NO_NEW_ESTIMATION",
+  "results": [
+    {
+      "kind": "main",
+      "pages": 9,
+      "tables": 5,
+      "cells": 109,
+      "fields": 18,
+      "footnotes": 1,
+      "relationships": {
+        "referenced_relationships": 2,
+        "bookmarks": 0
+      },
+      "render": {
+        "page_images": [
+          "main_p001.png",
+          "main_p002.png",
+          "main_p003.png",
+          "main_p004.png",
+          "main_p005.png",
+          "main_p006.png",
+          "main_p007.png",
+          "main_p008.png",
+          "main_p009.png"
+        ],
+        "contact_sheets": [
+          "main_contact_001.png",
+          "main_contact_007.png"
+        ]
+      },
+      "docx_sha256": "24ac4f0377befd68e1da8ffdf9fbefbc44079de4810a83ef88dbdffa8df572f2",
+      "pdf_sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+    },
+    {
+      "kind": "appendix",
+      "pages": 33,
+      "tables": 30,
+      "cells": 1907,
+      "fields": 54,
+      "footnotes": 1,
+      "relationships": {
+        "referenced_relationships": 2,
+        "bookmarks": 0
+      },
+      "render": {
+        "page_images": [
+          "appendix_p001.png",
+          "appendix_p002.png",
+          "appendix_p003.png",
+          "appendix_p004.png",
+          "appendix_p005.png",
+          "appendix_p006.png",
+          "appendix_p007.png",
+          "appendix_p008.png",
+          "appendix_p009.png",
+          "appendix_p010.png",
+          "appendix_p011.png",
+          "appendix_p012.png",
+          "appendix_p013.png",
+          "appendix_p014.png",
+          "appendix_p015.png",
+          "appendix_p016.png",
+          "appendix_p017.png",
+          "appendix_p018.png",
+          "appendix_p019.png",
+          "appendix_p020.png",
+          "appendix_p021.png",
+          "appendix_p022.png",
+          "appendix_p023.png",
+          "appendix_p024.png",
+          "appendix_p025.png",
+          "appendix_p026.png",
+          "appendix_p027.png",
+          "appendix_p028.png",
+          "appendix_p029.png",
+          "appendix_p030.png",
+          "appendix_p031.png",
+          "appendix_p032.png",
+          "appendix_p033.png"
+        ],
+        "contact_sheets": [
+          "appendix_contact_001.png",
+          "appendix_contact_007.png",
+          "appendix_contact_013.png",
+          "appendix_contact_019.png",
+          "appendix_contact_025.png",
+          "appendix_contact_031.png"
+        ]
+      },
+      "docx_sha256": "12e0877493181653e1f5f00b420b870c7b8e55fb2c110f118450c5ea0ffaa492",
+      "pdf_sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+    }
+  ],
+  "combined_fields": 71,
+  "combined_footnotes": 2,
+  "visual_review": "PENDING"
+}

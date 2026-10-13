@@ -1,0 +1,38 @@
+[
+  {
+    "document": "PP_LGCM_scoped_final_candidate.docx",
+    "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+    "pages": 9,
+    "fields": 18,
+    "footnotes": 1,
+    "tables": 5,
+    "revisions": 0,
+    "Word_version": "16.0",
+    "Word_instance_pid": 33636,
+    "docx_sha256": "24ac4f0377befd68e1da8ffdf9fbefbc44079de4810a83ef88dbdffa8df572f2",
+    "pdf_sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0",
+    "exported_at": "2026-10-13T05:08:40.118858+00:00",
+    "preview": false,
+    "export": "NATIVE_WORD",
+    "Zotero_refresh": "NOT_PERFORMED",
+    "visual_review": "PENDING"
+  },
+  {
+    "document": "PP_LGCM_scoped_supplement.docx",
+    "pdf": "PP_LGCM_scoped_supplement.pdf",
+    "pages": 33,
+    "fields": 54,
+    "footnotes": 1,
+    "tables": 30,
+    "revisions": 0,
+    "Word_version": "16.0",
+    "Word_instance_pid": 33636,
+    "docx_sha256": "12e0877493181653e1f5f00b420b870c7b8e55fb2c110f118450c5ea0ffaa492",
+    "pdf_sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1",
+    "exported_at": "2026-10-13T05:10:17.891904+00:00",
+    "preview": false,
+    "export": "NATIVE_WORD",
+    "Zotero_refresh": "NOT_PERFORMED",
+    "visual_review": "PENDING"
+  }
+]

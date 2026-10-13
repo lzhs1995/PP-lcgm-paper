@@ -1,0 +1,13 @@
+{
+  "status": "RESOLVED",
+  "executor_report_sha256": "f6ca3508e7d0e68a45fb1d5e0d3f40309b77073b5e22e831cf41a99661cfcb4a",
+  "accepted_findings": [
+    "P1-01",
+    "P1-02"
+  ],
+  "open_p0": 0,
+  "open_p1": 0,
+  "fix_validation": "reports/PUBLICATION_BOUNDARY_TESTS.json",
+  "formal_v2": false,
+  "publication_status": "PENDING_SEPARATE_PROOF"
+}

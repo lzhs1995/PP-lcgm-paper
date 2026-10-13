@@ -1,0 +1,547 @@
+[
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2C_20261007\\results\\conditional_MI_paths.csv",
+    "snapshot": "evidence\\SW_paths.csv",
+    "sha256": "c6be7e3afbc21d9e15b91c2cb2a38810e97015976ec95e4bf2f699f807d5ed78"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2C_20261007\\results\\model_fit.csv",
+    "snapshot": "evidence\\SW_fit.csv",
+    "sha256": "7fc9ff5a99bac670eb2b831de9051b41f57850172c2541da27c05547246a6987"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2C_20261007\\results\\SW_member_estimates.csv",
+    "snapshot": "evidence\\SW_members.csv",
+    "sha256": "d63628ca24dc4aa183e24618a1b524d12803794f11675168f3edac13b1760e20"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2C_20261007\\results\\SW_within_covariance.csv",
+    "snapshot": "evidence\\SW_within_covariance.csv",
+    "sha256": "d289fd5b76bfe01fc7dab0b6c0292887562611a9e639d40825ca6781bc8eb717"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\baseline\\results\\POOLED_KEY_PATHS.csv",
+    "snapshot": "evidence\\SD_E0_paths.csv",
+    "sha256": "c54460e14407174c4ac536d6d3f869b8996ffd11168a39048d2ee1978b623a4b"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\baseline\\results\\MULTIPLICITY.csv",
+    "snapshot": "evidence\\SD_E0_multiplicity.csv",
+    "sha256": "61b415540cfb86346cb878b3ba23867c63977771c2d2d5196b118554686567cd"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\baseline\\results\\MI_PARAMETER_MATRICES.json",
+    "snapshot": "evidence\\SD_E0_parameter_matrices.json",
+    "sha256": "2e00c5d0cc419ff2b20e1139fd3e02e7a53181d4bb340c16e6c39c0138e0fe9a"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\audit\\independent\\baseline_SD_E0_recomputed.csv",
+    "snapshot": "evidence\\SD_E0_recomputed.csv",
+    "sha256": "0daedb7eb5ea3c99cac8d9a2464c510eee4f4aa1741401a2e5efb18abbedf93b"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\reports\\NUMERIC_PATH_COMPARISONS.csv",
+    "snapshot": "evidence\\NUMERIC_PATH_COMPARISONS.csv",
+    "sha256": "f12cc8c7b602552bc2a2bf5178322a85d71e74bae30ec82649df9e8b94bd8736"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\reports\\CALLS.csv",
+    "snapshot": "evidence\\CALLS_2F.csv",
+    "sha256": "fe7766183a8b2221b4caa9f2f7860b4f075e895da480d1052540ac4041ea607f"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\reports\\EXECUTION_DETAILS.csv",
+    "snapshot": "evidence\\CALLS_2E.csv",
+    "sha256": "d141c65ef80f5cbde25d513c8af11ac008176278659269d580cb14ef3b1a1aed"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\reports\\SUMMARY.json",
+    "snapshot": "evidence\\SUMMARY_2F.json",
+    "sha256": "d63da63079389783b32f9d2e336ba2e256ec7af39c435b1e822f12ff2ffd32fd"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\reports\\DIAGNOSTIC_PARAMETERS.csv",
+    "snapshot": "evidence\\DIAGNOSTIC_PARAMETERS.csv",
+    "sha256": "4c6111c83094b65336d77f853aa7382ec27f87a10e14fa643923e71dc62c8867"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\audit\\independent\\independent_verification.json",
+    "snapshot": "evidence\\independent_verification_2F.json",
+    "sha256": "7c91d913e6aa4c32366208585c4b33c08b0287c9539e16a88644c47bf86f81be"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2D_20261008\\audit\\Z_CONTRACT.json",
+    "snapshot": "evidence\\Z_CONTRACT.json",
+    "sha256": "e80e5da5f9e0a90dacb3a944b5afa55cc7e6b91b34f073be5d4c03d5e66bad8c"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2D_20261008\\audit\\MI_source_snapshot\\mi_protocol.json",
+    "snapshot": "evidence\\MI_protocol.json",
+    "sha256": "89070df1d067e4f27c7ba18386f38af8f08b6fa6b7a3bc1374c3ba3d321c6fa2"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2D_20261008\\audit\\MI_terminal_chain_summary.csv",
+    "snapshot": "evidence\\MI_terminal_chain_summary.csv",
+    "sha256": "3667f99c09dc5427cafd64c56a2d8a2f99c9bcd347b0d46e945bd62d6d17289c"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2D_20261008\\audit\\MI_CONGENIALITY_AUDIT.json",
+    "snapshot": "evidence\\MI_CONGENIALITY_AUDIT.json",
+    "sha256": "907144de817140b83861b0fd0927aa63732b38fc333886ef7f5183c7013e07e0"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2D_20261008\\audit\\observed_longitudinal_descriptives.csv",
+    "snapshot": "evidence\\observed_longitudinal_descriptives.csv",
+    "sha256": "bbfeca6800466c4d4d44343f79e2aa6501c7853b8848abfdac6fa1e631690d82"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2D_20261008\\audit\\baseline_controls_descriptives.csv",
+    "snapshot": "evidence\\baseline_controls_descriptives.csv",
+    "sha256": "6164c96caf48511e957c4b1d269597bd6c9c7f4632515c1d99861e481d3a63b5"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\reporting\\context_evidence\\LITERATURE_VERIFICATION.csv",
+    "snapshot": "evidence\\LITERATURE_VERIFICATION.csv",
+    "sha256": "5cb7966118e01e874cbc718b8d4a3a9e241346d8b1496c796dc2ebc4eb0d38d7"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\reporting\\context_evidence\\LITERATURE_VERIFICATION.json",
+    "snapshot": "evidence\\LITERATURE_VERIFICATION.json",
+    "sha256": "cc0d120ece2736d95e2b5410b57bfc73cccb264089e765125a7efa86fd64d6d3"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2E_20261010\\audit\\LITERATURE_SOURCE_INVENTORY.json",
+    "snapshot": "evidence\\LITERATURE_SOURCE_INVENTORY.json",
+    "sha256": "2ff6c566f5384e113ebf049644bf72825450a9ff320e09d0e4923b2f2ac5366a"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E0_01_CC_F6\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E0_01_CC_F6\\model.out",
+    "sha256": "6416b8764f0c47fd135d93de8be873dfd8f55398b86940b54d8952829229c0b9"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E0_01_CC_F6\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E0_01_CC_F6\\receipt.json",
+    "sha256": "b0d098e8b04388e1756edaab87332c86411e92b5e46387f6b162da29fab6ef15"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20a\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20a\\model.out",
+    "sha256": "02efb1324ce8d704b4d088b00ac1471bf8e15f0565283a28aa0af40edb000c9c"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20a\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20a\\parameters_high_precision.csv",
+    "sha256": "4d02d61424e534a8ce3a40966228785ef389959b10d5a828ec1acded01af38d2"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20a\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20a\\parameter_covariance.csv",
+    "sha256": "6bdff8426f14def1941f2738c26c4951e3ffb1fea90da858439b99ea3597f7f3"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20a\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20a\\key_paths.csv",
+    "sha256": "aed86fa8c61eb40e319f48a4daaed1f6842acc3cc31a3556336e2fa60bed57fe"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20a\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20a\\receipt.json",
+    "sha256": "9667ba1cb8e4f1f701eb679475d13f9de38164643c6de4959286e3d857208b7c"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20a\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20a\\exact_ll.json",
+    "sha256": "247f622c17a9fec06fc26461bd3ec2526ffb6949aaafb3d80aaeb63ec82ccbbb"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20b\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20b\\model.out",
+    "sha256": "48bfaf3e377cb8d4a6f455c8e8801ba4c1ca45d9f2d0406ddca74f8dda16bd6b"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20b\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20b\\parameters_high_precision.csv",
+    "sha256": "c1a1e9f1c090fbe899be211b2a930b192c1772eaa23628201abcfcb3ca7818e6"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20b\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20b\\parameter_covariance.csv",
+    "sha256": "c215053a53e2f8fc4ddbedf92e370d0c8a5476e2c3246447ebc33e75e33ace79"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20b\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20b\\key_paths.csv",
+    "sha256": "0cd54b1a4d00656aceedc0edee46f39b97abf8f6e89016f23031ea10a903ebe5"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20b\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20b\\receipt.json",
+    "sha256": "dead59d1edd4c80bd5636c113095b445eae8b5a687de38b107f969a80697da27"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q20b\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q20b\\exact_ll.json",
+    "sha256": "94e0febc1c60c1818a1f6ec5037b05bfd8f02e4afaee42e910ea151900a24535"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30a\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30a\\model.out",
+    "sha256": "8f7b4e7be656a7fb6b5b6d8b8d585d1326b11d772ffef52fe9f9b5bab302a817"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30a\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30a\\parameters_high_precision.csv",
+    "sha256": "75c8cebe5eda11361683b8296822f22344899099a91b922ec49e010f00657e88"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30a\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30a\\parameter_covariance.csv",
+    "sha256": "1bba1df681774b2a8c2e4b21b28679738c3a64c91ec5b1371748171b35053400"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30a\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30a\\key_paths.csv",
+    "sha256": "f8f5105364387a05a2c02decd353a6b08f868f4cb91655bb10315bf27f44ba33"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30a\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30a\\receipt.json",
+    "sha256": "378436fdc09dafa65c91c3aa705762e60300a685cf35c121d5766c087b37cfe2"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30a\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30a\\exact_ll.json",
+    "sha256": "ea2857dd280e72f38d98c96dddb022664927c87c52b81626d70f131a8e519164"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30b\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30b\\model.out",
+    "sha256": "93e2f7557db6ba778a8ad44f7c89caf540062b068ce09e6abbdd09ceca4aa108"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30b\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30b\\parameters_high_precision.csv",
+    "sha256": "6130d0a16bf6fda2a7afd73973d69f792f708e66b133f207385e8dfb2f4bd33a"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30b\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30b\\parameter_covariance.csv",
+    "sha256": "6621dd6477bb8cfcfd33d08b27c4504b1360ae065539429c8be5c1636b734b48"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30b\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30b\\key_paths.csv",
+    "sha256": "7459d0f2661a7cd2370fd373770932d987b44f8e0647982fcf38260231e0008f"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30b\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30b\\receipt.json",
+    "sha256": "c127caf852d5d6e40c28d11fab42047234ef5ea663c55ba823502a6b89edd9b1"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1B_01_F1_q30b\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1B_01_F1_q30b\\exact_ll.json",
+    "sha256": "97dd75ff06932c400269130e88e6653ed2a5bc75d0c7c9fc4d96826b7687daa7"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F020_01_F5\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F020_01_F5\\model.out",
+    "sha256": "cbc82b44da7cd391840ed0036a6a820aae7d5fb9bf449198cee715f1f70b564f"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F020_01_F5\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F020_01_F5\\parameters_high_precision.csv",
+    "sha256": "8c596343d70635faf42e31be36aa890c01bbe729228786a349330af9abe87345"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F020_01_F5\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F020_01_F5\\parameter_covariance.csv",
+    "sha256": "c1175c07c00a8eba3e90a044f3eba81bc9c1a1d418fd2a37974be82faaa7084b"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F020_01_F5\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F020_01_F5\\key_paths.csv",
+    "sha256": "bb204fb77a761645cbabd8c8e422ee5ceb7816a81c414377f630e97d154b914e"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F020_01_F5\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F020_01_F5\\receipt.json",
+    "sha256": "e3023ab912e1dbfa2c21c28e3e3bc6cdcf69dc3b3388f155822b6c6cd63584a4"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F020_01_F5\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F020_01_F5\\exact_ll.json",
+    "sha256": "85837754d21e3b0671c3531b8b754c198096ab49354f37736675065f50a7e9e6"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F034_01_F5\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F034_01_F5\\model.out",
+    "sha256": "de7d45190099a855764574eb0d63546d20f2d8d7d62073220aac13bb2aefc6bb"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F034_01_F5\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F034_01_F5\\parameters_high_precision.csv",
+    "sha256": "9cb19e2f826480998ec36b24cac3de7f1e72568e8241dc28d814c1fb2c73d4b1"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F034_01_F5\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F034_01_F5\\parameter_covariance.csv",
+    "sha256": "aa121553f38b1758f063c1aca76413c996601026daa57354f46e3e817b990601"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F034_01_F5\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F034_01_F5\\key_paths.csv",
+    "sha256": "56995027b6f3d1f4184a8c67ea3052a270e71a07a78ff1ccda1cfb45f63f7531"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F034_01_F5\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F034_01_F5\\receipt.json",
+    "sha256": "0ceb4af6753506917037c63ca465533ccc726850ec11e80d483acf8429e63868"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F034_01_F5\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F034_01_F5\\exact_ll.json",
+    "sha256": "8b61623c5aad385a3368f1332f1fbff472398bd3ab01aa9135957cb2374dce5c"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F080_01_F5\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F080_01_F5\\model.out",
+    "sha256": "f93a4ecfeffd8f1098c0cd1f5c115104b6e63d8d321bc463d2d8617acc7881be"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F080_01_F5\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F080_01_F5\\parameters_high_precision.csv",
+    "sha256": "0a9e9ccfd26f04692e55dc7bf932c659f74cfee8e956c871f5dc0c7dcdbf5bef"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F080_01_F5\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F080_01_F5\\parameter_covariance.csv",
+    "sha256": "4c2bae0968c2cd151e192643b64b49e1897ecfc27f82919f5514eaae86afb561"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F080_01_F5\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F080_01_F5\\key_paths.csv",
+    "sha256": "af5527cbdef86036931298ddb97f71bf75046bc572656c6d1b3772ef2b0cf308"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F080_01_F5\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F080_01_F5\\receipt.json",
+    "sha256": "88a1f672bd328ba21fd3e25e3217761a5b57e7242b4f2f65c8629629975cd690"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1F080_01_F5\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1F080_01_F5\\exact_ll.json",
+    "sha256": "f1103e3e29273f0ef78ae2af79b11fb907a448a29c1a3080f77c4f29b4bef5b1"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20a\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20a\\model.out",
+    "sha256": "38c4264861b148f878a9239fff590dcf7d6cd5595d11a8ec42dfcfaccaaeda91"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20a\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20a\\parameters_high_precision.csv",
+    "sha256": "e4508e8d16a21336fe84dfed25c776dcd806cc4078dff1dd2fd534a16a3c16ab"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20a\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20a\\parameter_covariance.csv",
+    "sha256": "b9a3b9a20bee37b9ba6c1880542a79a7dfeb0c44196d00b78412737a25ec0278"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20a\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20a\\key_paths.csv",
+    "sha256": "349731003fd59e3553cca13237a0844e636df247a9069f9455f580abd0fe86ef"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20a\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20a\\receipt.json",
+    "sha256": "e614353c2af56b4ee1b7caa8fba8620ad117022a3256b24cfff9836ed62d430f"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20a\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20a\\exact_ll.json",
+    "sha256": "1cecdc47d72de999c9955f2ea5c336bccc606647147a1cb7813eded8ae531cfd"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20b\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20b\\model.out",
+    "sha256": "745b0ab071bf4cd3dc5083c6e62f89c6faebd1753ccc1d83cad7fc15a4c35d25"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20b\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20b\\parameters_high_precision.csv",
+    "sha256": "0e383a15633aba92a4db06f09368c409ef674ad16fac6c8f31ed97a1c1b68d95"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20b\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20b\\parameter_covariance.csv",
+    "sha256": "78d6e1c226666c22de9316ff9dbfb40724caca79ff3150fdd2da33ae78fc2eee"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20b\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20b\\key_paths.csv",
+    "sha256": "537f7a2f3e8817643da18627d76e1d86066a4995d436c7f39c52ca85de993105"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20b\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20b\\receipt.json",
+    "sha256": "8af63a2376fa4b27e5ffa4c4f53b97be44ac33cc18862e389bcd7f3f33ce7bd4"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q20b\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q20b\\exact_ll.json",
+    "sha256": "d71f4ab30e5c6625f2131f9c7f9ea8158ff01810c3841b8f8e484de9834ba596"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30a\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30a\\model.out",
+    "sha256": "9055eee31384cc9026dd9aee4e85143c52c824f7f4062dcefed0771edf0ded83"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30a\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30a\\parameters_high_precision.csv",
+    "sha256": "4491cbed05fa75227371c1be55473676dc578f68fc151efe9aef1f85e1a5b32c"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30a\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30a\\parameter_covariance.csv",
+    "sha256": "ddf46d62c822f80f54a67c3c444a0b6cc672528fe08e1aee83717f9e97518876"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30a\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30a\\key_paths.csv",
+    "sha256": "328d82a651bed88b41e8f6d17bc45eb82ec0d9b68b16ed2c6b4ef29fb66e7e7a"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30a\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30a\\receipt.json",
+    "sha256": "16773d972933c77950461442579bf4834bc3fe264c6ad2b1cf91a29f9ec64564"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30a\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30a\\exact_ll.json",
+    "sha256": "cf271b264e4b332532222755b533692be99567b97c14eefe5222116bc63bec71"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30b\\model.out",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30b\\model.out",
+    "sha256": "3b8db9f58855a6007e3c9e7221f2daa9d5c82135b8be9f92237fc727717ce670"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30b\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30b\\parameters_high_precision.csv",
+    "sha256": "74b930af35d329c994cb56d3340cc1c071e8eb3918c730629380c5a15f441ce0"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30b\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30b\\parameter_covariance.csv",
+    "sha256": "c4b04da7230fdd16f1f0ea4ac9eeff299d2b57d2fcf2e75c74e22a9981221362"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30b\\key_paths.csv",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30b\\key_paths.csv",
+    "sha256": "d3ccbd5c2d04bb17043d03373f8556dde932bb9e37e501943fa61fe48be91716"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30b\\receipt.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30b\\receipt.json",
+    "sha256": "9976db12cbf74a9b59b7ee553908bfac91eecf8a1e250ab9e22dbb0751fc823b"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\CFPS_SD_E1_01_F2_q30b\\exact_ll.json",
+    "snapshot": "evidence\\models\\CFPS_SD_E1_01_F2_q30b\\exact_ll.json",
+    "sha256": "c82eaf8c4e844640a1f404beeb2439ec8d83d586aea8590089bcf966dea874a2"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\model.out",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\model.out",
+    "sha256": "786e02e64ed30447aedfc6d3eacd208c25abf73741903484f1a4a836b71b087e"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\parameters_high_precision.csv",
+    "sha256": "fde13a6a59e458f3cf8e877e99f45133d7f6dabcf9614d0623d92fcd72b695a5"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\parameter_covariance.csv",
+    "sha256": "408b2d260bcfedc0090eaddbf58aa9e2172910e95f0ca8c5cdab2ef9f21f31eb"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\key_paths.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\key_paths.csv",
+    "sha256": "bc2f15b71b7657abe59a637945f325fadc2949217f40a55bf1c5a1e103d9eed3"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\receipt.json",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\receipt.json",
+    "sha256": "2b69af33e763ea7f79295b70a02a230ce21661dde09460be710bcef2d5ab7dc5"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\exact_ll.json",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1B_01_smoke_tight\\exact_ll.json",
+    "sha256": "25c29e4cad970d111934fd14fe4ea3274ed3227b8d3da77361d52323fe018c41"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\model.out",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\model.out",
+    "sha256": "75e0d69db5c2e1b2df8717eb742f660a4dcde142aca2414cb4b724231a22eb59"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\parameters_high_precision.csv",
+    "sha256": "518e77ce4f29a7b175c3891d9c4766a8a2f4e197326bb88d3c3656a9858b242e"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\parameter_covariance.csv",
+    "sha256": "9c906ccd666c5aafa44dc558ca10cc7eb869d553c770654f5bee606279ffa271"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\key_paths.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\key_paths.csv",
+    "sha256": "09e1cdde09c8caa641d2f3e7f970143cca95dcac1e813c633727429f3dc4784d"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\receipt.json",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\receipt.json",
+    "sha256": "97d3f4413ae8196eb73537bb6630a1414e2d7c103946afad5c1da92d18266ae1"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\exact_ll.json",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1F034_01_smoke_fixed\\exact_ll.json",
+    "sha256": "24f6c1fdc522e7092816c842dc1ccd2f4260ee8105dd127f41b64363ee43dee4"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1_01_smoke_release\\model.out",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1_01_smoke_release\\model.out",
+    "sha256": "abccb3e4f0b35b98531c8dd35a600f755433ed7b7a2609915bc32cff2fc1ed4f"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1_01_smoke_release\\parameters_high_precision.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1_01_smoke_release\\parameters_high_precision.csv",
+    "sha256": "03925f247dec28b392daebc288cba4b887ccadd35c738c130c18211d6899e888"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1_01_smoke_release\\parameter_covariance.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1_01_smoke_release\\parameter_covariance.csv",
+    "sha256": "b39f59c56d235dd1dc9471870bf9ff38b41777ebcd07610d66eb483833da1042"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1_01_smoke_release\\key_paths.csv",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1_01_smoke_release\\key_paths.csv",
+    "sha256": "79bfb0c46ffe6de04bbf051eb18f4ac652124ab0af7d22ff181e39598ce45c42"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1_01_smoke_release\\receipt.json",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1_01_smoke_release\\receipt.json",
+    "sha256": "76beb41855313c0625d0b47bec9afb0441fc55cf94acc7d40eb0808aa48f2ece"
+  },
+  {
+    "source": "C:\\Users\\LZHS\\pp_lgcm_review\\round2F_20261011\\models\\SYNTHETIC_SD_E1_01_smoke_release\\exact_ll.json",
+    "snapshot": "evidence\\models\\SYNTHETIC_SD_E1_01_smoke_release\\exact_ll.json",
+    "sha256": "cf00689492f2a404aafc71fe3c68eeb87d6050a3f69b52d8c8af143f09f8512f"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "round": "Round2F",
+  "decision": "C",
+  "terminal": {
+    "status": "FINISHED",
+    "utc": "2026-10-11 22:04:26 UTC"
+  },
+  "timing": {
+    "calls": 15,
+    "sample_counts": {
+      "CFPS": 12,
+      "SYNTHETIC": 3
+    },
+    "status_counts": {
+      "USABLE": 10,
+      "INADMISSIBLE_SY_ONLY": 4,
+      "EXTRACTION_FAILED": 1
+    },
+    "engine_wall_seconds": 1605.8864243030548,
+    "cpu_seconds": 1262.0625,
+    "batch_wall_seconds": 2160,
+    "batch_wall_precision": "approximately one second; queue terminal timestamp is printed to seconds",
+    "budget_snapshot_wall_seconds": 2148.302466392517,
+    "budget_snapshot_updated_utc": "2026-10-11T22:04:14.617394+00:00",
+    "queue_terminal_utc": "2026-10-11 22:04:26 UTC",
+    "budget": {
+      "max_calls": 39,
+      "engine_seconds": 10800,
+      "wall_seconds": 14400,
+      "categories": {
+        "SMOKE": 4,
+        "NUMERIC": 8,
+        "TARGET": 18,
+        "REPAIR": 3,
+        "DIAG": 6
+      },
+      "per_call_active_seconds": {
+        "synthetic": 180,
+        "linear": 180,
+        "observed_LMS": 600
+      },
+      "suspend_gap_seconds": 30,
+      "resource_wait_seconds": 1800,
+      "family_projection_factor": 1.25,
+      "accounting": "All actual engine wall seconds are charged, including suspension; no polling-gap deductions. Batch wall starts at P0 and never resets."
+    },
+    "overrun_calls": [],
+    "all_actual_calls_keep_awake": true
+  },
+  "F1_pass": false,
+  "F2_pass": false,
+  "families": {},
+  "no_new_microdata": true,
+  "project_complete": false,
+  "created_utc": "2026-10-11T22:12:27.058100+00:00"
+}

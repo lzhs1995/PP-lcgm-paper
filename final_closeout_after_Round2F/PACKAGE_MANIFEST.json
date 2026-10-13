@@ -1,0 +1,21 @@
+{
+  "release": "final_closeout_after_Round2F",
+  "max_package_bytes": 25000000,
+  "packages": [
+    {
+      "path": "PP_LGCM_Final_Closeout_Package_01.zip",
+      "bytes": 7094920,
+      "files": 167,
+      "sha256": "86f337d52039f858b998cf14e667b1a17108209b03ecb536ff5cce5a37c97400"
+    },
+    {
+      "path": "PP_LGCM_Final_Closeout_Package_02.zip",
+      "bytes": 279644,
+      "files": 80,
+      "sha256": "2559fd8ac22975b31f1f6c7d43419738dadd58af81c765c7a767089f6fb8dd4c"
+    }
+  ],
+  "payload_files": 247,
+  "manifest_entries": 246,
+  "new_mplus_calls": 0
+}

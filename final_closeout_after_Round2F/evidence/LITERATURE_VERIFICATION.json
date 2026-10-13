@@ -1,0 +1,35 @@
+[
+  {
+    "key": "li2023",
+    "doi": "10.1093/geronb/gbad004",
+    "pages": "925; 930–932 (PDF 1, 6–8)",
+    "issue": "抑郁方向与交互操作化",
+    "finding": "摘要将最亲近关系类型与较低抑郁、最疏远关系类型与较高抑郁相联系。模型4实际包含“有无疏离关系×最近关系类型”的交互；这与本研究连续增长乘积不同。",
+    "action": "纠正原稿方向；保留类型与连续指标的区别，不把全部类别比较概括为单调剂量关系。",
+    "source_sha256": "e980739403a4dd204adfe167a3c4075ec91ff451242f3837cfcf77594fd82c27",
+    "source_pages_total": 13,
+    "verification_scope": "Full local PDF text extracted; listed substantive passages read. No claim to re-review every cited source."
+  },
+  {
+    "key": "zhang2025",
+    "doi": "10.1017/S0144686X24000795",
+    "pages": "2089; 2093–2094; 2111–2112 (PDF 1, 5–6, 23–24)",
+    "issue": "最远关系限定及互动策略",
+    "finding": "认知水平和下降快慢的所述结论限定于最远关系类型；最近关系未显著。该文以类型标准差/极差表示异质性，未估计本研究的SX×Z乘积。",
+    "action": "补“最远关系”限定；明示其异质性操作化与本研究乘积交互不同。",
+    "source_sha256": "23e30c987c813fb5452f08a2198249e423002055f8e7cea161c34517928faff4",
+    "source_pages_total": 27,
+    "verification_scope": "Full local PDF text extracted; listed substantive passages read. No claim to re-review every cited source."
+  },
+  {
+    "key": "zhangliu2024",
+    "doi": "10.1177/02654075241283974",
+    "pages": "3871 (PDF 11)",
+    "issue": "固定基期标准化出处",
+    "finding": "方法明确以后期认知的2006基期均值/标准差、关系指标的2006/08基期参照作标准化，并使用家庭聚类标准误。",
+    "action": "两作者引用统一为Zhang & Liu；固定基期标准化出处经本机原文核对，不能据此证明本研究的其他模型假设。",
+    "source_sha256": "89f74076163c101a212c9c2432c6c8ef1b4de0e388fbcfacca3ae1695d8beeed",
+    "source_pages_total": 24,
+    "verification_scope": "Full local PDF text extracted; listed substantive passages read. No claim to re-review every cited source."
+  }
+]

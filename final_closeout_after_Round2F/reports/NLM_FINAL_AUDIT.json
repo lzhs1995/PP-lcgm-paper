@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "pdf_only": true,
+  "pdfs": [
+    {
+      "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+      "sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+    },
+    {
+      "pdf": "PP_LGCM_scoped_supplement.pdf",
+      "sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+    }
+  ],
+  "completed_passes": [
+    "structure",
+    "methods",
+    "final"
+  ],
+  "open_actionable_issues": 0,
+  "rounds": [
+    {
+      "round": 5,
+      "focus": "structure",
+      "full_scan": true,
+      "sources": [
+        {
+          "id": "ca5bba64-d55c-44d4-91d5-dd487d4da205",
+          "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+          "sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+        },
+        {
+          "id": "69cbb1d9-8934-4796-95ea-4860883ef61e",
+          "pdf": "PP_LGCM_scoped_supplement.pdf",
+          "sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+        }
+      ],
+      "raw_path": "reports/nlm/round_05/raw_response.json",
+      "raw_sha256": "afbc2e5f69a770977884bffa228f91f595f0319c35779c15c2c4d6efe16ddc47",
+      "returncode": 0,
+      "review_validated": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "issue_keys": []
+    },
+    {
+      "round": 6,
+      "focus": "methods",
+      "full_scan": true,
+      "sources": [
+        {
+          "id": "9ade7b2c-bfd0-40db-b78f-c3961e0fa30f",
+          "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+          "sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+        },
+        {
+          "id": "666ce041-0e15-477a-b756-9145f6ab7a25",
+          "pdf": "PP_LGCM_scoped_supplement.pdf",
+          "sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+        }
+      ],
+      "raw_path": "reports/nlm/round_06/raw_response.json",
+      "raw_sha256": "920907690876d7f6efab10a095a5a88175cc574ee9f71dae966241fd47b718d6",
+      "returncode": 0,
+      "review_validated": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "issue_keys": []
+    },
+    {
+      "round": 7,
+      "focus": "final",
+      "full_scan": true,
+      "sources": [
+        {
+          "id": "5e03fcfe-0247-4641-b9c8-cea3d905c508",
+          "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+          "sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+        },
+        {
+          "id": "f0c95fb1-01ef-421b-a033-4696d5882a9c",
+          "pdf": "PP_LGCM_scoped_supplement.pdf",
+          "sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+        }
+      ],
+      "raw_path": "reports/nlm/round_07/raw_response.json",
+      "raw_sha256": "0f861b2abe881f613499acac4a5a938213ffe610e7a12eccd0c1de3c67903294",
+      "returncode": 0,
+      "review_validated": true,
+      "new_issues_count": 1,
+      "a5_no_new_issues": "NO",
+      "issue_keys": [
+        "supplement_reference_Raudenbush_DOI"
+      ]
+    },
+    {
+      "round": 8,
+      "focus": "final",
+      "full_scan": true,
+      "sources": [
+        {
+          "id": "76f419e3-e74d-4b8d-a7a4-f87c4ad65434",
+          "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+          "sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+        },
+        {
+          "id": "40e8210a-0fdb-485e-a341-3d402e21d796",
+          "pdf": "PP_LGCM_scoped_supplement.pdf",
+          "sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+        }
+      ],
+      "raw_path": "reports/nlm/round_08/raw_response.json",
+      "raw_sha256": "47a56eed5739c2d64bb18e700e2cf89bb7e0d51913d7b850bad394376eeb6148",
+      "returncode": 0,
+      "review_validated": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "issue_keys": []
+    },
+    {
+      "round": 9,
+      "focus": "final",
+      "full_scan": true,
+      "sources": [
+        {
+          "id": "ff8627a4-5684-4c59-bcb0-7c06ebac454c",
+          "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+          "sha256": "a60b19efa42debb2d77dd430000e41533453ecf172a6b64deafeec6aa07e97f0"
+        },
+        {
+          "id": "ea8654de-f84f-4473-a398-658411ad1131",
+          "pdf": "PP_LGCM_scoped_supplement.pdf",
+          "sha256": "80ae7784706c436ebc528cabb426b8bf66e6cbc203d5aab018a4c114a7065ef1"
+        }
+      ],
+      "raw_path": "reports/nlm/round_09/raw_response.json",
+      "raw_sha256": "a8e62dad764e5acbd2897b38e7883078f5b7474a52da31bed0fa5b8dd7824619",
+      "returncode": 0,
+      "review_validated": true,
+      "new_issues_count": 0,
+      "a5_no_new_issues": "YES",
+      "issue_keys": []
+    }
+  ],
+  "a5": {
+    "termination": "TWO_CONSECUTIVE_NO_NEW",
+    "rounds": [
+      8,
+      9
+    ]
+  },
+  "excluded_attempts": [
+    {
+      "round": 1,
+      "reason": "回复虽称无新问题，但sources_used、citations与references均为空；仅人工样式文件名括号不构成原生来源引用。该轮不计入三审或A5。",
+      "raw_path": "reports/nlm_history/round_01/raw_response.json"
+    }
+  ],
+  "review_limits": "NLM审阅不代替本地逐格/来源验证或逐页视觉审查；不证明原最大研究目标已完成。",
+  "recorded_utc": "2026-10-13T05:51:46.835233+00:00"
+}

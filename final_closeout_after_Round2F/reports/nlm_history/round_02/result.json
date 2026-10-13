@@ -1,0 +1,59 @@
+{
+  "round": 2,
+  "focus": "structure",
+  "sources": [
+    {
+      "id": "09735162-2a98-4018-8a15-4cd52904e2d7",
+      "pdf": "PP_LGCM_scoped_final_candidate.pdf",
+      "sha256": "596a4773660e14fd28b1fd8d1cdb99102ef97915bae11b59c81913769add40bf"
+    },
+    {
+      "id": "e3162948-7507-4b3f-861b-aaf592bbbb81",
+      "pdf": "PP_LGCM_scoped_supplement.pdf",
+      "sha256": "ee98ef80dc14be905a5ca533c6e68e1b5d972e0842379eefbbd68e63cbc9fd9d"
+    }
+  ],
+  "result": {
+    "status": "PASS",
+    "request_fingerprint": "85da648e80db565d6abfde9745d260f554f06d150e0a25706652008a3249d108",
+    "profile": "default",
+    "attempts": [
+      {
+        "attempt": 1,
+        "started_at_utc": "2026-10-13T04:57:47.935111+00:00",
+        "duration_seconds": 79.865,
+        "command": [
+          "C:/Users/LZHS/.local/bin/nlm.exe",
+          "query",
+          "notebook",
+          "8dade4b3-dd95-4abd-a988-6d1c15b30703",
+          "请仅依据本轮两个PDF：[PP_LGCM_scoped_final_candidate.pdf]与[PP_LGCM_scoped_supplement.pdf]进行独立完整审查，不使用旧版本或其他sources。重点审查两稿全部表格和文字的数字、方向、样本数、表号和跨稿引用是否一致；区分主文5表与补充A1-A30、当前采用结果与标记的历史审计。\n这是作者已明确收缩范围的候选稿，保留SW和SD E0；完整调节MI及H4未完成，均需诚实披露。本轮不新增模型；必要新研究列为限制，不能以显著性为修订目标。补充末尾是明确标识的原假设和历史方法，不自动当成现行结论。\n必须使用NotebookLM原生带来源定位的数字引用（如[1]），分别引用两份PDF原文，不要自己把文件名写在方括号中充当引用。如果无法访问来源，请明确报告失败，不得宣称审阅通过。先分别引用主文表4的一条完整路径和补充A22的原句以确认源文件读取。随后覆盖两份完整PDF。列出每个可核实问题的位置、短引文、理由和最小修正；允许指出以前裁决有误。结尾写 NEW_ISSUES_COUNT: 实际新增问题数 和 A5_NO_NEW_ISSUES: YES或NO。没有新问题才写本轮未发现新问题。最多1600汉字，保留结束标记。",
+          "--source-ids",
+          "09735162-2a98-4018-8a15-4cd52904e2d7,e3162948-7507-4b3f-861b-aaf592bbbb81",
+          "--new-conversation",
+          "--timeout",
+          "240",
+          "--json",
+          "--profile",
+          "default"
+        ],
+        "exit_code": 0,
+        "failure_class": null,
+        "validation": {
+          "status": "PASS",
+          "errors": [],
+          "sources_used": [
+            "09735162-2a98-4018-8a15-4cd52904e2d7",
+            "e3162948-7507-4b3f-861b-aaf592bbbb81"
+          ],
+          "citation_count": 29,
+          "new_issues_count": 0,
+          "a5_no_new_issues": "YES"
+        },
+        "raw_path": "C:\\Users\\LZHS\\pp_lgcm_review\\final_closeout_after_Round2F\\runtime\\nlm\\round_02\\query\\attempt-01.raw.txt",
+        "stderr_path": "C:\\Users\\LZHS\\pp_lgcm_review\\final_closeout_after_Round2F\\runtime\\nlm\\round_02\\query\\attempt-01.stderr.txt"
+      }
+    ]
+  },
+  "created_utc": "2026-10-13T04:57:47.936546+00:00"
+}

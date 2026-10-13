@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "runtime": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "runner": "Direct existing test functions; isolated tempfile fixtures; no Mplus",
+  "passed": [
+    "test_pages_input_without_output_paging_is_not_a_hold",
+    "test_output_paging_and_disk_latency_hold_together",
+    "test_windows_profile_overrides_wsl_view",
+    "test_stale_profile_is_held",
+    "test_unverified_snapshot_is_held",
+    "test_mapped_file_reads_do_not_create_an_arbitrary_admission_block",
+    "test_missing_paging_is_unknown_not_pressure",
+    "test_profile_missing_native_cpu_cannot_use_wsl_cpu",
+    "test_profile_future_date_is_not_fresh",
+    "test_commit_gate_distinct_from_physical_memory",
+    "test_invalid_number_is_not_an_available_memory_budget"
+  ],
+  "failures": []
+}
