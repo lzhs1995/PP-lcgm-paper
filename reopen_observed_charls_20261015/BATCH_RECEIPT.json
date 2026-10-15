@@ -1,0 +1,17 @@
+{
+  "status": "FIRST_BOUNDED_RESEARCH_BATCH_COMPLETE",
+  "utc": "2026-10-15T08:06:33.759177+00:00",
+  "Mplus_calls": 8,
+  "charged_runner_engine_seconds": 1150.6044840000104,
+  "budget_seconds": 7200,
+  "new_usable_estimates": 4,
+  "CFPS_moderation_complete_MI_families": 0,
+  "CFPS_H4_complete_MI_families": 0,
+  "CHARLS_legal_unadjusted_models": 3,
+  "CHARLS_N": 3006,
+  "CHARLS_households": 3006,
+  "full_external_validation": false,
+  "prior_scoped_manuscript": "UNCHANGED_SCOPED_CLOSEOUT_COMPLETE",
+  "automatic_queue": "STOPPED_AT_APPROVED_PILOT_BOUNDARY",
+  "next": "H4.1 SD x education complete MI feasibility; CHARLS prespecified adjustment/missingness contract; no unchanged CFPS E1 retry"
+}
