@@ -1,0 +1,18 @@
+{
+  "packages": [
+    {
+      "file": "01_report_code_audit.zip",
+      "bytes": 293393,
+      "sha256": "837243edcba8475ef2c4a3aba297331e3a33179c3be37e144ad10f147639e59e",
+      "files": 78
+    },
+    {
+      "file": "02_model_evidence.zip",
+      "bytes": 9049666,
+      "sha256": "b47b02a24b7d53b5fe326fa3874daec3fd39550c3efefe676119ff57cb601390",
+      "files": 580
+    }
+  ],
+  "payload_files": 658,
+  "privacy": "Explicit per-file allowlist; no personal DAT/RDS/MI/IDs; estimates.dat and tech3.dat contain aggregate parameters/covariance only"
+}
