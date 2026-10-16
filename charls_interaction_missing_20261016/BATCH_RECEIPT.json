@@ -1,0 +1,18 @@
+{
+  "status": "MISSING_CONTROL_AUDIT_AND_BOUNDED_CAPABILITY_COMPLETE",
+  "synthetic_calls": 7,
+  "real_data_calls": 0,
+  "new_MI": 0,
+  "engine_launcher_seconds": 573.8148620001739,
+  "CFPS_H41_complete_conditional_families": 3,
+  "CFPS_H41_registered_families": 12,
+  "original_four_moderations_complete": false,
+  "full_H4_complete": false,
+  "new_CFPS_calls": 0,
+  "unchanged_failed_specs_repeated": 0,
+  "new_NLM": 0,
+  "closed_manuscript_changed": false,
+  "MI_generated": 0,
+  "joint_missing_real_data_admitted": false,
+  "limits": "Capabilities and missing-control definition only, not complete inference"
+}
