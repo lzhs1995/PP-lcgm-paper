@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "file": "01_roster_report_code.zip",
+      "bytes": 41875,
+      "sha256": "b74f257bfa920b11ba895fc027af21a09ec86a944e25335f6d5ec6bd2b98431d",
+      "files": 35
+    }
+  ],
+  "payload_files": 35,
+  "privacy": "Explicit per-file allowlist; no individual or child records, DAT/DTA/RDS or MI; source paths redacted"
+}
