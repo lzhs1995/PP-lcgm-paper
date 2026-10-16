@@ -1,0 +1,10 @@
+{
+  "name": "CHARLS_income_method_pilot.zip",
+  "bytes": 34381,
+  "sha256": "750da95fc739c2c3a894563a12fc742af9e4b32f0214b989e1adf2e994a42683",
+  "zip_files": 27,
+  "payload_files": 26,
+  "explicit_allowlist": true,
+  "source_microdata_selected": false,
+  "CRC_and_payload_hashes": "PASS"
+}
