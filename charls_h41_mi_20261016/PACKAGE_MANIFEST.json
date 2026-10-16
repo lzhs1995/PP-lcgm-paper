@@ -1,0 +1,11 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_h41_education_urban.zip",
+      "bytes": 22494201,
+      "sha256": "6f9bdda59202f72bc03234a0f5966fb447c29d9e7803a7f0c65d32d9d0c31a93",
+      "files": 2986
+    }
+  ],
+  "privacy": "Explicit per-file statistical role allowlist; no individual DAT/DTA/RDS/MI; local paths redacted; parameter DATs only"
+}
