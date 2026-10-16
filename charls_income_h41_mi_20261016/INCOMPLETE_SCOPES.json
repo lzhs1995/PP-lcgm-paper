@@ -1,0 +1,75 @@
+{
+  "SON_INC": {
+    "family_status": {
+      "status": "IMPUTATION_NOT_ADMITTED",
+      "members": 0,
+      "N": 2387,
+      "detail": {
+        "scope": "son",
+        "passed": false,
+        "status": "IMPUTATION_FAILED_NO_REPLACEMENT",
+        "error": "fit_env$last_fit_valid is not TRUE"
+      }
+    },
+    "imputation_admission": {
+      "scope": "son",
+      "passed": false,
+      "status": "IMPUTATION_FAILED_NO_REPLACEMENT",
+      "N": 2387,
+      "N_CC": 1807,
+      "columns": [
+        "cluster",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x5",
+        "y1",
+        "y2",
+        "y3",
+        "y4",
+        "y5",
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c7",
+        "c8",
+        "c9",
+        "c10",
+        "c11",
+        "z0",
+        "g",
+        "zg"
+      ],
+      "communities": 434,
+      "error": "fit_env$last_fit_valid is not TRUE"
+    },
+    "runner_step": {
+      "status": "RUNNER_FAILED",
+      "started_at": "2026-10-16T19:11:35.437249+00:00",
+      "pid": 1648,
+      "created": 1792177895.4406974,
+      "exitcode": 1,
+      "seconds": 1795.0632164999843,
+      "finished_at": "2026-10-16T19:41:30.500470+00:00"
+    },
+    "conditional_fit_failures": [
+      {
+        "scope": "son",
+        "iteration": 6,
+        "fit_n": 411,
+        "target": "g",
+        "backend": "glmmTMB_default_Laplace",
+        "error": "reached elapsed time limit",
+        "seconds": 128.37291312217712,
+        "valid": false
+      }
+    ],
+    "logged_conditional_calls": 411,
+    "complete_family_pooled": false,
+    "interpretation": "No adopted complete-family inference; neither zero effect nor proof of nonidentification"
+  }
+}
