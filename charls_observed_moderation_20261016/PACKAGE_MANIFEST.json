@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_moderation_pilots.zip",
+      "bytes": 1503826,
+      "sha256": "17b02eaf91d59eb409fc93cc69cddfbdbf426591dcfec739cbc9ce4c7436d865",
+      "files": 218
+    }
+  ],
+  "payload_files": 218,
+  "privacy": "Explicit per-file roles; estimates.dat/tech3.dat are model parameters, NOT individual data; no individual data.dat/DTA/RDS/MI; personal paths redacted"
+}
