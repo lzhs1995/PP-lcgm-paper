@@ -1,0 +1,20 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_h42_working_mi.zip",
+      "bytes": 23068539,
+      "sha256": "198356011079923f340454eb9cffa59aef3f7a446e12386c58291707cacca094",
+      "files": 2543
+    },
+    {
+      "file": "02_charls_h42_working_mi.zip",
+      "bytes": 22062044,
+      "sha256": "3c663c09f49b1b66acd341670137db664197f3e86e3beb92d0959204c78e569e",
+      "files": 2543
+    }
+  ],
+  "privacy": "No individual DAT/RDS, identifiers or participant records. Parameter RESULTS and TECH3 DAT only.",
+  "complete_families": 11,
+  "full_H4_complete": false,
+  "original_CFPS_four_complete": false
+}
