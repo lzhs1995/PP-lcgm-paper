@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "file": "01_cfps_mean_h41.zip",
+      "bytes": 423334,
+      "sha256": "059ee582964168735be49370ec435e869c5991ced7b04663dea601b36f2413ca",
+      "files": 97
+    }
+  ],
+  "full_H4_complete": false,
+  "original_four_complete": false
+}
