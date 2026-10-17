@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_mean_resource_complete_mi.zip",
+      "bytes": 4550741,
+      "sha256": "e5fe0040a648bfdd5f891f053c5397d886772ae4a4e8514597c0881aa3690fa6",
+      "files": 920
+    }
+  ],
+  "full_H4_complete": false,
+  "original_four_complete": false
+}
