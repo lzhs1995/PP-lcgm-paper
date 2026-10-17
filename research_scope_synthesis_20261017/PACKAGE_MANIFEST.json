@@ -1,0 +1,13 @@
+{
+  "packages": [
+    {
+      "file": "01_research_scope_synthesis.zip",
+      "bytes": 71138,
+      "sha256": "716fe31191c44908a76bd500f4e511b7205883911deba327bfc351b461af44a9",
+      "files": 27
+    }
+  ],
+  "original_four_complete": false,
+  "full_H4_complete": false,
+  "new_Mplus_calls": 0
+}
