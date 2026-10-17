@@ -1,0 +1,13 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_h42_pilot.zip",
+      "bytes": 3637675,
+      "sha256": "2966244bc6e5f95c3eb7d76511c65cd869193326b6cb336b744f60f992dd0571",
+      "files": 457
+    }
+  ],
+  "privacy": "No individual records; parameter DAT and TECH3 only",
+  "full_H4_complete": false,
+  "MI_complete": false
+}
