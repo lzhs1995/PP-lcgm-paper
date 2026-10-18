@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_input_correction_notice.zip",
+      "bytes": 35026,
+      "sha256": "345bfa0435e2bad6de3395d64002fdc50147008a381ff58a65dc6c47f0603016",
+      "files": 32
+    }
+  ],
+  "personal_data": false,
+  "models_run": 0
+}
