@@ -1,0 +1,13 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_corrected_baseline_h41_20261018.zip",
+      "bytes": 22801239,
+      "sha256": "9228dd2825fce5714a2be1771a042256d9e6fb04c4954daf76cda0d6d3e07961",
+      "files": 2822,
+      "source_root": "charls_corrected_baseline_h41_20261018"
+    }
+  ],
+  "original_four_complete": false,
+  "full_H4_complete": false
+}
