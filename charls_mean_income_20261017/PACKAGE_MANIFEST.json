@@ -1,0 +1,12 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_mean_income_h41_working_mi.zip",
+      "bytes": 5046681,
+      "sha256": "36f2c6891afc015c51d58b1d8f5caff75e648ada86f3457380afbeda0bd4c3b5",
+      "files": 1023
+    }
+  ],
+  "original_four_complete": false,
+  "full_H4_complete": false
+}
