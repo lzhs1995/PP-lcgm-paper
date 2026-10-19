@@ -1,0 +1,12 @@
+{
+  "status": "PASS_PUBLIC_PACKAGE",
+  "archive": "Mplus_Bounded_Adapter_20261019.zip",
+  "bytes": 41303,
+  "sha256": "2f38dfd4b1aa4b95255fe308a747f27f3c7012c9741242918b6118d6e34a7142",
+  "payload_files": 47,
+  "entries": 48,
+  "licensed_Mplus_calls": 1,
+  "fake_engine_calls": 1,
+  "real_data_calls": 0,
+  "new_MI": 0
+}
