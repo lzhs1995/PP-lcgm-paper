@@ -1,0 +1,14 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_corrected_h42_models_20261018.zip",
+      "bytes": 22728677,
+      "sha256": "cc7cfd9faebe5595eb6a09ac73b7b3ec120cc6dc83115fcbed7579298c395fa4",
+      "entries": 2780
+    }
+  ],
+  "payload_files": 2779,
+  "microdata_included": false,
+  "original_four_complete": false,
+  "full_H4_complete": false
+}
