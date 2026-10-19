@@ -1,0 +1,14 @@
+{
+  "packages": [
+    {
+      "file": "01_charls_sd_urban_family_recovery_20261019.zip",
+      "bytes": 3264206,
+      "sha256": "3e20ab57d17ec95682127ee5313f873a27768535f58419b1d3527275250b1e91",
+      "entries": 476
+    }
+  ],
+  "payload_files": 475,
+  "microdata_included": false,
+  "original_four_complete": false,
+  "full_H4_complete": false
+}
