@@ -1,0 +1,14 @@
+{
+  "status": "PASS_PUBLIC_PACKAGE",
+  "archive": "PP_LGCM_Hypothesis_Coverage_20261019.zip",
+  "bytes": 47834,
+  "sha256": "634a7a7b986bcf6141b82bea71c164f35358eca9d2c27dc7d3b29d44c76e3c6a",
+  "payload_files": 29,
+  "entries": 30,
+  "all_allowlisted": true,
+  "new_Mplus_calls": 0,
+  "new_MI": 0,
+  "original_four_complete": false,
+  "full_H4_complete": false,
+  "verification": "Actual extracted ZIP, standard-library aggregate source and Holm replay"
+}
