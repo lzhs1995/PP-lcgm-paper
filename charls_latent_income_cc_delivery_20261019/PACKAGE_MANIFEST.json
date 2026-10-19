@@ -1,0 +1,15 @@
+{
+  "status": "PASS_PUBLIC_PACKAGE",
+  "archives": [
+    {
+      "archive": "CHARLS_LATENT_INCOME_CC_AND_PILOT.zip",
+      "bytes": 4292267,
+      "sha256": "f7708c797bd98618e90add63bc1adafb85c54a4005651b9d6aa9bad6440ad4ad",
+      "files": 291,
+      "models": 16
+    }
+  ],
+  "original_four_complete": false,
+  "full_H4_complete": false,
+  "formal_income_MI_complete": false
+}
