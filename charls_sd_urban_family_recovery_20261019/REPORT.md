@@ -41,3 +41,8 @@ SD_URBAN补齐20/20份，N=2744；全部正常结束、方差和协方差门槛�
 
 单包不足25MB，仅含聚合参数、代码、原始模型输出和恢复证据；不含逐人DAT/RDS/MIDS。公开包可独立复算参数及合并，不能在没有微观数据时宣称重新拟合或核验逐人数据。先读FOR_WEB_REVIEWERS.md，核对PAYLOAD_MANIFEST.json。
 先前11项的完整原始证据继续使用既有固定提交：[教育/城乡](https://github.com/lzhs1995/PP-lcgm-paper/tree/70822535f744283164a8496fe75e011c4192800a/charls_corrected_h42_models_20261018)、[收入与原12项汇总](https://github.com/lzhs1995/PP-lcgm-paper/tree/7a86d6554252eda8af2fcd7d6416ed74e3d5a525/charls_corrected_h42_income_models_20261018)。本包只补充SD_URBAN及更新汇总，不重复上传旧包。
+
+
+## 版本2：图题与测量说明更正
+
+本轮新增图的英文标题一度误写relative SD，现更正为absolute SD。CHARLS实际Z₀是基期子女见面频率的绝对标准差，不是除以均值的相对SD；CHARLS见面频率也不等于CFPS情感亲近度。此处仅修正展示及解释，所有输入、20份估计、TECH3、合并表和12项检验字节不变。原图代码和V1固定提交96ae3d30保留；修正程序见code/correct_plot_label.R和plot_recovered_v2.R。
