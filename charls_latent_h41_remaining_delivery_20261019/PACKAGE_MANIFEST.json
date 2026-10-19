@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PUBLIC_PACKAGE",
+  "archives": [
+    {
+      "archive": "CHARLS_LATENT_H41_oldest_EDU.zip",
+      "bytes": 5456437,
+      "sha256": "775be6fe2db666a0e28198e89d0f8e0bb618eec2afa0ea3867d2e4cc08e188a9",
+      "files": 373,
+      "family": "oldest_EDU",
+      "models": 21
+    },
+    {
+      "archive": "CHARLS_LATENT_H41_oldest_URBAN.zip",
+      "bytes": 5458013,
+      "sha256": "99de4a8d24352c7c1f3d0508c4f6a6db9494452e9118ea6a8274c9c02a010b74",
+      "files": 373,
+      "family": "oldest_URBAN",
+      "models": 21
+    },
+    {
+      "archive": "CHARLS_LATENT_H41_son_EDU.zip",
+      "bytes": 5466911,
+      "sha256": "242582129d50bd7612e80aa4655dc7788bd77965eec0e6efc7f84df1693e7194",
+      "files": 373,
+      "family": "son_EDU",
+      "models": 21
+    },
+    {
+      "archive": "CHARLS_LATENT_H41_son_URBAN.zip",
+      "bytes": 5467713,
+      "sha256": "669cc14b6cff9bd903a27bdde8f5e9d5069f6aed2b51a2179a327408f1fe9ce0",
+      "files": 373,
+      "family": "son_URBAN",
+      "models": 21
+    }
+  ],
+  "bytes": 21849074,
+  "files": 1492,
+  "unique_payload_files": 1305,
+  "families": 4,
+  "members": 80,
+  "models": 84,
+  "private_records_included": false,
+  "original_four_complete": false,
+  "full_H4_complete": false
+}
