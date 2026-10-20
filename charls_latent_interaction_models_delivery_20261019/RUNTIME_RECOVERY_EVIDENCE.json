@@ -1,0 +1,292 @@
+{
+  "FOREGROUND_DIAGNOSTIC_HTTP_ERROR.json": {
+    "sha256": "7a8bc6c00b74b9d21ac9f1b7f2d0d1c4f48354c5dcc0f8d35d7475e8b5e2566c",
+    "record": {
+      "status": "OBSERVED_NATIVE_CALL_ERROR",
+      "operation": "Read-only ps::ps() enumeration and per-process CPU/affinity diagnostic in foreground R",
+      "raw_tool_text": "R Error: HTTP error communicating with RStudio: ",
+      "outer_isError": false,
+      "cell_id": "2431",
+      "observed_utc_window": "2026-10-20 02:07 to 02:12 UTC, approximate; exact tool timestamps not independently recorded",
+      "conclusion": "Communication returned an error. This does not establish whether foreground evaluation had ended.",
+      "preservation": "No restart, no duplicate submission, no cancellation of existing model jobs.",
+      "last_independent_monitor": {
+        "at": "2026-10-20T02:09:59.662870+00:00",
+        "owners_alive": [
+          1740,
+          9456
+        ],
+        "mplus_pids": [
+          24428,
+          27060
+        ],
+        "available_gib": 2.3672714233398438,
+        "commit_available_gib": 9.911605834960938,
+        "cpu_growth_observed": true
+      },
+      "lesson": "Avoid all-process enumeration in the live foreground. Use bounded owned-handle diagnostics and durable append-only evidence; reconcile execution separately from transport status."
+    }
+  },
+  "RECOVERY_HTTP_02.json": {
+    "sha256": "9607728498bda4df906c96d6a2e0f81c35571caf3af09077736d86843a841394",
+    "record": {
+      "at": "2026-10-20T02:13:39.547614+00:00",
+      "attempt": 2,
+      "transport": "Windows_HTTP_execute",
+      "new_model_calls": 0,
+      "error": "TimeoutError",
+      "message": "timed out"
+    }
+  },
+  "TARGETED_RECOVERY_04.json": {
+    "sha256": "ade354fa60c35630f9c9e39c5f066c53942ebcca53f10f346e4936c59ac28904",
+    "record": {
+      "at": "2026-10-20T02:15:44.840085+00:00",
+      "targets": [
+        {
+          "pid": 8764,
+          "opened": true,
+          "query_ok": true,
+          "exitcode": 259
+        },
+        {
+          "pid": 18112,
+          "opened": true,
+          "query_ok": true,
+          "exitcode": 259
+        },
+        {
+          "pid": 1740,
+          "opened": true,
+          "query_ok": true,
+          "exitcode": 259
+        },
+        {
+          "pid": 9456,
+          "opened": true,
+          "query_ok": true,
+          "exitcode": 259
+        }
+      ],
+      "tcp_8787": "CONNECTED"
+    }
+  },
+  "OWNED_RSTUDIO_UI.json": {
+    "sha256": "95a773f281dbcfe18741198f17db6f5a25df80146f671ec7ff3f2e88fdd5abd5",
+    "record": {
+      "rsession": 8764,
+      "parent_pid": 1812,
+      "parent_image": "C:\\Users\\LZHS\\Downloads\\RStudio\\RStudio-2026.04.0_ducument\\rstudio.exe",
+      "windows": [
+        {
+          "hwnd": 1246874,
+          "title": ""
+        },
+        {
+          "hwnd": 198286,
+          "title": ""
+        },
+        {
+          "hwnd": 329354,
+          "title": ""
+        },
+        {
+          "hwnd": 198250,
+          "title": "RStudio"
+        },
+        {
+          "hwnd": 198756,
+          "title": "MSCTFIME UI"
+        },
+        {
+          "hwnd": 395024,
+          "title": "Default IME"
+        }
+      ]
+    }
+  },
+  "OWNED_FOREGROUND_INTERRUPT_INTENT.json": {
+    "sha256": "2d018d567cd84cc9d5b45e8df98a7a904c84c335151ca263366db4655e28f804",
+    "record": {
+      "at": "2026-10-20T02:19:50.766687+00:00",
+      "scope": "Interrupt only our foreground read-only process scan via Escape to its verified RStudio window; no process termination",
+      "rsession_pid": 8764,
+      "created": 1792308599.6514854,
+      "target_hwnd": 198250,
+      "window_pid": 1812,
+      "background_jobs_preserved": [
+        "a2c6d44a",
+        "48baa180"
+      ]
+    }
+  },
+  "OWNED_FOREGROUND_INTERRUPT_POSTED.json": {
+    "sha256": "45007885aef214f940993e75a6777bde75c7bc4f572ec827b54dc785ed554acb",
+    "record": {
+      "at": "2026-10-20T02:19:50.766687+00:00",
+      "scope": "Interrupt only our foreground read-only process scan via Escape to its verified RStudio window; no process termination",
+      "rsession_pid": 8764,
+      "created": 1792308599.6514854,
+      "target_hwnd": 198250,
+      "window_pid": 1812,
+      "background_jobs_preserved": [
+        "a2c6d44a",
+        "48baa180"
+      ],
+      "keydown_posted": true,
+      "keyup_posted": true,
+      "recovery_proven": false
+    }
+  },
+  "OWNED_CONSOLE_INTERRUPT_INTENT.json": {
+    "sha256": "06883ee32e0694468679184d9e9320a8189858fd2fd3f8e3d41cb79122d21ece",
+    "record": {
+      "at": "2026-10-20T02:22:20.301308+00:00",
+      "target": 198250,
+      "pid": 1812,
+      "previous_foreground": 592550,
+      "was_minimized": true,
+      "action": "Ctrl+2 then Escape only after foreground equality; no R restart or model cancellation"
+    }
+  },
+  "OWNED_CONSOLE_INTERRUPT_ATTEMPT.json": {
+    "sha256": "45adf088249b640b6e25737ec3cffda96187412fccc4e99d56219e31306f89ed",
+    "record": {
+      "at": "2026-10-20T02:22:20.301308+00:00",
+      "target": 198250,
+      "pid": 1812,
+      "previous_foreground": 592550,
+      "was_minimized": true,
+      "action": "Ctrl+2 then Escape only after foreground equality; no R restart or model cancellation",
+      "keys_sent": true,
+      "recovery_proven": false
+    }
+  },
+  "RECOVERY_HTTP_AFTER_ESCAPE.json": {
+    "sha256": "2fe97564f48ac2bf8efdfec71e769da8c1c2e8f1f8c59ca125f390a5f06bb2e6",
+    "record": {
+      "at": "2026-10-20T02:24:32.267863+00:00",
+      "phase": "AFTER_OWNED_ESCAPE",
+      "tcp": "CONNECTED",
+      "status": 200,
+      "body": "{\"success\":true,\"output\":\"POST_ESCAPE_HTTP 8764 \"}"
+    }
+  },
+  "NATIVE_RECOVERY_CONFIRMED.json": {
+    "sha256": "1409cf899c846dfcf6a49813ae96fc7fe8601c1335cf90c9e912857436ae1db9",
+    "record": {
+      "status": "SAME_SESSION_NATIVE_RECOVERED",
+      "capture_kind": "Manual capture of observed native tool response; not a simulated callback",
+      "session": "default",
+      "port": 8787,
+      "pid": 8764,
+      "observed_native_tool": "mcp__r_studio__execute_r",
+      "observed_code": "cat('NATIVE_RECOVERY_CONFIRMED PID=',Sys.getpid(),'\\n')",
+      "observed_output": "NATIVE_RECOVERY_CONFIRMED PID= 8764 ",
+      "outer_isError": false,
+      "sequence": [
+        "Broad read-only foreground process enumeration returned HTTP error; subsequent short native probes reported addin not running.",
+        "Windows HTTP fallback timed out, while targeted PID handles remained live and TCP 8787 connected.",
+        "Existing model worker PIDs and Mplus CPU/output evidence continued advancing.",
+        "One Escape PostMessage was targeted to the verified owned RStudio window; no recovery was claimed.",
+        "The same owned window was temporarily restored and acquired, Ctrl+2 and Escape were sent only after foreground equality, then prior window state/focus was restored.",
+        "HTTP execute returned status200, success=true, POST_ESCAPE_HTTP 8764.",
+        "Rebound existing default session and obtained the native R response above."
+      ],
+      "no_R_restart": true,
+      "no_ClaudeR_or_bridge_config_change": true,
+      "no_duplicate_model_submissions": true,
+      "background_jobs": [
+        "a2c6d44a",
+        "48baa180"
+      ],
+      "causal_limit": "Observed sequence demonstrates same-session recovery. It does not uniquely isolate PostMessage, console interrupt, natural completion or binding refresh as the cause.",
+      "lesson": "This repeated a documented foreground-scan failure pattern. Future diagnostics must use bounded targeted handles outside the foreground; interrupt only an identified owned diagnostic, never an unknown analysis."
+    }
+  },
+  "GUIDE_PR.json": {
+    "sha256": "2aa94d1735fb29e4d5a58c459f5b490f0989416a1f27b114bfa5a3aceae038f0",
+    "record": {
+      "status": "PR_CREATED",
+      "url": "https://github.com/lzhs1995/clauder-rstudio-workbench/pull/60",
+      "number": 60,
+      "commit": "c611d5d78084ab97a0e8bc9f42c33a2390006804",
+      "base": "530515f1a3bfe66d50d6dc2c179efe96a71f7e8f",
+      "branch": "docs/native-worker-quadrature-recovery-20261019",
+      "files": [
+        "skills/mplusautomation-guide/SKILL.md",
+        "skills/mplusautomation-guide/references/recovery-runbook.md",
+        "skills/mplusautomation-guide/references/native-worker-and-quadrature-recovery.md",
+        "skills/mplusautomation-guide/references/charls-gh-recovery-evidence-20261019.json"
+      ],
+      "managed_installation_changed": false
+    }
+  },
+  "GUIDE_MERGED.json": {
+    "sha256": "e8cad59594f5f6903048830295983750189c452961e66d8b103195f2389fee23",
+    "record": {
+      "status": "MERGED",
+      "head": "c611d5d78084ab97a0e8bc9f42c33a2390006804",
+      "checks": [
+        {
+          "name": "config-and-protocol (macos-latest, 3.10)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "config-and-protocol (windows-latest, 3.10)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "config-and-protocol (ubuntu-latest, 3.10)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "config-and-protocol (macos-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "config-and-protocol (ubuntu-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "ubuntu / compareGroups 4.10.2 compatibility",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "windows-latest / R release",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "macos-latest / R release",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "config-and-protocol (windows-latest, 3.12)",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "ubuntu-latest / R release",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "repository-gates",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ],
+      "merge_commit": "d931c3012b1c0aad9ed11e5c049c4c9e2f151003",
+      "url": "https://github.com/lzhs1995/clauder-rstudio-workbench/pull/60",
+      "managed_installation_changed": false
+    }
+  }
+}
