@@ -1,0 +1,105 @@
+{
+  "status": "PASS_PUBLIC_PACKAGE_ALLOWLIST",
+  "archives": [
+    {
+      "archive": "CHARLS_LATENT_H41_SD_INCOME_COMPLETE40.zip",
+      "bytes": 11987786,
+      "sha256": "de1f1a5c08b2df5a0005f037cd8e7bb5009c9d998149162dcab8106b83e40fc5",
+      "files": 673,
+      "family": "sd_INCOME",
+      "m": 40,
+      "models": 43
+    },
+    {
+      "archive": "CHARLS_LATENT_H41_OLDEST_INCOME_COMPLETE40.zip",
+      "bytes": 11971664,
+      "sha256": "7c430de1351bf987ba83609948516404241e95c1d898b6e157cf739cb0d2ac11",
+      "files": 673,
+      "family": "oldest_INCOME",
+      "m": 40,
+      "models": 43
+    },
+    {
+      "archive": "CHARLS_LATENT_H41_GENDER_INCOME_COMPLETE40.zip",
+      "bytes": 11956505,
+      "sha256": "1480e03ff9204d046792abfb9c856dfba558685f7a16f55129358d6c5f565598",
+      "files": 660,
+      "family": "gender_INCOME",
+      "m": 40,
+      "models": 43
+    },
+    {
+      "archive": "CHARLS_LATENT_H41_SON_INCOME_COMPLETE40.zip",
+      "bytes": 11965207,
+      "sha256": "b1872b5792c463330c2227e7dd2106f7857450eac2f2dbe103f8a3212b8cb6ec",
+      "files": 660,
+      "family": "son_INCOME",
+      "m": 40,
+      "models": 43
+    }
+  ],
+  "scope_dispositions": {
+    "sd": {
+      "status": "FULL40_INDEPENDENT_PASS",
+      "error": null,
+      "family": "sd_INCOME",
+      "usable_members": 40,
+      "expected_members": 40,
+      "actual_engine_calls": 43,
+      "N": 2689,
+      "communities": 438,
+      "complete_inference": false,
+      "original_four_complete": false,
+      "full_H4_complete": false,
+      "independent_readback": "PASS",
+      "estimation_status": "FORTY_USABLE_PENDING_POOLING"
+    },
+    "oldest": {
+      "status": "FULL40_INDEPENDENT_PASS",
+      "error": null,
+      "family": "oldest_INCOME",
+      "usable_members": 40,
+      "expected_members": 40,
+      "actual_engine_calls": 43,
+      "N": 2397,
+      "communities": 433,
+      "complete_inference": false,
+      "original_four_complete": false,
+      "full_H4_complete": false,
+      "independent_readback": "PASS",
+      "estimation_status": "FORTY_USABLE_PENDING_POOLING"
+    },
+    "gender": {
+      "status": "FULL40_INDEPENDENT_PASS",
+      "error": null,
+      "family": "gender_INCOME",
+      "usable_members": 40,
+      "expected_members": 40,
+      "actual_engine_calls": 43,
+      "N": 2085,
+      "communities": 432,
+      "complete_inference": false,
+      "original_four_complete": false,
+      "full_H4_complete": false,
+      "independent_readback": "PASS",
+      "estimation_status": "FORTY_USABLE_PENDING_POOLING"
+    },
+    "son": {
+      "status": "FULL40_INDEPENDENT_PASS",
+      "error": null,
+      "family": "son_INCOME",
+      "usable_members": 40,
+      "expected_members": 40,
+      "actual_engine_calls": 43,
+      "N": 2263,
+      "communities": 433,
+      "complete_inference": false,
+      "original_four_complete": false,
+      "full_H4_complete": false,
+      "independent_readback": "PASS",
+      "estimation_status": "FORTY_USABLE_PENDING_POOLING"
+    }
+  },
+  "original_four_complete": false,
+  "full_H4_complete": false
+}
