@@ -1,0 +1,54 @@
+{
+  "original_file": "CHARLS_H42_SD_EDU_20261020.zip",
+  "original_bytes": 8797597,
+  "original_sha256": "60cea1ff1723069f80ce67e3de7daaa314784f55721a1a7a533a31bf429f3f04",
+  "part_bytes": 1000000,
+  "parts": [
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-01-of-09",
+      "bytes": 1000000,
+      "sha256": "7b3eb1de69ff848d55895f0e56a9a7c951d22c687a599ac72c59e15b481726f3"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-02-of-09",
+      "bytes": 1000000,
+      "sha256": "384b92cf21478f4d3a6ef9237e44e39067ecb90f33c2339d4c0794f570b01215"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-03-of-09",
+      "bytes": 1000000,
+      "sha256": "06f652c74c08f0c4e8107110a1ca822b8a02728dd80a980be4e8136e12c001cd"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-04-of-09",
+      "bytes": 1000000,
+      "sha256": "705ccd5b624fa45bab6a6533f420fcd9f128f53ec263c8877c70f7e680d668f8"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-05-of-09",
+      "bytes": 1000000,
+      "sha256": "a0841347be0e6d84f5534c4944d1638747f9bcff8d82e444c62d9289c16a52f4"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-06-of-09",
+      "bytes": 1000000,
+      "sha256": "7458979189703d921ca7782bde4cfc207937ef50907c6be45738c166a24a2070"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-07-of-09",
+      "bytes": 1000000,
+      "sha256": "35dd28f2a48c0a35e32466b6cd6b901967c54c85f0e32e13b48719c30607940a"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-08-of-09",
+      "bytes": 1000000,
+      "sha256": "48d7ed819519d33a48642c2fe84b12fff7a621913f04f22c2fbfc12e826ccf8a"
+    },
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip.part-09-of-09",
+      "bytes": 797597,
+      "sha256": "df40c706fe32df8e9f0732fa69ae30fe955bbf36c268c82bfd4acf38016400d0"
+    }
+  ],
+  "reassemble": "Concatenate parts in numeric filename order to recreate original_file, then verify original_sha256."
+}

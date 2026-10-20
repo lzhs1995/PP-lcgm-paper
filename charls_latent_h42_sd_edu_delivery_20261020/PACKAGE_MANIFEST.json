@@ -1,0 +1,21 @@
+{
+  "packages": [
+    {
+      "file": "CHARLS_H42_SD_EDU_20261020.zip",
+      "bytes": 8797597,
+      "sha256": "60cea1ff1723069f80ce67e3de7daaa314784f55721a1a7a533a31bf429f3f04",
+      "entries": 527,
+      "complete_MI": true
+    }
+  ],
+  "complete_MI": true,
+  "status": "COMPLETE_20_MI_WORKING_H42_FAMILY",
+  "privacy": {
+    "explicit_allowlist": true,
+    "participant_data_included": false,
+    "terminal_capture_included": false,
+    "credential_pattern_scan": "PASS"
+  },
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}
