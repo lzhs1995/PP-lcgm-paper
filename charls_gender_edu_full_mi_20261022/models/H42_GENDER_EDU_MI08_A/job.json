@@ -1,0 +1,22 @@
+{
+  "id": "H42_GENDER_EDU_MI08_A",
+  "indicator": "gender",
+  "group": "EDU",
+  "g": "C3",
+  "parent": false,
+  "refinement": true,
+  "member": 8,
+  "start": "A",
+  "sensitivity_B": false,
+  "points": 15,
+  "N": 2085,
+  "communities": 432,
+  "expected_free": 134,
+  "cap_seconds": 240,
+  "source_pilot": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_gender_edu_pilot_20261022\\models\\H42_GH15_A",
+  "hashes": {
+    "model.inp": "18ddf6a0c8bc35fd727320baf2ba7018633268f61d180cd627e0980215015beb",
+    "data.dat": "e52e569a7136178576a00ab33d2353ec3a5211b027022505754a204e23bba5fd",
+    "normalized_slots.json": "bb976345ec84d27fdf345e6ce7b7a047d3ae3d35a6b9707353ac12131fb0e515"
+  }
+}

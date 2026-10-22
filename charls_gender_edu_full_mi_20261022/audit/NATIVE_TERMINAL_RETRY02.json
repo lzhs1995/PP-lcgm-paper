@@ -1,0 +1,16 @@
+{
+  "job_id": "fc57b3a8",
+  "task_key": "pp-lgcm-gender-edu-full-20261022-retry02",
+  "transport": "native mcp__r_studio__execute_r_async plus get_async_result",
+  "terminal_status": "COMPLETE_20_MI_WORKING_H42_GENDER_EDU",
+  "terminal_message": "H42_GENDER_EDU_FULL_MI_DONE",
+  "latest_progress": "stage=FAMILY_TERMINAL; message=COMPLETE_20_MI_WORKING_H42_GENDER_EDU",
+  "observed_at_utc": "2026-10-22T18:02:00.026062+00:00",
+  "results_terminal_sha256": "78d7661d24d5297028892301414446f130f1eb377ab2ddb07271247b7b097fb2",
+  "family_receipt_sha256": "827f2111366fc648da034870b0200186e62fe5eb2dabcc92103399afe9267cc7",
+  "independent_verification_sha256": "edc410ed4b0d544c8044c63d0befc2ab9751a1d67b88de47a9ba0e4c786d5cd6",
+  "new_Mplus_calls": 21,
+  "A_members": 20,
+  "B_sensitivity": "USABLE",
+  "full_H4_complete": false
+}

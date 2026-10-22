@@ -1,0 +1,23 @@
+{
+  "status": "PASS_FULL_TRANSFORM_AND_RUBIN_GENDER_EDU",
+  "m": 20,
+  "models": 21,
+  "parameters_checked": 2814,
+  "contrasts": 21,
+  "primary": {
+    "estimate": -0.0147998005,
+    "lower": -0.237955036112649,
+    "upper": 0.208355435112649,
+    "p": 0.896577433948473,
+    "bonferroni_planned12": 1.0,
+    "MCSE_over_SE": 0.0009629884613079
+  },
+  "raw_matrix_parser_reused": true,
+  "linear_transformation_and_pooling_independently_recomputed": true,
+  "total_engine_active_seconds": 1153.2527872999963,
+  "conditional_working_MI": true,
+  "exact_congeniality_proven": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false,
+  "B_start_sensitivity_passed": true
+}

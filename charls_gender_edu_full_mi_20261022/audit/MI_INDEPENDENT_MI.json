@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_WORKING_MI",
+  "m": 20,
+  "N": 2085,
+  "missing_ADL": 14,
+  "required_products_retained": 50,
+  "all_product_and_missingness_auxiliaries_independently_verified": true,
+  "unique_DAT_hashes": 18,
+  "original_observed_and_XYZ_masks_preserved": true,
+  "education_unchanged": true,
+  "actual_design_full_rank": true,
+  "source_sha256": "5b3bb4423bc6d1167cd1931f3cbd7c0b1a18408ed93cbde77b2dfc8aceca10aa",
+  "compatibility": "Conditional working MI with observed product auxiliaries; not proof of MAR or exact latent congeniality.",
+  "new_Mplus_calls": 0,
+  "full_H4_complete": false
+}

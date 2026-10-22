@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "8047fadb-1672-4494-b573-a7958166c35a",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-gender-edu-full-20261022-retry01",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-22T17:12:32.037010Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": "default",
+  "pid": null,
+  "job_id": null,
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "async pre-submit is allowed by guard"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "outputs": [],
+    "force_new_job": false,
+    "via_mcp_stdio": false,
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261022T171232Z_async_guard_8047fadb-1672-4494-b573-a7958166c35a.json"
+  }
+}

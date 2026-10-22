@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "540bb558-3c15-4614-9c38-f5b90dcd8670",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-gender-edu-full-20261022-retry01",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-22T17:13:00.661934Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": "default",
+  "pid": null,
+  "job_id": "e8d913f8",
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "registered real async job_id for pre-submitted task"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "inflight": {
+      "task_key": "pp-lgcm-gender-edu-full-20261022-retry01",
+      "job_id": "e8d913f8",
+      "status": "inflight",
+      "io_mode": "durable_files",
+      "outputs": [],
+      "session_name": "default",
+      "transport_scope": "",
+      "pre_submitted_at_utc": "2026-10-22T17:12:32.033490Z",
+      "via_mcp_stdio": false,
+      "via_mcp_stdio_result": null,
+      "registered_at_utc": "2026-10-22T17:13:00.658874Z",
+      "registration_transport": ""
+    },
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261022T171300Z_async_guard_540bb558-3c15-4614-9c38-f5b90dcd8670.json"
+  }
+}

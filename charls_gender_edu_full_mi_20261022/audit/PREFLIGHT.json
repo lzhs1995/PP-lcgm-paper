@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "at": "2026-10-22T17:22:50.768217+00:00",
+  "worker": {
+    "pid": 18032,
+    "created": 1792689770.1617548,
+    "name": "Rterm.exe",
+    "parent": 9652,
+    "script": "C:\\Users\\LZHS\\AppData\\Local\\Temp\\Rtmpwh3oa4\\callr-scr-25b43ec828bf"
+  },
+  "nonce": "cz17ubj0dm2d30c4y8dhtrbry76e7c7w",
+  "source_hashes_verified": true,
+  "MI_verification": "PASS_INDEPENDENT_WORKING_MI",
+  "N": 2085,
+  "communities": 432,
+  "m": 20
+}

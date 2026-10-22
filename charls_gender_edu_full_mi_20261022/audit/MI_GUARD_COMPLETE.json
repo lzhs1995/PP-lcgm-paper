@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "acb9777d-e311-454c-b8ce-04573251671e",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-gender-edu-mi-20261022",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-22T16:52:11.806904Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": null,
+  "pid": null,
+  "job_id": "09732350",
+  "io_mode": null,
+  "decision": "PASS",
+  "reasons": [
+    "archived in-flight record"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "archived_path": "C:\\Users\\LZHS\\.clauder_workbench\\inflight\\archive\\20261022T165211Z_pp-lgcm-gender-edu-mi-20261022.json",
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261022T165211Z_async_guard_acb9777d-e311-454c-b8ce-04573251671e.json"
+  }
+}

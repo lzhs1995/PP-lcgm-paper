@@ -1,0 +1,10 @@
+{
+  "status": "STOPPED_NOT_POOLABLE",
+  "stop_reason": "H42_GENDER_EDU_MI01_A READBACK_FAILED",
+  "attempted": 1,
+  "A_members": 1,
+  "B_status": null,
+  "terminal": true,
+  "full_H4_complete": false,
+  "original_CFPS_four_complete": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "H42_GENDER_EDU_MI20_A",
+  "actual_engine_calls": 1,
+  "status": "USABLE",
+  "normal": true,
+  "fatal": false,
+  "negative": [],
+  "geometry": {
+    "PSI": 0.37985473777659157,
+    "THETA": 0.8048955147542296
+  },
+  "full_vcov_min": 0.0034426343637343907,
+  "N": 2085,
+  "parameters": 134,
+  "LL": -27375.357128532512,
+  "saved_class_LL": -28820.569,
+  "class_constant_removed": 1445.211871467486,
+  "mixed_group_communities": 208,
+  "output_sha256": "b04e3be3b2f862aaba55061d5ca4a2d372af0c79350215ed1e96bd9a96a9eaaf",
+  "gaussian_analytic_LL_used": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}

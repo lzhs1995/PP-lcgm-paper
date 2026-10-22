@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "2b422cb6-9caa-4923-ba0b-3cbfc375ee34",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-gender-edu-mi-20261022",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-22T16:27:38.455106Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": "",
+  "pid": null,
+  "job_id": null,
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "async pre-submit is allowed by guard"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "outputs": [],
+    "force_new_job": false,
+    "via_mcp_stdio": false,
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261022T162738Z_async_guard_2b422cb6-9caa-4923-ba0b-3cbfc375ee34.json"
+  }
+}
