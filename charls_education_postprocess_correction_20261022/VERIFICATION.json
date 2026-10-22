@@ -1,0 +1,32 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_CLUSTER_CORRECTION",
+  "families": [
+    {
+      "indicator": "gender",
+      "communities": 432,
+      "dfcom": 431,
+      "parameters": 134,
+      "contrasts": 21,
+      "primary_unchanged": true
+    },
+    {
+      "indicator": "oldest",
+      "communities": 433,
+      "dfcom": 432,
+      "parameters": 134,
+      "contrasts": 21,
+      "primary_unchanged": true
+    },
+    {
+      "indicator": "son",
+      "communities": 433,
+      "dfcom": 432,
+      "parameters": 134,
+      "contrasts": 21,
+      "primary_unchanged": true
+    }
+  ],
+  "Mplus_calls": 0,
+  "MI_calls": 0,
+  "full_H4_complete": false
+}

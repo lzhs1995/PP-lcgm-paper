@@ -1,0 +1,14 @@
+{
+  "status": "DERIVED_SENSITIVITY_CORRECTED",
+  "indicator": "son",
+  "m": 20,
+  "communities": 433,
+  "old_dfcom": 437,
+  "corrected_dfcom": 432,
+  "convention": "community count minus one; sensitivity only, not exact finite-cluster calibration",
+  "primary_unchanged": true,
+  "original_primary_sha256": "e4a7756fa7264893485fb73b85ddaa94d802eacaf66da4fa11431dbb59a4da7b",
+  "Mplus_calls": 0,
+  "MI_calls": 0,
+  "full_H4_complete": false
+}

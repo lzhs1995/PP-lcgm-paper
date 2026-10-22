@@ -1,0 +1,14 @@
+{
+  "status": "DERIVED_SENSITIVITY_CORRECTED",
+  "indicator": "gender",
+  "m": 20,
+  "communities": 432,
+  "old_dfcom": 437,
+  "corrected_dfcom": 431,
+  "convention": "community count minus one; sensitivity only, not exact finite-cluster calibration",
+  "primary_unchanged": true,
+  "original_primary_sha256": "336081215b4ca3116fbb30d8cea85f249d58fb5bb5992304bee0280474d4abf3",
+  "Mplus_calls": 0,
+  "MI_calls": 0,
+  "full_H4_complete": false
+}

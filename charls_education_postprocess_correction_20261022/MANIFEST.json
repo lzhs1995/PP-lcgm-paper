@@ -1,0 +1,87 @@
+{
+  "scope": "Finite-community-df sensitivity correction; primary estimates unchanged",
+  "Mplus_calls": 0,
+  "MI_calls": 0,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1716,
+      "sha256": "37268726bcb03d717f57e897cde9a07013fa782b9deea5383b6056f43ad94087"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 678,
+      "sha256": "1a0a4ef8240c7f33fccd86c263e743a80dcd87e3e8f2036271955170bf30eaff"
+    },
+    {
+      "path": "recompute.R",
+      "bytes": 2945,
+      "sha256": "df0b06b84be73829cc1d5382bf98661cbf7a2af6df5f418254a688d0d34c40fe"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2998,
+      "sha256": "48444fd4a9d8ed5566d3f0bff9b06cf21038e90d9a09c900554cc33029dac534"
+    },
+    {
+      "path": "gender/POOLED_CLUSTER_DF_CORRECTED.csv",
+      "bytes": 24442,
+      "sha256": "cd6136472795b98f7ef74b47954a3dbd4fd0cd907fb830a6b9fa4ce60fa3d181"
+    },
+    {
+      "path": "gender/CONTRASTS_CLUSTER_DF_CORRECTED.csv",
+      "bytes": 3553,
+      "sha256": "d192d54f0143e4b25e0af8020ec6538b537539fcd9e3ceece77c2a9313b7c072"
+    },
+    {
+      "path": "gender/SOURCES.csv",
+      "bytes": 3226,
+      "sha256": "8d96de9c2da0c0609087b736387294eb56beff3a8eb7bd563c20a9f0a0155071"
+    },
+    {
+      "path": "gender/CORRECTION.json",
+      "bytes": 459,
+      "sha256": "0a8ea2843444cd476d71343dbc3e84da7c19c0a9530b24d34389577704740bd7"
+    },
+    {
+      "path": "oldest/POOLED_CLUSTER_DF_CORRECTED.csv",
+      "bytes": 24472,
+      "sha256": "d7c36696183259d63e0210aa14004131f8ebe420e1c20ff45a59ac6b62e6d664"
+    },
+    {
+      "path": "oldest/CONTRASTS_CLUSTER_DF_CORRECTED.csv",
+      "bytes": 3564,
+      "sha256": "66408a5bcfad715b38b0dda5268dbc68b238086056729df551770dc51532470b"
+    },
+    {
+      "path": "oldest/SOURCES.csv",
+      "bytes": 3226,
+      "sha256": "611fc63687714ba71f01bb2b4907021778260482163a89ffdacb1a54ad6fcc53"
+    },
+    {
+      "path": "oldest/CORRECTION.json",
+      "bytes": 459,
+      "sha256": "bd9f4ad18e893a9f7efe451be70a5f56e02ef04cb85e7c2a81223fdb397a38b5"
+    },
+    {
+      "path": "son/POOLED_CLUSTER_DF_CORRECTED.csv",
+      "bytes": 24437,
+      "sha256": "08cf6c667c9686aab1814755c27895cbd97121be1e62ba45ed1ad0a2c9ea17dc"
+    },
+    {
+      "path": "son/CONTRASTS_CLUSTER_DF_CORRECTED.csv",
+      "bytes": 3575,
+      "sha256": "8a425a06fcbefc37577c0cfe04b07c79aba67b8d1852e352048148ec0e6ac99a"
+    },
+    {
+      "path": "son/SOURCES.csv",
+      "bytes": 3166,
+      "sha256": "d1dfffdf5e3471c7352d35c45098438fd283c4263eceb3d238fbc5e7b315bd5f"
+    },
+    {
+      "path": "son/CORRECTION.json",
+      "bytes": 456,
+      "sha256": "13e12ff5e9037439b664e6ddf2b16ce22364f08886badd38e5251c25fc7a5448"
+    }
+  ]
+}
