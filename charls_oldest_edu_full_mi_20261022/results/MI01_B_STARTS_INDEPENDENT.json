@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": {
+    "LL_absolute": 0.0,
+    "parameter_difference_in_reference_SE": 0.0002112877416803188,
+    "SE_relative": 8.868602596932592e-05,
+    "normalized_vcov_difference": 0.00017737991714984882
+  },
+  "tolerances": {
+    "LL_absolute": 0.01,
+    "parameter_difference_in_reference_SE": 0.05,
+    "SE_relative": 0.05,
+    "normalized_vcov_difference": 0.05
+  },
+  "same_MI_member": true,
+  "interpretation": "start sensitivity only; not an independent MI member"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "H42_OLDEST_EDU_MI20_A",
+  "actual_engine_calls": 1,
+  "status": "USABLE",
+  "normal": true,
+  "fatal": false,
+  "negative": [],
+  "geometry": {
+    "PSI": 0.5674839679160669,
+    "THETA": 0.9041048312664665
+  },
+  "full_vcov_min": 0.004563919202644536,
+  "N": 2397,
+  "parameters": 134,
+  "LL": -31796.173208197808,
+  "saved_class_LL": -33457.647,
+  "class_constant_removed": 1661.4737918021888,
+  "mixed_group_communities": 238,
+  "output_sha256": "7cd2f44565a632aaaa88df2e35da95fb828b01765e164a8248e50b3916be624f",
+  "gaussian_analytic_LL_used": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}

@@ -1,0 +1,41 @@
+
+     Mplus VERSION 9
+     MUTHEN & MUTHEN
+
+     Running input file 'model.inp'...
+
+     Dimensions of integration:                  2
+     Total number of integration points:         225
+
+
+  ITER  LOGLIKELIHOOD    ABS CHANGE   REL CHANGE  ALGO  TIME  TOTAL TIME
+     1 -0.33456707D+05    0.0000000    0.0000000  EM    0.80     0.8
+     2 -0.33457905D+05   -1.1981087   -0.0000358  EM   16.11    16.9
+     3 -0.33457902D+05    0.0026659    0.0000001  EM    7.91    24.8
+     4 -0.33457902D+05    0.0004337    0.0000000  EM    1.12    25.9
+     5 -0.33457902D+05    0.0001103    0.0000000  EM    1.19    27.1
+     6 -0.33457902D+05    0.0000400    0.0000000  EM    1.19    28.3
+     7 -0.33457902D+05    0.0000180    0.0000000  EM    1.30    29.6
+     8 -0.33457902D+05    0.0000093    0.0000000  EM    1.12    30.7
+     Parameters          24        65        64        22       120
+     Derivatives   0.76D-04 -0.48D-04 -0.33D-04 -0.26D-04 -0.22D-04
+     9 -0.33457902D+05    0.0000054    0.0000000  EM    1.34    32.1
+     Parameters          24        65        64        22       120
+     Derivatives   0.65D-04 -0.32D-04 -0.22D-04 -0.18D-04 -0.16D-04
+    10 -0.33457902D+05    0.0000033    0.0000000  EM    1.17    33.2
+     Parameters          24        65        64        22       120
+     Derivatives   0.57D-04 -0.21D-04 -0.14D-04 -0.12D-04 -0.12D-04
+    11 -0.33457902D+05    0.0000022    0.0000000  EM    1.07    34.3
+     Parameters          24        65        64       120        22
+     Derivatives   0.50D-04 -0.14D-04 -0.91D-05 -0.86D-05 -0.85D-05
+    12 -0.33457902D+05    0.0000017    0.0000000  EM    1.42    35.7
+     Parameters          24        65        22       111       120
+     Derivatives   0.45D-04 -0.90D-05 -0.63D-05  0.62D-05 -0.61D-05
+    13 -0.33457902D+05    0.0000013    0.0000000  EM    1.30    37.0
+     Parameters          24        21         1        65       111
+     Derivatives   0.40D-04 -0.61D-05  0.59D-05 -0.59D-05  0.53D-05
+     Beginning Time:  12:57:41
+        Ending Time:  12:59:00
+       Elapsed Time:  00:01:19
+
+     Output saved in 'model.out'.

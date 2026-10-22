@@ -1,0 +1,5 @@
+{
+  "status": 0,
+  "stdout": "{\"id\": \"H42_OLDEST_EDU_MI01_B\", \"actual_engine_calls\": 1, \"status\": \"USABLE\", \"normal\": true, \"fatal\": false, \"negative\": [], \"geometry\": {\"PSI\": 0.5674766631507908, \"THETA\": 0.9044378542806268}, \"full_vcov_min\": 0.0045641579026721385, \"N\": 2397, \"parameters\": 134, \"LL\": -31796.358208197813, \"saved_class_LL\": -33457.832, \"class_constant_removed\": 1661.4737918021888, \"mixed_group_communities\": 238, \"output_sha256\": \"9bd008a7849f1462a6e751316a90b31ea638c8b00f35841a99d44bd44b94eb1d\", \"gaussian_analytic_LL_used\": false, \"original_CFPS_four_complete\": false, \"full_H4_complete\": false}\r\n",
+  "stderr": ""
+}

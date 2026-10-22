@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "5511d4b4-3a05-441c-b0fe-86312879dc78",
+  "parent_evidence_ids": [],
+  "task_key": "pp-lgcm-oldest-edu-mi-20261022",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-22T19:18:36.001769Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": "",
+  "pid": null,
+  "job_id": "57067ea1",
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "registered real async job_id for pre-submitted task"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "inflight": {
+      "task_key": "pp-lgcm-oldest-edu-mi-20261022",
+      "job_id": "57067ea1",
+      "status": "inflight",
+      "io_mode": "durable_files",
+      "outputs": [],
+      "session_name": "",
+      "transport_scope": "",
+      "pre_submitted_at_utc": "2026-10-22T19:18:08.938246Z",
+      "via_mcp_stdio": false,
+      "via_mcp_stdio_result": null,
+      "registered_at_utc": "2026-10-22T19:18:35.998234Z",
+      "registration_transport": ""
+    },
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261022T191836Z_async_guard_5511d4b4-3a05-441c-b0fe-86312879dc78.json"
+  }
+}

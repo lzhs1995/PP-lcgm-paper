@@ -1,0 +1,22 @@
+{
+  "id": "H42_OLDEST_EDU_MI01_B",
+  "indicator": "oldest",
+  "group": "EDU",
+  "g": "C3",
+  "parent": false,
+  "refinement": true,
+  "member": 1,
+  "start": "B",
+  "sensitivity_B": true,
+  "points": 15,
+  "N": 2397,
+  "communities": 433,
+  "expected_free": 134,
+  "cap_seconds": 240,
+  "source_pilot": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_oldest_edu_pilot_20261022\\models\\H42_GH15_B",
+  "hashes": {
+    "model.inp": "5b88d7971a27516eaf499424d1f64798b12ebe995227e8182e17e0c43ef5f876",
+    "data.dat": "75626b763743fcd705bddd1d42959944d24baad3544658d742b338a809121c49",
+    "normalized_slots.json": "2a9541d61a0ceb236da90f0bccfd224d8b02eb2daf76af74b77e615bd27325c3"
+  }
+}

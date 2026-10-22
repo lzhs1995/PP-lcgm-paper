@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FULL_TRANSFORM_AND_RUBIN_OLDEST_EDU",
+  "m": 20,
+  "models": 21,
+  "N": 2397,
+  "communities": 433,
+  "parameters_checked": 2814,
+  "contrasts": 21,
+  "primary": {
+    "estimate": -0.107926005,
+    "lower": -0.378969818751658,
+    "upper": 0.163117808751658,
+    "p": 0.435137035438253,
+    "bonferroni_planned12": 1.0,
+    "MCSE_over_SE": 0.0006004746982998
+  },
+  "raw_matrix_parser_reused": true,
+  "linear_transformation_and_pooling_independently_recomputed": true,
+  "total_engine_active_seconds": 1740.88740950001,
+  "conditional_working_MI": true,
+  "exact_congeniality_proven": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false,
+  "B_start_sensitivity_passed": true
+}

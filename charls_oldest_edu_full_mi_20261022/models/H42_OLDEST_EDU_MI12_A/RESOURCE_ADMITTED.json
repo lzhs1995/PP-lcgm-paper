@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-22T19:56:31.848507+00:00",
+  "reason": "ADMITTED",
+  "profile": {
+    "at": "2026-10-22T19:56:31.500505+00:00",
+    "available_gib": 3.8399620056152344,
+    "commit_available_gib": 13.372978210449219,
+    "cpu_percent": 17.5,
+    "mplus_pids": []
+  },
+  "active_slots": 0,
+  "foreign_mplus": [],
+  "completed_calls": 11,
+  "charged_seconds": 957.7960592000054,
+  "reserved_seconds": 0
+}

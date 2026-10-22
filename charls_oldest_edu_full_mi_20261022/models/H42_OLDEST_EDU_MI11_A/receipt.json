@@ -1,0 +1,23 @@
+{
+  "id": "H42_OLDEST_EDU_MI11_A",
+  "actual_engine_calls": 1,
+  "status": "USABLE",
+  "normal": true,
+  "fatal": false,
+  "negative": [],
+  "geometry": {
+    "PSI": 0.5674485122478689,
+    "THETA": 0.9042790393750997
+  },
+  "full_vcov_min": 0.004553253400752307,
+  "N": 2397,
+  "parameters": 134,
+  "LL": -31796.61320819781,
+  "saved_class_LL": -33458.087,
+  "class_constant_removed": 1661.4737918021888,
+  "mixed_group_communities": 238,
+  "output_sha256": "148481aee3d2c76e6a13bc9c7ede5e96b661efe8d2f0be8942248c62cdf2c751",
+  "gaussian_analytic_LL_used": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}

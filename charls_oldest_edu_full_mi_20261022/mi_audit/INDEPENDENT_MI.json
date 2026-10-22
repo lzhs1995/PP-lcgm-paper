@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_WORKING_MI",
+  "m": 20,
+  "N": 2397,
+  "missing_ADL": 17,
+  "required_products_retained": 50,
+  "all_product_and_missingness_auxiliaries_independently_verified": true,
+  "unique_DAT_hashes": 19,
+  "original_observed_and_XYZ_masks_preserved": true,
+  "education_unchanged": true,
+  "actual_design_full_rank": true,
+  "source_sha256": "8eed08aa26ea752502cb952582699b8dadb251d2a1df0a4c816cf4bed97b8ee1",
+  "compatibility": "Conditional working FCS with observed product auxiliaries; not proof of MAR or exact latent congeniality.",
+  "new_Mplus_calls": 0,
+  "full_H4_complete": false
+}
