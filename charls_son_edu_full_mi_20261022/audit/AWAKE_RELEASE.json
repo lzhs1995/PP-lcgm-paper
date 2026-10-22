@@ -1,0 +1,8 @@
+{
+  "alive": false,
+  "completion": {
+    "finished_at": "2026-10-22T21:07:38.238893+00:00",
+    "reason": "stop_requested",
+    "released": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "local-1",
+  "evidence_id": "5ea37e8b-3bf1-4701-8051-88cb2f986b6c",
+  "task_key": "pp-lgcm-son-edu-20261022-mi01",
+  "harness_name": "local_task_guard",
+  "timestamp_utc": "2026-10-22T20:59:31.143767+00:00",
+  "decision": "PASS",
+  "reasons": [
+    "pilot terminal passed",
+    "new MI root isolated",
+    "source MI_INPUTS hash is frozen",
+    "no Mplus required for this FCS stage"
+  ],
+  "Mplus_calls": 0,
+  "full_H4_complete": false
+}

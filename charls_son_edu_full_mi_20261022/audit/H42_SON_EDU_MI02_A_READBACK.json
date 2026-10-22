@@ -1,0 +1,5 @@
+{
+  "status": 0,
+  "stdout": "{\"id\": \"H42_SON_EDU_MI02_A\", \"actual_engine_calls\": 1, \"status\": \"USABLE\", \"normal\": true, \"fatal\": false, \"negative\": [], \"geometry\": {\"PSI\": 0.43077309891755206, \"THETA\": 0.9096960146787767}, \"full_vcov_min\": 0.003694575149263891, \"N\": 2263, \"parameters\": 134, \"LL\": -30047.135930392844, \"saved_class_LL\": -31615.728, \"class_constant_removed\": 1568.5920696071562, \"mixed_group_communities\": 233, \"output_sha256\": \"bb2cc3b72930aa8f29cf8d5fe9bab5f7b8a3f1aaea556ec2b4b3da58e7ae1f4a\", \"gaussian_analytic_LL_used\": false, \"original_CFPS_four_complete\": false, \"full_H4_complete\": false}\r\n",
+  "stderr": ""
+}

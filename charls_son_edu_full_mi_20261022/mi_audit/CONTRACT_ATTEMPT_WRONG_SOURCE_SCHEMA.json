@@ -1,0 +1,59 @@
+{
+  "minimum_available_gib": 1.2,
+  "minimum_commit_available_gib": 2,
+  "max_cpu_percent": 85,
+  "resource_wait_seconds": 30,
+  "executable": "[local-isolated-path-redacted]",
+  "executable_sha256": "0d48e39409a7a445bd5666017f7492df29607bf28448d3ea8e00bbb64dd66b51",
+  "tolerances": {
+    "LL_absolute": 0.02,
+    "parameter_over_reference_SE": 0.05,
+    "SE_relative": 0.05,
+    "normalized_vcov": 0.05
+  },
+  "pilot_root": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_son_edu_pilot_20261022",
+  "m": 20,
+  "groups": [
+    "EDU",
+    "URBAN"
+  ],
+  "indicators": [
+    "oldest",
+    "son"
+  ],
+  "max_mplus_calls": 168,
+  "total_engine_seconds": 30240,
+  "per_model_seconds": 180,
+  "owned_slots": 1,
+  "scope": "CHARLS unique son child minus remaining children contact by baseline education",
+  "sequence": "Only individually passing CC families and admitted fresh MI. MI01 A/B check then MI02-20. Any failed member stops its family; never pool successful subset.",
+  "starts": "A uses accepted CC A high-precision estimates; MI01 B adds deterministic +/-0.02 CC SE to means, loadings and regression starts, retaining positive variances. Remaining imputations use same CC A starts; no previous-imputation solution substituted.",
+  "inference": {
+    "primary": "Joint D1 of IZ->IY, IZ->SY, SZ->SY resource differences",
+    "secondary": "Joint X-path differences and joint six-path diagnostic; group-specific paths with full covariance",
+    "multiplicity": "Holm across planned 4 indicators x3 resources =12 for each separately labelled test set, including unrun income in denominator",
+    "complete_family": 20,
+    "MCSE_over_SE_reference": 0.1,
+    "no_p_selection": true
+  },
+  "boundaries": "20 control-imputed datasets do not establish exact latent-model congeniality or MAR. H4.1 coverage is distinct from four latent moderations/H4.2 and CFPS. Income remains separate.",
+  "original_four_complete": false,
+  "full_H4_complete": false,
+  "prior_root": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h41_mi_20261019",
+  "budget_timebase": "Verified active_seconds where recorded; otherwise original exit_confirmed_seconds retained conservatively. Total cap unchanged.",
+  "created_at": "2026-10-22T20:57:47.023407+00:00",
+  "nonce": "9a1f1ac54e3343dd9215f9a23b3b4468",
+  "source": {
+    "path": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h41_remaining_mi_20261019\\mi\\son\\private\\MI_INPUTS.rds",
+    "sha256": "dcdbb532cdf5dccbfe37031778bd14598983b15713135cd917938075fbd79421",
+    "old_admission": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h41_remaining_mi_20261019\\mi\\son\\audit\\MI_ADMISSION.json",
+    "seed": 261022503
+  },
+  "expected_N": 2263,
+  "expected_missing_ADL": 17,
+  "rstudio_owner": {
+    "pid": 9652,
+    "created": 1792668099.0892365
+  },
+  "pilot_terminal_sha256": "f1bd2e9019ace37b4818136689120d809a441a016cf73b7049914d8ca83eda2f"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FULL_TRANSFORM_AND_RUBIN_SON_EDU",
+  "m": 20,
+  "models": 21,
+  "N": 2263,
+  "communities": 433,
+  "parameters_checked": 2814,
+  "contrasts": 21,
+  "primary": {
+    "estimate": -0.0406886792,
+    "lower": -0.311033014208692,
+    "upper": 0.229655655808692,
+    "p": 0.768003015231001,
+    "bonferroni_planned12": 1.0,
+    "MCSE_over_SE": 0.0013823080335216
+  },
+  "raw_matrix_parser_reused": true,
+  "linear_transformation_and_pooling_independently_recomputed": true,
+  "total_engine_active_seconds": 2096.205148199988,
+  "conditional_working_MI": true,
+  "exact_congeniality_proven": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false,
+  "B_start_sensitivity_passed": true
+}

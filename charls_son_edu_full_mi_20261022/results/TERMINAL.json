@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE_20_MI_WORKING_H42_SON_EDU",
+  "stop_reason": null,
+  "attempted": 21,
+  "A_members": 21,
+  "B_status": "USABLE",
+  "terminal": true,
+  "full_H4_complete": false,
+  "original_CFPS_four_complete": false
+}

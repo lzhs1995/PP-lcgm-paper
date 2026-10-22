@@ -1,0 +1,23 @@
+{
+  "id": "H42_SON_EDU_MI03_A",
+  "actual_engine_calls": 1,
+  "status": "USABLE",
+  "normal": true,
+  "fatal": false,
+  "negative": [],
+  "geometry": {
+    "PSI": 0.43001655535957006,
+    "THETA": 0.9098587238988705
+  },
+  "full_vcov_min": 0.003691335068145839,
+  "N": 2263,
+  "parameters": 134,
+  "LL": -30047.473930392844,
+  "saved_class_LL": -31616.066,
+  "class_constant_removed": 1568.5920696071562,
+  "mixed_group_communities": 233,
+  "output_sha256": "7ed88179cf6d157e12224781623a28d5aa28c5a2607d4a8fd51cab0039d6326e",
+  "gaussian_analytic_LL_used": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}

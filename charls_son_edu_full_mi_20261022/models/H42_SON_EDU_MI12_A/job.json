@@ -1,0 +1,22 @@
+{
+  "id": "H42_SON_EDU_MI12_A",
+  "indicator": "son",
+  "group": "EDU",
+  "g": "C3",
+  "parent": false,
+  "refinement": true,
+  "member": 12,
+  "start": "A",
+  "sensitivity_B": false,
+  "points": 15,
+  "N": 2263,
+  "communities": 433,
+  "expected_free": 134,
+  "cap_seconds": 240,
+  "source_pilot": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_son_edu_pilot_20261022\\models\\H42_GH15_A",
+  "hashes": {
+    "model.inp": "337984cd7e5251d3deb12a08475ea40e3ffd6decb9cd07428c653ad7f74e1571",
+    "data.dat": "d7515a2a0dfaa3373b63d9b696ab596d9d9c20948d6f252374aaf9b8bf0b171b",
+    "normalized_slots.json": "5b019a5c66edca51d8045cc7b134bbb46a68744dda90e5cab03d736fa5ae5a76"
+  }
+}

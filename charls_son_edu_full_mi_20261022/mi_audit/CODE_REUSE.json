@@ -1,0 +1,55 @@
+{
+  "source_root": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_oldest_edu_mi_20261022",
+  "created_at_utc": "2026-10-22T20:59:01.195403+00:00",
+  "files": [
+    {
+      "file": "active_clock.py",
+      "source_sha256": "a0aa1e6ea50585dbf6071cc1a7c2dc2a1bb2f8925f8d5a8da2c4507de89b5319",
+      "new_sha256": "2ddd83aecf728f13d69066b02914a96c6e4cdfddcbc86eeb5610bdaa95fc90e0",
+      "changed": false
+    },
+    {
+      "file": "bootstrap.py",
+      "source_sha256": "03aa5ff5038cc25fc3eacc1f4550394d332220295075d8c00550d304c50ff238",
+      "new_sha256": "f7f8498b060091e099c003cd89b62777a63e4ec883587c9c809e8335cacc59bf",
+      "changed": false
+    },
+    {
+      "file": "export_verification.R",
+      "source_sha256": "55f31992f851b862e295f0b6253c1b9d56bbecb7aced9519a0c888b1f95776ef",
+      "new_sha256": "965f93767c31be778180e8be7289ad6f92274fbd0ac775772858a583dc8e3142",
+      "changed": true
+    },
+    {
+      "file": "harness.py",
+      "source_sha256": "413796a1c91f014d6229dd521e75dc2d5c57897d94c5f90dc4890e725ac9d9ff",
+      "new_sha256": "72cd04fccbee1c0b9f2f961e8ec6aa5543bcb227e8cd2d281738912d00bfd00c",
+      "changed": false
+    },
+    {
+      "file": "mi_exact_fit_cache.R",
+      "source_sha256": "728833f2d97f875255296d0499a5b2eef529962af250689f7ba5365f9c1dc125",
+      "new_sha256": "13de4d21e8261ae5bb8594281f4ad3f8a5afc1ba38aa6d7113f73ca02f111e8f",
+      "changed": false
+    },
+    {
+      "file": "run_mi.R",
+      "source_sha256": "4637ae08b94b58256de02d3ccedc7d01b94a50757cf7ed247f49d8aceb170b9b",
+      "new_sha256": "ff0b63736a82035e32f733e820662f658cbec5ebdc824d32e8668ba89eef68b9",
+      "changed": true
+    },
+    {
+      "file": "verify_mi.py",
+      "source_sha256": "69faeb6dcad441df3fc8ea0c22a6ca014fb66744f3cac8f171a9377939c07b40",
+      "new_sha256": "0a2a13493720dabf1752a44b1544f6ff04be62e4e7969e3f00b1a7d2cf6e4b3e",
+      "changed": false
+    },
+    {
+      "file": "watch_mi.py",
+      "source_sha256": "ed65ba981041832d55cafebb761d41ba81f4124ec456157addaf7165cd061b7f",
+      "new_sha256": "41b82489c8b2c93d08c4c16dbee0f069695b63691fd4d4bea0372ba9a35292e9",
+      "changed": false
+    }
+  ],
+  "Mplus_calls": 0
+}

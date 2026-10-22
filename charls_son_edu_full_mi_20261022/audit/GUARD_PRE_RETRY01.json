@@ -1,0 +1,16 @@
+{
+  "schema_version": "local-1",
+  "evidence_id": "a748efcd-572c-444e-b26f-1bcd04834824",
+  "task_key": "pp-lgcm-son-edu-20261022-full-retry01",
+  "harness_name": "local_task_guard",
+  "timestamp_utc": "2026-10-22T21:11:41.698673+00:00",
+  "decision": "PASS",
+  "reasons": [
+    "attempt01 ended before any Mplus child",
+    "incomplete precompiled directories archived",
+    "runner will compile from empty member dirs",
+    "same frozen contract and single slot"
+  ],
+  "mplus_calls": 0,
+  "full_H4_complete": false
+}

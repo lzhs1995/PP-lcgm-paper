@@ -1,0 +1,18 @@
+{
+  "schema_version": "local-1",
+  "evidence_id": "33eaa795-9341-452f-865a-2bec172aa728",
+  "task_key": "pp-lgcm-son-edu-20261022-full-retry01",
+  "harness_name": "local_task_guard",
+  "timestamp_utc": "2026-10-22T21:12:42.249038+00:00",
+  "decision": "PASS",
+  "reasons": [
+    "registered retry after pre-Mplus runner bug",
+    "attempt01 preserved",
+    "same frozen source and MI contracts",
+    "one Mplus slot"
+  ],
+  "job_id": "f759e8aa",
+  "io_mode": "durable_files",
+  "mplus_calls_authorized": 21,
+  "full_H4_complete": false
+}

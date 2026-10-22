@@ -1,0 +1,17 @@
+{
+  "schema_version": "local-1",
+  "evidence_id": "b8b27bd4-4879-48df-bea8-017dc5a7baf7",
+  "task_key": "pp-lgcm-son-edu-20261022-full01",
+  "harness_name": "local_task_guard",
+  "timestamp_utc": "2026-10-22T21:06:11.567384+00:00",
+  "decision": "PASS",
+  "reasons": [
+    "pilot passed",
+    "working MI independent verification passed",
+    "fresh isolated full-family root",
+    "one Mplus slot and 21-call cap",
+    "no CFPS rerun"
+  ],
+  "mplus_calls": 0,
+  "full_H4_complete": false
+}

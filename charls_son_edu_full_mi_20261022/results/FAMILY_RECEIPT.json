@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_20_MI_WORKING_H42_SON_EDU_A",
+  "m": 20,
+  "N": 2263,
+  "communities": 433,
+  "parameters": 134,
+  "full_covariance": true,
+  "primary": "SY:SXIZ group1 minus group0",
+  "planned_tests": 12,
+  "conditional_working_MI": true,
+  "exact_congeniality_proven": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}

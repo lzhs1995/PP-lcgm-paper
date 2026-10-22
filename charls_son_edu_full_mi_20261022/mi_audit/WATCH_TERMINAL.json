@@ -1,0 +1,11 @@
+{
+  "reason": "STOP_REQUESTED",
+  "timing": {
+    "active_seconds": 14.078241800001706,
+    "raw_unbiased_seconds": 14.078241800001706,
+    "wall_seconds": 14.080326800001785,
+    "excluded_suspend_seconds": 0.0020850000000791624,
+    "power_events": []
+  },
+  "awake_released": true
+}

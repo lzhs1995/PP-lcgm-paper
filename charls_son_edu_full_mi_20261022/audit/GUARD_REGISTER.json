@@ -1,0 +1,18 @@
+{
+  "schema_version": "local-1",
+  "evidence_id": "44a77b8f-8ae9-4265-b956-c6b4bb320122",
+  "task_key": "pp-lgcm-son-edu-20261022-full01",
+  "harness_name": "local_task_guard",
+  "timestamp_utc": "2026-10-22T21:08:22.498152+00:00",
+  "decision": "PASS",
+  "reasons": [
+    "registered actual native RStudio full-family job",
+    "fresh son source and MI hashes",
+    "serial Mplus admission only",
+    "failed member stops family; no replacement"
+  ],
+  "job_id": "9541bdc4",
+  "io_mode": "durable_files",
+  "mplus_calls_authorized": 21,
+  "full_H4_complete": false
+}

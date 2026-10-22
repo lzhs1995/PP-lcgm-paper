@@ -1,0 +1,26 @@
+{
+  "evidence_id": "deb1c063-cd24-41e1-ac25-5f0a7c0abac4",
+  "created_at_utc": "2026-10-22T21:06:11.566775+00:00",
+  "status": "STATIC_CONTRACT_PASS_NO_ENGINE",
+  "indicator": "son",
+  "resource": "education",
+  "checks": {
+    "source_A_hashes": {
+      "model.inp": "05095bfc6879697f7ca901685e27156bf55cb5332270b99168e9a89468d2f08d",
+      "normalized_slots.json": "5b019a5c66edca51d8045cc7b134bbb46a68744dda90e5cab03d736fa5ae5a76"
+    },
+    "source_B_hashes": {
+      "model.inp": "0242cb117bb894fb5e33beb1f7afde8910662a5f97b119429761241f7a1fcaa2",
+      "normalized_slots.json": "5b019a5c66edca51d8045cc7b134bbb46a68744dda90e5cab03d736fa5ae5a76"
+    },
+    "MI_contract_sha256": "5d096937ff3595731229b4db1ea5a8c41a8141139b85396b88b32fa2ffe2147b",
+    "MI_verification_sha256": "a58c3d71c37ba3b661f3d2e8f702104f78b1d8398937b64b0c7b0d57b1b30a1e",
+    "N": 2263,
+    "communities": 433,
+    "m": 20,
+    "expected_parameters": 134,
+    "Mplus_calls": 0,
+    "full_H4_complete": false,
+    "original_CFPS_four_complete": false
+  }
+}

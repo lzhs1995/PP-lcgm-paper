@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-22T21:11:41.697975+00:00",
+  "status": "STOPPED_BEFORE_MPLUS",
+  "reason": "full-family runner unconditionally compiled MI01_A but static precheck had already created its directory; Windows FileExistsError",
+  "mplus_calls": 0,
+  "preserved_under": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_son_edu_full_20261022\\audit\\attempt01_compile_preexisting",
+  "source_mutations": 0,
+  "full_H4_complete": false
+}

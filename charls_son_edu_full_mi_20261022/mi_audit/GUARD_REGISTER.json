@@ -1,0 +1,18 @@
+{
+  "schema_version": "local-1",
+  "evidence_id": "69fa387b-90a0-47cf-b13f-f03de02df007",
+  "task_key": "pp-lgcm-son-edu-20261022-mi01",
+  "harness_name": "local_task_guard",
+  "timestamp_utc": "2026-10-22T21:02:00.300343+00:00",
+  "decision": "PASS",
+  "reasons": [
+    "registered actual native RStudio MI job",
+    "pilot terminal passed",
+    "corrected contract hash frozen",
+    "no Mplus submitted by MI stage"
+  ],
+  "job_id": "b79e8474",
+  "io_mode": "durable_files",
+  "mplus_calls": 0,
+  "full_H4_complete": false
+}
