@@ -1,0 +1,23 @@
+{
+  "id": "H42_GENDER_URBAN_MI16_A",
+  "actual_engine_calls": 1,
+  "status": "USABLE",
+  "normal": true,
+  "fatal": false,
+  "negative": [],
+  "geometry": {
+    "PSI": 0.3797229298888287,
+    "THETA": 0.8046070009217574
+  },
+  "full_vcov_min": 0.003450801091062439,
+  "N": 2085,
+  "parameters": 134,
+  "LL": -27374.736128532513,
+  "saved_class_LL": -28819.948,
+  "class_constant_removed": 1445.211871467486,
+  "mixed_group_communities": 0,
+  "output_sha256": "f3f912b9b9dd05b50b45c69c912de9ed5f126e5a0da441c34cd8d23cc1c9b26c",
+  "gaussian_analytic_LL_used": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false
+}

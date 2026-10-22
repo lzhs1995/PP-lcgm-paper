@@ -1,0 +1,29 @@
+
+     Mplus VERSION 9
+     MUTHEN & MUTHEN
+
+     Running input file 'model.inp'...
+
+     Dimensions of integration:                  2
+     Total number of integration points:         225
+
+
+  ITER  LOGLIKELIHOOD    ABS CHANGE   REL CHANGE  ALGO  TIME  TOTAL TIME
+     1 -0.28819438D+05    0.0000000    0.0000000  EM    0.67     0.7
+     2 -0.28819212D+05    0.2257557    0.0000078  EM   12.08    12.7
+     3 -0.28819211D+05    0.0008714    0.0000000  EM    5.39    18.1
+     4 -0.28819211D+05    0.0002558    0.0000000  EM    1.18    19.3
+     5 -0.28819211D+05    0.0000974    0.0000000  EM    0.95    20.3
+     6 -0.28819211D+05    0.0000416    0.0000000  EM    0.70    21.0
+     7 -0.28819211D+05    0.0000191    0.0000000  EM    0.83    21.8
+     8 -0.28819211D+05    0.0000094    0.0000000  EM    0.73    22.5
+     Parameters          65       111        64       113        21
+     Derivatives  -0.81D-04  0.36D-04 -0.32D-04 -0.32D-04  0.23D-04
+     9 -0.28819211D+05    0.0000050    0.0000000  EM    0.88    23.4
+     Parameters          65       111       113        21        64
+     Derivatives  -0.55D-04  0.32D-04 -0.30D-04  0.27D-04 -0.25D-04
+     Beginning Time:  15:41:40
+        Ending Time:  15:42:44
+       Elapsed Time:  00:01:04
+
+     Output saved in 'model.out'.

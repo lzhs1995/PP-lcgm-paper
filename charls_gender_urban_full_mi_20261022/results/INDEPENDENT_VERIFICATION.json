@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FULL_TRANSFORM_AND_RUBIN_GENDER_URBAN",
+  "m": 20,
+  "models": 21,
+  "N": 2085,
+  "communities": 432,
+  "parameters_checked": 2814,
+  "contrasts": 21,
+  "primary": {
+    "estimate": 0.1598951744,
+    "lower": -0.0853489564875604,
+    "upper": 0.40513930528756,
+    "p": 0.20129718633724,
+    "bonferroni_planned12": 1.0,
+    "MCSE_over_SE": 0.0014555231567083
+  },
+  "raw_matrix_parser_reused": true,
+  "linear_transformation_and_pooling_independently_recomputed": true,
+  "total_engine_active_seconds": 1480.787263899998,
+  "conditional_working_MI": true,
+  "exact_congeniality_proven": false,
+  "original_CFPS_four_complete": false,
+  "full_H4_complete": false,
+  "B_start_sensitivity_passed": true
+}

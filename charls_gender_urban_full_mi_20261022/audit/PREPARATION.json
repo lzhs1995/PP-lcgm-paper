@@ -1,0 +1,25 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "new_Mplus_calls": 0,
+  "code_files": {
+    "active_clock.py": "2ddd83aecf728f13d69066b02914a96c6e4cdfddcbc86eeb5610bdaa95fc90e0",
+    "adapter.py": "2f849e79fffb72905b0fc8e4da1c74b122ff46686be6786d5eb0f13db0544355",
+    "bootstrap.py": "f8a6f0e7865afcdb05577e155a4e063026f32318ac8bee626a03557376862c40",
+    "bounded_child_awake.py": "6bb3966ae7d108e91b7b5bd976593e8ac33f9385b5378c3116b23652f891a18a",
+    "calibrated_reader.py": "532db0cd3146cee563695dd2d892b8dcf97740a7f3246d8c97b43a28b54dd94d",
+    "engine_slots.py": "af600283422500bec2115053052e4a0086234df7fd4be99b4a23430cc2f68590",
+    "harness.py": "72cd04fccbee1c0b9f2f961e8ec6aa5543bcb227e8cd2d281738912d00bfd00c",
+    "independent_verify_full.py": "3b5cfe9d22c5dea3fd2ccd7a12782f865faa1c820d804fb88adff7caa73ef07f",
+    "mi_pool_math.R": "fb4f47b885facb7003ef67ec18519aad3d86018b7e11a8dc8c9ac11eda638127",
+    "models.py": "f01fe6c99ff72482c947667d7ce0da137836ea4146dc7bf4864ce224f90ebc4c",
+    "normalize.py": "409eaaf7f876a0f5ccf728b451ee988d23cac00dee3814fdb261c4090896281c",
+    "run_family.R": "05420a85d1d5571d4f3af33258ab09d7724a10e2ea708fd82416ecb64cbe7e34"
+  },
+  "contract_sha256": "ab5af0fb4551159526fcfb615e15bae13e05c61b21d32ddd205948c12e044fe5",
+  "pilot_terminal_sha256": "f1bd2e9019ace37b4818136689120d809a441a016cf73b7049914d8ca83eda2f",
+  "group": "C4",
+  "control_C3_retained": true,
+  "N": 2085,
+  "communities": 432,
+  "complete_data_df": 431
+}

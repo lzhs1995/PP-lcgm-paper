@@ -1,0 +1,86 @@
+{"at":"2026-10-22 22:35:36","stage":"COMPILE","message":"H42_GENDER_URBAN_MI01_A"} 
+{"at":"2026-10-22 22:35:36","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI01_A"} 
+{"at":"2026-10-22 22:36:50","stage":"READBACK","message":"H42_GENDER_URBAN_MI01_A"} 
+{"at":"2026-10-22 22:36:52","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI01_A USABLE"} 
+{"at":"2026-10-22 22:36:52","stage":"COMPILE","message":"H42_GENDER_URBAN_MI02_A"} 
+{"at":"2026-10-22 22:36:52","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI02_A"} 
+{"at":"2026-10-22 22:37:59","stage":"READBACK","message":"H42_GENDER_URBAN_MI02_A"} 
+{"at":"2026-10-22 22:38:01","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI02_A USABLE"} 
+{"at":"2026-10-22 22:38:01","stage":"COMPILE","message":"H42_GENDER_URBAN_MI03_A"} 
+{"at":"2026-10-22 22:38:01","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI03_A"} 
+{"at":"2026-10-22 22:39:31","stage":"READBACK","message":"H42_GENDER_URBAN_MI03_A"} 
+{"at":"2026-10-22 22:39:33","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI03_A USABLE"} 
+{"at":"2026-10-22 22:39:33","stage":"COMPILE","message":"H42_GENDER_URBAN_MI04_A"} 
+{"at":"2026-10-22 22:39:33","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI04_A"} 
+{"at":"2026-10-22 22:40:35","stage":"READBACK","message":"H42_GENDER_URBAN_MI04_A"} 
+{"at":"2026-10-22 22:40:37","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI04_A USABLE"} 
+{"at":"2026-10-22 22:40:37","stage":"COMPILE","message":"H42_GENDER_URBAN_MI05_A"} 
+{"at":"2026-10-22 22:40:37","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI05_A"} 
+{"at":"2026-10-22 22:41:37","stage":"READBACK","message":"H42_GENDER_URBAN_MI05_A"} 
+{"at":"2026-10-22 22:41:39","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI05_A USABLE"} 
+{"at":"2026-10-22 22:41:39","stage":"COMPILE","message":"H42_GENDER_URBAN_MI06_A"} 
+{"at":"2026-10-22 22:41:39","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI06_A"} 
+{"at":"2026-10-22 22:42:45","stage":"READBACK","message":"H42_GENDER_URBAN_MI06_A"} 
+{"at":"2026-10-22 22:42:46","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI06_A USABLE"} 
+{"at":"2026-10-22 22:42:46","stage":"COMPILE","message":"H42_GENDER_URBAN_MI07_A"} 
+{"at":"2026-10-22 22:42:47","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI07_A"} 
+{"at":"2026-10-22 22:43:59","stage":"READBACK","message":"H42_GENDER_URBAN_MI07_A"} 
+{"at":"2026-10-22 22:44:01","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI07_A USABLE"} 
+{"at":"2026-10-22 22:44:01","stage":"COMPILE","message":"H42_GENDER_URBAN_MI08_A"} 
+{"at":"2026-10-22 22:44:01","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI08_A"} 
+{"at":"2026-10-22 22:44:56","stage":"READBACK","message":"H42_GENDER_URBAN_MI08_A"} 
+{"at":"2026-10-22 22:44:58","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI08_A USABLE"} 
+{"at":"2026-10-22 22:44:58","stage":"COMPILE","message":"H42_GENDER_URBAN_MI09_A"} 
+{"at":"2026-10-22 22:44:58","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI09_A"} 
+{"at":"2026-10-22 22:46:09","stage":"READBACK","message":"H42_GENDER_URBAN_MI09_A"} 
+{"at":"2026-10-22 22:46:11","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI09_A USABLE"} 
+{"at":"2026-10-22 22:46:11","stage":"COMPILE","message":"H42_GENDER_URBAN_MI10_A"} 
+{"at":"2026-10-22 22:46:11","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI10_A"} 
+{"at":"2026-10-22 22:47:42","stage":"READBACK","message":"H42_GENDER_URBAN_MI10_A"} 
+{"at":"2026-10-22 22:47:44","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI10_A USABLE"} 
+{"at":"2026-10-22 22:47:44","stage":"COMPILE","message":"H42_GENDER_URBAN_MI11_A"} 
+{"at":"2026-10-22 22:47:44","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI11_A"} 
+{"at":"2026-10-22 22:48:53","stage":"READBACK","message":"H42_GENDER_URBAN_MI11_A"} 
+{"at":"2026-10-22 22:48:55","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI11_A USABLE"} 
+{"at":"2026-10-22 22:48:55","stage":"COMPILE","message":"H42_GENDER_URBAN_MI12_A"} 
+{"at":"2026-10-22 22:48:56","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI12_A"} 
+{"at":"2026-10-22 22:50:39","stage":"READBACK","message":"H42_GENDER_URBAN_MI12_A"} 
+{"at":"2026-10-22 22:50:40","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI12_A USABLE"} 
+{"at":"2026-10-22 22:50:40","stage":"COMPILE","message":"H42_GENDER_URBAN_MI13_A"} 
+{"at":"2026-10-22 22:50:41","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI13_A"} 
+{"at":"2026-10-22 22:51:49","stage":"READBACK","message":"H42_GENDER_URBAN_MI13_A"} 
+{"at":"2026-10-22 22:51:50","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI13_A USABLE"} 
+{"at":"2026-10-22 22:51:50","stage":"COMPILE","message":"H42_GENDER_URBAN_MI14_A"} 
+{"at":"2026-10-22 22:51:50","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI14_A"} 
+{"at":"2026-10-22 22:52:58","stage":"READBACK","message":"H42_GENDER_URBAN_MI14_A"} 
+{"at":"2026-10-22 22:52:59","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI14_A USABLE"} 
+{"at":"2026-10-22 22:52:59","stage":"COMPILE","message":"H42_GENDER_URBAN_MI15_A"} 
+{"at":"2026-10-22 22:52:59","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI15_A"} 
+{"at":"2026-10-22 22:54:09","stage":"READBACK","message":"H42_GENDER_URBAN_MI15_A"} 
+{"at":"2026-10-22 22:54:11","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI15_A USABLE"} 
+{"at":"2026-10-22 22:54:11","stage":"COMPILE","message":"H42_GENDER_URBAN_MI16_A"} 
+{"at":"2026-10-22 22:54:11","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI16_A"} 
+{"at":"2026-10-22 22:55:15","stage":"READBACK","message":"H42_GENDER_URBAN_MI16_A"} 
+{"at":"2026-10-22 22:55:16","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI16_A USABLE"} 
+{"at":"2026-10-22 22:55:16","stage":"COMPILE","message":"H42_GENDER_URBAN_MI17_A"} 
+{"at":"2026-10-22 22:55:16","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI17_A"} 
+{"at":"2026-10-22 22:56:07","stage":"READBACK","message":"H42_GENDER_URBAN_MI17_A"} 
+{"at":"2026-10-22 22:56:09","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI17_A USABLE"} 
+{"at":"2026-10-22 22:56:09","stage":"COMPILE","message":"H42_GENDER_URBAN_MI18_A"} 
+{"at":"2026-10-22 22:56:09","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI18_A"} 
+{"at":"2026-10-22 22:57:19","stage":"READBACK","message":"H42_GENDER_URBAN_MI18_A"} 
+{"at":"2026-10-22 22:57:21","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI18_A USABLE"} 
+{"at":"2026-10-22 22:57:21","stage":"COMPILE","message":"H42_GENDER_URBAN_MI19_A"} 
+{"at":"2026-10-22 22:57:21","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI19_A"} 
+{"at":"2026-10-22 22:58:15","stage":"READBACK","message":"H42_GENDER_URBAN_MI19_A"} 
+{"at":"2026-10-22 22:58:17","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI19_A USABLE"} 
+{"at":"2026-10-22 22:58:17","stage":"COMPILE","message":"H42_GENDER_URBAN_MI20_A"} 
+{"at":"2026-10-22 22:58:17","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI20_A"} 
+{"at":"2026-10-22 23:00:16","stage":"READBACK","message":"H42_GENDER_URBAN_MI20_A"} 
+{"at":"2026-10-22 23:00:18","stage":"MODEL_TERMINAL","message":"H42_GENDER_URBAN_MI20_A USABLE"} 
+{"at":"2026-10-22 23:00:18","stage":"POOL","message":"all 20 A members"} 
+{"at":"2026-10-22 23:00:20","stage":"COMPILE","message":"H42_GENDER_URBAN_MI01_B"} 
+{"at":"2026-10-22 23:00:20","stage":"RUNMODELS","message":"H42_GENDER_URBAN_MI01_B"} 
+{"at":"2026-10-22 23:01:19","stage":"READBACK","message":"H42_GENDER_URBAN_MI01_B"} 
+{"at":"2026-10-22 23:01:21","stage":"SENSITIVITY_TERMINAL","message":"H42_GENDER_URBAN_MI01_B USABLE"} 
+{"at":"2026-10-22 23:01:21","stage":"FAMILY_TERMINAL","message":"COMPLETE_20_MI_WORKING_H42_GENDER_URBAN"} 

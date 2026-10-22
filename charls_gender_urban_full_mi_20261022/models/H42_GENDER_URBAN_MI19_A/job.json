@@ -1,0 +1,22 @@
+{
+  "id": "H42_GENDER_URBAN_MI19_A",
+  "indicator": "gender",
+  "group": "URBAN",
+  "g": "C4",
+  "parent": false,
+  "refinement": true,
+  "member": 19,
+  "start": "A",
+  "sensitivity_B": false,
+  "points": 15,
+  "N": 2085,
+  "communities": 432,
+  "expected_free": 134,
+  "cap_seconds": 240,
+  "source_pilot": "C:\\Users\\LZHS\\pp_lgcm_review\\charls_latent_h42_gender_urban_pilot_20261022\\models\\H42_GH15_A",
+  "hashes": {
+    "model.inp": "1aac65e9d9c9f6d872b398e18b9b5569611e89ab03ab10bf5a72ac8b3403c7c8",
+    "data.dat": "6da1344e4495dfa8a7f3ceb530ef4fa6197559ac628dadf8db64a42d92054db9",
+    "normalized_slots.json": "bb976345ec84d27fdf345e6ce7b7a047d3ae3d35a6b9707353ac12131fb0e515"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "status": 0,
+  "stdout": "{\"id\": \"H42_GENDER_URBAN_MI01_A\", \"actual_engine_calls\": 1, \"status\": \"USABLE\", \"normal\": true, \"fatal\": false, \"negative\": [], \"geometry\": {\"PSI\": 0.37973010198929164, \"THETA\": 0.8046186281624821}, \"full_vcov_min\": 0.003441097787688946, \"N\": 2085, \"parameters\": 134, \"LL\": -27374.278128532515, \"saved_class_LL\": -28819.49, \"class_constant_removed\": 1445.211871467486, \"mixed_group_communities\": 0, \"output_sha256\": \"50ea28594f55a632115375dcbd387f535d1c4d298af54f34539024a9228598e6\", \"gaussian_analytic_LL_used\": false, \"original_CFPS_four_complete\": false, \"full_H4_complete\": false}\r\n",
+  "stderr": ""
+}

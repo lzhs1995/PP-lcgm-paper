@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.2.4",
+  "producer_version": "0.3.4",
+  "evidence_id": "d86b04a1-a583-4dcc-b06a-5ada12012176",
+  "parent_evidence_ids": [],
+  "task_key": "gender-urban-mi-20261022",
+  "harness_name": "async_guard",
+  "timestamp_utc": "2026-10-22T22:30:25.567154Z",
+  "agent": "unknown",
+  "transport_class": null,
+  "session_name": "default",
+  "pid": null,
+  "job_id": "19054d92",
+  "io_mode": "durable_files",
+  "decision": "PASS",
+  "reasons": [
+    "registered real async job_id for pre-submitted task"
+  ],
+  "artifact_paths": [],
+  "policy_violations": [],
+  "exit_code": 0,
+  "extra": {
+    "inflight": {
+      "task_key": "gender-urban-mi-20261022",
+      "job_id": "19054d92",
+      "status": "inflight",
+      "io_mode": "durable_files",
+      "outputs": [],
+      "session_name": "default",
+      "transport_scope": "",
+      "pre_submitted_at_utc": "2026-10-22T22:30:13.416631Z",
+      "via_mcp_stdio": false,
+      "via_mcp_stdio_result": null,
+      "registered_at_utc": "2026-10-22T22:30:25.558019Z",
+      "registration_transport": ""
+    },
+    "evidence_path": "C:\\Users\\LZHS\\.clauder_workbench\\evidence\\20261022T223025Z_async_guard_d86b04a1-a583-4dcc-b06a-5ada12012176.json"
+  }
+}
