@@ -1,5 +1,0 @@
-"id","estimator","cluster","dc","dc_se","wald_z2","LL","note"
-"CFPS_SD_E1B_01_F1a","MLR",TRUE,-0.25682250518,0.16658741,2.37674070308533,-27658,""
-"CFPS_SD_E1B_01_N2ml","ML",FALSE,-0.25682250518,0.16658741,2.37674070308533,-27658,""
-"CFPS_SD_E1B_01_N2mlr","MLR",FALSE,-0.25682250518,0.16658741,2.37674070308533,-27658,""
-"naive LR vs CFPS_SD_E0B_01_diagnostic","LR",,,,8.94600000000355,-27662.473,"SB2001 cd = -0.2317 (not computable; the pre-specified test is the Wald test of dc)"

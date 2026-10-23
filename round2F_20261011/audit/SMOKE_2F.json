@@ -1,6 +1,0 @@
-{
-  "passed": true,
-  "convergence_choice": "tight",
-  "failed": [],
-  "calls": ["SYNTHETIC_SD_E1B_01_smoke_tight", "SYNTHETIC_SD_E1F034_01_smoke_fixed", "SYNTHETIC_SD_E1_01_smoke_release"]
-}

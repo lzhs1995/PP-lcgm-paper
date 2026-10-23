@@ -1,9 +1,0 @@
-{
-  "content": [
-    {
-      "type": "text",
-      "text": "Job c1843a06 started in a background R process. The main R session remains available — you can continue running other code with execute_r while this job runs. Use get_async_result(\"c1843a06\") to check status when ready."
-    }
-  ],
-  "isError": false
-}

@@ -1,8 +1,0 @@
-{
-  "status": "PASS",
-  "tests": 1,
-  "failures": 0,
-  "errors": 0,
-  "skips": 0,
-  "scope": "installer discovery only; no R or Mplus execution"
-}

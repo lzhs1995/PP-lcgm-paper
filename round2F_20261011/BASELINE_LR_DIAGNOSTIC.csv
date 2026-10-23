@@ -1,4 +1,0 @@
-﻿model0,model1,cd,naive_LR,scaled_LR_status
-CFPS_SD_E0_01_base,CFPS_SD_E1_01_q15,-0.006973399999964158,8.796000000002095,not computable with nonpositive cd
-CFPS_SD_E0_01_base,CFPS_SD_E1_01_q15_repair,-0.1645453999999802,8.819999999999709,not computable with nonpositive cd
-CFPS_SD_E0B_01_diagnostic,CFPS_SD_E1B_01_diagnostic,-0.5248404999999821,8.874000000003434,not computable with nonpositive cd
