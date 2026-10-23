@@ -1,3 +1,0 @@
-                                                                                                                                                                 957 files
-MOCKFLOW PASSED all_usable 16 / 16 ; calls 137 
-exit 0

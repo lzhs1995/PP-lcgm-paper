@@ -1,9 +1,0 @@
-{
-  "content": [
-    {
-      "type": "text",
-      "text": "Job 796384d5 is still running (444s elapsed). Latest progress: stage=estimating; percent={}; message=CFPS_SD_E1B_01_F1_q20b 90/600s active; CPU=66.0s; gaps=0; updated_at=2026-10-11 14:35:37 PDT. Call get_async_result(\"796384d5\") again to check."
-    }
-  ],
-  "isError": false
-}
